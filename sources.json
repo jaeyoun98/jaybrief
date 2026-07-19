@@ -7,7 +7,7 @@
     "semi": [
       "반도체", "메모리", "hbm", "dram", "낸드", "nand", "파운드리", "foundry",
       "웨이퍼", "wafer", "팹", "fab", "엔비디아", "nvidia", "tsmc", "하이닉스",
-      "hynix", "삼성전자", "samsung electronics", "인텔", "intel", "amd", "asml",
+      "hynix", "인텔", "intel", "amd", "asml",
       "브로드컴", "broadcom", "퀄컴", "qualcomm", "gpu", "npu", "asic",
       "semiconductor", "리소그래피", "lithography", "패키징", "packaging",
       "euv", "cowos", "cxl", "마이크론", "micron", "램리서치", "lam research",

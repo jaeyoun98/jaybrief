@@ -1,7 +1,7 @@
 "use strict";
 
 // Bump VERSION whenever any shell file changes so installed clients update.
-const VERSION = "v2";
+const VERSION = "v1.1";
 const SHELL_CACHE = `shell-${VERSION}`;
 const SHELL = [
   "./",
@@ -15,7 +15,12 @@ const SHELL = [
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(SHELL_CACHE).then((cache) => cache.addAll(SHELL)).then(() => self.skipWaiting())
+    caches
+      .open(SHELL_CACHE)
+      // cache:"reload" bypasses the HTTP cache so a VERSION bump can't be
+      // populated from stale copies still inside GitHub Pages' 10-min max-age
+      .then((cache) => cache.addAll(SHELL.map((u) => new Request(u, { cache: "reload" }))))
+      .then(() => self.skipWaiting())
   );
 });
 
@@ -38,8 +43,11 @@ self.addEventListener("fetch", (event) => {
     event.respondWith(
       fetch(event.request, { cache: "no-cache" })
         .then((resp) => {
-          const copy = resp.clone();
-          caches.open(SHELL_CACHE).then((cache) => cache.put(event.request, copy));
+          if (resp.ok) {
+            // never cache error responses — they would poison the offline fallback
+            const copy = resp.clone();
+            caches.open(SHELL_CACHE).then((cache) => cache.put(event.request, copy));
+          }
           return resp;
         })
         .catch(() => caches.match(event.request))

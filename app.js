@@ -7,11 +7,19 @@ const STALE_MS = 10 * 60 * 1000;
 
 const THEME_LABELS = { semi: "반도체", sw: "SW테크" };
 
+function loadReadSet() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(READ_KEY) || "[]"));
+  } catch {
+    return new Set(); // one corrupt stored value must not brick the app
+  }
+}
+
 const state = {
   feed: null,
   digest: null,
   filter: localStorage.getItem(FILTER_KEY) || "all",
-  read: new Set(JSON.parse(localStorage.getItem(READ_KEY) || "[]")),
+  read: loadReadSet(),
   lastLoad: 0,
 };
 
@@ -44,8 +52,12 @@ async function load() {
 
 // ---------- helpers ----------
 
+function safeUrl(url) {
+  return /^https?:\/\//i.test(url) ? url : null;
+}
+
 function relTime(iso) {
-  const diff = Date.now() - new Date(iso).getTime();
+  const diff = Math.max(0, Date.now() - new Date(iso).getTime());
   const min = Math.floor(diff / 60000);
   if (min < 1) return "방금";
   if (min < 60) return `${min}분 전`;
@@ -81,7 +93,8 @@ function renderFeed() {
   for (const item of visible) {
     const li = el("li", "feed-item" + (state.read.has(item.id) ? " read" : ""));
     const a = el("a");
-    a.href = item.url;
+    const href = safeUrl(item.url);
+    if (href) a.href = href; // only http(s); no href = inert anchor
     a.target = "_blank";
     a.rel = "noopener";
     a.addEventListener("click", () => {
@@ -133,9 +146,10 @@ function renderDigest() {
       const links = el("div", "story-links");
       for (const id of story.article_ids || []) {
         const item = itemById.get(id);
-        if (!item) continue;
+        const href = item && safeUrl(item.url);
+        if (!href) continue;
         const a = el("a", "", item.source);
-        a.href = item.url;
+        a.href = href;
         a.target = "_blank";
         a.rel = "noopener";
         links.appendChild(a);

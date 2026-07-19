@@ -7,6 +7,7 @@ stays green before the secret is configured.
 
 import json
 import os
+import re
 import sys
 import time
 from datetime import datetime, timedelta, timezone
@@ -68,19 +69,35 @@ def call_gemini(api_key, model, prompt):
     )
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"response_mime_type": "application/json", "temperature": 0.3},
+        "generationConfig": {
+            "response_mime_type": "application/json",
+            "temperature": 0.3,
+            "maxOutputTokens": 8192,
+        },
     }
+    last_error = None
     for attempt in range(1, RETRIES + 1):
-        resp = requests.post(url, json=body, timeout=120)
-        if resp.status_code in (429, 500, 503) and attempt < RETRIES:
+        try:
+            resp = requests.post(url, json=body, timeout=120)
+        except requests.RequestException as exc:
+            last_error = exc
+            resp = None
+        if resp is not None and resp.status_code not in (429, 500, 503):
+            resp.raise_for_status()
+            data = resp.json()
+            try:
+                return data["candidates"][0]["content"]["parts"][0]["text"]
+            except (KeyError, IndexError, TypeError):
+                # empty candidates (safety block) or content without parts
+                raise RuntimeError(f"unexpected Gemini response: {json.dumps(data)[:500]}")
+        if attempt < RETRIES:
             wait = 30 * attempt
-            print(f"HTTP {resp.status_code}, retrying in {wait}s ({attempt}/{RETRIES})")
+            reason = f"HTTP {resp.status_code}" if resp is not None else repr(last_error)
+            print(f"{reason}, retrying in {wait}s ({attempt}/{RETRIES})")
             time.sleep(wait)
-            continue
+    if resp is not None:
         resp.raise_for_status()
-        data = resp.json()
-        return data["candidates"][0]["content"]["parts"][0]["text"]
-    raise RuntimeError("unreachable")
+    raise RuntimeError(f"Gemini request failed after {RETRIES} attempts: {last_error!r}")
 
 
 def main():
@@ -90,6 +107,9 @@ def main():
         return 0
     model = os.environ.get("GEMINI_MODEL", "gemini-3.1-flash-lite")
 
+    if not FEED_PATH.exists():
+        print("data/feed.json missing - skipping digest (run fetch_feeds.py first)")
+        return 0
     items = json.loads(FEED_PATH.read_text(encoding="utf-8"))["items"]
     now = datetime.now(timezone.utc)
     cutoff = iso(now - timedelta(hours=LOOKBACK_HOURS))
@@ -106,8 +126,11 @@ def main():
     )
     print(f"summarizing {len(semi_lines)} semi + {len(sw_lines)} sw items with {model}")
 
-    raw = call_gemini(api_key, model, prompt)
-    themes = json.loads(raw)["themes"]
+    raw = call_gemini(api_key, model, prompt).strip()
+    if raw.startswith("```"):  # JSON mode occasionally still fences the output
+        raw = re.sub(r"^```[a-z]*\s*|\s*```$", "", raw)
+    parsed = json.loads(raw)
+    themes = parsed if isinstance(parsed, list) else parsed["themes"]
 
     valid_ids = {item["id"] for item in items}
     for theme in themes:

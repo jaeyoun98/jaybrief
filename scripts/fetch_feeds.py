@@ -5,11 +5,11 @@ Writes the output only when the item set actually changed, so the
 calling workflow can use `git diff` to decide whether to commit.
 """
 
+import calendar
 import hashlib
 import json
 import re
 import sys
-import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlencode
@@ -62,7 +62,8 @@ def normalize_title(title):
 
 
 def item_id(title):
-    return hashlib.sha1(normalize_title(title).encode("utf-8")).hexdigest()[:16]
+    normalized = normalize_title(title) or title  # avoid shared id for e.g. CJK-only titles
+    return hashlib.sha1(normalized.encode("utf-8")).hexdigest()[:16]
 
 
 def parse_published(entry):
@@ -70,7 +71,9 @@ def parse_published(entry):
         parsed = entry.get(attr)
         if parsed:
             try:
-                return datetime.fromtimestamp(time.mktime(parsed), tz=timezone.utc)
+                # feedparser normalizes struct_time to UTC; timegm keeps it UTC
+                # (mktime would reinterpret it in the machine's local timezone)
+                return datetime.fromtimestamp(calendar.timegm(parsed), tz=timezone.utc)
             except (OverflowError, ValueError):
                 continue
     return None
@@ -83,7 +86,9 @@ def compile_rules(keyword_rules):
         patterns = []
         for kw in keywords:
             if re.fullmatch(r"[\x00-\x7f]+", kw):
-                patterns.append(re.compile(r"\b" + re.escape(kw) + r"\b"))
+                # Letter-only lookarounds instead of \b: Hangul counts as \w, so
+                # \bgpu\b would miss "gpu를"/"hbm4를" — the common case in Korean text.
+                patterns.append(re.compile(r"(?<![a-z])" + re.escape(kw) + r"(?![a-z])"))
             else:
                 patterns.append(re.compile(re.escape(kw)))
         compiled[theme] = patterns
@@ -96,8 +101,8 @@ def classify(text, compiled_rules):
 
 
 def strip_gn_publisher(title):
-    """Google News titles end with ' - Publisher'."""
-    return re.sub(r"\s+-\s+[^-]+$", "", title).strip()
+    """Google News titles end with ' - Publisher' (publisher itself may contain hyphens)."""
+    return title.rsplit(" - ", 1)[0].strip() if " - " in title else title
 
 
 def collect(source, compiled_rules):
@@ -109,8 +114,8 @@ def collect(source, compiled_rules):
     for entry in parsed.entries:
         title = clean_text(entry.get("title", ""))
         url = entry.get("link", "")
-        if not title or not url:
-            continue
+        if not title or not url.startswith(("http://", "https://")):
+            continue  # also rejects javascript:/data: links from a hostile feed
         source_name = source["name"]
         if is_gn:
             gn_src = entry.get("source", {}).get("title")
@@ -172,6 +177,12 @@ def main():
     if len(failures) == len(config["sources"]):
         print("all sources failed, aborting", file=sys.stderr)
         return 1
+
+    # clamp bogus future pubDates (some outlets publish them) so they can't pin the top
+    now_str = iso(now_utc())
+    for item in merged.values():
+        if item["published"] > now_str:
+            item["published"] = now_str
 
     cutoff = iso(now_utc() - timedelta(hours=WINDOW_HOURS))
     items = [i for i in merged.values() if i["published"] >= cutoff]
