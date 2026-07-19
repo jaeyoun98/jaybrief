@@ -128,7 +128,11 @@ function renderDigest() {
   $("#digest-empty").classList.toggle("hidden", !!d);
   if (!d) return;
 
-  const edition = d.edition === "am" ? "아침" : "저녁";
+  const EDITION_LABELS = {
+    morning: "아침", noon: "점심", evening: "저녁", night: "밤",
+    am: "아침", pm: "저녁", // legacy archive files
+  };
+  const edition = EDITION_LABELS[d.edition] || "";
   meta.textContent = `${d.date} ${edition} 브리핑 · ${relTime(d.generated_at)} 생성`;
 
   const itemById = new Map((state.feed ? state.feed.items : []).map((i) => [i.id, i]));

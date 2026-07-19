@@ -3,7 +3,9 @@ name: digest
 on:
   schedule:
     - cron: "30 22 * * *" # 07:30 KST morning edition
+    - cron: "30 3 * * *"  # 12:30 KST noon edition
     - cron: "30 9 * * *"  # 18:30 KST evening edition
+    - cron: "0 12 * * *"  # 21:00 KST night edition
   workflow_dispatch:
 
 permissions:

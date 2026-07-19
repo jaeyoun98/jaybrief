@@ -21,9 +21,17 @@ OUT_PATH = ROOT / "data" / "digest.json"
 ARCHIVE_DIR = ROOT / "data" / "digests"
 
 KST = timezone(timedelta(hours=9))
-LOOKBACK_HOURS = 30  # overlaps editions slightly so nothing falls in a gap
+MAX_LOOKBACK_HOURS = 30  # hard cap even if the previous digest is older
+OVERLAP_MINUTES = 30     # re-cover a little of the previous window so nothing falls in a gap
 MAX_PER_THEME = 120
 RETRIES = 3
+
+EDITION_SLOTS = [  # (kst_hour_lower_bound, slot name); scheduled runs: 07:30/12:30/18:30/21:00
+    (20, "night"),
+    (15, "evening"),
+    (10, "noon"),
+    (0, "morning"),
+]
 
 PROMPT_TEMPLATE = """당신은 반도체·소프트웨어 테크 섹터 전문 투자 뉴스 에디터입니다.
 아래는 최근 {hours}시간 동안 수집된 뉴스 헤드라인입니다. 각 줄은 `[기사ID] (매체) 제목 — 요약` 형식입니다.
@@ -112,15 +120,26 @@ def main():
         return 0
     items = json.loads(FEED_PATH.read_text(encoding="utf-8"))["items"]
     now = datetime.now(timezone.utc)
-    cutoff = iso(now - timedelta(hours=LOOKBACK_HOURS))
+
+    # summarize only what arrived since the previous digest (plus a small overlap),
+    # so the four daily editions don't keep re-covering the same stories
+    cutoff = iso(now - timedelta(hours=MAX_LOOKBACK_HOURS))
+    if OUT_PATH.exists():
+        try:
+            prev_gen = json.loads(OUT_PATH.read_text(encoding="utf-8"))["generated_at"]
+            prev_dt = datetime.strptime(prev_gen, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+            cutoff = max(cutoff, iso(prev_dt - timedelta(minutes=OVERLAP_MINUTES)))
+        except (ValueError, KeyError, json.JSONDecodeError):
+            pass  # unreadable previous digest -> fall back to the max lookback
     semi_lines = recent_lines(items, "semi", cutoff)
     sw_lines = recent_lines(items, "sw", cutoff)
     if not semi_lines and not sw_lines:
         print("no recent items to summarize, skipping")
         return 0
 
+    window_hours = max(1, round((now - datetime.strptime(cutoff, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)).total_seconds() / 3600))
     prompt = PROMPT_TEMPLATE.format(
-        hours=LOOKBACK_HOURS,
+        hours=window_hours,
         semi_lines="\n".join(semi_lines) or "(기사 없음)",
         sw_lines="\n".join(sw_lines) or "(기사 없음)",
     )
@@ -138,10 +157,11 @@ def main():
             story["article_ids"] = [i for i in story.get("article_ids", []) if i in valid_ids]
 
     now_kst = now.astimezone(KST)
+    edition = next(slot for bound, slot in EDITION_SLOTS if now_kst.hour >= bound)
     digest = {
         "generated_at": iso(now),
         "date": now_kst.strftime("%Y-%m-%d"),
-        "edition": "am" if now_kst.hour < 12 else "pm",
+        "edition": edition,
         "model": model,
         "themes": themes,
     }
