@@ -2,7 +2,7 @@ name: feed
 
 on:
   schedule:
-    - cron: "17 * * * *" # hourly; offset avoids top-of-hour runner congestion
+    - cron: "7,27,47 * * * *" # every 20 min; offset avoids top-of-hour runner congestion
   workflow_dispatch:
 
 permissions:
