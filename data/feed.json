@@ -1,6 +1,448 @@
 {
- "generated_at": "2026-07-19T20:30:38Z",
+ "generated_at": "2026-07-19T21:36:48Z",
  "items": [
+  {
+   "id": "d9388d5ce7487388",
+   "title": "삼성전자, 프리미엄 ‘폴드8 울트라'·AI 안경 출격 준비",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=212916",
+   "source": "AI타임스",
+   "source_id": "aitimes",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T21:36:48Z",
+   "lang": "ko",
+   "snippet": "삼성전자는 22일(현지시간) 영국 런던에서 하반기 신제품 공개 행사인 ‘갤럭시 언팩 2026’을 열고 신형 폴더블 스마트폰과 스마트워치, 스마트안경 등을 공개한다.19일 업계에 따르면 삼성전자는 이번 언팩에서 폴더블 스마트폰 '갤럭시 Z' 시리즈 3종과 갤럭시 워치, 안드로이드 기반 '갤럭시 글래스' 등을 대거 선보일 예정이다.가장 큰 변화는 '갤럭시 Z'의 프리미엄 라인업 도입이다. 삼성전자는 기존 기본형 및 플립 구성에서 ‘갤럭시 Z 폴드8 울트라' 모델을 추가한다. 해당 모델은 8인치 디스플"
+  },
+  {
+   "id": "e239b2e6a26a4575",
+   "title": "OpenAI's first physical device is here, and it's not what we expected",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1fRTFzQ21Rb2Jtems0ODQ2M29CR3NhTkF6MDFvY184NndmVHQ2UHFEM3VQQnhKTFd0dW42c0JqUFVuQ2NoWjNrME45Ry1UYndNS2M1a2JjLWNaQk80a1g0UldNNXNCczJFU3NTUzkxOEd0VFZaUUVOVEt4aFR4Zw?oc=5",
+   "source": "Mashable",
+   "source_id": "gn-en-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T21:31:56Z",
+   "lang": "en",
+   "snippet": ""
+  },
+  {
+   "id": "d73111e929b8f536",
+   "title": "지난주 화제의 주식: SK하이닉스 ADR, AST 스페이스모바일, 스페이스X 등 5종목",
+   "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOc1Q5dlZ5WUJGMHBYblNNTk9sSjRlWUhzQlJnQWVBT3FvRWNsZk5tbV9qMjh3T0VhN094cGVaai1DQWNobFFKRWVoTVBmLVdOazhaaVF0ZWhqTnBHRU1hb1RDUWRHWW5zcjJQczhtRzB3YlhUZDdnTG1BZ1l0enJjMHp4OHVoQzlRVVlncVhnd1pnMFc3Z0s5d0NuWkJJMGJLb0ZfMHFMMFBwZEJUUUZQTXN3a1dEME80LTJOQmVOY2x0ajEzeE9XcFppTHBvMUNSejVuQUpXRk1OVVpxYkt3ZWlKMUEwNDJhVWFjNEk4OGd0ODhLZU5tbi02WUhVTTdMX0lPZUtQZ3ZUV2NGUlo0RFRQY0hyQS1NbS1xcE16QUhVVkJDTjVLUUxPZHczSU1rdjlBQ25ibHB2TnpKR3RRRUZpTjFHQnRzWFJxX1BWUThiQWg2clRMTA?oc=5",
+   "source": "Benzinga",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:31:42Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "a3c581c1a3e9ac20",
+   "title": "SK하이닉스 ADR '역김치 프리미엄' 25% 유지…본주 반등하나 [마켓시그널]",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE81VlBpSjNwN2RRWHl5aUJfZkVHemtpSU9MRHNRUC1zTlNURWJvcmJqalVuSGtzbVUtUmhCaGxmUXF4Vy1aODgtQkxEU0pSaFhRX3Rwb0pHdlZTSnFqMnh2alVTNHVhbnAyUzYtNm1qV0xWWDlyTjdIcg?oc=5",
+   "source": "네이트",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:31:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "af9355647fb2c520",
+   "title": "中 바이런, ‘빛의 속도’로 엔비디아 뚫는다… 광 기반 ‘슈퍼노드’ 전격 공개",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPd29lMTJ6SFFISXlzdUJEdHBhc2dnb1EzZk1tVUROQUJad2FCclE4RVVkb3FucnFxRW56Q1l6Q2NQUGJTQlRXTUFlMnhlSWpHeWhSakVhRFo4MU92VWF4VGk3TWMzUVI1eE1JbzZMSkJzS2JSMnhMdExwNER3Q1RfUk1jQnEtdXRi?oc=5",
+   "source": "글로벌이코노믹",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:25:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "d5aa8d353402fac8",
+   "title": "글로벌 반도체 쇼크, 이번주 코스피 방향은",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13S09Edk5JdnpoSFQ5RVZUVDczajF5d2dsb294RkQyRVJaN1pkNnNDQlBiNHZxcTQ3VTk5VnNjWUVVRkV5WDBxVkNORDhsYVY3RXdOb0FZblpIejRILTJxZmxDSmRMOXgyWE54VlRqbw?oc=5",
+   "source": "뉴스톱",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:22:29Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "1b8daf0e54b76fa0",
+   "title": "What to watch for after Jensen Huang’s Japan visit",
+   "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+   "source": "TechCrunch",
+   "source_id": "techcrunch",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T21:16:07Z",
+   "lang": "en",
+   "snippet": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem."
+  },
+  {
+   "id": "b4c060605c584f73",
+   "title": "알리바바, AI칩 소프트웨어 무료 공개...엔비디아 쿠다 겨냥 [마켓핫]",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83OGc3REdXU3R4Q01UaDQycjhlUGtwS3RpSjBiLUtPd3dlYy04V01fN05XYUJqTWJOOG5BSHRISF9UR0djRklUalN4c2hsOTlUUkd1WA?oc=5",
+   "source": "이투데이",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:13:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "503fa1ac8a3d1d34",
+   "title": "엔비디아 젠슨황 가죽 자켓, 판매가 약 100배 14억원 경매 낙찰",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ZY1dETlY0bnNjYTNqUFhNQmQzX1hkUVhsT0dLUm1tTHZhZTA0N1VjOTVLZFZYa1EtcDZodlhxQVV6VzQxdnpjTFN0ZlROdktlb21iRlNadGZJWFBhSXY1UNIBeEFVX3lxTFBXMWxWTTIwTHgyS0pnT2RBY3J4bVMtN3BMY3pLTFZmTjhpaFlETjJvcjZoNWdfNjlGVkZxRk0xZ3dGLWJCcDBmWWFHNUlkMTFYSFM0X2VhcTMyNWRwczBTaUZMSVV4YW1yZmtvZVZ4emVSNWk1UkpJUg?oc=5",
+   "source": "뉴시스",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:10:03Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "c1c1849c13524360",
+   "title": "\"韓이 만든 로봇 손 뜬다\"…K-스타트업, 엔비디아 밸류체인 진입 가속",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQVTJCcjZFZXVfVVJnanhzRkctREd3dDFoekp2RVRfM1hNMGItakJiQ0tIdUJOcG5rWE9SQmZpeWFuenlwNDhTQmRMYVdWZy1iQnhRREFobFZ5TEh0?oc=5",
+   "source": "뉴스1",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:10:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "40a9ca9ba4095bdd",
+   "title": "네이버·구글·다음 AI검색 경쟁…잘하는 분야 달랐다",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XNmxCNlJBeFZnSWQyU3hTUDRoVEsteDZpaDU5VHAyT3QwTFl0VXpoeGl1UU5ORlRXaE5WZER5QjRwLV9RYWNfUTB5aDJLM0h1cWxTTEN5YTQ4bGtFN3prRFNyWHo5Q2JW?oc=5",
+   "source": "뉴스1",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T21:09:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "6ab5498b7a0e2efa",
+   "title": "AI Researchers Anxious as AI Develops AI",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMlpXMzdoTndOOF90ZHB2X2huOGp3V0lnUFNXYmVuSC1LR0R3QXJ3WlJUNHhLdmtvMWI0Y1JPeUViekxqVFE4NkhLT0prb2FMa0hoVkt2U0xSYTc2bWtlS3FvUy1oT0dSUHFrS2gwX1pSaDE1elZkM0h1WkZObk85MDAyQ3NidE92?oc=5",
+   "source": "조선일보",
+   "source_id": "gn-en-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T21:05:48Z",
+   "lang": "en",
+   "snippet": ""
+  },
+  {
+   "id": "0ffaa303ee7549c3",
+   "title": "美 AI 턱밑까지 온 中 '키미 K3'…AI 반도체 산업에 오히려 기회?",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80ZTFQWFRzMU1wYS1oQzdlZjFsWU9SdlVyRkxQMmFkbFZpd09oem1DUlJSc3BjXzNNOVdDMF9PeVN1VWNmdGJPcENiZDVHN1RJZmtfbzdWbThSNGhLcGVObNIBeEFVX3lxTE5tRXNfQzBmUXJHeUZuanc4bGdORFlHY3h6MGFZR3BBNTBJZjJ1bXhVZDNyWVF1R0VwdkV2aEZBbWFlVkpFVV9vOGNoLVotOFlzdHdQdUxqSkl1ZGRsMG04R183NHRnVEZ6UFo3NWJNTnpyV09oWWRGeg?oc=5",
+   "source": "뉴시스",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:02:27Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "7dbf81c9462db36a",
+   "title": "\"상대 강점 공략하라\"? 네이버·쿠팡, 이커머스 1위 경쟁 가열",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zUEhNVk9HaXoydkZIQmhMOWtHclV1VnJPelFYczdRbzNyQlJoMktyelBtOG5ab21JYWJtVGJFaGJDR2puWXlIY20zVjBGdjF0MEZN?oc=5",
+   "source": "네이트",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T21:02:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "a010744242f84102",
+   "title": "네이버, 해외 데이터 백업 종료…\"백업 방식 다변화 검토\"",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41a3A2SjNuazdHT2xJaDFNbUFyTEwxb18zRE40VTRaLTB4bkRIMTk5djl2ZlE0RDNKaGxwQlI3dGFDdmxWbm5vTFlOMEJQOTNKTkkzNDdpRm44U0tIVWlOb21XN2hSWmh2?oc=5",
+   "source": "뉴스1",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T21:01:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "780dd941d766baa6",
+   "title": "복지시설 행정에 생성형 AI 도입…서울시 맞춤형 컨설팅",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1NdjBOd0tKYlcydFljbzB3cFU1YVRNODVBeW4wSjg2Q3VHckJuMFdZT3BoUVdNY0lkajhsTFZoS3VMbHFONlRCNnF0c1d2S1Yyek5j?oc=5",
+   "source": "네이트",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T21:01:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "c0b7eeaa2e12e552",
+   "title": "NVIDIA RTX Spark N1X Cinebench score spotted, matches the Apple M3 MAX",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQV2Y1ZzhlX1l2TEdweE5qTG51WFd3OERZcWVjcDlLTl8yYk1DQ1BFdGRCT1p0SENPYzR5M3pPQldxMUxmem80WllxYTQzaHRHZE0xczhHVmJBTk1sck93TUZtOWtjeExnMm9JSVh6UHA5SWUwZ3g2THJJYTRVbVFQVUhSZkpndlZYSmFxdkQ3QTA0SmdrNVN1ZGdyemFrVXFhcHZqUGllUkhxWWZzdVd4Wjc2S0wyYTA1X2c?oc=5",
+   "source": "TweakTown",
+   "source_id": "gn-en-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:00:07Z",
+   "lang": "en",
+   "snippet": ""
+  },
+  {
+   "id": "d7714e6c633bb796",
+   "title": "반도체 수퍼사이클 발목 잡는 3가지 ‘변수’… 데이터센터 투자 차질·IT 수요 위축·생산 증설 - 조선비즈",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRlNYX3NrNUE3VHQ3anJRTk56OFhOTjZkMnFyZVZGTDE1dzFYYzdzMm9IQ1hudUU1T2N1SEVTbVBWWkpDZ2Q5TUFScXhnZFBzUXdfRzhrbmktSDVoalJXMHcwVy1kS284T0lSM1RiRzVGSkJ3dlhQZ25ueEI3MVhpSkhR0gGWAUFVX3lxTE9CaHNkTUhEb3RNakx4MC1NWXB5UzBYVFFYMDhyLThLQm1tRjYySFpWcEFZZFQtdXhoeFdCN254TVpoRnduaHBKOVZtUkZrVXhULTFGWnotQ290MFlSNTd4VnVtZDQ3VV81dmdFaFRDdVEySzZBcVljWlhSRTZ3ZVNwSVhPZkxYQm9tNzhqeXJDTDFORGhpUQ?oc=5",
+   "source": "Chosunbiz",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:00:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "0ed814a3f807c8b6",
+   "title": "\"메모리 가격은 비정상\"…최태원도 놀란 반도체, SK하이닉스는 왜 43% 빠졌나 [증시는 왜]",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4tV05jYmJUbVZ0N0hGUDBtR2RUcXpkVm9VZGVPSGNncHZseDhyYklWTjVwNmZuNm9pYWg5V1gtZ3Nwejd2RWxvUXk5S0k0eGRfZDFaZF9rQUpyQQ?oc=5",
+   "source": "파이낸셜뉴스",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:00:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "06aa8e78d65b8fde",
+   "title": "반도체 호황이 부른 통화 긴축 유턴…내수·서민경제 '3高 직격탄'",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5hU1RqempLbjBNSUtFMGo4a01xZG5vLW9yZUN2YlJ0REI2Q2pyQTl6YXNJbDVFd09BYVRFWnd2Z3FHa2QzSVM4SjNwRmdzY0ZER3RQSg?oc=5",
+   "source": "뉴스1",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:00:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "42966c209bcef288",
+   "title": "SK하이닉스 흔드는 월가…ADR 레버리지 무더기 상장에 변동성 우려",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5yTkFOYVhaSkQ0U1RUMGpDTjVpbGhjdHVhb2U3ZjJseGRJX29sRkg1V013UHhZNm42ZU83U21HLURuZGl6SEd2VllQS2FDbm53NUJLTg?oc=5",
+   "source": "이투데이",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:00:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "b7bc859141823ca5",
+   "title": "반도체 쏠림에 우려 목소리… 한은 경고한 ‘한국판 네덜란드병’은?",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE84NGZDRTlCbEhiTW90UTh6Ym1tV2NpZUd6bTV1MDJYX0ctNC11SGxBQ3RrUFRub2NTcGpPMzFxS0FyVVd2elZzZDZrbDFWekt5T3Y0SjM3dlAzaGhzOUpmbXhvYmlnWEkya2hN0gFUQVVfeXFMT0NJQUNRUnM4anZNN1BCTEtxZUJvZ2hZRkJsWi10eHg5MmdWM3VlNHBVQkJRZmF6bV9OMW9ZcDlDV1FNMmJfZ1ZZMkpZdE80U09CbUFE?oc=5",
+   "source": "세계일보",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:00:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "809995e2e6833831",
+   "title": "류진 한경협 회장 \"반도체 호황 이후 대비해야…규제 시스템 재설계 필요\"",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kVDAzY01QNnM1eEdIVVNPWTVLOUZDd05hV2ZraXU2SVBzWEVVeXpMMkxjbmFIc0xsb0puVVIxbklpbTBpZnlMTHI4dWhleVRfRjdOOUdhS0FjNFhmWHBtRtIBeEFVX3lxTE9rUkJuNWdyVXljNTRvdlFjeDVPUk1FVmRjZzl1aXVfSjhxdHpQd3hlc295Y0ZRTW43c044QU9Udk1Fbkl1dm0tYTN2aTc2NHFXQVQxM0ZIdWN2QnE3clh6Uy1RNlFfei1UU0kzX1lSYTZWM0dobXo5QQ?oc=5",
+   "source": "뉴시스",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:00:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "979110575e5b77d3",
+   "title": "엔비디아·AWS·AMD 손잡은 K게임…게임스컴서 기술력 겨룬다",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wZS12UklBZ01mX0NmRk41Z2lvX2F3QWltMVRlemNoTDI0WFhzUi1QcW9aRDlIaXpHbVo4VENLMlVMTVNmQUE5a2ZvMjU4TVVIUElOSkZlLW5HSGRsRzlGMGhxMUQ4OHJJ?oc=5",
+   "source": "ebn.co.kr",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:00:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "bdd9fe748cb16c15",
+   "title": "\"뭘 사야 하나\" 동반 급락, 반등은 따로…종목 선택 난이도 높아졌다",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zNmYyVXhySWdxUUdRd3ZvUW9Ya2gxbDhXekx0WDdQNVMyQy1Fc01DVWNxbFZ3dWJNLVZTVW1adGFhT1FPaWhXekdnTnpDZVRPVVdLek9FazBIOWRLRlQ4?oc=5",
+   "source": "뉴스1",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:00:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "fb781237cb511cd0",
+   "title": "외국인 ‘2조 팔자’ vs 개인 ‘1.4조 사자’⋯삼성전자ㆍSK하이닉스 두고 수급 공방",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzNEFzYmdZMVE5YmRhb1BCeVZTMkFoZmdyeDdGQnJFOVIwZ18ydDBsckptaElKeXJneUd4d2pUTnR5MGV5RmE1TkdySndNcmZyQ3BCVA?oc=5",
+   "source": "이투데이",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T21:00:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "75f9f3a200703215",
+   "title": "서울시복지재단, 복지시설 행정에 생성형 AI…맞춤형 컨설팅",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zaHhWb01ocUNPSm02ZDNMVUpGSWp0ZkNhMUE2VFpPeUFQQUZfSkEzV1U4TlR4N0lrbVdveEpfajRmWjdEU3pXZ3hKTXgtMFJhY2c?oc=5",
+   "source": "뉴스1",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T21:00:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "15e518794d75b0d7",
+   "title": "TSMC 못 막은 청년 엑소더스…\"인구 유입 위해 정주환경 개선해야\"",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOb042ampHRXRiMW84X0pSNTFKWVBLNzFzWW4yNDlCLXVUZzJYTmE0UElhNk9LenZUZGZ5NTZ3dmtBNVZkaE1YZWZ6bzB3Zk1MSUdxY1hPZlVYeFoxRlFhUFFLM2NaMEJuOE1Ec016am1yZHNwZjhDWk45bDdNb3pRMA?oc=5",
+   "source": "edaily.co.kr",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T20:40:02Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "accc41e2c8fbcede",
+   "title": "반도체發 교역조건 개선 내수효과 커진다",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GQXVGSjV3MjBOTmsxcm16ajNBeExzVzZpdTFPZ2Z0SU9hSWdwWEg4b0tQcmZ4VUVJWTZBckxxTVI3NUYwOTlIUjMwZG5DN3Rta2l4aFA3eklta3JnaU9ySXB0eDhMc2ly?oc=5",
+   "source": "ebn.co.kr",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T20:32:08Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "b4c8e3df5091c8e2",
+   "title": "中 ‘키미 쇼크’에 반도체지수 20% 폭락...‘삼전닉스’ 주가 향방은?",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vM3BpQ3hVbHJ1UThkSWVUanYwOHdZOThNSDh6eHB4cFRsaHRRTzNDMjZfOUtHSVN5cURrR21GOVFEcnQxa25aRUFBbzFBc2M?oc=5",
+   "source": "v.daum.net",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T20:31:29Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "2cc76951b7ea8dcf",
+   "title": "알리바바, 오픈소스 카드로 엔비디아 ‘CUDA 독점’ 조준… AI 생태계 자강론 가속",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLVF5R0YydWhOSTdxbkd1dm9SZ2dnYlBoTGVCbm5tZUg2V09XRjA0c2hwZ29mRmVpLUVoTnZFSWMtRnZjMEFOczg1SWtpakM3RVJxU2s5dzcyZlgwN0I5akZQaW5uQWRlM29KYkU2dEhhVFpaRElDeDdUMGFrcy1lWkNKQWJQTEdz?oc=5",
+   "source": "글로벌이코노믹",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T20:30:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "040e53251dad2f76",
+   "title": "Price to earnings forward of Brite Semiconductor (Shanghai) Co., Ltd. Class A – SSE:688691",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPT3F6LUtPdEJQYVpKTFhpaTNaM2NmNTdwVFREV1hjbktQLU5yYlZneWlpdWV6NkpTcTItamdIT2lFSEw5T3EwWmZRWEk5ck94YVRMSnd4U1ZLMlNXRkdEX2FLTXd4a19pbzlUYnRERC1QRjBXWFVQdVJLa0VOc3drNjRRaEwzN2I1UGFSYUhQUDd4SHNZSTJhZkxTX2xwXzlI?oc=5",
+   "source": "TradingView",
+   "source_id": "gn-en-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T20:24:50Z",
+   "lang": "en",
+   "snippet": ""
+  },
+  {
+   "id": "35412640567e6b48",
+   "title": "[반도체 ‘3회말 1아웃’ 디커플링] ①실적은 역대급, 주가는 급락…반도체 ‘디커플링’ 본격화",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45TVQ0b1pXZ1RYN2JIYTdhcGhLVkc2dWh3eWlHT0lzOHpaY1U1amN3OUdTb0lfMU5YemladWF6S3RDU3haNDQyMGlJdF9XZE9iUnM1bFJEZW1yb2xZbXRKTENnYVZYOTE3X1RvaWlaVmp5dU5R?oc=5",
+   "source": "대한경제",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T20:20:27Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "fc30f60975adaa57",
+   "title": "[반도체 ‘3회말 1아웃’ 디커플링] ②한은 총재·최태원·젠슨 황의 이례적 일성 “주가 아닌 실물 보라”",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ucEdsQlo0NzlDWGo0eTJwSUJKQ0ZyNTJYZml3XzB1cGZHa2RhRV9RVUxnenl4dk52NS1leDhnTWhIQUgtN2FNQVJfR204aC1rSmVtaGd6dGZZYmc1dURLNm1XVjEzWDJLWUs4Y2pSNTl2WmV6?oc=5",
+   "source": "대한경제",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T20:20:24Z",
+   "lang": "ko",
+   "snippet": ""
+  },
   {
    "id": "591d0b6d84ebcb17",
    "title": "반도체 사이클 가르는 분수령 ... 구글 실적따라 주가 출렁일 듯",
@@ -51,6 +493,19 @@
    ],
    "published": "2026-07-19T20:05:23Z",
    "lang": "en",
+   "snippet": ""
+  },
+  {
+   "id": "b1981e5124057302",
+   "title": "\"반도체 호황 지속…연간 성장률 3% 웃돌것\"[GDP폴]",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWUhEaHhvX3hFRFJyUVhUdXJtalRaZzBoLXZrQmxjWlJidndyUUJEQXRlM1hXbkVHVXQyNEJFY24zcWZNaWZ3OGlLSFAzd2RiYWIweTV5QW9PSDlZTUJzZDlJR2V0Ym1mVUp6eUNlVVRqOUN6ZEpzZ293QzhyMVMyUg?oc=5",
+   "source": "edaily.co.kr",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T20:00:15Z",
+   "lang": "ko",
    "snippet": ""
   },
   {
@@ -158,6 +613,19 @@
    "snippet": ""
   },
   {
+   "id": "bbc4e971ff2967ff",
+   "title": "The NVIDIA BOOBY-TRAP?",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1iejhOMnhuc2NOVzBaeWtSaHRnUUJFLTB0MW85cnBQRE0zazRfcEVjQW0waWNBSXpyWmkweDZlTWV6cDk5UC1HdjhqZzUySUp4bTZDeG9hSG8zemRGdkRUSWY4VGVGZmdKT2J3NW5R?oc=5",
+   "source": "Substack",
+   "source_id": "gn-en-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T19:48:06Z",
+   "lang": "en",
+   "snippet": ""
+  },
+  {
    "id": "3849929dfac0c5ad",
    "title": "After Nvidia (NASDAQ:NVDA): AI Platform Stocks Poised for Upside",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLWliSjJfWVA4U3N0MTI4SkQzb2d3NzQxWjlnazkxcmhtVkUxSkdOZERYWGVodkFjUUNpZHY2WTFVTS1PekpxbVh1N3FsZTRGTU9VZV9TZlNHTXhXaHp1UGxWaDd1d2ZkcU5DWVFhWUFTaWotRHFOWkRJcUFWamU0am53cl9vbk9x?oc=5",
@@ -194,6 +662,32 @@
    ],
    "published": "2026-07-19T19:42:56Z",
    "lang": "en",
+   "snippet": ""
+  },
+  {
+   "id": "a2e99abaff80ca3b",
+   "title": "Nvidia on Edge as New Risks Emerge Ahead of Big Tech Earnings",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTW1XdEV1cnIzUUFRcERXSHluMXVtaXRtcXV2MENFSDNUd1FQM1hKaGpzSXl0ZlRjUEpqelkzQ2VyM1RGZXdoOWswc0lzSGRNeTYwX2ROUDdOcXNrOTl6S1hwdnFJdXJXNDZ0emZud1ZEVkc1VGFmZC1uRTJ6dTZmbV9lSzVEQnRJSllITndnY0pYbk5YVl9Xd1V6UkIyMmYxcXp2S3YzNGdmY0xWVTE4LVVwdGFQMXh0Rmc?oc=5",
+   "source": "Benzinga",
+   "source_id": "gn-en-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T19:41:08Z",
+   "lang": "en",
+   "snippet": ""
+  },
+  {
+   "id": "e45f385ce3a613d2",
+   "title": "\"메모리 수요 아비규환, 증설이 생명줄\" - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZNGswNFB6S3pucXBBTFRzQkZjTkdFbDVmQTk5SXNncExHZFJ2VjdQWmNSMFJ3YlNBSkZxVVFNQjRMQkUwM09zaXJuMVdpRkZQMlp6QlllNjdfVktEZW8zVWdEZjQwTTVLSDZ0OXlLWGpBQdIBckFVX3lxTFBZNGswNFB6S3pucXBBTFRzQkZjTkdFbDVmQTk5SXNncExHZFJ2VjdQWmNSMFJ3YlNBSkZxVVFNQjRMQkUwM09zaXJuMVdpRkZQMlp6QlllNjdfVktEZW8zVWdEZjQwTTVLSDZ0OXlLWGpBQQ?oc=5",
+   "source": "머니투데이",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T19:41:00Z",
+   "lang": "ko",
    "snippet": ""
   },
   {
@@ -353,6 +847,19 @@
    "snippet": ""
   },
   {
+   "id": "34bbda55f54dbb48",
+   "title": "Price to book forward of Brite Semiconductor (Shanghai) Co., Ltd. Class A – SSE:688691",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTHI3SWlnVF9lS242Rk5jWGQ3UXA5aGp4bUhnNnY1dTJSMFFTcGpVZ2N5ODlYdUFzcF9TcmlEVko5MWtFZm12Rk10N3BFdnJwelltWkJnaGdTaW0wTllUZXllRTBNbGRXV2RtSmtvLUJURzE4WVREbkl5Q3pYNW9NY2hsd0JRcFg3N0E2YV90YTFuT3NGeTFLSm9TMA?oc=5",
+   "source": "TradingView",
+   "source_id": "gn-en-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T19:11:14Z",
+   "lang": "en",
+   "snippet": ""
+  },
+  {
    "id": "1a7c468ed9b7337b",
    "title": "Gemini Enterprise Agent Platform Leads Enterprise AI Governance as OpenAI Starts Billing for Agents",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQVpjMEpXVklMSEVBZkZmN29FSzZvUFFqekpVeDBCVVFKNzhkSzYtWE9ZSnFMcW1jbmg3OW1IcW5LRFJsLXRfME5hYXdSRE12eHo3UlNpQmdsellzbWFrQlh3aE02S1dnVWhmVnJISDVDMGY3aWJrX3JhSkFVNlFQc1BydzQwcEttUEM4M184SjFfWGEzRE0tVjh0c3hnTDVVMnVzMVJhcHJQTU4taGFkZHhWdnhTUXBaWnVGUlU1ME1DMGw1LVBmVF9jZG8yeW9YRi1RLUkzbUlMZzJINFNocQ?oc=5",
@@ -392,9 +899,35 @@
    "snippet": ""
   },
   {
+   "id": "8917d43ce818e336",
+   "title": "'반도체 올인' 최태원 회장, SK실트론 매각 딜레마 - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9SNzZpbUN5aFBvRGpjWE02YTNaT3o1QktFMmJveWI5U0ozWE9CaFhJTHRSUHB2bV9Bcnk2MlFyS0w1WHBiZXpZNVdnYVRra0VSTUd6ZGlHdU9ZbzY5UGZEdFZyZ3puSTY5aGc5OHhmWVk5UdIBckFVX3lxTE9SNzZpbUN5aFBvRGpjWE02YTNaT3o1QktFMmJveWI5U0ozWE9CaFhJTHRSUHB2bV9Bcnk2MlFyS0w1WHBiZXpZNVdnYVRra0VSTUd6ZGlHdU9ZbzY5UGZEdFZyZ3puSTY5aGc5OHhmWVk5UQ?oc=5",
+   "source": "머니투데이",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T19:04:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
    "id": "4fdc5ed81ef7a210",
    "title": "[사설]반도체 성공위해..52시간제 규제 깨야 - 머니투데이",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5fd0VaT1BlRkdyUDdleGE0UElMSmoxOWRxUDZFdUxib0JOMmhLOFhpdUFuemFEV0M1bmdhVk1ReFRTWWplX21XWFdTcldyVFpxWnlFdWlkNDRFZXhyeWFXUkRVUE1hdUZrclQ00gFwQVVfeXFMTjV1Y0dQMkV6MkVja0M4ZUIxelh2WTE0YWNEaC13RWNfdnZyaWUyVXBaREFqekp4RC0tNzluOTBFX1phRFZWTk1UTjhKemJRZGI1M1NmMXllMHpsZ1dpdHVZdjBHam9EbjhhM1pZR3ZuaQ?oc=5",
+   "source": "머니투데이",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T19:02:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "0e59b2eae12871b5",
+   "title": "삼전닉스 반등할까… 알파벳 실적 주목 - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uUU1rdG5UUEFjcG1TVHVNb2NSZjZNTmthQVJteW5VM21Kazlfc2M2MXpGZXd4TWs4WjRIUGdsME1CdVVCdVZSc212cm9rQ3dESnlPYUFnUGZWQkIyT2ZOZ3J1bXdudWdENkVTTWxR0gFuQVVfeXFMTm5RTWt0blRQQWNwbVNUdU1vY1JmNk1Oa2FBUm15blUzbUprOV9zYzYxekZld3hNazhaNEhQZ2wwTUJ1VUJ1VlJzbXZyb2tDd0RKeU9hQWdQZlZCQjJPZk5ncnVtd251Z0Q2RVNNbFE?oc=5",
    "source": "머니투데이",
    "source_id": "gn-kr-semi",
    "themes": [
@@ -466,6 +999,32 @@
     "semi"
    ],
    "published": "2026-07-19T18:41:13Z",
+   "lang": "en",
+   "snippet": ""
+  },
+  {
+   "id": "fed9b12150c7976e",
+   "title": "생성형AI가 만든 이미지",
+   "url": "https://news.google.com/rss/articles/CBMizwRBVV95cUxOcTdjRWtPSW03YlU0dS1aQzA1bEVqN2xiS1ZNRUFGSE5tOWZfR3ZFWmZ6MzJJbzUxOHg2NnJ6dF9LN1o0S3k4U19kcldEQ1g0NjEySEpWWk12MFR3dFFOR0lhdjBjWHVjMENyemJZdFhaRFpDeklCYmwzUUNVT2JDeG4xcDhySGVSbWlnQ25ReVc1RFpxTzVHRVBGWjNLTUJnSkw2YjE4ZDNtbVdVMTRTb0ZCUTUxVjNkUDFTVWszLTcxZE5uYVBOckM1OUI5bVNadW1EeUdZX09aXzh1Z29QY3c3ZjhkX2d6WVI2MEpvUXgybTgzdS16cC1oWUF0OE9TZU5ha0xNeEs1RVZmelZMUW5oalNrRUZmYTU3ejMxRHdLWUZaTWRrb1g0SDFuNkw2SmxGSHJfbjAxNGQ5MVQ1dEE2UXdyVzVZc3BtT25hb1NsX19ncTkxcjJBV3Y5X05iaTBDckQ3U1pkX3VmTWZyXzREcUhZemRRTVRWcGFIZnpVYzhYOGNDajRKeGMxeWZiZ25fd0VLdTNOM25waDY4TUtxVDZZcVFWWXdoN0ltNHhMODhrM3dQUF9jNXk1X2V0QjFKRmNIbThCOURXSU5QSVp5NEUxZ2VnNW56eThvWW1ZUzBBS1Y2RW5JUGN1b25mTFhlME5YMFo2R2R1dkFuRWdzdVBIMV91RlRaVVZvV0hxQUFWQzlKZ1dpaWVsRGN6WHRxSjZSTVJVcWpBYzlyVmUxWl81RXlseEZwNlJkUjVoU3c0bW9abnBYenF3Ums?oc=5",
+   "source": "전자신문",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T18:32:18Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "2c1369b488d263b2",
+   "title": "Wear Resistant Component Market Forecast Points Higher Toward 2035, Driven by Semiconductor Capacity Expansion",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZDFKQW03Yk9mNGpFSERScDZwZ1I0TG9UelFHQjlsSmk3NWc1a1RhRDdsTE9RYWV2b3llSFBxM0E1RFhFQm45dGxDU2hzVFh0UmFBZ0J4OHJIRmlucFdyalhCSDRXU25NXzI3YjNVaXkxNUJIa1d4VUJYMWF4dUljZEcwR014cXZ4eWJQQjFPX1JvVHNsWmE4bDFYSHZ0LWJWUDVpSUJBallXWU1tQWJvSm9XWS03dlR2MjZwVnpNQ2ktRXI4MVFuMWhjWEtWT1p3NjQ1aGFn?oc=5",
+   "source": "IndexBox",
+   "source_id": "gn-en-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T18:21:12Z",
    "lang": "en",
    "snippet": ""
   },
@@ -1458,6 +2017,19 @@
    "snippet": ""
   },
   {
+   "id": "7a21a78bac28fca2",
+   "title": "\"네이버국내비실명id★텔𝓤𝓑𝓣𝓒99★한게임1명의1개개당.usb\" - Results on X | Live Posts & Updates",
+   "url": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxOSmlfSDczTW9oQTJveFlPcnU2X2NJZ05VeWFIWUVxZmpjdm92dDNreFM0QXgzclRBMVdzMzVkRDhWc21LTEp2VGhRT0o5bldpdlZSYlY2cDBJdUstaTEwMDNfVGxLb0ZrMnVTY01BTVo0eEhrTEJZWWZmT2pLUjU1YkZrUFVXemVuUHIzMUFtM2tjVHViUUl0ck9xOWZDT2xQenVtZl9HeXB6ZVlOWE10V2Y3UWJlSUhNcElXbmJadDFjT0xBaFdMOEtvajd0ZG52UHR0QU9KQktrYmh0MGJnSVdWOUlOVU0yX1FveVBPOGJiWlpTd3JvaFRuUTVBbEt5dnhrcTdkR3k0bFF4RVFNb1ptMm5IUDVNa2VydTFaaWpNOEtUVVE4bXk4MVNCekY0Q0pJN2hfVFEwYUJLcGQ3RzE3bDZObzA1VWRBRjl2TWU5S0hMY182VzJlaTY4R3hkUnhzY1pQeEY3NEpzMm0yMTJJNUJGOWhINlVKU3JHMzdIQUVaLWJfVkFHQQ?oc=5",
+   "source": "x.com",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T14:58:14Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
    "id": "14c3749d3afc1992",
    "title": "A leather jacket worn by Nvidia's CEO sells for a record price at Sotheby's auction",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5MdFktNDRhWXcwVkNGY0VoUWxvaEVNX2FoWXBqNFVvZlBWc0gza2ZvSUhUUlNaMnI3Tk1Fc2NXVTRPVlNES2JtSlVHV3R1NnZsc0JMdEphVDl6MlhlTm1VY2NvOXNxX2JwdmVF?oc=5",
@@ -2002,6 +2574,19 @@
    "published": "2026-07-19T08:15:16Z",
    "lang": "ko",
    "snippet": ""
+  },
+  {
+   "id": "0997ac94a5e0154c",
+   "title": "115년 기술 상징의 추락...IBM 25% 폭락이 경고하는 'AI 블랙홀'",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=212907",
+   "source": "AI타임스",
+   "source_id": "aitimes",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T07:59:13Z",
+   "lang": "ko",
+   "snippet": "미국 기술의 상징이었던 IBM이 AI 시대의 첫 대형 희생양이 될 수 있다는 우려가 커지고 있다. 지난주 주가 폭락은 단순한 실적 쇼크를 넘어, IBM의 사업 모델 자체가 AI 시대에도 통할 수 있는지에 대한 근본적인 의문으로 이어지고 있다는 평이다.IBM은 지난 14일(현지시간) 2분기 실적이 시장 기대에 크게 못 미칠 것이라고 이례적인 사전 경고를 발표했다. 주가는 하루 만에 25% 폭락하며 100년이 넘는 역사상 최악의 하루를 기록했다. 시가총액도 2000억달러(약 300조원) 아래로 떨어졌"
   },
   {
    "id": "24e2f63798dcb148",
@@ -3826,6 +4411,19 @@
    "snippet": ""
   },
   {
+   "id": "ac66fb747175d94c",
+   "title": "\"인스티즈★텔𝓤𝓑𝓣𝓒99★네이버실명인증id.wzf\" - Results on X | Live Posts & Updates",
+   "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNZmFtRUhHZGs3WlVfWEE4YWlpRlVYT2tzaWNJZms5UXR4c0NURDRWMjdCeWduaDR1eUFiQ2hBNzlBN0ZwU0thbUZveWF4ZnlrVW5JZk5wMW1SR0xCbEZhV3hGd1dFaG44Z3FLdmxrbGN1QVJydDA5OXN6YVBGclJLTEhXM1dONHBiNVp3NDhHeWVTWWljT2FDVXdpRlFyX21udUdrbnpROXp6NnctQzBPMkE5NllkR2JtNDc2UDRqdnVBS185SzRUMVBCLW56VGJ4X2gwZUNxYVhqLTZyNUVNMWdMRVVaYXJ4ck9ZUDBsRng2OXI1YWFOdW53LU1GdUU4N0NMWUN3THlNQk52SXNROXRPNVk3ZTNBNlowMTZOME1OdV9IMEVjR0hPY2lYLU5zYWZlbnhoTktCRkN6NXRlNG4wNUoxQQ?oc=5",
+   "source": "x.com",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T01:55:07Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
    "id": "59387c38e8c8a55b",
    "title": "Apple unseats Nvidia to become world’s most valuable company",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV1ZiMWNfTmVOeUZnTENxSDBiTGlkdUduVWpDRlJnNXBZSzFUZWxrYkxCZTcta2d4cjU2Sm5tWWVZX0FCb3RNdVBnU0ZDX2x0R29HZnl0NDVmUndVUng2VmlHMFowN3AyRHR6UkJOSTlNMHFIRmVBVkxwVGdEZ2dob0pRTzljQ1ptQXhKS1BxZmpxaUhzVUYyTzU5dlFRc19CTEEzQUQwTTVJbXNFTDU0c05wS1d4VjA?oc=5",
@@ -5022,6 +5620,19 @@
    "snippet": ""
   },
   {
+   "id": "50a1d3eda73daa05",
+   "title": "\"알바몬사업자id★텔𝓤𝓑𝓣𝓒99★네이버국내비실명id.ulw\" - Results on X | Live Posts & Updates",
+   "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxOX0RVRUdwSlhUMG1ra1BLbDBRMFhqLU8tMURPNlVydHNlYzFtWnVpYkhvXzdIcGlpcE1zOWZTNy1paEdIcWZkZjNfWi12b1pDa3R5amtraTM3LVRvTHZ0SGhLTmFiekJNMzdCLWQzZU56R3NPZTNCeEpPdUVXRi1GUGdiY1ljbWdnaTFtel9mMGZELXYwRUprOFBFN2Nzd2lEV2tKWHlLbjlQZ29jR2R2UGZPT0NmVmdESW5Ca0RtVms0ZDc0cktzY0lKNlB2clNDcW55bTBjaDlUdlo2VkRTMUlHek83NWpLNkJXRG1LZXdYZGJMV0FpOXNsSml5SE12c1lxSF9keUZaQWRGYy14aUNWRjkzWVRMeXVqUWx6V2ZzLTFyX2dRQTM3X25rRzBmVk9uQnlmY1BtNWJHY2ZGTGhIekRPVjdBZFMxaFpWVHRnTHJPaFctTnQ3YXl1cDR1RGtQeW9tOW5Cbk5GbzU3RV9vYw?oc=5",
+   "source": "x.com",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-18T23:42:06Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
    "id": "97754e9560d188b0",
    "title": "Earnings From Taiwan Semiconductor and ASML Show Soaring Demand, So Why Are AI Stocks Falling? (And Here's What Investors Should Do Next.)",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQzZYcnB3STByb2ZQZmlSN21Sc2lsSnpJUGNWdjRQMThHWWdxTG1UTktyMVB2VVJLNWhaV2RrMElydm01QkhucHYwbkRyT3NodXptTjVKNUI5M3E2MllCcXg2MEptc2Y4dHJZd1BYbG1qdUNNUzVtVzl1d0xFTFQxd20wdWJkQ0pwcHhBWU1zeFVBUGdw?oc=5",
@@ -5162,6 +5773,19 @@
    ],
    "published": "2026-07-18T23:31:27Z",
    "lang": "en",
+   "snippet": ""
+  },
+  {
+   "id": "81247e546a76bc4d",
+   "title": "[이슈] 네이버 승부예측 스코어까지 맞춘 3명 ㄷ ㄷ",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tNjl3UDljX25kQ1hXbEktMHpqdi1selJvV0lSd2h4d2puSFU2a2t4X1Vlb3UxejMzUlhYUVhvN0pZRlhDNlQydDM2SVFRUjJSV1VDU05DeUxURjRvR0Ew?oc=5",
+   "source": "인벤",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-18T23:31:24Z",
+   "lang": "ko",
    "snippet": ""
   },
   {
@@ -5357,6 +5981,19 @@
    ],
    "published": "2026-07-18T23:03:50Z",
    "lang": "en",
+   "snippet": ""
+  },
+  {
+   "id": "ef82b9f31d491d53",
+   "title": "네이버페이 쓰는사람들 꼭봐",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFByMnJsY0VPVTNBQjhfZzlJOGN1NWhBTXRwT18wWTg4NXhxS1h4Ym9mdXZHa2RaTUtoSUZpY3p2Zm9iSGRCR1E5bHNnRE4?oc=5",
+   "source": "네이트 판",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-18T23:02:00Z",
+   "lang": "ko",
    "snippet": ""
   },
   {
@@ -9541,6 +10178,19 @@
    "snippet": "SHANGHAI, July 17, 2026 /PRNewswire/ -- Tec-Do, a global AI marketing technology company, today unveiled Navos 2.0 at the 2026 World Artificial Intelligence Conference (WAIC), introducing a next-generation AI agent designed to help enterprises accelerate international growth thro"
   },
   {
+   "id": "002e740dbc587c77",
+   "title": "Masterpieces at Their Peak: The World's Largest Exhibition on the Ancient Civilizations of the Americas Opens at the Shanghai Museum",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=339944",
+   "source": "KIPOST",
+   "source_id": "kipost",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-17T14:38:00Z",
+   "lang": "ko",
+   "snippet": "SHANGHAI, July 17, 2026 /PRNewswire/ -- The Shanghai Museum's \"On Top of the World Tree: Ancient Civilizations of the Americas\" is now officially open to the public. As the largest exhibition ever dedicated to the ancient civilizations of the Americas, it brings together 1,129 gr"
+  },
+  {
    "id": "d3b71352b8131161",
    "title": "'챗GPT 어머니'의 야심작…'완벽한 AI 통역' 시대 열리나 [허진의 테크토닉]",
    "url": "https://www.hankyung.com/article/202607171186i",
@@ -9552,6 +10202,19 @@
    "published": "2026-07-17T14:30:02Z",
    "lang": "ko",
    "snippet": ""
+  },
+  {
+   "id": "c33bd6a1138fcbb3",
+   "title": "Driving the Agentic AI Era: MiTAC Computing Showcases Comprehensive AI Infrastructure at WAIC",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=339943",
+   "source": "KIPOST",
+   "source_id": "kipost",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-17T14:30:00Z",
+   "lang": "ko",
+   "snippet": "SHANGHAI, July 17, 2026 /PRNewswire/ -- MiTAC Computing Technology Corporation, a global leader in high-performance and energy-efficient server solutions, and a subsidiary of MiTAC Holdings Corporation (TWSE:3706), officially showcased today at the World Artificial Intelligence C"
   },
   {
    "id": "40953e40273b2ee3",
@@ -9619,6 +10282,45 @@
    "snippet": "뉴욕 및 인도 노이다, 2026년 7월 17일 /PRNewswire/ -- 글로벌 선도 기술 기업 HCL테크(HCLTech)(NSE: HCLTECH)(BSE: HCLTECH)가 7월 16일 미국 최대 상호보험회사 중 하나이자 보험, 은퇴, 자산 관리 및 직원 복지 솔루션의 선도적 제공업체인 가디언 생명보험회사(The Guardian Life Insurance Company of America®•Guardian)와 새로운 7년 계약을 체결했다고 발표했다. 이번 계약은 양사가 앞서 발표한 파트너십을 "
   },
   {
+   "id": "c06923e1405dd503",
+   "title": "중국 메모리 대표 CXMT, 상하이 IPO 청약 212대 1 기록...14조 뭉칫돈 몰려",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=212892",
+   "source": "AI타임스",
+   "source_id": "aitimes",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-17T13:49:50Z",
+   "lang": "ko",
+   "snippet": "중국 대표 메모리 반도체 기업 창신메모리(CXMT)가 98억달러(약 14조원) 규모의 기업공개(IPO)에서 개인 투자자들의 높은 관심을 끌며 흥행에 성공했다.CXMT는 16일 상하이 증권거래소 과학기술혁신판(STAR Market) 상장을 앞두고 진행한 개인 투자자 대상 공모에서 온라인 청약 경쟁률이 약 212대 1을 기록했다고 밝혔다.개인 투자자들의 청약 건수는 940만건에 달했으며, 최종 당첨 확률은 0.47%로 집계됐다.CXMT는 주당 8.66위안에 총 76억9000만주(초과배정 옵션 포함)를"
+  },
+  {
+   "id": "dd62c3adac3d872c",
+   "title": "\"모델 그대로 하네스만 바꿨더니...ARC-AGI-3서 인간 효율 99% 근접\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=212889",
+   "source": "AI타임스",
+   "source_id": "aitimes",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-17T13:42:28Z",
+   "lang": "ko",
+   "snippet": "AI 추론 성능 향상의 핵심이 모델 자체보다 활용 방식, 즉 '하네스(Harness)'에 달려 있다는 것을 보여주는 사례가 나왔다. 에이전트 아키텍처 개발 연구소인 임파서블 리서치(Impossible Research)는 16일(현지시간) 새로운 에이전트 실행 프레임워크(하네스)인 '스키마(Schema)'를 공개하고, 이를 적용해 'ARC-AGI-3' 벤치마크에서 98.98%의 성능을 기록했다고 발표했다.연구진은 이번 결과가 AI 모델의 가중치를 변경하지 않고도 실행 방식만 개선해 얻은 성과라며, "
+  },
+  {
+   "id": "87c31434295b60ae",
+   "title": "구글 비즈에 '제미나이 옴니·개인 아바타' 탑재...종합 AI 영상 플랫폼으로 진화",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=212891",
+   "source": "AI타임스",
+   "source_id": "aitimes",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-17T13:14:02Z",
+   "lang": "ko",
+   "snippet": "구글이 AI 영상 제작 서비스 '구글 비즈(Google Vids)'에 멀티모달 AI 모델 '제미나이 옴니(Gemini Omni)'와 사용자의 모습을 그대로 재현하는 개인 아바타(Personal Avatars) 기능을 추가하며 AI 영상 제작 경쟁에 속도를 내고 있다. 이를 통해 구글 비즈는 업무용 프레젠테이션 도구를 넘어 종합 AI 영상 제작 플랫폼으로 진화하게 됐다.구글은 16일(현지시간) 구글 비즈에 제미나이 옴니와 개인 아바타 기능을 차례로 제공한다고 발표했다.제미나이 옴니는 텍스트와 이미지"
+  },
+  {
    "id": "9f55dd8b58758f26",
    "title": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
    "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
@@ -9632,787 +10334,83 @@
    "snippet": "Databricks has remade its image into an AI company and has published research on the cost savings of open weight AI models for coding."
   },
   {
-   "id": "8166075db244d55c",
-   "title": "젠슨 황, 일본서도 만찬 소통...이번엔 '단팥빵·모츠나베'가 주인공",
-   "url": "https://www.aitimes.com/news/articleView.html?idxno=212895",
-   "source": "AI타임스",
-   "source_id": "aitimes",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T12:22:56Z",
-   "lang": "ko",
-   "snippet": "젠슨 황 엔비디아 최고경영자(CEO)가 해외 출장 때마다 선보인 특유의 '음식 소통' 행보를 일본 도쿄에서도 이어갔다.비즈니스 인사이더와 다이아몬드 온라인 등 외신에 따르면, 15일 도쿄를 방문한 황 CEO는 공식 일정 이후 간다 지구의 한 대중적인 일본식 선술집(이자카야) '야키톤 산키치'를 찾아 현지 기술 산업을 이끄는 주요 파트너사들과 만찬 회동을 가졌다.이 자리에서 황 회장은 도쿄 일렉트론(TEL), 키옥시아, 신에츠 케미칼, 스미토모 전기, 타이요 유덴 등 반도체 장비, 메모리, 소재 및"
-  },
-  {
-   "id": "fdd951610b0c91cb",
-   "title": "The Zoom hack that says, ‘Don’t record me’",
-   "url": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/",
-   "source": "TechCrunch",
-   "source_id": "techcrunch",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T12:20:47Z",
-   "lang": "en",
-   "snippet": "If every meeting, watercooler conversation, and date gets transcribed and summarized, who's actually reading any of it?"
-  },
-  {
-   "id": "a5d6f4f2488842ba",
-   "title": "스페이스X '스타십 V3' 발사 중단…우주 데이터센터 검증 미뤄져",
-   "url": "https://www.aitimes.com/news/articleView.html?idxno=212894",
-   "source": "AI타임스",
-   "source_id": "aitimes",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T11:49:07Z",
-   "lang": "ko",
-   "snippet": "스페이스X의 우주 데이터센터 인프라의 핵심이 될 차세대 대형 우주선 '스타십(Starship) V3'의 두 번째 시험 비행이 발사대 점화 직후 갑작스럽게 중단됐다. 우주 클라우드 시장 선점을 기대하던 투자자들의 실망감이 반영되며 스페이스X의 주가도 시간 외 거래에서 공모가를 한참 밑돌았다.스페이스X는 16일(현지시간) 텍사스주 남부 스타베이스 발사장에서 스타십 V3의 발사를 시도했으나, 카운트다운이 마감되고 엔진 점화가 시작되자마자 시스템에 의해 발사가 자동 취소됐다.일론 머스크 CEO는 X를 통"
-  },
-  {
-   "id": "ecf8d305dca865b6",
-   "title": "SpaceX stock has cratered nearly 23% since the company joined the Nasdaq-100",
-   "url": "https://www.cnbc.com/2026/07/17/spacex-stock-starship-test-flight-aborted.html",
-   "source": "CNBC Technology",
-   "source_id": "cnbc-tech",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T11:33:34Z",
-   "lang": "en",
-   "snippet": "SpaceX's stock plunged further on Friday, a day after it aborted a test flight for its Starship rocket at the last second."
-  },
-  {
-   "id": "5d4754c3402451a4",
-   "title": "Apple, Nvidia vie for title of world's most valuable company",
-   "url": "https://www.cnbc.com/2026/07/17/apple-nvidia-aapl-nvda-market-cap.html",
-   "source": "CNBC Technology",
-   "source_id": "cnbc-tech",
-   "themes": [
-    "semi",
-    "sw"
-   ],
-   "published": "2026-07-17T11:22:41Z",
-   "lang": "en",
-   "snippet": "Nvidia shares have underperformed in 2026 as Wall Street shifts to companies powering the infrastructure AI buildout."
-  },
-  {
-   "id": "5765eee1c73b615f",
-   "title": "Agility Robotics plants its flag in Tesla’s backyard",
-   "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
-   "source": "TechCrunch",
-   "source_id": "techcrunch",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T11:19:49Z",
-   "lang": "en",
-   "snippet": "Agility is opening a new training center for its Digit robots in Fremont, California."
-  },
-  {
-   "id": "68d83b1dfb0954a4",
-   "title": "AI-driven memory crunch jolts India’s smartphone market",
-   "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
-   "source": "TechCrunch",
-   "source_id": "techcrunch",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T11:09:27Z",
-   "lang": "en",
-   "snippet": "India's smartphone slowdown highlights how the AI boom is reshaping consumer electronics, from pricing and demand to corporate strategy."
-  },
-  {
-   "id": "7e964417ca9d791c",
-   "title": "Pudu Robotics Highlights Its \"One Brain, Multiple Embodiments\" Physical Agent at WAIC 2026",
-   "url": "https://www.kipost.net/news/articleView.html?idxno=339952",
+   "id": "02c1129f66a98d58",
+   "title": "GAC Celebrates 30-Millionth Vehicle Roll-off, Sharing Milestone Moment with Global Users",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=339941",
    "source": "KIPOST",
    "source_id": "kipost",
    "themes": [
     "semi"
    ],
-   "published": "2026-07-17T11:00:00Z",
+   "published": "2026-07-17T13:07:00Z",
    "lang": "ko",
-   "snippet": "SHANGHAI, July 17, 2026 /PRNewswire/ -- Pudu Robotics, the global leader in commercial service robotics, today hosted its Pudu AI Technology Briefing on the opening day of the 2026 World Artificial Intelligence Conference (WAIC) in Shanghai. During the event, the company shared t"
+   "snippet": "GUANGZHOU, China, July 17, 2026 /PRNewswire/ -- Trusted by 30 Million, Powered by Quality. On July 16, GAC Group hosted the 30 Million Customers Appreciation Event at the GAC manufacturing plant. The event was attended by leaders from Guangdong Province, Guangzhou Municipality, a"
   },
   {
-   "id": "b4f05901ace5e221",
-   "title": "Anthropic in early talks with Meta to acquire compute power",
-   "url": "https://www.cnbc.com/2026/07/17/anthropic-meta-ai-compute.html",
-   "source": "CNBC Technology",
-   "source_id": "cnbc-tech",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T10:52:07Z",
-   "lang": "en",
-   "snippet": "The talks come weeks after Anthropic announced a similar deal with Elon Musk's SpaceX to use the computing capacity at its Colossus 1 data center"
-  },
-  {
-   "id": "2a0f5430fd9a7edf",
-   "title": "Google-backed satellites for wildfire detection launch as smoke chokes US, Canada",
-   "url": "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/",
-   "source": "Ars Technica",
-   "source_id": "arstechnica",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T10:50:18Z",
-   "lang": "en",
-   "snippet": "The FireSat program can spot wildfires that other satellites miss."
-  },
-  {
-   "id": "63c7ea9b55a2734f",
-   "title": "Apple and Google ordered to purge ‘nudify’ apps from App Stores",
-   "url": "https://techcrunch.com/2026/07/17/apple-and-google-ordered-to-purge-nudify-apps-from-app-stores/",
-   "source": "TechCrunch",
-   "source_id": "techcrunch",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T10:49:53Z",
-   "lang": "en",
-   "snippet": "In letters sent to Apple and Google, San Francisco City Attorney David Chiu said that both companies have long been aware that they are hosting apps in violation of state law."
-  },
-  {
-   "id": "9e2f9ee23542cd3a",
-   "title": "시진핑 \"AI는 모두의 것\"...오픈소스 앞세워 미국 'AI 패권' 정면 견제",
-   "url": "https://www.aitimes.com/news/articleView.html?idxno=212893",
+   "id": "db14c23ecaed94f5",
+   "title": "엔비디아, 4B 규모 월드 모델 ‘코스모스 3 엣지’ 공개...'온디바이스 피지컬 AI' 실현",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=212880",
    "source": "AI타임스",
    "source_id": "aitimes",
    "themes": [
     "semi",
     "sw"
    ],
-   "published": "2026-07-17T10:41:41Z",
+   "published": "2026-07-17T13:06:12Z",
    "lang": "ko",
-   "snippet": "시진핑 중국 국가주석이 세계 AI 컨퍼런스(WAIC)에서 오픈소스 AI와 국제 협력을 전면에 내세우며 미국의 AI 패권 전략을 비판했다. 국가안보를 이유로 미국이 첨단 반도체와 AI 모델 접근을 제한하는 가운데, 중국은 '개방형 AI'와 개발도상국 지원을 앞세워 글로벌 AI 질서의 주도권 확보에 나섰다.시 주석은 17일 상하이에서 열린 WAIC 기조연설에서 \"AI 개발은 특정 국가의 독주가 아니라 국제 협력의 교향곡이어야 한다\"라며 국가안보를 이유로 기술 접근을 제한하는 움직임에 반대한다고 밝혔다"
+   "snippet": "엔비디아가 엣지 컴퓨팅 환경에서 실시간으로 주변 환경을 이해하고 추론하며 로봇의 행동을 생성하는 새로운 월드 모델을 공개하며 피지컬 AI 분야를 강화했다.엔비디아는 15일(현지시간) 로봇과 비전 AI 에이전트를 위한 월드 모델 '코스모스 3 엣지(Cosmos 3 Edge)'를 공개했다.오픈소스 월드 모델 제품군인 '코스모스 3' 시리즈의 새로운 모델로, 엔비디아의 대표 모델인 '네모트론(Nemotron)'을 기반으로 구축된 40억(4B) 매개변수 모델이다. 로봇과 비전 AI 에이전트가 주변 환경을"
   },
   {
-   "id": "e4461f2a5927f5c7",
-   "title": "Marvell Brings Radix, Low Latency, And Bandwidth To Bear With Teralynx T100",
-   "url": "https://www.nextplatform.com/connect/2026/07/17/marvell-brings-radix-low-latency-and-bandwidth-to-bear-with-teralynx-t100/5274615",
-   "source": "The Next Platform",
-   "source_id": "nextplatform",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T10:40:08Z",
-   "lang": "en",
-   "snippet": ""
-  },
-  {
-   "id": "53d3135e6c027c79",
-   "title": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
-   "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/",
-   "source": "TechCrunch",
-   "source_id": "techcrunch",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T10:22:00Z",
-   "lang": "en",
-   "snippet": "The potential deal highlights a growing trend of complex, multi-stage funding rounds that mask true entry prices."
-  },
-  {
-   "id": "af1f9e805f9c976f",
-   "title": "The Pentagon's Space Development Agency hasn't moved as fast as anyone would like",
-   "url": "https://arstechnica.com/space/2026/07/the-pentagons-space-development-agency-hasnt-moved-as-fast-as-anyone-would-like/",
-   "source": "Ars Technica",
-   "source_id": "arstechnica",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T10:19:42Z",
-   "lang": "en",
-   "snippet": "\"Missiles are being launched at the joint force every single day in [Operation] Epic Fury.\""
-  },
-  {
-   "id": "181cc229bc020033",
-   "title": "Hegseth wants a \"High-T\" military; doctors call it a clinical minefield",
-   "url": "https://arstechnica.com/health/2026/07/hegseth-wants-a-high-t-military-doctors-call-it-a-clinical-minefield/",
-   "source": "Ars Technica",
-   "source_id": "arstechnica",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T09:53:11Z",
-   "lang": "en",
-   "snippet": "\"We're turning the clock back on rational healthcare.\""
-  },
-  {
-   "id": "ce3ed90b9697ed92",
-   "title": "Taco Bell iceberg lettuce identified as source of cyclosporiasis in 5 states",
-   "url": "https://arstechnica.com/health/2026/07/taco-bell-iceburg-lettuce-identified-as-source-of-cyclosporiasis-in-5-states/",
-   "source": "Ars Technica",
-   "source_id": "arstechnica",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T09:45:23Z",
-   "lang": "en",
-   "snippet": "Don't eat Taco Bell lettuce in Indiana, Kentucky, Michigan, Ohio, or West Virginia."
-  },
-  {
-   "id": "2ae84d3e720595d3",
-   "title": "Hong Leong Bank Debuts Malaysia's First Visa Infinite Privilege Card",
-   "url": "https://www.kipost.net/news/articleView.html?idxno=339951",
-   "source": "KIPOST",
-   "source_id": "kipost",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T09:04:00Z",
-   "lang": "ko",
-   "snippet": "The credit card is also issued strictly by invitation only, providing clients with ultra-exclusive access to elite global privileges KUALA LUMPUR, Malaysia, July 17, 2026 /PRNewswire/ -- Hong Leong Bank (\"HLB\" or the \"Bank\") has announced Malaysia's first Visa Infinite Privilege "
-  },
-  {
-   "id": "109f7c96e0b291c5",
-   "title": "I replaced my space heater and ceiling fan with one Dyson appliance",
-   "url": "https://techcrunch.com/2026/07/17/i-replaced-my-space-heater-and-ceiling-fan-with-one-dyson-appliance/",
-   "source": "TechCrunch",
-   "source_id": "techcrunch",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T09:00:17Z",
-   "lang": "en",
-   "snippet": "Designed for year-round comfort, the Dyson Hot+Cool HF1 combines quiet operation and simple controls with Dyson's signature bladeless design."
-  },
-  {
-   "id": "b3a7160245dd1486",
-   "title": "93.07% Bifaciality Module! Tongwei Leads Intersolar Europe 2026 with Global Launch of TNC 3.0 BIFIMAX Module",
-   "url": "https://www.kipost.net/news/articleView.html?idxno=339949",
-   "source": "KIPOST",
-   "source_id": "kipost",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T08:55:00Z",
-   "lang": "ko",
-   "snippet": "MUNICH, July 17, 2026 /PRNewswire/ -- Tongwei made an impact at Intersolar Europe 2026, launching its premium technology upgrade, TNC 3.0 BIFIMAX, alongside the upgraded residential star module, TNC 2.0 G12R-48. Pairing industry-leading efficiency milestones for utility projects "
-  },
-  {
-   "id": "f499173402f87b6f",
-   "title": "i2Cool Co-Founder and CEO Prof. Martin Zhu Honoured with 2025 Leader of the Year Young Entrepreneur Award",
-   "url": "https://www.kipost.net/news/articleView.html?idxno=339950",
-   "source": "KIPOST",
-   "source_id": "kipost",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T08:51:00Z",
-   "lang": "ko",
-   "snippet": "HONG KONG and SHENZHEN, China, July 17, 2026 /PRNewswire/ -- i2Cool today announced that its Co-Founder and Chief Executive Officer, Prof. Martin Zhu, has received the Young Entrepreneur Award at the 2025 Leader of the Year Awards, organised by Sing Tao News Corporation. Establis"
-  },
-  {
-   "id": "f82d149e12467b1e",
-   "title": "How Apple’s big lawsuit could disrupt OpenAI’s IPO plans",
-   "url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
-   "source": "TechCrunch",
-   "source_id": "techcrunch",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T08:45:46Z",
-   "lang": "en",
-   "snippet": "Apple filed a trade secrets lawsuit against OpenAI last Friday, and it’s not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI’s chief hardware officer and claims more than 400 former Apple employees now work at the company. OpenAI’s "
-  },
-  {
-   "id": "801eccbf011632fe",
-   "title": "\"평생 처음 보는 수\"…카타고 초반 변칙에 신진서 스텝 꼬였다",
-   "url": "https://www.hankyung.com/article/2026071712451",
-   "source": "한국경제 IT",
-   "source_id": "hankyung-it",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T08:43:37Z",
-   "lang": "ko",
-   "snippet": ""
-  },
-  {
-   "id": "649938f9dd612312",
-   "title": "카타고AI 新手에 밀린 申",
-   "url": "https://www.hankyung.com/article/2026071712521",
-   "source": "한국경제 IT",
-   "source_id": "hankyung-it",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T08:41:40Z",
-   "lang": "ko",
-   "snippet": ""
-  },
-  {
-   "id": "c61bd1b53ebfb0bd",
-   "title": "GAC, 멕시코 월드컵 취재 나선 신화통신에 공식 지원 차량 제공",
-   "url": "https://www.kipost.net/news/articleView.html?idxno=339936",
-   "source": "KIPOST",
-   "source_id": "kipost",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T08:41:00Z",
-   "lang": "ko",
-   "snippet": "멕시코시티 2026년 7월 17일 /PRNewswire/ -- 미국, 캐나다, 멕시코 전역에서는 세계 최고 수준의 축구 대회가 펼쳐지는 가운데 수억 명의 팬이 경기의 모든 순간을 지켜보고 있다. 멕시코에서는 멕시코시티의 활기찬 거리부터 톨루카의 구시가지, 열정과 꿈이 싹트는 유소년 아카데미 훈련장에 이르기까지 어디서나 축구의 열기를 느낄 수 있다. GAC는 빠른 속도와 고강도로 진행되는 현장 취재를 지원하기 위해 중국의 대표적인 국영 통신사인 신화통신(Xinhua News Agency)의 현장 취"
-  },
-  {
-   "id": "3534b991cca908c8",
-   "title": "Mozilla speeds Firefox release schedule to biweekly",
-   "url": "https://www.theregister.com/software/2026/07/17/mozilla-speeds-firefox-release-schedule-to-biweekly/5274423",
-   "source": "The Register",
-   "source_id": "theregister",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T08:40:00Z",
-   "lang": "en",
-   "snippet": "And what to expect in Firefox 153 as the next ESR release gets close"
-  },
-  {
-   "id": "10c0f0447e579b9b",
-   "title": "Taiwan-Japan AI tech forum seeks closer partnerships",
-   "url": "https://www.digitimes.com/news/a20260716PD220/technology-taiwan-government-2nm-rapidus.html",
-   "source": "DigiTimes Asia",
-   "source_id": "digitimes",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T08:34:05Z",
-   "lang": "en",
-   "snippet": "A Taiwan-Japan AI technology forum held at Taiwan Expo Japan brought together government, industry, academia and research representatives to discuss AI applications, semiconductor supply chains, smart manufacturing and innovation. Terry Tsao, SEMI's global marketing chief and hea"
-  },
-  {
-   "id": "db724b98b5e1c864",
-   "title": "AI server tracker: Taiwan's testing and design service leaders surge on global chip demand",
-   "url": "https://www.digitimes.com/news/a20260716VL225/taiwan-monthly-tracker-testing-design-service-revenue-demand.html",
-   "source": "DigiTimes Asia",
-   "source_id": "digitimes",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T08:25:10Z",
-   "lang": "en",
-   "snippet": "The surge in AI and high-performance computing (HPC) technologies continues to reshape the semiconductor landscape, as demonstrated by the June 2026 financial performances of key supply chain players in Taiwan. Within this thriving ecosystem, IC testing and design services have e"
-  },
-  {
-   "id": "06972e3969f4a281",
-   "title": "Micron SCA covers 7 auto customers, boosts supply chain",
-   "url": "https://www.digitimes.com/news/a20260717PD227/micron-supply-chain-automotive-auto-industry-production.html",
-   "source": "DigiTimes Asia",
-   "source_id": "digitimes",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T08:22:52Z",
-   "lang": "en",
-   "snippet": "Micron has said its Strategic Customer Agreement (SCA) long-term supply deals with 16 key strategic customers include seven automotive customers — among them Qualcomm, Visteon, and Harman, all key suppliers supporting the automotive ecosystem — reinforcing its push into the auto "
-  },
-  {
-   "id": "cff11c8971c94735",
-   "title": "\"아빠 닮아서 그런거였네\" 94% 확률로 유전…뭔가 봤더니",
-   "url": "https://www.hankyung.com/article/2026071711581",
-   "source": "한국경제 IT",
-   "source_id": "hankyung-it",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T08:10:56Z",
-   "lang": "ko",
-   "snippet": ""
-  },
-  {
-   "id": "3751bcfc8815adbf",
-   "title": "이피션트, IME와의 전략적 파트너십을 통해 네팔 결제 회랑 개설",
-   "url": "https://www.kipost.net/news/articleView.html?idxno=339948",
-   "source": "KIPOST",
-   "source_id": "kipost",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T08:10:00Z",
-   "lang": "ko",
-   "snippet": "새로운 회랑을 통해 이피션트 글로벌 네트워크 전역에서 네팔로 송금하는 고객들에게 즉시 은행 계정 및 지갑 크레딧 제공 두바이, 아랍에미리트, 2026년 7월 17일 /PRNewswire/ -- 글로벌 크로스보더 결제 및 금융 인프라 플랫폼인 이피션트(EFICYENT)가 네팔로의 국제 송금을 강화하기 위해 네팔에서 가장 신뢰받고 확립된 송금 회사 중 하나인 IME 리미티드(IME Limited)와의 파트너십을 발표했다. 이 파트너십은 2026년 6월 29일 이피션트의 UAE 사무소에서 양해각서(Mo"
-  },
-  {
-   "id": "2d4cbb234edf1006",
-   "title": "Troubling new details emerge on diabetes ouster controversy",
-   "url": "https://arstechnica.com/science/2026/07/troubling-new-details-emerge-on-diabetes-ouster-controversy/",
-   "source": "Ars Technica",
-   "source_id": "arstechnica",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T08:08:05Z",
-   "lang": "en",
-   "snippet": "American Diabetes Association blocked publication of op-ed articles so the authors posted them as a preprint."
-  },
-  {
-   "id": "f4618b91b0044789",
-   "title": "SoftBank sinks over 9% as Asia chip stocks track Wall Street AI sell-off",
-   "url": "https://www.cnbc.com/2026/07/17/softbank-chip-stocks-asia-wall-street-ai-rout.html",
-   "source": "CNBC Technology",
-   "source_id": "cnbc-tech",
-   "themes": [
-    "semi",
-    "sw"
-   ],
-   "published": "2026-07-17T08:02:18Z",
-   "lang": "en",
-   "snippet": "The declines followed another weak session for U.S. technology stocks, with the Nasdaq Composite falling 1.47% as semiconductor shares came under renewed pressure."
-  },
-  {
-   "id": "89d19bf891377473",
-   "title": "\"아!\" 90수 실착에 일제히 터진 탄식…신진서, AI 벽에 막히다",
-   "url": "https://www.hankyung.com/article/202607171069i",
-   "source": "한국경제 IT",
-   "source_id": "hankyung-it",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T08:00:27Z",
-   "lang": "ko",
-   "snippet": ""
-  },
-  {
-   "id": "9d5de04876996523",
-   "title": "Laser Tek says AI demand is driving orders, but parts shortages are delaying shipments",
-   "url": "https://www.digitimes.com/news/a20260717PD204/laser-tek-laser-equipment-shipments-demand.html",
-   "source": "DigiTimes Asia",
-   "source_id": "digitimes",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T08:00:24Z",
-   "lang": "en",
-   "snippet": "Taiwanese laser processing equipment maker Laser Tek said that artificial intelligence(AI)-led investment in advanced packaging, testing, and passive components is boosting orders worldwide, but a persistent parts shortage is stretching delivery schedules and delaying some shipme"
-  },
-  {
-   "id": "472b19d993c75ef6",
-   "title": "Microsoft cuts OneDrive support for older Windows 10 versions next month",
-   "url": "https://www.theregister.com/os-platforms/2026/07/17/microsoft-cuts-onedrive-support-for-older-windows-10-versions-next-month/5274489",
-   "source": "The Register",
-   "source_id": "theregister",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T08:00:00Z",
-   "lang": "en",
-   "snippet": "22H2 has until 2028, or there's always Windows 11"
-  },
-  {
-   "id": "351eb8b0fcff4a11",
-   "title": "'고연봉' 대기업도 찬밥 됐다…명문대생들 '우르르' 대이동",
-   "url": "https://www.hankyung.com/article/2026071711351",
-   "source": "한국경제 IT",
-   "source_id": "hankyung-it",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T07:58:29Z",
-   "lang": "ko",
-   "snippet": ""
-  },
-  {
-   "id": "be7119cf37dc2c1d",
-   "title": "AI에 패한 '인류 최강' 신진서 \"너무 이상한 수…멘탈 흔들렸다\"",
-   "url": "https://www.hankyung.com/article/202607171120i",
-   "source": "한국경제 IT",
-   "source_id": "hankyung-it",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T07:57:14Z",
-   "lang": "ko",
-   "snippet": ""
-  },
-  {
-   "id": "fd920f9067815514",
-   "title": "이탈리아 아티스트 레이키에, 새 뮤직비디오에서 PAPgame 공개…낫 저스트 뮤직, PAPmusic 브랜드 확장",
-   "url": "https://www.kipost.net/news/articleView.html?idxno=339947",
-   "source": "KIPOST",
-   "source_id": "kipost",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T07:57:00Z",
-   "lang": "ko",
-   "snippet": "'I Play PAPmusic Game'은 마침내 베일을 벗은 두 번째 음악 챕터로 PAPgame이 비디오 게임이라는 사실이 밝혀진다. 하지만 이는 시작에 불과하다… 밀라노, 2026년 7월 17일 /PRNewswire/ -- 공식 뮤직비디오를 시청하고 PAPgame으로 이어지는 첫 번째 단서들을 확인해 보세요. Official Video You Tube - I Play PAPmusic Game Official artwork from the music video \"I Play PAPmusic Ga"
-  },
-  {
-   "id": "4c7688f2f8c93273",
-   "title": "日, 별점 3.6점이면 맛집인데…한국은 4점 넘쳐나는 이유",
-   "url": "https://www.hankyung.com/article/2026071711331",
-   "source": "한국경제 IT",
-   "source_id": "hankyung-it",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T07:56:23Z",
-   "lang": "ko",
-   "snippet": ""
-  },
-  {
-   "id": "30f8f114ebf4f2f2",
-   "title": "MS, 클로드 미토스 겨냥 버그 탐지기 내놓는다",
-   "url": "https://www.hankyung.com/article/2026071711321",
-   "source": "한국경제 IT",
-   "source_id": "hankyung-it",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T07:55:05Z",
-   "lang": "ko",
-   "snippet": ""
-  },
-  {
-   "id": "71799395eddfda42",
-   "title": "China, Netherlands urge Nexperia talks as Wingtech warns of 1H loss",
-   "url": "https://www.digitimes.com/news/a20260717VL215/nexperia-netherlands-loss-2025-luxshare.html",
-   "source": "DigiTimes Asia",
-   "source_id": "digitimes",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T07:48:24Z",
-   "lang": "en",
-   "snippet": "China and the Netherlands agreed that their governments should create a favorable environment for companies to resolve the Nexperia dispute through consultation, China's Ministry of Commerce said July 16."
-  },
-  {
-   "id": "aadb5d4422947bee",
-   "title": "Will Russia's answer to the Falcon 9 rocket ever take flight?",
-   "url": "https://arstechnica.com/space/2026/07/will-russias-answer-to-the-falcon-9-rocket-ever-take-flight/",
-   "source": "Ars Technica",
-   "source_id": "arstechnica",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T07:42:19Z",
-   "lang": "en",
-   "snippet": "Grasshopper-like tests could begin in 2028."
-  },
-  {
-   "id": "8b108fe338019a02",
-   "title": "Oppo cuts OnePlus from North America and Europe, and Realme from China",
-   "url": "https://www.digitimes.com/news/a20260717VL214/oneplus-oppo-realme-north-america-europe.html",
-   "source": "DigiTimes Asia",
-   "source_id": "digitimes",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T07:41:05Z",
-   "lang": "en",
-   "snippet": "OnePlus is exiting the North American and European markets for its future product launches, while sales of new Realme products will be suspended within its home market of China. The changes to both Oppo sub-brands signal the challenges low- to mid-tier brands face amid rising com"
-  },
-  {
-   "id": "344d0bd52518e1fa",
-   "title": "Billing software error sends billion-dollar AWS estimates",
-   "url": "https://www.theregister.com/off-prem/2026/07/17/billing-software-error-sends-billion-dollar-aws-estimates/5274521",
-   "source": "The Register",
-   "source_id": "theregister",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T07:37:39Z",
-   "lang": "en",
-   "snippet": "Amazon asks users not to panic as it works to fix the bug"
-  },
-  {
-   "id": "aec57f28c1a6ba28",
-   "title": "Powertech and Broadcom expand AI ASIC push with US$400M Singapore FOPLP venture",
-   "url": "https://www.digitimes.com/news/a20260717PD222/foplp-broadcom-packaging-powertech-ai-asic.html",
-   "source": "DigiTimes Asia",
-   "source_id": "digitimes",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T07:30:10Z",
-   "lang": "en",
-   "snippet": "Powertech Technology is deepening its panel-level packaging (FOPLP) strategy after its board approved a joint venture with Broadcom in Singapore to build panel-level advanced packaging (PLP) manufacturing capacity, with the planned investment totaling US$400 million."
-  },
-  {
-   "id": "39379ddb9ea8c4d0",
-   "title": "TSMC limits mature-node expansion and eases pressure on PMIC suppliers",
-   "url": "https://www.digitimes.com/news/a20260717PD215/tsmc-pmic-capacity-expansion.html",
-   "source": "DigiTimes Asia",
-   "source_id": "digitimes",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T07:29:06Z",
-   "lang": "en",
-   "snippet": "TSMC chairman C.C. Wei said at the company's July 16 earnings call that mature-node expansion will be limited, with future capacity additions focused mainly on overseas fabs in Japan and Germany, as well as select products in Taiwan. The remarks have eased concerns among Taiwanes"
-  },
-  {
-   "id": "e081387507384771",
-   "title": "Fubo hikes prices by $15 after restoring some NBCU channels lost in November",
-   "url": "https://arstechnica.com/gadgets/2026/07/fubo-hikes-prices-by-15-after-restoring-some-nbcu-channels-lost-in-november/",
-   "source": "Ars Technica",
-   "source_id": "arstechnica",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T07:24:21Z",
-   "lang": "en",
-   "snippet": "Fubo subscribers still don't have Versant channels."
-  },
-  {
-   "id": "33dfb8ff12226bb5",
-   "title": "FBI arrests man accused of using Steam games to drain victims’ crypto wallets",
-   "url": "https://techcrunch.com/2026/07/17/fbi-arrests-man-accused-of-using-steam-games-to-drain-victims-crypto-wallets/",
-   "source": "TechCrunch",
-   "source_id": "techcrunch",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T07:18:09Z",
-   "lang": "en",
-   "snippet": "Prosecutors accused 21-year-old student Zyaire Wilkins of publishing on Steam several fake video games that contained malware, infecting thousands of victims, and stealing crypto from some of them."
-  },
-  {
-   "id": "edb9e1350e0769bf",
-   "title": "AI spam filters are getting suckered by old-school text salting",
-   "url": "https://www.theregister.com/security/2026/07/17/ai-spam-filters-are-getting-suckered-by-old-school-text-salting/5274434",
-   "source": "The Register",
-   "source_id": "theregister",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T07:15:22Z",
-   "lang": "en",
-   "snippet": "Turns out decades-old email tricks still work against some LLM-powered email filters"
-  },
-  {
-   "id": "44ea382d1f2d880a",
-   "title": "Parents want safer phones for kids. These companies are answering the call.",
-   "url": "https://techcrunch.com/2026/07/17/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/",
-   "source": "TechCrunch",
-   "source_id": "techcrunch",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T07:12:46Z",
-   "lang": "en",
-   "snippet": "As parents look for alternatives to unrestricted smartphones, a growing number of companies are building phones designed specifically for kids, from feature-limited mobile devices to minimalist home phones."
-  },
-  {
-   "id": "9e933874b21b8878",
-   "title": "San Francisco orders Apple, Google to remove nudify apps from app stores",
-   "url": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
-   "source": "Ars Technica",
-   "source_id": "arstechnica",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T07:10:05Z",
-   "lang": "en",
-   "snippet": "Official estimates Google and Apple likely made millions in nudify app fees."
-  },
-  {
-   "id": "d1e9fcbcf1e0bc00",
-   "title": "Chip Industry Week In Review",
-   "url": "https://semiengineering.com/chip-industry-week-in-review-147/",
-   "source": "Semiconductor Engineering",
-   "source_id": "semiengineering",
-   "themes": [
-    "semi"
-   ],
-   "published": "2026-07-17T07:01:01Z",
-   "lang": "en",
-   "snippet": "Intel's expansion; Cadence AI super agent for PCB, advanced packaging; photonics fab wars; earlier Yongin fab; German funding; new CHIPS Act award; HBM standard; Quadric funding; AMS acquisition; earnings; Rapidus teams up. The post Chip Industry Week In Review appeared first on "
-  },
-  {
-   "id": "3de108fb4451bd57",
-   "title": "[7월16일] AI 비용 부담의 중심에 선 앤트로픽, 어떤 돌파구를 준비할까",
-   "url": "https://www.aitimes.com/news/articleView.html?idxno=212823",
+   "id": "605712777f4ad535",
+   "title": "구글, ‘AI 모드’에 외부 앱 연동 확장...\"검색에서 장보기·디자인까지\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=212883",
    "source": "AI타임스",
    "source_id": "aitimes",
    "themes": [
     "sw"
    ],
-   "published": "2026-07-17T07:00:00Z",
+   "published": "2026-07-17T12:53:02Z",
    "lang": "ko",
-   "snippet": "생성 AI가 기업 업무에 본격적으로 도입되면서 성능 못지않게 중요한 화두로 떠오른 것이 비용입니다. 최근에는 비용 부담을 이유로 고가의 폐쇄형 모델 대신 오픈소스나 저렴한 중국산 모델을 선택하는 사례가 잇따르고 있습니다.특히 최고 성능을 앞세운 앤트로픽은 이 문제에서 자유롭지 않습니다. 클로드나 페이블은 대표적인 고가 모델로 분류됩니다. 기업의 비용 부담이 커질수록 사용량 조정 대상에는 앤트로픽 모델이 포함될 가능성이 큽니다.그렇다면 앤트로픽은 이 문제를 어떻게 바라보고 있을까요. 앤트로픽 개발자"
+   "snippet": "구글이 AI 검색 서비스 'AI 모드(AI Mode)'에 외부 앱과의 연동 기능을 대폭 확장했다. 사용자는 검색 결과를 확인하는 데 그치지 않고, 장보기와 디자인 작업, 음악 재생 등 실제 업무를 AI 모드 안에서 바로 수행할 수 있게 됐다. 구글은 16일(현지시간) 미국에서 AI 모드를 통해 일부 주요 서비스와 계정을 안전하게 연결하고 직접 상호작용할 수 있는 기능을 차례로 제공한다고 발표했다.출시 초기 지원되는 서비스는 인스타카트, 캔바, 유튜브다. 사용자는 AI 모드에서 외부 계정을 연결한 "
   },
   {
-   "id": "806494b806247005",
-   "title": "Why we remain bullish on this chip stock despite a 30% pullback this month",
-   "url": "https://www.cnbc.com/2026/07/17/we-remain-bullish-on-this-chip-stock-despite-a-30percent-pullback-this-month.html",
-   "source": "CNBC Technology",
-   "source_id": "cnbc-tech",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T06:55:17Z",
-   "lang": "en",
-   "snippet": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET."
-  },
-  {
-   "id": "859698270f0fddc6",
-   "title": "AI를 둘러싼 불안과 윤리적 문제… 앤트로픽의 ‘음산한’ 광고?",
-   "url": "https://www.aitimes.com/news/articleView.html?idxno=212871",
+   "id": "972db1054f2361e3",
+   "title": "오픈AI, GPT-5.6 '파일 삭제' 원인 규명...\"샌드박스·오토 리뷰 필수\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=212888",
    "source": "AI타임스",
    "source_id": "aitimes",
    "themes": [
     "sw"
    ],
-   "published": "2026-07-17T06:55:00Z",
+   "published": "2026-07-17T12:42:32Z",
    "lang": "ko",
-   "snippet": "AI타임스 조예주 기자 joyejuoffice@aitimes.com"
+   "snippet": "오픈AI가 'GPT-5.6'의 파일 삭제 오작동에 대한 조사 결과를 발표하며, 재발 방지를 위해 개발자들에게 안전 장치 활성화와 권한 설정 조정을 권고했다.티보 소티오 오픈AI 코덱스 책임자는 16일(현지시간) X를 통해 GPT-5.6이 예상치 않게 파일을 삭제했다는 사례를 조사한 결과, 특정 조건에서 문제가 주로 발생하는 것으로 확인됐다고 밝혔다.이 현상은 '풀 액세스(Full Access)' 권한 모드에서 코덱스 에이전트를 실행하면서 샌드박스 보호 기능과 '오토 리뷰(Auto Review)' "
   },
   {
-   "id": "d2c6edf380fb4081",
-   "title": "Ars is looking for a senior technology reporter, and you might be it!",
-   "url": "https://arstechnica.com/staff/2026/07/ars-is-looking-for-a-senior-technology-reporter-and-you-might-be-it/",
-   "source": "Ars Technica",
-   "source_id": "arstechnica",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T06:52:28Z",
-   "lang": "en",
-   "snippet": "Desktops, laptops, phones, CPUs, GPUs, NAS—if you know this stuff, come work for us!"
-  },
-  {
-   "id": "ae54829e89fc4743",
-   "title": "Xi pitches China as AI partner to developing world, warns against risks and security overreach",
-   "url": "https://www.cnbc.com/2026/07/17/x-china-ai-summit-risks-security.html",
+   "id": "8fe6df4c4b4f408e",
+   "title": "Chip stock sell-off, Netflix earnings, Trump's approval rating and more in Morning Squawk",
+   "url": "https://www.cnbc.com/2026/07/17/5-things-to-know-before-the-stock-market-opens.html",
    "source": "CNBC Technology",
    "source_id": "cnbc-tech",
    "themes": [
     "sw"
    ],
-   "published": "2026-07-17T06:16:04Z",
+   "published": "2026-07-17T12:41:52Z",
    "lang": "en",
-   "snippet": "China will provide developing countries with 5,000 opportunities in AI training and seminar programs, as well as develop AI cooperation with various blocs."
+   "snippet": "Here are five key things investors need to know to start the trading day."
   },
   {
-   "id": "b807e99a49366bf0",
-   "title": "'AI의 벽 높았다'…신진서, 2점 접바둑서 카타고에 패배",
-   "url": "https://www.hankyung.com/article/202607171023i",
-   "source": "한국경제 IT",
-   "source_id": "hankyung-it",
+   "id": "d614b3aa6fec958c",
+   "title": "CCTV+: Hello, Beijing! A City Alive with Performing Arts",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=339940",
+   "source": "KIPOST",
+   "source_id": "kipost",
    "themes": [
-    "sw"
+    "semi"
    ],
-   "published": "2026-07-17T06:01:37Z",
+   "published": "2026-07-17T12:41:00Z",
    "lang": "ko",
-   "snippet": ""
-  },
-  {
-   "id": "5cf0e02423ee6293",
-   "title": "Amazon's Zoox issues software recall after robotaxi drove into heavy smoke",
-   "url": "https://www.cnbc.com/2026/07/17/amazon-zoox-recalls-robotaxi-smoke.html",
-   "source": "CNBC Technology",
-   "source_id": "cnbc-tech",
-   "themes": [
-    "sw"
-   ],
-   "published": "2026-07-17T05:42:04Z",
-   "lang": "en",
-   "snippet": "Last month, an unoccupied Zoox robotaxi drove into an active emergency fire scene that was clouded with smoke, the company said."
+   "snippet": "BEIJING, July 17, 2026 /PRNewswire/ -- Where can you experience Beijing's performing arts scene in just one day? More places than you might expect. From immersive dining experiences and century-old opera to rooftop concerts and riverside performances, discover how Beijing transfo"
   }
  ]
 }
