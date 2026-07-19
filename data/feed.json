@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-19T15:34:09Z",
+ "generated_at": "2026-07-19T15:36:05Z",
  "items": [
   {
    "id": "a2da8ff8a167035f",
@@ -13,6 +13,84 @@
    "published": "2026-07-29T15:00:00Z",
    "lang": "en",
    "snippet": "AI is shifting from simple chatbots to autonomous “coworkers,” and most enterprises are now constrained less by models than by the complexity"
+  },
+  {
+   "id": "97380df97339a791",
+   "title": "황해시론｜“반도체 돈벼락에 취했다”…한국판 ‘어플루엔자’ 경고",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16N19QMDkwTEJUV2daeHd2aE9NVXgyTFJIdDZKMTBSY1V4X2RIcGpfSlBUVUFQMUtJVWlsZWNWeWhzTE1OZWZKQWNFbWkxanBrM0t1Um5LLXJ3djUzdlhHYlgwdGZVMFFpZlE?oc=5",
+   "source": "OBC 뉴스",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T15:22:51Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "639268e75bbfb79d",
+   "title": "Microsoft Stock Sits at $394 as Analysts Cut Targets. Why Most Still Say Buy",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcnVjbnR4bjI1bm9lTzBlMHVHYXc2UVZxdWZwd1h1TURrTDcxZnVCek95Z3E1eU9uX2pyWjVrWFJDYjBjcnJfMUpiWUZwSTFRUWlQamYzN2NMTzlWLVBENGpVZjhabTlYTzZoUFVMNGhPanNEejZlMEZVM2NENHVXd2FEUFB3OHpTYTVqZ3B4Smh0VnBGMHdudG1xVnRGYnRVT25FTG5NRQ?oc=5",
+   "source": "TIKR.com",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T14:43:42Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "eb33d36f00f4b82b",
+   "title": "Anthropic CEO Dario Amodei On The Future Of AI Biglietti Bad Bunny Milano (LcbVhqweEU)",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rMXVmeTVHSXBaMDlXeTNlRlFiRXdDcU1lUmFwTWZpLUg2SVhpY3drUm4tak82UWRrNFZzUE5Wc05scHlyMEp3b0lPRXRVc1pLelhERlc5N3AzQ3UzSXdMaQ?oc=5",
+   "source": "Mshale",
+   "source_id": "gn-en-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T13:58:47Z",
+   "lang": "en",
+   "snippet": ""
+  },
+  {
+   "id": "0a616abd2b8bf177",
+   "title": "Anthropic makes Fable 5 permanent for top tiers, cuts Pro access",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQanFjeGFaa21zWjNrWHlWcDJSdjN5Q1RNT0tzZjV2Um9JY0U1a25iTjRDUjJQamRkX2MzbHEwOHpKc2ZJQjJyRDkzbE5LMzU5bUVzeVhnVmhvVW1kWnpyNENxQkZwWVYydmpEVmRSRGFCSUxRZC0zVlBWb1R4X00xdFp6NkxWTkUtX25DWUhOOWZ2ai01TG8ydWM4dTNtTVdXV1dsYWM4NGtrNURWbk9tYW5HTWJZb2gxOXUwT0tLQUg0aHMtWDFTclJ3YVpxdlM0UExQZEtwVlpaRG5neTJhXzBvdzFvdw?oc=5",
+   "source": "MSN",
+   "source_id": "gn-en-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T12:41:35Z",
+   "lang": "en",
+   "snippet": ""
+  },
+  {
+   "id": "1c5c4a98daa06542",
+   "title": "How OpenAI’s Opt-Out Design Reveals a Data Business Model Hiding in Plain Sight",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0xS2Y3VTM2U1U2SFlZcWxCeWcyaXBRSXhMX2V2cjhFcXlBZk5KTDNCNkY1SGo3UkpndzEycFZyUVpZd2ZkYmpFRHBCclJqTmNsNXRhWW5oNU4wa0FVaEpGZnFIWlhkQnZtcTF0S0xTck5pZjQ?oc=5",
+   "source": "FourWeekMBA",
+   "source_id": "gn-en-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T11:14:07Z",
+   "lang": "en",
+   "snippet": ""
+  },
+  {
+   "id": "7a9630611875ff4f",
+   "title": "롤러코스터 탄 코스피, 6800까지 밀렸다… 이제 공은 SK하이닉스 실적으로",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tVmttMWp6M2ZmcG5kbHprRVl5LUhUX3hWM3ZIQWtvU2JzVlJ1RkZjNGhfLXVYUFVycGZ2elVuSElJbXdBUDY4WURfQU9rN2gyWVJtdjJ2TUllc2pQRlNyN293?oc=5",
+   "source": "투데이e코노믹",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T10:36:13Z",
+   "lang": "ko",
+   "snippet": ""
   },
   {
    "id": "d7d6a0d369bf2076",
@@ -52,6 +130,19 @@
    "published": "2026-07-19T08:30:00Z",
    "lang": "ko",
    "snippet": "씨엠티엑스가 600밀리미터(mm) 이상의 초대구경 단결정 실리콘 덩어리(잉곳)를 가공해 반도체 장비용 부품(파츠)을 최초로 생산했다. 반도체 공장(팹)과 직접 거래하는 애프터마켓 업체 중 처음이다. 다른 초대형 파츠에도 단결정 실리콘 적용을 확대해 고부가 제품군을 늘린다는 전략이다. 그라운드 링은 반도체 식각 장비의 상부 전극(Electrode)을 둘러싸는 가장 바깥쪽 링 형태의 부품이다. 공정 중 상부 전극의 전기적 상태를 안정적으로 유지하고 발생한 정전기를 접지로 방전시킨다. 동시에 웨이퍼 가"
+  },
+  {
+   "id": "1507880e23bb2ca9",
+   "title": "최태원 \"반도체 확보 아비규환…생산능력 확대 서둘러야\"",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vQU9DTlB2TVRWMTFILWpQSDlsc0lzeTJRU193bXVJSm9PSUdUQzFORHV3dFBHaFNlZ0tFLW1IczJDVjJoWkJHUVN1ZS1IbTVxa1ZraHN6S3JOWFhjckE?oc=5",
+   "source": "뉴스투데이",
+   "source_id": "gn-kr-semi",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-19T08:21:00Z",
+   "lang": "ko",
+   "snippet": ""
   },
   {
    "id": "f7c5a4f329d05c76",
@@ -1017,6 +1108,19 @@
    "snippet": ""
   },
   {
+   "id": "6b7416543b475871",
+   "title": "We Tested Anthropic’s Fable 5 For A Week Perfect Match Season 4 (k8tZlwz4vx)",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hRk5OSTdHTWpLaXhBX3NfeTVyZjNQSU1KVW10cGRmYXc4YnFUUnhrbnNRcUZjbVg5RUhzNGRBRWo1S1JQVDlpUFlqSHVxVjBwQng1TTRiVG9aRzg?oc=5",
+   "source": "Mshale",
+   "source_id": "gn-en-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T03:48:10Z",
+   "lang": "en",
+   "snippet": ""
+  },
+  {
    "id": "1e51bcd1dc948246",
    "title": "Nvidia CEO Jensen Huang bets on ‘Made in Japan’ AI robots to solve country’s 'one of biggest problems’",
    "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNTG9qRXplV0FzTFp5eEE2VG5LMEk2NkRTUFVJUW5LSVlCaXZsVk51QlVzaXJILXM3QUdQdEhxX3ZlSUJ3UDBCazFpbkN2YldEalJuZDQ5aDg4THNVU00wSVc5Z2JGOUxmLVpUUTVMQ3RGdzVGaHRBUUtoS0tGSHJwc3VTVFIyVndvVTBjMmgtcEMxQ1hacmcwWmNmOU1HU1dQYmNyOUZ4R0lBVEFJSzdldllmY0dIcmh5aHRibTVUOE9HcGVPSHNqamlpeGY4WDJQQ2lxZ2FYdUJYQVpNV3hnTHJEeG9PUHdNcWNBelpCUmp4MzhvRjVTTUlCX05TX1ZjeTdjMEpnOTJRUTlJ0gGSAkFVX3lxTFB2NFdsVFR4RUcwSDlOS3ZIYWI1YWZBSktVeWczRzVaczdKTDN0S0xiajdVMkd2cGlfM295R0hpTUxralRZMGRQOEExa3NFdTJ0c1ptLXdQR202UndEbURPb0pkdjBrZU1jOHZyZ2p3bkJUVG15VWdZVy03REhPNzRUbWZVeEpiQmo0UDdUNl9hcTBQOFYwaUNkZXFDTld3UFlkUlREd19lRUFMSFA3X0dMZ3pMYWdkRVZ6bXpzSU11cnpTakl0NGg1MWxJZWxqZVdaSm12YkNiU1hDUF9vR0dXN093NU05SVVsTld6TVl0SHJaeHl6M1RyMzI1SzVkQUdfaWhKR0l2UlFhakxuYW5yWFE?oc=5",
@@ -1833,6 +1937,19 @@
     "sw"
    ],
    "published": "2026-07-19T01:41:15Z",
+   "lang": "en",
+   "snippet": ""
+  },
+  {
+   "id": "d6e95a0379cd82bb",
+   "title": "Meta pursues potential $10B deal to lease computing power to Anthropic: report",
+   "url": "https://news.google.com/rss/articles/CBMiogNBVV95cUxPdWxwRHVQYTR4d1lHUnlrNHpHM1VxRUd1ZWJGcmF6bzJfS1A5OElqbmxZOHMzR2NzZ3hObHRsQ2ZoRFdlaFo5M0xGd0hhMlNmaXdrZUVyQzJNNDFac01mSVlKNmdtY1JBNnU5aE16cWdDVVRYamdlN0F5TGw0akl0N182X0UyRHhMRXVjdy11UzlzSXV5QXdSdjZpR3pXRlpZT3kwbUlrSkl0YVdKQU9JSjAwcXpHYkdyTlBnRzJMVHFFcHd3QlBhbmZTN1VNbkRYMWk5WGpOVF93algxSDJVSmdHaFVuX0d5VWY1V0RFbWV4UzJHTjVJRWY1U1MwQXgtOHpCcmtRRS1KLWg4NzdNbTN4bDlTYWNfUzBXY3piT0dDaVEyT1ZfbElaX3FXbzFMOGFzZi1mWmhrbG0wTlBlZzNZTXlhSC05Q3JNVHZfWmNhQzcySmlpc1FLSmQ2elA1dkxjZmpycWIxTjFkcnlsbUJpWXB3MkZxcG1keXU4VmQ3eHJRTFhGVVp0TDZRM0ZLR0ZiZ1JiQTRCNGk4VTVzbE53?oc=5",
+   "source": "MSN",
+   "source_id": "gn-en-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-19T01:39:25Z",
    "lang": "en",
    "snippet": ""
   },
@@ -4232,6 +4349,58 @@
    "snippet": ""
   },
   {
+   "id": "313d4f5073f1f356",
+   "title": "스포츠 토토 중계 산업에서의 역할: 현재와 미래의 중요성 - 전문가의 관점에서",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBLdThRQTE2RHR5aDVSU0NESFBNZzJ2bFRRUk5jakNHVjFzWWZ1NktBa0UwZDFWOFlLYU84SVVOZ2lGVlJkTl9lc1R5cUZlcGhxbVhfVmpCUV81aGhwakgwZHRvbw?oc=5",
+   "source": "les24heures.fr",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-18T21:03:46Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "bdc804ce30ebc0d4",
+   "title": "화투 월별 의미 을 처음 시작하는 사람들을 위한 팁과 조언 - 톱 5 비교",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Ec1pmZ3FhV2RVMDMzeFlJM3Vkc0l6ZmJwYmw2OWV3NGdzNHNVWWdtc2lGdXBfclpQREFaTkdSdTFMRFNsZ0JjSXExbzM0UWlWWWtDaTVLZ0FnR3ExVXRxdi1VVGI?oc=5",
+   "source": "les24heures.fr",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-18T21:03:46Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "3d6373b1b606a48b",
+   "title": "네이버 카페 AI 시대 DevOps: 입문, 향상 및 돌파",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KOFBMZ0dkZFhDUEM0SkRzUlJqLW1BZUlRUVg3UDRjemprSElkZkVob0pKSUdNZ3RwX3JMM1lYMHBxclAzWXJFTmxZU0V6bmxvRVFRQzhiblhBY1E0VjQ4eFpwVGxNSk0?oc=5",
+   "source": "les24heures.fr",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-18T21:03:46Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "4247a6687342c04b",
+   "title": "네이버 룰렛 조작 전문가들이 알려주는 핵심 노하우 - 성공을 위한 로드맵",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUlpHajhHSmNaVFB2SjNmdDV5cmhWZUxsNEpKWGVrbmxGQWZzNGtZa3YxNUlTZUl4VElmc0lIOGg4WF9VdGF0YkNLX2FmRVRnZkpoLWpPX1dTcHFaLTlUTVZQUURpUVdVY2cyV0VFbjVoRm40MmF5bTZBMEhMTXVuUkp6X1pNNUZXRTlYdTcxS2VtdzQ?oc=5",
+   "source": "les24heures.fr",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-18T21:03:46Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
    "id": "29f0f4817afe37a8",
    "title": "OpenAI Promises Best 12 Months After Sam Altman Admits Shortfalls",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBsdkQ4RmppRkUtWUNoWjlpaENsM3RvTldjMm05NHhLTGh4eVNzOW9CRVk3RnZBdDRLcHNEc2JvbDBUTHl0NHpLUTZ0MnJOMV9jTF9YcF9Cb1hKUUxWWjdrZFNR?oc=5",
@@ -4436,6 +4605,19 @@
     "semi"
    ],
    "published": "2026-07-18T20:07:00Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "51568c4bc70682c3",
+   "title": "제우스 슬롯 을 통한 성공 전략: 실제 사례와 결과 - 성공을 위한 로드맵",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvZVoxRmdQbGVYd3RzQzljSGhmbUEzVnhMcFJuT2VKVTlIV1pLdFNfV2VkSnRsU0I3cmRZNWJHSG9IUjNHc3o1R092bHJvTW9JMk1OZG9KR29RaWJuZDNLQ3h2RW0?oc=5",
+   "source": "les24heures.fr",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-18T20:06:33Z",
    "lang": "ko",
    "snippet": ""
   },
@@ -5300,6 +5482,19 @@
    "snippet": ""
   },
   {
+   "id": "4770b055c2b1e6ea",
+   "title": "오픈AI 첫 기기는 ‘스마트 스피커’…\"올해 공개·내년 출시 가능성\"",
+   "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxPd3l6dGhZX3V5eWVwalVrczhRYVFrT0lqc0lWeE8tcy1oc0hEWlZwT3hjV3dFQlNLQjJ3SmoxbXpFS21fZjg5eXR4VXFiTzFIeTZYNVo0V2VWSDBfajFOTzVqeUl4eWN1MnRCV3N2WU1jam5TZzhYUWhRbTRmLWxTWHgzbGgtcW80amVGdUNlZW1KNFhaUXpITUtUa3pEOVZtTDZYdXMtRUpCZ0pOeE9jWHNHSGcyM0RIbnJBQUUtcHE0UXdWWHl2OHZ4cFdYYmhzUlVMenJSb2E3MGc4TXoyUTI4c1FiZGI3T2ltLUFtQlhkaWRQcVpDT0FwVmcwTXNKdTVMeVBWN0FUOUg3bjBaam5IMktaQTdaSHVDZ2ZqbUl0VzNnWTRHeWlLaU5lLVctM21mMzFiZF92Q0tDWWlBa0k0UmJlVUYzLXpUbzBJdGdoZC1MdXBDMUMtUi1zM2FmUUxfemwyTjhyMk94T1ZRVDJxeERrRW9zZkdOaTRMQ24?oc=5",
+   "source": "MSN",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-18T16:45:33Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
    "id": "175e1ff70ccb9c32",
    "title": "AI-Powered Connectivity: APAC Charts a Path to a Smarter Digital Future",
    "url": "https://www.kipost.net/news/articleView.html?idxno=339967",
@@ -5350,6 +5545,19 @@
    "published": "2026-07-18T16:37:09Z",
    "lang": "ko",
    "snippet": "[지디넷코리아]에이피알이 아마존 글로벌 물류·공급망 부문 경영진에게 스마트팩토리와 물류 시스템을 공개했다. 글로벌 K뷰티 수요 확대에 대응하기 위한 생산 내재화와 물류 자동화 경쟁력을 소개하며 공급망 협력 기반을 강화한다는 취지다.에이피알은 최근 아마존 글로벌 물류 운영 및 공급망 전략(FBA) 부문 핵심 경영진이 경기 평택시 '에이피알팩토리 제2캠퍼스'를 방문했다고 19일 밝혔다.이번 방문에는 피유시 사라우기(Piyush Saraogi) 아마존 글로벌 FBA 총괄 사장을 비롯한 글로벌 공급망 전"
+  },
+  {
+   "id": "1d53bb82844e4bef",
+   "title": "[특징주] 젠슨 황 출국에 네이버·LG전자 등 동반 급락(종합)",
+   "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxOM3ZLb0NHakx6Z1Y0NXEzendHTkk4N09SWklZWDN2cmtSbWZkNUx4cTV5Z3lXTFktaHpEMGdsZ2daNTFDbTJxOEJlcTM0WWlaWi0wMF9Xal84eTNPN1RGQ0JXQlBEUEo4cFpJaEoxRDBwalo4VllHOXFEeG9pM2pfcUdZWUdfSnRTb2k2RWFLWmtqUFRPUmVlWGs5V3RiblY2UTZURVBzbmFWTm1mVjdLX2Z6ZkdxbWJVVkRBaHRiTGVqalJ3aHNFU0xOZ0hSaWE1aG9KOU5VZkNRbmIwakQ5YkdqeFVYamlJcERaek8wY3NNLW1Mck94S1BuTlowaV82SzBoeVBtZ0doTG93V1VDWi16VC1lSVhZQUdoMG1CdGNvTkJfUjRSTnBtWkx1Q3Z3RDBXS1lsejFYMk13R1lkMkltQ0tYdGNsS3JVa2NtWHJid0hIcU9acmFSeWRmTG82RUtJSkJSSm5NWFoyenE0RzZHUnFSZU9vd3ZR?oc=5",
+   "source": "MSN",
+   "source_id": "gn-kr-sw",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-18T16:34:27Z",
+   "lang": "ko",
+   "snippet": ""
   },
   {
    "id": "3f7216faab9d754e",
@@ -8312,6 +8520,19 @@
    "snippet": "SiPearl has powered on and begun validating Rhea1, its first-generation server CPU designed in Europe. Its next challenge is convincing Taiwan's server manufacturers to turn the chip into systems that data centers can order and deploy."
   },
   {
+   "id": "fb2dbc443a7f8e9c",
+   "title": "SpaceX aborts Starship test flight, sending stock lower",
+   "url": "https://www.cnbc.com/2026/07/16/spacex-spcx-stock-starship-test-flight.html",
+   "source": "CNBC Technology",
+   "source_id": "cnbc-tech",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-17T00:16:37Z",
+   "lang": "en",
+   "snippet": "Elon Musk said it would make another attempt \"hopefully in a few days.\" SpaceX completed the maiden test flight of its Starship V3 rocket in May."
+  },
+  {
    "id": "f9a2b62299e8b152",
    "title": "Google fixing Android lock screen bug that lets Gemini send SMS without a PIN",
    "url": "https://www.theregister.com/security/2026/07/17/google-fixing-android-lock-screen-bug-that-lets-gemini-send-sms-without-a-pin/5273027",
@@ -8362,6 +8583,32 @@
    "published": "2026-07-17T00:03:38Z",
    "lang": "en",
    "snippet": "Taiwan plans to increase its technology budget by 6.2% in 2027 to accelerate investment in artificial intelligence (AI), space technology and net-zero innovation. The move is also meant to strengthen long-term industrial competitiveness through closer collaboration with the priva"
+  },
+  {
+   "id": "5f02f5822a0711bb",
+   "title": "\"가만히 있어도 대박\" 충격 소문…연예인들 돈 쓸어담는 곳 [김소연의 엔터비즈]",
+   "url": "https://www.hankyung.com/article/202607169775H",
+   "source": "한국경제 IT",
+   "source_id": "hankyung-it",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-17T00:03:02Z",
+   "lang": "ko",
+   "snippet": ""
+  },
+  {
+   "id": "8b750e5affa7bf26",
+   "title": "SpaceX scrubs Starship launch after some of its engines didn't start",
+   "url": "https://arstechnica.com/space/2026/07/spacex-scrubs-starship-launch-after-some-of-its-engines-didnt-start/",
+   "source": "Ars Technica",
+   "source_id": "arstechnica",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-17T00:02:54Z",
+   "lang": "en",
+   "snippet": "\"Now offloading propellant. Next launch attempt hopefully in a few days.\""
   },
   {
    "id": "9247ba6c2a1986de",
@@ -8492,6 +8739,19 @@
    "published": "2026-07-16T23:48:26Z",
    "lang": "en",
    "snippet": "An organization under China's State Administration of Science, Technology and Industry for National Defense (SASTIND) released the membership list of the National Commercial Space Alliance's Commercial Space Entrepreneurship Consortium on July 1, offering a rare look at 271 offic"
+  },
+  {
+   "id": "e628ba98d247ae80",
+   "title": "Microsoft's Nadella criticizes Anthropic's Fable for being 'editorially controlled'",
+   "url": "https://www.cnbc.com/2026/07/16/microsoft-ceo-says-anthropic-fable-request-policy-doesnt-make-sense.html",
+   "source": "CNBC Technology",
+   "source_id": "cnbc-tech",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-16T23:45:16Z",
+   "lang": "en",
+   "snippet": "Microsoft enjoys close ties to Anthropic, but it's also working to help companies refine models that keep their data private."
   },
   {
    "id": "801eccbf011632fe",
@@ -8729,6 +8989,19 @@
    "snippet": "OnePlus is exiting the North American and European markets for its future product launches, while sales of new Realme products will be suspended within its home market of China. The changes to both Oppo sub-brands signal the challenges low- to mid-tier brands face amid rising com"
   },
   {
+   "id": "8e5c3dd396366ac3",
+   "title": "Two Trump health nominees crash and burn in tense Senate hearing",
+   "url": "https://arstechnica.com/health/2026/07/two-trump-health-nominees-crash-and-burn-in-tense-senate-hearing/",
+   "source": "Ars Technica",
+   "source_id": "arstechnica",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-16T22:33:24Z",
+   "lang": "en",
+   "snippet": "Both nominees flailed in their own unique ways as senators sought answers."
+  },
+  {
    "id": "aec57f28c1a6ba28",
    "title": "Powertech and Broadcom expand AI ASIC push with US$400M Singapore FOPLP venture",
    "url": "https://www.digitimes.com/news/a20260717PD222/foplp-broadcom-packaging-powertech-ai-asic.html",
@@ -8753,6 +9026,19 @@
    "published": "2026-07-16T22:29:06Z",
    "lang": "en",
    "snippet": "TSMC chairman C.C. Wei said at the company's July 16 earnings call that mature-node expansion will be limited, with future capacity additions focused mainly on overseas fabs in Japan and Germany, as well as select products in Taiwan. The remarks have eased concerns among Taiwanes"
+  },
+  {
+   "id": "76e8464b69f1b742",
+   "title": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
+   "url": "https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/",
+   "source": "Ars Technica",
+   "source_id": "arstechnica",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-16T22:02:31Z",
+   "lang": "en",
+   "snippet": "Resellers threatened to ditch HP printing supplies for counterfeits."
   },
   {
    "id": "d1e9fcbcf1e0bc00",
@@ -8794,6 +9080,19 @@
    "snippet": "AI타임스 조예주 기자 joyejuoffice@aitimes.com"
   },
   {
+   "id": "97814e0800c71462",
+   "title": "HCLTech and Guardian Sign New Expanded Partnership for AI-powered Modernization Across Technology and Operations",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=339935",
+   "source": "KIPOST",
+   "source_id": "kipost",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T21:34:00Z",
+   "lang": "ko",
+   "snippet": "NEW YORK and NOIDA, India, July 16, 2026 /PRNewswire/ -- HCLTech (NSE: HCLTECH) (BSE: HCLTECH), a leading global technology company, today announced a new seven-year agreement with The Guardian Life Insurance Company of America® (Guardian), one of the largest mutual companies in "
+  },
+  {
    "id": "2dcf0339e4e35f68",
    "title": "Tech support chap told angry customer to think inside the box – and solved the problem",
    "url": "https://www.theregister.com/personal-tech/2026/07/17/tech-support-chap-told-angry-customer-to-think-inside-the-box-and-solved-the-problem/5272293",
@@ -8805,6 +9104,19 @@
    "published": "2026-07-16T21:30:00Z",
    "lang": "en",
    "snippet": "We're not Li-ion, user thought mobile phone batteries died every few days"
+  },
+  {
+   "id": "4499079fffb3d7f9",
+   "title": "Pudu Robotics Ranked No.1 Globally in Four Commercial Service Robotics Dimensions by Frost & Sullivan",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=339934",
+   "source": "KIPOST",
+   "source_id": "kipost",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T21:17:00Z",
+   "lang": "ko",
+   "snippet": "Independent 2025 market report recognizes Pudu Robotics as the global leader in commercial service robot revenue, shipments, overseas expansion among Chinese companies, and commercial cleaning robot revenue. SHENZHEN, China, July 16, 2026 /PRNewswire/ -- Pudu Robotics, a global l"
   },
   {
    "id": "ae54829e89fc4743",
@@ -8820,6 +9132,19 @@
    "snippet": "China will provide developing countries with 5,000 opportunities in AI training and seminar programs, as well as develop AI cooperation with various blocs."
   },
   {
+   "id": "cf2a012a78063c6a",
+   "title": "AI Chips Drive Around A Third Of TSMC Revenues",
+   "url": "https://www.nextplatform.com/ai/2026/07/16/ai-chips-drive-around-a-third-of-tsmc-revenues/5273929",
+   "source": "The Next Platform",
+   "source_id": "nextplatform",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T21:13:48Z",
+   "lang": "en",
+   "snippet": ""
+  },
+  {
    "id": "b807e99a49366bf0",
    "title": "'AI의 벽 높았다'…신진서, 2점 접바둑서 카타고에 패배",
    "url": "https://www.hankyung.com/article/202607171023i",
@@ -8831,6 +9156,45 @@
    "published": "2026-07-16T21:01:37Z",
    "lang": "ko",
    "snippet": ""
+  },
+  {
+   "id": "976863aa5edddb91",
+   "title": "T-Mobile bungled forced plan migration, canceling some users' free lines",
+   "url": "https://arstechnica.com/tech-policy/2026/07/t-mobile-bungled-forced-plan-migration-canceling-some-users-free-lines/",
+   "source": "Ars Technica",
+   "source_id": "arstechnica",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-16T20:52:47Z",
+   "lang": "en",
+   "snippet": "T-Mobile to restore free lines lost during plan migration, but price hikes remain."
+  },
+  {
+   "id": "c5d3ba9d816af987",
+   "title": "It's official: EU will force Google to share search data and open up AI on Android",
+   "url": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+   "source": "Ars Technica",
+   "source_id": "arstechnica",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-16T20:41:45Z",
+   "lang": "en",
+   "snippet": "Google says these changes could endanger user privacy and security."
+  },
+  {
+   "id": "7fcf4d96ea3605a9",
+   "title": "Instadesk Unveils AI Customer Experience Lab with Huawei and iFLYTEK in Central Asia",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=339933",
+   "source": "KIPOST",
+   "source_id": "kipost",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T20:15:00Z",
+   "lang": "ko",
+   "snippet": "TASHKENT, Uzbekistan , July 16, 2026 /PRNewswire/ -- Instadesk, a global AI-powered customer engagement platform provider, partnered with iFLYTEK and Huawei in Tashkent to launch a joint AI Customer Experience Lab in Uzbekistan. The collaboration leverages Huawei's Ascend computi"
   },
   {
    "id": "459cbac6813b3fc7",
@@ -8846,6 +9210,318 @@
    "snippet": "Telstra skipped a patch, didn’t record changes, had no idea it was an accident waiting to happen"
   },
   {
+   "id": "62e02a96f510b3dd",
+   "title": "GAC Provides Official Service Vehicles for Xinhua News Agency's World Cup Coverage in Mexico",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=339932",
+   "source": "KIPOST",
+   "source_id": "kipost",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T19:34:00Z",
+   "lang": "ko",
+   "snippet": "MEXICO CITY, July 16, 2026 /PRNewswire/ -- As one of the world's premier football tournaments unfolds across the US, Canada, and Mexico, hundreds of millions of fans are following the action. In Mexico, football is everywhere — from the vibrant streets of Mexico City to the old t"
+  },
+  {
+   "id": "71c9095692ec6c6f",
+   "title": "[Weekly 신기술 및 정책소식] 한화비전·GIST 공동 연구팀, 음향 AI 업계 난제 '치명적 망각' 해법 제시",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=339925",
+   "source": "KIPOST",
+   "source_id": "kipost",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T19:22:09Z",
+   "lang": "ko",
+   "snippet": "◇ 한화비전·GIST 공동 연구팀, 음향 AI 업계 난제 '치명적 망각' 해법 제시한화비전은 광주과학기술원(GIST) 연구팀과 공동 개발한 '연속 학습'(Continual Learning) 기술을 바탕으로 국제 음향 인공지능(AI) 경진대회 '디케이스 2026 챌린지'(DCASE 2026 Challenge)에서 1위를 차지했다고 14일 밝혔다.한화비전 R&D센터 AI연구소와 김홍국 GIST 전기전자컴퓨터공학과 교수 연구팀이 함께 이룬 성과다. 새로운 소리를 학습하는 과정에서 기존에 익힌 소리를 잊"
+  },
+  {
+   "id": "634de9b07d4e81c4",
+   "title": "한화에어로, 육군 다목적 무인차량 사업자 선정",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59708",
+   "source": "디일렉",
+   "source_id": "thelec",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T19:20:35Z",
+   "lang": "ko",
+   "snippet": "한화에어로스페이스가 육군 다목적 무인차량 사업자로 최종 선정됐다. 1년 지연된 육군 무인 전투체계 구축 사업은 사업자 선정을 마무리해 본격적 전력화 단계에 돌입한다.방위사업청(방사청)은 16일 방위사업기획관리분과위원회를 열고 다목적 무인차량 구매사업 기종결정 안건을 심의해 한화에어로스페이스를 사업자로 선정했다. 방사청은 올해 3분기 계약을 체결한 뒤 2027~2028년 전력화를 추진한다.다목적 무인차량은 병력을 대신해 감시와 정찰, 경계, 전투 지원, 물자 수송, 부상자 후송 등을 수행하는 지상무"
+  },
+  {
+   "id": "f5fc6c4d50de04ca",
+   "title": "[한눈에 보는 Weekly 기업 소식] \"중국 AI 기업 즈푸, 6조원 유상증자 추진\"",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=339924",
+   "source": "KIPOST",
+   "source_id": "kipost",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T19:17:23Z",
+   "lang": "ko",
+   "snippet": "숨가쁘게 변화하는 산업 환경에서 매주 기업들 소식이 쏟아져 나옵니다. KIPOST는 다양한 전자 제조 관련 기업들의 사업 전략과 수행 실적을 엿볼 수 있는 정보들을 일주일간 한 데 모아 제공합니다."
+  },
+  {
+   "id": "adfa882ccb5b9adb",
+   "title": "한화오션, 신안우이 해상풍력 발전단지 착공",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59707",
+   "source": "디일렉",
+   "source_id": "thelec",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T19:11:53Z",
+   "lang": "ko",
+   "snippet": "한화오션이 신안우이 해상풍력 발전사업 건설에 들어갔다.한화오션은 16일 전라남도 신안군에서 신안우이 해상풍력 발전사업 착공식을 열고 건설에 착수했다고 밝혔다.신안우이 해상풍력 발전사업은 신안군 도초면 우이도리 인근 해역에 조성되는 390메가와트(MW) 규모 해상풍력 발전단지다. 국민성장펀드 1호, 미래에너지펀드 1호 투자사업으로 선정됐으며 터빈을 제외한 주요 기자재는 국내 공급망 중심으로 조달했다. 순수 국내 자본 기반의 프로젝트 파이낸싱(PF)도 완료했다.사업은 공사계획인가를 마쳤고 2029년 "
+  },
+  {
+   "id": "3df063301613508a",
+   "title": "KAI, 인도네시아에 T-50i 6대 최종 인도",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59706",
+   "source": "디일렉",
+   "source_id": "thelec",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T19:11:50Z",
+   "lang": "ko",
+   "snippet": "한국항공우주산업(KAI)이 인도네시아 공군에 T-50i 고등훈련기 6대 납품을 완료했다.KAI는 16일 인도네시아 공군(TNI-AU)에 공급하는 T-50i 6대 납품을 완료했다고 밝혔다. 2021년 7월 계약된 추가 수출 사업은 올해 2월 납품을 시작해 6월 말 최종 호기를 인도했고, 이날 최종 수락증명서를 발급받으며 마무리됐다. 인도네시아는 T-50 최초 수출국이다. 2011년 T-50i 16대를 계약해 고등훈련과 경공격, 특수비행 임무에 활용해왔으며 이번 6대까지 총 22대를 도입했다.인도네시"
+  },
+  {
+   "id": "30c5d401489f7a9a",
+   "title": "Alphabet shares fall on report its most powerful AI model Gemini 3.5 Pro is delayed",
+   "url": "https://www.cnbc.com/2026/07/16/alphabet-stock-gemini-3-5-pro-ai.html",
+   "source": "CNBC Technology",
+   "source_id": "cnbc-tech",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-16T19:07:42Z",
+   "lang": "en",
+   "snippet": "Alphabet announced the Gemini 3.5 Pro AI in May, saying it was being used internally but wouldn't be ready for a broader rollout until the following month."
+  },
+  {
+   "id": "00bac9c3ecc07e29",
+   "title": "Italian artist LeiKiè Reveals PAPgame in a New Music Video as Not Just Music Expands the PAPmusic Brand.",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=339931",
+   "source": "KIPOST",
+   "source_id": "kipost",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T19:01:00Z",
+   "lang": "ko",
+   "snippet": "\"I Play PAPmusic Game\" is the second musical chapter where the mystery is finally unveiled: PAPgame is a video game. But this is only the beginning… MILAN, July 16, 2026 /PRNewswire/ -- Watch the official music video and discover the first clues leading up to PAPgame. Official Vi"
+  },
+  {
+   "id": "d77131f32f995759",
+   "title": "TSMC, 최대 실적 또 경신…'AI 거품론' 불식",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59711",
+   "source": "디일렉",
+   "source_id": "thelec",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T19:00:00Z",
+   "lang": "ko",
+   "snippet": "세계 최대 위탁생산(파운드리) 기업 대만 TSMC가 인공지능(AI) 수요에 힘입어 어닝 서프라이즈를 기록했다. 향후 3년간 자본 지출 규모를 점차 늘려가겠다며 AI 거품론을 불식시켰다.웨이저자 TSMC 최고경영자(CEO)는 16일 진행된 2분기 실적 발표 컨퍼런스 콜에서 \"수년간 지속될 AI 메가 트렌드에 대한 확신은 여전히 강하다\"며 \"앞으로 3년간 자본 지출은 지난 3년보다 훨씬 더 높을 것\"이라고 덧붙였다. 구체적인 수치는 밝히지 않았다.올해 자본 지출 규모는 500억달러대에서 600억~64"
+  },
+  {
+   "id": "6bfe327e4e9fccac",
+   "title": "배달의민족, 미국 우버 품에 안긴다",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59701",
+   "source": "디일렉",
+   "source_id": "thelec",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T18:45:44Z",
+   "lang": "ko",
+   "snippet": "미국 차량공유서비스회사 우버가 16일 우아한형제들(배달의 민족) 모회사인 독일 딜리버리히어로(DH)를 인수한다고 밝혔다.우버는 이날 DH와 합병 계약을 체결하고 DH 주주들을 대상으로 주당 41.5유로(약 7만원)에 현금 공개 매수한다고 전했다. 지분 100% 가치는 130억유로(약 22조원)이다. DH는 2019년 12월 약 40억달러에 배달의민족 운영사 우아한형제들의 지분 87%를 인수했다. 올해 DH는 배달의민족 별도 매각을 통해 재무 구조 개선을 꾀했지만 결국 모회사가 통째로 우버에 넘어가"
+  },
+  {
+   "id": "6ec15948cb92362a",
+   "title": "\"사기 돕고, 평가 속이고\"…앤트로픽, 최첨단 AI '탈선 위험' 경고",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=212837",
+   "source": "AI타임스",
+   "source_id": "aitimes",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-16T18:39:40Z",
+   "lang": "ko",
+   "snippet": "AI 에이전트가 인간의 지시를 몰래 무력화하거나 금융 사기를 돕고, 다른 AI의 행동을 의도적으로 잘못 평가하는 등 위험한 행동을 보일 수 있다는 연구 결과가 나왔다. 앤트로픽은 16일(현지시간) 영국 AI 안전연구소(AISI) 등과 수행한 공동 연구를 통해 최첨단 AI 모델들이 다양한 일탈 행위를 보였다고 발표했다.이에 따르면, 통제된 시뮬레이션 환경에서 첨단 모델들은 연구용 코드를 몰래 변경하거나 금융 사기를 돕고, 평가 결과를 의도적으로 왜곡하거나 내부 기밀 유출을 부추긴 것으로 확인됐다.연"
+  },
+  {
+   "id": "3acd71eed0526aeb",
+   "title": "스탠다드에너지, 일본서 '바나듐이온 배터리' ESS 실증",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59703",
+   "source": "디일렉",
+   "source_id": "thelec",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T18:35:13Z",
+   "lang": "ko",
+   "snippet": "스탠다드에너지가 바나듐이온 배터리(VIB) 에너지저장장치(ESS)의 첫 해외 실증을 시작했다.스탠다드에너지는 16일 일본 교토 MK택시 본사에 전기차 초급속 충전기 전력보조용 ESS를 설치했다고 밝혔다. 스탠다드에너지는 2023년 11월 바나듐이온 배터리 ESS의 일본 내수시장 영업권을 LB휴넷에 부여하는 양해각서를 체결했다. LB휴넷은 이후 일본 현지 고객 발굴과 제도적 대응을 맡아 스탠다드에너지의 일본 진출을 뒷받침했다.MK택시 본사의 전기차 초급속 충전기에 바나듐이온 배터리 ESS를 연계해 "
+  },
+  {
+   "id": "3d1d6df8d07247c7",
+   "title": "사이냅소프트, 법제처 '생성형 AI 법령검색 시스템 구축' 참여",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59696",
+   "source": "디일렉",
+   "source_id": "thelec",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T18:11:50Z",
+   "lang": "ko",
+   "snippet": "도큐먼트 인공지능(AI) 기업 사이냅소프트가 법제처의 '생성형 AI 법령검색 시스템 구축' 사업에 참여한다. 이 사업의 주관사는 코난테크놀로지이며 사이냅소프트 등 4개사가 컨소시엄을 구성해 수주했다. 총 사업 규모는 65억5000만원이다.내년 11월 완료 예정인 해당 사업은 기존 국가법령정보센터의 단어 유사도 매칭 방식과 수작업 데이터 구축의 한계를 극복하기 위해 추진하는 것이다. 일반 국민이 일상적인 문장형 질문을 입력해도 AI가 의도를 파악해 정확한 법령·판례·해석례 등 종합법령정보에 접근할 "
+  },
+  {
+   "id": "f53fc7a44136f6ab",
+   "title": "코오롱베니트, 'AX 선도모델 구축지원사업' 주관기관 선정",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59697",
+   "source": "디일렉",
+   "source_id": "thelec",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T18:06:59Z",
+   "lang": "ko",
+   "snippet": "중소기업기술정보진흥원이 추진하는 '2026년 상생형 인공지능 전환(AX) 선도모델 구축지원사업'의 주관기관으로 코오롱베니트가 선정됐다.한국생산성본부가 협업기관으로 함께하는 상생형 AX 선도모델 구축지원사업은, 대기업이 보유한 제조혁신 역량을 기반으로 중소·중견 제조기업의 전사적 AX를 지원해 스마트공장 선도모델을 구축하고 확산하기 위한 것이다.코오롱베니트는 자사가 사업 총괄과 함께 도입 기업 추천·선정, 전문 인력 지원, 사업 운영, 컨소시엄 협업 관리, 상생협력 지원 등을 수행하게 된다고 전했다"
+  },
+  {
+   "id": "d9628ef39986fdfc",
+   "title": "Angel Yeast Showcases Sustainable Protein Innovation at the Growth Asia Summit 2026",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=339930",
+   "source": "KIPOST",
+   "source_id": "kipost",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T17:22:00Z",
+   "lang": "ko",
+   "snippet": "SHANGHAI, July 16, 2026 /PRNewswire/ -- Angel Yeast (SSE: 600298) showcased its latest yeast protein innovations at the Growth Asia Summit 2026 in Singapore, held from July 8 to 10. On the second day — dedicated to Active Lifestyles, Weight Management, Protein and Healthier Produ"
+  },
+  {
+   "id": "eec358e335e2bc2e",
+   "title": "[인사] 한국산업은행, 2026년 하반기 팀장급 인사 이동",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59695",
+   "source": "디일렉",
+   "source_id": "thelec",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T17:17:58Z",
+   "lang": "ko",
+   "snippet": "□ 한국산업은행, 7월 16일 팀장급 인사 이동 발표 ◇혁신성장금융부문□팀장▲간접투융자금융실 공민◇벤처금융본부□팀장▲벤처투자1실 차보영 ▲벤처투자2실 박철우◇자본시장부문□팀장▲M&A컨설팅실 이현욱 ▲PE실 이상준◇지역성장부문□팀장▲지역성장지원실 이창현 ▲반포 최영조 ▲서초 이명진▲구로디지털 유민규, 김미경 ▲마포 전성우, 마수연▲성동 김민정, 정미자 ▲영업부 이세윤, 조성화, 신미경 ▲부천 박영우▲시화 이기호 ▲수원 이훈영 ▲안양 김혜정 ▲평택 노용관▲금정 강윤석 ▲울산 김동규, 윤희순 ▲진주 엄"
+  },
+  {
+   "id": "cba26c5f4a45e85a",
+   "title": "'열받은' HBM 성능 개선할 초저전력·초소형 수신기 개발",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59683",
+   "source": "디일렉",
+   "source_id": "thelec",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T17:09:58Z",
+   "lang": "ko",
+   "snippet": "고대역폭메모리(HBM)의 데이터 전송속도를 높이면서 전력 소비량을 낮출 신기술을 국내 연구진이 개발했다.16일 반도체 업계에 따르면 박관서 연세대 교수 연구팀은 HBM 최적화 초저전력, 초소형 실시간 수신기 기술을 개발했다. 수신기는 외부 전송 데이터 신호를 수신해 0, 1을 정확히 판별하는 회로다. 메모리 반도체 내 발생 가능한 스큐(Skew), 위상 뒤틀림 현상을 감지해 오차를 조정, 원활한 데이터 전송을 보장한다.해당 기술은 올해 초 국제고체회로학회(ISSCC) 2026에서 발표됐다. 향후 "
+  },
+  {
+   "id": "98706d2b4d8b0189",
+   "title": "매스웍스, 매트랩 MCP 서버와 매트랩 에이전틱 툴킷 공개",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59685",
+   "source": "디일렉",
+   "source_id": "thelec",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T17:08:16Z",
+   "lang": "ko",
+   "snippet": "엔지니어드 시스템 설계 소프트웨어 기업 매스웍스(MathWorks)가 자사 공학용 소프트웨어 '매트랩(MATLAB)'에서 사용할 수 있는 모델 컨텍스트 프로토콜(Model Context Protocol, MCP) 기반의 두 가지 신규 오픈소스 툴 '매트랩 MCP 서버(MATLAB MCP Server)'와 '매트랩 에이전틱 툴킷(MATLAB Agentic Toolkit)'을 공개했다.매스웍스는 이 두 가지 툴을 활용해 인공지능(AI) 에이전트가 매트랩 코드 작성, 실행 중인 매트랩 세션에서 코드 실"
+  },
+  {
+   "id": "cf817bc5b604ca7d",
+   "title": "Huawei Launches the latest Grid-Forming Strategy for Future Power Systems at The Smarter E 2026",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=339929",
+   "source": "KIPOST",
+   "source_id": "kipost",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T17:07:00Z",
+   "lang": "ko",
+   "snippet": "MUNICH, July 16, 2026 /PRNewswire/ -- In his speech at the industry convention in Munich, President of Smart PV & ESS Product Line, Huawei Digital Power, Steven Zhou, said the company's strategic focus on grid-forming, integrated solutions that reinforce grid stability to support"
+  },
+  {
+   "id": "94187131336cbfd9",
+   "title": "오라클, 퓨전 애플리케이션 내 AI 네이티브 앱 개발 기능 추가",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59689",
+   "source": "디일렉",
+   "source_id": "thelec",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T17:06:46Z",
+   "lang": "ko",
+   "snippet": "오라클이 자사 '퓨전 애플리케이션용 인공지능(AI) 에이전트 스튜디오(Oracle AI Agent Studio for Fusion Applications)'에 새로운 AI 네이티브 빌더 환경을 추가했다.이는 오라클 퓨전 클라우드 애플리케이션(Oracle Fusion Cloud Applications) 내에서 AI 에이전트 기반의 퓨전 에이전틱 애플리케이션(Fusion Agentic Applications)을 직접 구축하고 운영할 수 있도록 지원한다.오라클은 기존의 독립형 AI 에이전트나 코파일럿,"
+  },
+  {
+   "id": "9ff46bb126b119b9",
+   "title": "지스타, 슈퍼 얼리버드·블라인드 패스 판매 시작",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59690",
+   "source": "디일렉",
+   "source_id": "thelec",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T17:04:25Z",
+   "lang": "ko",
+   "snippet": "지스타조직위원회가 16일 ‘BTB 슈퍼 얼리버드 패스’와 ‘지콘(G-CON) 블라인드 패스’ 예매를 시작했다.국내 최대 게임 전시회 ‘지스타(G-STAR) 2026’은 오는 11월19일부터 22일까지 나흘간 부산 벡스코(BEXCO)에서 열린다. BTB 슈퍼 얼리버드 패스는 지스타의 기업간거래 전시장과 네트워킹 시스템을 이용할 수 있는 입장권이다. 지스타 기업용 전시장 참관과 비즈니스 미팅을 희망하는 국내외 바이어·기업 참가자들에게 판매한다.지콘(G-CON) 블라인드 패스는 국내외 연사들의 강연이 "
+  },
+  {
+   "id": "5315d50cc77b5ceb",
+   "title": "선익시스템, 'K-디스플레이 2026'서 차세대 디스플레이 사업 방향 소개",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59681",
+   "source": "디일렉",
+   "source_id": "thelec",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T17:04:15Z",
+   "lang": "ko",
+   "snippet": "선익시스템이 오는 22일부터 24일까지 서울 코엑스에서 열리는 'K-디스플레이 2026'에 참가한다.선익시스템은 전시에서 유기발광다이오드(OLED) 증착 장비, 올레도스(OLEDoS), 페로브스카이트 등 차세대 디스플레이 분야의 사업 방향을 소개한다고 16일 밝혔다. 국내외 고객사와 업계 관계자를 대상으로 사업 협의와 기술 교류도 진행한다.K-디스플레이는 산업통상자원부가 주최하고 한국디스플레이산업협회가 주관하는 디스플레이 전시회다. 올해 행사에는 약 200개 기업이 590개 부스 규모로 참가한다."
+  },
+  {
+   "id": "3d924095572f11bf",
+   "title": "LG엔솔, 오창에 나트륨이온 배터리 마더 라인 구축",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59687",
+   "source": "디일렉",
+   "source_id": "thelec",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T17:03:25Z",
+   "lang": "ko",
+   "snippet": "LG에너지솔루션이 연내 오창 공장에 나트륨(소듐)이온 배터리 마더 라인을 구축한다. 나트륨 배터리 개발과 생산에 속도를 내겠다는 전략이다.중국 CATL이 올해 기가와트시(GWh)급 나트륨이온 배터리 생산을 앞둔 가운데 LG에너지솔루션도 독자 공법으로 에너지 밀도, 수명을 높인 제품으로 맞불을 놓는다.16일 업계에 따르면 LG에너지솔루션은 오창 에너지플랜트에 나트륨이온 배터리 마더 라인을 구축하고, 내년부터 글로벌 고객사를 대상으로 개념검증(PoC)에 들어간다. 나트륨이온 배터리를 적용한 에너지저장"
+  },
+  {
+   "id": "7792e06bf0f45d29",
+   "title": "“차량 해킹, 사고로 직결”…자율주행차량 시대 '보안 먼저'",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59684",
+   "source": "디일렉",
+   "source_id": "thelec",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T17:01:21Z",
+   "lang": "ko",
+   "snippet": "\"피지컬 인공지능(AI)가 실제 환경에서 동작하는 시대인 만큼 챠량 설계 단계부터 보안이 제대로 적용됐는지가 핵심입니다.\"송종혁 아우토크립트 자동차보안위협연구소 소장의 말이다. 아우토크립트는 2019년 펜타시큐리티 자동차 보안 사업부가 분사해 설립된 AI 모빌리티 보안 기업이다. 차량 내부 소프트웨어와 협력 자율주행(V2X), 자동차 사이버보안 솔루션을 제공한다. 피지컬 AI란 AI가 차량과 로봇 등 실제 기기를 스스로 인식하고 판단·제어하는 인공지능 모델이다. 쉽게 말해, 생각만 하던 AI가 몸"
+  },
+  {
    "id": "dd1db012c8b7251b",
    "title": "South Korea making its own security-centric AI model",
    "url": "https://www.theregister.com/ai-and-ml/2026/07/17/south-korea-making-its-own-security-centric-ai-model/5274034",
@@ -8859,6 +9535,59 @@
    "snippet": "Adapting existing local LLM project for security and sovereignty purposes and hopes to one day match Mythos"
   },
   {
+   "id": "772fc0bf8f023f53",
+   "title": "Grocery sales, United earnings, Anthropic's IPO prep and more in Morning Squawk",
+   "url": "https://www.cnbc.com/2026/07/16/5-things-to-know-before-the-stock-market-opens.html",
+   "source": "CNBC Technology",
+   "source_id": "cnbc-tech",
+   "themes": [
+    "sw"
+   ],
+   "published": "2026-07-16T16:55:18Z",
+   "lang": "en",
+   "snippet": "Here are five key things investors need to know to start the trading day."
+  },
+  {
+   "id": "aabb85f983105372",
+   "title": "FXTRADING.com Becomes FXT, Built Around a Simple Promise: In Control. When It Gets Real.",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=339928",
+   "source": "KIPOST",
+   "source_id": "kipost",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T16:48:00Z",
+   "lang": "ko",
+   "snippet": "SYDNEY, July 16, 2026 /PRNewswire/ -- FXTRADING.com has rebranded to FXT, introducing a new brand platform, \"In Control. When Things Get Real,\" built around a single idea: traders cannot control the market, but they must be able to trust their platform. jwplayer.key=\"3Fznr2BGJZtp"
+  },
+  {
+   "id": "c74ab7d35730b34c",
+   "title": "Live from InfoComm Asia 2026: AISpeech MA600D Powers the Official Smart Tech Stage",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=339927",
+   "source": "KIPOST",
+   "source_id": "kipost",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T16:42:00Z",
+   "lang": "ko",
+   "snippet": "BANGKOK, July 16, 2026 /PRNewswire/ -- The article is from Shuzhi Society. Following its opening, InfoComm Asia 2026 is welcoming the world's leading professional AV brands and Southeast Asia's top system integrators to the Queen Sirikit National Convention Center in Bangkok from"
+  },
+  {
+   "id": "0402e71fc6c65fdd",
+   "title": "Nvidia unveils new AI model and expands Japan’s physical AI ecosystem",
+   "url": "https://www.cnbc.com/2026/07/16/nvidia-reveals-new-ai-model-and-expands-japans-physical-ai-ecosystem.html",
+   "source": "CNBC Technology",
+   "source_id": "cnbc-tech",
+   "themes": [
+    "semi",
+    "sw"
+   ],
+   "published": "2026-07-16T16:08:29Z",
+   "lang": "en",
+   "snippet": "Nvidia announces new AI model, Cosmos 3 Edge, and expansion of its physical AI ecosystems in Japan."
+  },
+  {
    "id": "46cf4afdd07aa34e",
    "title": "알파고 쇼크 10년…'신진서 9단 vs 카타고 AI' 세기의 대국 [1국 생중계]",
    "url": "https://www.hankyung.com/article/2026071693437",
@@ -8870,6 +9599,19 @@
    "published": "2026-07-16T15:55:01Z",
    "lang": "ko",
    "snippet": ""
+  },
+  {
+   "id": "9230772bfc67691e",
+   "title": "함성 속에서 평온을 찾다: 하이센스, 16개 개최 도시 전역의 팬들을 위해 더 포용적인 2026 피파 월드컵™ 경험 창출",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=339926",
+   "source": "KIPOST",
+   "source_id": "kipost",
+   "themes": [
+    "semi"
+   ],
+   "published": "2026-07-16T15:48:00Z",
+   "lang": "ko",
+   "snippet": "칭다오, 중국, 2026년 7월 16일 /PRNewswire/ -- 글로벌 가전 및 가정용 기기 분야의 선도 브랜드인 하이센스(Hisense)가 피파와 컬처시티(KultureCity)와 협력하여 2026 피파 월드컵™(FIFA World Cup 2026™)의 16개 개최 도시 전역에서 감각 민감성을 가진 팬들을 위해 더 포용적인 경기일 경험을 제공하는 데 힘쓰고 있다. 수백만 명의 축구 팬들에게 2026 피파 월드컵™ 경기의 에너지는 관중의 함성과 경기장의 짜릿함에서 나온다. 하지만 자폐증을 가진"
   }
  ]
 }
