@@ -1,0 +1,51 @@
+{
+  "themes": {
+    "semi": { "label": "반도체" },
+    "sw": { "label": "SW테크" }
+  },
+  "keyword_rules": {
+    "semi": [
+      "반도체", "메모리", "hbm", "dram", "낸드", "nand", "파운드리", "foundry",
+      "웨이퍼", "wafer", "팹", "fab", "엔비디아", "nvidia", "tsmc", "하이닉스",
+      "hynix", "삼성전자", "samsung electronics", "인텔", "intel", "amd", "asml",
+      "브로드컴", "broadcom", "퀄컴", "qualcomm", "gpu", "npu", "asic",
+      "semiconductor", "리소그래피", "lithography", "패키징", "packaging",
+      "euv", "cowos", "cxl", "마이크론", "micron", "램리서치", "lam research",
+      "kla", "세미콘", "칩렛", "chiplet", "ai 칩", "ai chip", "accelerator"
+    ],
+    "sw": [
+      "소프트웨어", "software", "클라우드", "cloud", "saas", "인공지능", "ai",
+      "llm", "생성형", "generative", "오픈ai", "openai", "챗gpt", "chatgpt",
+      "앤스로픽", "anthropic", "구글", "google", "마이크로소프트", "microsoft",
+      "메타", "meta", "아마존", "amazon", "aws", "azure", "네이버", "카카오",
+      "데이터센터", "datacenter", "data center", "플랫폼", "platform",
+      "오라클", "oracle", "세일즈포스", "salesforce", "팔란티어", "palantir",
+      "에이전트", "agent", "구독"
+    ]
+  },
+  "sources": [
+    { "id": "thelec", "name": "디일렉", "lang": "ko", "feed": "https://www.thelec.kr/rss/allArticle.xml", "themes": ["semi"] },
+    { "id": "kipost", "name": "KIPOST", "lang": "ko", "feed": "https://www.kipost.net/rss/allArticle.xml", "themes": ["semi"] },
+    { "id": "etnews", "name": "전자신문", "lang": "ko", "feed": "https://rss.etnews.com/Section902.xml", "classify": true, "fallback_themes": ["sw"] },
+    { "id": "semianalysis", "name": "SemiAnalysis", "lang": "en", "feed": "https://semianalysis.com/feed/", "themes": ["semi"] },
+    { "id": "nextplatform", "name": "The Next Platform", "lang": "en", "feed": "https://www.nextplatform.com/feed/", "themes": ["semi"] },
+    { "id": "digitimes", "name": "DigiTimes Asia", "lang": "en", "feed": "https://www.digitimes.com/rss/daily.xml", "themes": ["semi"] },
+    { "id": "semiengineering", "name": "Semiconductor Engineering", "lang": "en", "feed": "https://semiengineering.com/feed/", "themes": ["semi"] },
+    { "id": "fabricatedknowledge", "name": "Fabricated Knowledge", "lang": "en", "feed": "https://www.fabricatedknowledge.com/feed", "themes": ["semi"] },
+    { "id": "morethanmoore", "name": "More Than Moore", "lang": "en", "feed": "https://morethanmoore.substack.com/feed", "themes": ["semi"] },
+    { "id": "irrationalanalysis", "name": "Irrational Analysis", "lang": "en", "feed": "https://irrationalanalysis.substack.com/feed", "themes": ["semi"] },
+    { "id": "chipsandcheese", "name": "Chips and Cheese", "lang": "en", "feed": "https://chipsandcheese.com/feed", "themes": ["semi"] },
+    { "id": "aitimes", "name": "AI타임스", "lang": "ko", "feed": "https://www.aitimes.com/rss/allArticle.xml", "classify": true, "fallback_themes": ["sw"] },
+    { "id": "byline", "name": "바이라인네트워크", "lang": "ko", "feed": "https://byline.network/feed/", "classify": true, "fallback_themes": ["sw"] },
+    { "id": "zdnetkr", "name": "ZDNet Korea", "lang": "ko", "feed": "https://feeds.feedburner.com/zdkorea", "classify": true, "fallback_themes": ["sw"] },
+    { "id": "techcrunch", "name": "TechCrunch", "lang": "en", "feed": "https://techcrunch.com/feed/", "classify": true, "fallback_themes": ["sw"] },
+    { "id": "arstechnica", "name": "Ars Technica", "lang": "en", "feed": "https://feeds.arstechnica.com/arstechnica/index", "classify": true, "fallback_themes": ["sw"] },
+    { "id": "theregister", "name": "The Register", "lang": "en", "feed": "https://www.theregister.com/headlines.atom", "classify": true, "fallback_themes": ["sw"] },
+    { "id": "hankyung-it", "name": "한국경제 IT", "lang": "ko", "feed": "https://www.hankyung.com/feed/it", "classify": true, "fallback_themes": ["sw"] },
+    { "id": "cnbc-tech", "name": "CNBC Technology", "lang": "en", "feed": "https://www.cnbc.com/id/19854910/device/rss/rss.html", "classify": true, "fallback_themes": ["sw"] },
+    { "id": "gn-kr-semi", "name": "Google News", "lang": "ko", "google_news": { "q": "반도체 OR 엔비디아 OR HBM OR 파운드리 OR SK하이닉스 OR TSMC when:1d", "hl": "ko", "gl": "KR", "ceid": "KR:ko" }, "themes": ["semi"] },
+    { "id": "gn-kr-sw", "name": "Google News", "lang": "ko", "google_news": { "q": "클라우드 OR SaaS OR \"생성형 AI\" OR 오픈AI OR 마이크로소프트 OR 네이버 when:1d", "hl": "ko", "gl": "KR", "ceid": "KR:ko" }, "themes": ["sw"] },
+    { "id": "gn-en-semi", "name": "Google News", "lang": "en", "google_news": { "q": "semiconductor OR Nvidia OR TSMC OR HBM OR foundry when:1d", "hl": "en-US", "gl": "US", "ceid": "US:en" }, "themes": ["semi"] },
+    { "id": "gn-en-sw", "name": "Google News", "lang": "en", "google_news": { "q": "\"cloud computing\" OR SaaS OR OpenAI OR Anthropic OR \"AI software\" when:1d", "hl": "en-US", "gl": "US", "ceid": "US:en" }, "themes": ["sw"] }
+  ]
+}

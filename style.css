@@ -1,0 +1,165 @@
+:root {
+  --bg: #f6f7f9;
+  --card: #ffffff;
+  --text: #1b1f24;
+  --text-dim: #6b7280;
+  --accent: #1a56db;
+  --border: #e5e7eb;
+  --chip-bg: #e9ebef;
+  --badge-semi: #1a56db;
+  --badge-sw: #0e9f6e;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111418;
+    --card: #1a1f26;
+    --text: #e5e7eb;
+    --text-dim: #8b93a1;
+    --accent: #5b8def;
+    --border: #2a3038;
+    --chip-bg: #232932;
+    --badge-semi: #5b8def;
+    --badge-sw: #34d399;
+  }
+}
+
+* { box-sizing: border-box; min-width: 0; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Segoe UI", "Malgun Gothic", sans-serif;
+  font-size: 15px;
+  line-height: 1.45;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  overflow-x: hidden;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px 6px;
+}
+.app-header h1 { font-size: 20px; margin: 0; letter-spacing: -0.02em; }
+.header-right { display: flex; align-items: center; gap: 8px; }
+.freshness { font-size: 12px; color: var(--text-dim); }
+.icon-btn {
+  border: none;
+  background: var(--chip-bg);
+  color: var(--text);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.icon-btn:active { opacity: 0.6; }
+.icon-btn.spin { animation: spin 0.8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  padding: 6px 16px 0;
+  border-bottom: 1px solid var(--border);
+}
+.tab {
+  flex: 1;
+  border: none;
+  background: none;
+  color: var(--text-dim);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 0;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+.tab.active { color: var(--text); border-bottom-color: var(--accent); }
+
+.view { padding: 10px 16px 40px; }
+.hidden { display: none !important; }
+.empty { color: var(--text-dim); text-align: center; padding: 48px 16px; }
+
+.chips { display: flex; gap: 8px; padding: 4px 0 10px; }
+.chip {
+  border: none;
+  background: var(--chip-bg);
+  color: var(--text-dim);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.chip.active { background: var(--accent); color: #fff; }
+
+.feed-list { list-style: none; margin: 0; padding: 0; }
+.feed-item {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+.feed-item a {
+  display: block;
+  padding: 12px 14px;
+  color: inherit;
+  text-decoration: none;
+}
+.feed-item.read { opacity: 0.55; }
+.feed-title { font-weight: 600; margin: 0 0 6px; word-break: keep-all; overflow-wrap: anywhere; }
+.feed-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-dim);
+  flex-wrap: wrap;
+}
+.badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 999px;
+  color: #fff;
+}
+.badge.semi { background: var(--badge-semi); }
+.badge.sw { background: var(--badge-sw); }
+
+.digest-meta { font-size: 13px; color: var(--text-dim); padding: 6px 0 12px; }
+.digest-theme { margin-bottom: 22px; }
+.digest-theme h2 {
+  font-size: 17px;
+  margin: 0 0 8px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--accent);
+  display: inline-block;
+}
+.digest-overview { color: var(--text-dim); margin: 0 0 12px; word-break: keep-all; }
+.story {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+}
+.story h3 { font-size: 15px; margin: 0 0 6px; word-break: keep-all; overflow-wrap: anywhere; }
+.story h3 .imp { margin-right: 4px; }
+.story p { margin: 0 0 8px; word-break: keep-all; overflow-wrap: anywhere; }
+.story-links { display: flex; flex-wrap: wrap; gap: 6px; }
+.story-links a {
+  font-size: 12px;
+  color: var(--accent);
+  background: var(--chip-bg);
+  padding: 3px 10px;
+  border-radius: 999px;
+  text-decoration: none;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+code { background: var(--chip-bg); padding: 1px 5px; border-radius: 4px; font-size: 13px; }

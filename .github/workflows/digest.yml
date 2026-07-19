@@ -1,0 +1,40 @@
+name: digest
+
+on:
+  schedule:
+    - cron: "30 22 * * *" # 07:30 KST morning edition
+    - cron: "30 9 * * *"  # 18:30 KST evening edition
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-commit # shared with feed.yml so pushes never race
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python scripts/make_digest.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/digest.json data/digests
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "Update digest"
+            git pull --rebase origin main
+            git push
+          fi

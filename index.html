@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>JayBrief</title>
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f6f7f9">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111418">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1 id="app-title">JayBrief</h1>
+    <div class="header-right">
+      <span id="freshness" class="freshness"></span>
+      <button id="refresh-btn" class="icon-btn" aria-label="새로고침">&#8635;</button>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-view="feed" role="tab">피드</button>
+    <button class="tab" data-view="digest" role="tab">브리핑</button>
+  </nav>
+
+  <main>
+    <section id="view-feed" class="view">
+      <div class="chips" id="theme-chips">
+        <button class="chip active" data-theme="all">전체</button>
+        <button class="chip" data-theme="semi">반도체</button>
+        <button class="chip" data-theme="sw">SW테크</button>
+      </div>
+      <ul id="feed-list" class="feed-list"></ul>
+      <p id="feed-empty" class="empty hidden">표시할 기사가 없습니다.</p>
+    </section>
+
+    <section id="view-digest" class="view hidden">
+      <div id="digest-meta" class="digest-meta"></div>
+      <div id="digest-body"></div>
+      <p id="digest-empty" class="empty hidden">
+        아직 생성된 브리핑이 없습니다.<br>
+        GitHub repo에 <code>GEMINI_API_KEY</code> secret을 등록하면 매일 07:30 / 18:30에 생성됩니다.
+      </p>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
