@@ -8,6 +8,9 @@
   --chip-bg: #e9ebef;
   --badge-semi: #1a56db;
   --badge-sw: #0e9f6e;
+  --impact-positive: #047857;
+  --impact-negative: #b91c1c;
+  --impact-mixed: #a16207;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -20,6 +23,9 @@
     --chip-bg: #232932;
     --badge-semi: #5b8def;
     --badge-sw: #34d399;
+    --impact-positive: #34d399;
+    --impact-negative: #f87171;
+    --impact-mixed: #fbbf24;
   }
 }
 
@@ -178,9 +184,9 @@ body {
   font-size: 10px;
   font-weight: 700;
 }
-.signal.impact-positive { color: #047857; }
-.signal.impact-negative { color: #b91c1c; }
-.signal.impact-mixed { color: #a16207; }
+.signal.impact-positive { color: var(--impact-positive); }
+.signal.impact-negative { color: var(--impact-negative); }
+.signal.impact-mixed { color: var(--impact-mixed); }
 .story-facts { margin: 0 0 8px; padding-left: 18px; }
 .story-facts li { margin-bottom: 3px; }
 .story-interpretation { color: var(--text-dim); }
@@ -266,6 +272,8 @@ code { background: var(--chip-bg); padding: 1px 5px; border-radius: 4px; font-si
   cursor: pointer;
 }
 .calendar-day.blank { background: transparent; cursor: default; }
+.calendar-day.has-events { background: var(--chip-bg); }
+.calendar-day.has-events .day-number { font-weight: 700; }
 .calendar-day.today .day-number { color: var(--accent); font-weight: 800; }
 .calendar-day.selected { box-shadow: inset 0 0 0 2px var(--accent); }
 .day-number { font-size: 12px; }

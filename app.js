@@ -64,7 +64,9 @@ async function load() {
     state.companies = companies ? companies.companies : [];
     state.events = events ? events.events : [];
     state.digestIndex = digestIndex ? digestIndex.digests : [];
-    state.digestPath = state.digestIndex.length ? state.digestIndex[0].path : null;
+    // select the index entry for the digest actually displayed; a stale index must not mislabel it
+    const current = digest && state.digestIndex.find((e) => e.generated_at === digest.generated_at);
+    state.digestPath = current ? current.path : null;
     state.lastLoad = Date.now();
     render();
   } finally {
@@ -182,6 +184,7 @@ function renderDigest() {
     option.selected = entry.path === state.digestPath;
     archive.appendChild(option);
   }
+  if (!state.digestPath) archive.selectedIndex = -1;
   $(".digest-toolbar").classList.toggle("hidden", state.digestIndex.length < 2);
   $("#digest-empty").classList.toggle("hidden", !!d);
   if (!d) return;
