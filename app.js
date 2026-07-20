@@ -26,6 +26,8 @@ function loadReadSet() {
 const state = {
   feed: null,
   digest: null,
+  digestIndex: [],
+  digestPath: null,
   companies: [],
   events: [],
   filter: localStorage.getItem(FILTER_KEY) || "all",
@@ -50,16 +52,19 @@ async function load() {
   const btn = $("#refresh-btn");
   btn.classList.add("spin");
   try {
-    const [feed, digest, companies, events] = await Promise.all([
+    const [feed, digest, companies, events, digestIndex] = await Promise.all([
       fetchJson("./data/feed.json").catch(() => null),
       fetchJson("./data/digest.json").catch(() => null),
       fetchJson("./companies.json").catch(() => null),
       fetchJson("./events.json").catch(() => null),
+      fetchJson("./data/digests/index.json").catch(() => null),
     ]);
     state.feed = feed;
     state.digest = digest;
     state.companies = companies ? companies.companies : [];
     state.events = events ? events.events : [];
+    state.digestIndex = digestIndex ? digestIndex.digests : [];
+    state.digestPath = state.digestIndex.length ? state.digestIndex[0].path : null;
     state.lastLoad = Date.now();
     render();
   } finally {
@@ -167,6 +172,17 @@ function renderDigest() {
   body.textContent = "";
   meta.textContent = "";
   const d = state.digest;
+  const archive = $("#digest-archive");
+  archive.textContent = "";
+  for (const entry of state.digestIndex) {
+    const option = el("option", "", `${entry.date} ${{
+      morning: "아침", noon: "점심", evening: "저녁", night: "밤",
+    }[entry.edition] || entry.edition}`);
+    option.value = entry.path;
+    option.selected = entry.path === state.digestPath;
+    archive.appendChild(option);
+  }
+  $(".digest-toolbar").classList.toggle("hidden", state.digestIndex.length < 2);
   $("#digest-empty").classList.toggle("hidden", !!d);
   if (!d) return;
 
@@ -177,7 +193,12 @@ function renderDigest() {
   const edition = EDITION_LABELS[d.edition] || "";
   meta.textContent = `${d.date} ${edition} 브리핑 · ${relTime(d.generated_at)} 생성`;
 
-  const itemById = new Map((state.feed ? state.feed.items : []).map((i) => [i.id, i]));
+  const itemById = new Map([
+    ...(state.feed ? state.feed.items : []),
+    ...(d.articles || []),
+  ].map((item) => [item.id, item]));
+  const companyById = new Map(state.companies.map((company) => [company.id, company]));
+  const eventById = new Map(state.events.map((event) => [event.id, event]));
   for (const theme of d.themes || []) {
     const section = el("section", "digest-theme");
     section.appendChild(el("h2", "", THEME_LABELS[theme.theme] || theme.theme));
@@ -185,10 +206,56 @@ function renderDigest() {
     for (const story of theme.stories || []) {
       const card = el("article", "story");
       const h3 = el("h3");
-      if (story.importance >= 3) h3.appendChild(el("span", "imp", "🔥"));
       h3.appendChild(document.createTextNode(story.headline));
+      if (story.importance >= 3) h3.appendChild(el("span", "importance", "중요"));
       card.appendChild(h3);
-      card.appendChild(el("p", "", story.body));
+
+      const signals = el("div", "story-signals");
+      if (story.impact) signals.appendChild(el("span", `signal impact-${story.impact}`, IMPACT_LABELS[story.impact] || story.impact));
+      if (story.horizon) signals.appendChild(el("span", "signal", HORIZON_LABELS[story.horizon] || story.horizon));
+      if (story.confidence) signals.appendChild(el("span", "signal", CONFIDENCE_LABELS[story.confidence] || story.confidence));
+      if (signals.childNodes.length) card.appendChild(signals);
+
+      if (story.facts && story.facts.length) {
+        const facts = el("ul", "story-facts");
+        for (const fact of story.facts) facts.appendChild(el("li", "", fact));
+        card.appendChild(facts);
+      }
+      const interpretation = story.interpretation || story.body;
+      if (interpretation) card.appendChild(el("p", "story-interpretation", interpretation));
+
+      const companies = (story.affected_company_ids || [])
+        .map((id) => companyById.get(id))
+        .filter(Boolean)
+        .map((company) => company.name === company.ticker
+          ? company.name
+          : `${company.name} · ${company.ticker}`);
+      if (companies.length) card.appendChild(el("p", "story-companies", companies.join(", ")));
+      if (story.watch_next) {
+        const watch = el("p", "story-watch");
+        watch.appendChild(el("strong", "", "다음 확인 "));
+        watch.appendChild(document.createTextNode(story.watch_next));
+        card.appendChild(watch);
+      }
+
+      const eventLinks = el("div", "story-events");
+      for (const id of story.upcoming_event_ids || []) {
+        const event = eventById.get(id);
+        if (!event) continue;
+        const button = el("button", "story-event", `일정 · ${event.title}`);
+        button.type = "button";
+        button.addEventListener("click", () => {
+          const key = eventDate(event);
+          const date = new Date(`${key}T00:00:00`);
+          state.eventMonth = new Date(date.getFullYear(), date.getMonth(), 1);
+          state.selectedEventDate = key;
+          document.querySelector('.tab[data-view="events"]').click();
+          renderEvents();
+        });
+        eventLinks.appendChild(button);
+      }
+      if (eventLinks.childNodes.length) card.appendChild(eventLinks);
+
       const links = el("div", "story-links");
       for (const id of story.article_ids || []) {
         const item = itemById.get(id);
@@ -377,6 +444,25 @@ function initEventControls() {
   });
 }
 
+function initDigestControls() {
+  $("#digest-archive").addEventListener("change", async (event) => {
+    const path = event.target.value;
+    if (!path) return;
+    const previousPath = state.digestPath;
+    event.target.disabled = true;
+    try {
+      state.digest = await fetchJson(`./${path}`);
+      state.digestPath = path;
+      renderDigest();
+    } catch (error) {
+      console.error(error);
+      event.target.value = previousPath;
+    } finally {
+      event.target.disabled = false;
+    }
+  });
+}
+
 function initChips() {
   const chips = document.querySelectorAll("#theme-chips .chip");
   chips.forEach((chip) => {
@@ -395,6 +481,7 @@ $("#app-title").textContent = APP_NAME;
 initTabs();
 initChips();
 initEventControls();
+initDigestControls();
 $("#refresh-btn").addEventListener("click", load);
 document.addEventListener("visibilitychange", () => {
   if (!document.hidden && Date.now() - state.lastLoad > STALE_MS) load();

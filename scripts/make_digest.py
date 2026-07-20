@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 FEED_PATH = ROOT / "data" / "feed.json"
 OUT_PATH = ROOT / "data" / "digest.json"
 ARCHIVE_DIR = ROOT / "data" / "digests"
+ARCHIVE_INDEX_PATH = ARCHIVE_DIR / "index.json"
 COMPANIES_PATH = ROOT / "companies.json"
 EVENTS_PATH = ROOT / "events.json"
 
@@ -308,6 +309,22 @@ def validate_themes(themes, valid_article_ids, valid_company_ids, valid_event_id
     return themes
 
 
+def build_archive_index(existing, digest, archive_path, max_entries=60):
+    entry = {
+        "path": archive_path.relative_to(ROOT).as_posix(),
+        "generated_at": digest["generated_at"],
+        "date": digest["date"],
+        "edition": digest["edition"],
+    }
+    entries = [entry]
+    entries.extend(
+        item for item in existing.get("digests", [])
+        if item.get("path") != entry["path"]
+    )
+    entries.sort(key=lambda item: item.get("generated_at", ""), reverse=True)
+    return {"digests": entries[:max_entries]}
+
+
 def call_gemini(api_key, model, prompt, use_url_context=False):
     url = (
         "https://generativelanguage.googleapis.com/v1beta/models/"
@@ -432,20 +449,47 @@ def main():
 
     now_kst = now.astimezone(KST)
     edition = next(slot for bound, slot in EDITION_SLOTS if now_kst.hour >= bound)
+    referenced_ids = {
+        article_id
+        for theme in themes
+        for story in theme.get("stories", [])
+        for article_id in story.get("article_ids", [])
+    }
     digest = {
         "generated_at": iso(now),
         "date": now_kst.strftime("%Y-%m-%d"),
         "edition": edition,
         "model": model,
         "themes": themes,
+        "articles": [
+            {
+                "id": item["id"],
+                "title": item["title"],
+                "url": item["url"],
+                "source": item["source"],
+            }
+            for item in window_items
+            if item["id"] in referenced_ids
+        ],
     }
     payload = json.dumps(digest, ensure_ascii=False, indent=1) + "\n"
-    OUT_PATH.write_text(payload, encoding="utf-8")
     ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
     archive = ARCHIVE_DIR / f"{digest['date']}-{digest['edition']}.json"
+    try:
+        existing_index = json.loads(ARCHIVE_INDEX_PATH.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        existing_index = {"digests": []}
+    archive_index = build_archive_index(existing_index, digest, archive)
+
+    OUT_PATH.write_text(payload, encoding="utf-8")
     archive.write_text(payload, encoding="utf-8")
+    ARCHIVE_INDEX_PATH.write_text(
+        json.dumps(archive_index, ensure_ascii=False, indent=1) + "\n",
+        encoding="utf-8",
+    )
     print(f"wrote digest ({sum(len(t.get('stories', [])) for t in themes)} stories) -> {archive.name}")
     return 0
+
 
 if __name__ == "__main__":
     sys.exit(main())

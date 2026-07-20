@@ -43,7 +43,7 @@ body {
   justify-content: space-between;
   padding: 14px 16px 6px;
 }
-.app-header h1 { font-size: 20px; margin: 0; letter-spacing: -0.02em; }
+.app-header h1 { font-size: 20px; margin: 0; letter-spacing: 0; }
 .header-right { display: flex; align-items: center; gap: 8px; }
 .freshness { font-size: 12px; color: var(--text-dim); }
 .icon-btn {
@@ -100,7 +100,7 @@ body {
 .feed-item {
   background: var(--card);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: 8px;
   margin-bottom: 8px;
 }
 .feed-item a {
@@ -129,6 +129,17 @@ body {
 .badge.semi { background: var(--badge-semi); }
 .badge.sw { background: var(--badge-sw); }
 
+.digest-toolbar { display: flex; align-items: center; justify-content: flex-end; gap: 8px; padding: 2px 0 4px; }
+.digest-toolbar label { color: var(--text-dim); font-size: 12px; }
+.digest-toolbar select {
+  max-width: 180px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--card);
+  color: var(--text);
+  padding: 5px 7px;
+  font-size: 12px;
+}
 .digest-meta { font-size: 13px; color: var(--text-dim); padding: 6px 0 12px; }
 .digest-theme { margin-bottom: 22px; }
 .digest-theme h2 {
@@ -142,13 +153,53 @@ body {
 .story {
   background: var(--card);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: 8px;
   padding: 12px 14px;
   margin-bottom: 10px;
 }
-.story h3 { font-size: 15px; margin: 0 0 6px; word-break: keep-all; overflow-wrap: anywhere; }
-.story h3 .imp { margin-right: 4px; }
+.story h3 { font-size: 15px; margin: 0 0 7px; word-break: keep-all; overflow-wrap: anywhere; }
+.importance {
+  display: inline-block;
+  margin-left: 7px;
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: #b91c1c;
+  color: #fff;
+  font-size: 10px;
+  vertical-align: 1px;
+}
 .story p { margin: 0 0 8px; word-break: keep-all; overflow-wrap: anywhere; }
+.story-signals { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 9px; }
+.signal {
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--chip-bg);
+  color: var(--text-dim);
+  font-size: 10px;
+  font-weight: 700;
+}
+.signal.impact-positive { color: #047857; }
+.signal.impact-negative { color: #b91c1c; }
+.signal.impact-mixed { color: #a16207; }
+.story-facts { margin: 0 0 8px; padding-left: 18px; }
+.story-facts li { margin-bottom: 3px; }
+.story-interpretation { color: var(--text-dim); }
+.story-companies { font-size: 12px; font-weight: 700; }
+.story-watch {
+  padding-left: 9px;
+  border-left: 3px solid var(--accent);
+  font-size: 12px;
+}
+.story-events { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.story-event {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--accent);
+  padding: 4px 7px;
+  font-size: 11px;
+  cursor: pointer;
+}
 .story-links { display: flex; flex-wrap: wrap; gap: 6px; }
 .story-links a {
   font-size: 12px;

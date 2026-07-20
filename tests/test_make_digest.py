@@ -4,6 +4,8 @@ from unittest.mock import patch
 
 from scripts.make_digest import (
     DIGEST_SCHEMA,
+    ROOT,
+    build_archive_index,
     call_gemini,
     matching_company_ids,
     recent_items,
@@ -117,6 +119,25 @@ class DigestOutputTest(unittest.TestCase):
         self.assertEqual(request["headers"], {"x-goog-api-key": "secret"})
         self.assertEqual(request["json"]["generationConfig"]["responseSchema"], DIGEST_SCHEMA)
         self.assertEqual(request["json"]["tools"], [{"url_context": {}}])
+
+    def test_archive_index_replaces_same_edition_and_sorts_newest_first(self):
+        existing = {"digests": [{
+            "path": "data/digests/2026-07-20-morning.json",
+            "generated_at": "2026-07-20T00:00:00Z",
+            "date": "2026-07-20",
+            "edition": "morning",
+        }]}
+        digest = {
+            "generated_at": "2026-07-20T03:30:00Z",
+            "date": "2026-07-20",
+            "edition": "noon",
+        }
+        archive = ROOT / "data/digests/2026-07-20-noon.json"
+        result = build_archive_index(existing, digest, archive)
+        self.assertEqual(
+            [entry["edition"] for entry in result["digests"]],
+            ["noon", "morning"],
+        )
 
     def test_removes_unknown_ids_and_story_without_evidence(self):
         base_story = {
