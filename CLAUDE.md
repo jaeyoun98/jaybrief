@@ -23,9 +23,11 @@ localStorage keys are name-independent (`jb.*`) on purpose.
 GitHub Pages serves repo root; PWA fetches data/*.json with cache:'no-cache'
 ```
 
-- `fetch_feeds.py`: reads `sources.json`, fetches RSS/Atom, classifies items into themes, dedups by normalized title, keeps a rolling 72 h window (cap 800), writes only when the item set changed (avoids no-op commits).
-- `make_digest.py`: summarizes recent feed items per theme via Gemini API (free tier). Needs `GEMINI_API_KEY` repo secret; exits 0 with a notice when the secret is missing so the workflow stays green before setup. Model override: `GEMINI_MODEL` env (default `gemini-3.1-flash-lite`).
+- `fetch_feeds.py`: reads `sources.json`, fetches RSS/Atom, classifies items into themes, dedups by normalized title, and keeps a rolling 72 h window. Direct sources take priority; Google News is capped at 60 items per source and 240 overall within the 800-item total cap.
+- `make_digest.py`: combines newly observed items (`first_seen_at`), the public watchlist, upcoming events, and up to 8 non-paywalled direct article URLs. Gemini returns schema-constrained decision-support fields; semantic validation happens before the current/archived digest is written. Needs `GEMINI_API_KEY`; model override: `GEMINI_MODEL` (default `gemini-3.1-flash-lite`).
+- The feed and event calendar work without Gemini. API, truncation, JSON, or semantic validation failures preserve the last good digest because no output file is written before validation succeeds.
 - Data JSONs are committed by github-actions[bot]; both workflows share one concurrency group to avoid push races.
+- `companies.json` is the public watchlist; `events.json` is a manually verified calendar. Portfolio quantities and cost basis never leave localStorage.
 
 ## Data contracts (keep scripts and app.js in sync)
 
@@ -39,7 +41,7 @@ GitHub Pages serves repo root; PWA fetches data/*.json with cache:'no-cache'
     "title": "...", "url": "...",
     "source": "디일렉", "source_id": "thelec",
     "themes": ["semi"],           // "semi" | "sw", multi allowed
-    "published": "ISO-8601 UTC",
+    "published": "ISO-8601 UTC", "first_seen_at": "ISO-8601 UTC",
     "lang": "ko" | "en",
     "snippet": "plain text <= 280 chars, may be empty"
   }]
@@ -54,12 +56,26 @@ GitHub Pages serves repo root; PWA fetches data/*.json with cache:'no-cache'
   "edition": "morning" | "noon" | "evening" | "night", "model": "...",
   "themes": [{
     "theme": "semi", "overview": "2-3 sentences (Korean)",
-    "stories": [{ "headline": "...", "body": "...", "article_ids": ["..."], "importance": 1-3 }]
-  }]
+    "stories": [{
+      "headline": "...", "facts": ["..."], "interpretation": "...",
+      "affected_company_ids": ["nvidia"],
+      "event_type": "earnings|guidance|product|policy|supply_chain|market|other",
+      "impact": "positive|negative|mixed|unclear",
+      "horizon": "immediate|quarter|long_term",
+      "confidence": "high|medium|low", "watch_next": "...",
+      "upcoming_event_ids": ["nvidia-fy27-q2"],
+      "article_ids": ["..."], "importance": 1-3
+    }]
+  }],
+  "articles": [{ "id": "...", "title": "...", "url": "...", "source": "..." }]
 }
 ```
 
+`data/digests/index.json` lists the 60 newest archive entries. Each digest snapshots its cited article links so archives remain useful after items expire from the rolling feed.
+
 `sources.json`: per source either fixed `themes: [...]` (no classification) or `classify: true` + `fallback_themes` (`[]` = drop items that match no keyword rule). Google News query sources use a `google_news: {q, hl, gl, ceid}` object instead of `feed`; the fetcher builds the URL and strips the trailing " - publisher" from titles.
+
+`events.json`: manually verified events with `type` (`earnings` | `conference` | `macro`), ISO `start_at`, optional `end_at`, `all_day`, `status`, `company_ids`, themes, importance, official `source_url`, and a short note. Root-level config/data files use the same network-first offline fallback as generated `data/*.json`.
 
 ## Source curation
 

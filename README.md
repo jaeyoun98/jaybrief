@@ -13,11 +13,12 @@ feed.yml (every 20 minutes)
   scripts/fetch_feeds.py : sources.json -> fetch RSS -> theme classify
                            -> dedup -> 72h rolling window -> data/feed.json
 digest.yml (07:30 / 12:30 / 18:30 / 21:00 KST)
-  scripts/make_digest.py : recent items -> Gemini (free tier)
-                           -> data/digest.json + data/digests/ archive
+  scripts/make_digest.py : new items + watchlist/events + direct URLs
+                           -> Gemini structured output
+                           -> current digest + indexed archive
 ```
 
-The PWA (vanilla HTML/CSS/JS) reads `data/*.json` with `cache: 'no-cache'` and renders two tabs: 피드 (article list with theme filters) and 브리핑 (LLM digest).
+The PWA (vanilla HTML/CSS/JS) reads committed JSON with `cache: 'no-cache'` and renders three tabs: 피드 (article list), 브리핑 (LLM digest), and 주요 이벤트 (watchlist calendar and agenda).
 
 ## Setup
 
@@ -25,7 +26,7 @@ The PWA (vanilla HTML/CSS/JS) reads `data/*.json` with `cache: 'no-cache'` and r
 2. Add it as the `GEMINI_API_KEY` repo secret (`gh secret set GEMINI_API_KEY`).
 3. Optional: override the model with a `GEMINI_MODEL` env/variable (default `gemini-3.1-flash-lite`).
 
-Without the secret, the feed still updates every 20 minutes; only the digest is skipped.
+Without the secret, the feed and event calendar still work; only digest generation is skipped. A failed or invalid Gemini response leaves the last good digest untouched.
 
 ## Development
 
