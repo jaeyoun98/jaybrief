@@ -1,0 +1,18 @@
+{
+  "companies": [
+    { "id": "nvidia", "name": "NVIDIA", "ticker": "NVDA", "exchange": "NASDAQ", "themes": ["semi"], "aliases": ["엔비디아"] },
+    { "id": "tsmc", "name": "TSMC", "ticker": "TSM", "exchange": "NYSE", "themes": ["semi"], "aliases": ["Taiwan Semiconductor"] },
+    { "id": "sk-hynix", "name": "SK하이닉스", "ticker": "000660", "exchange": "KRX", "themes": ["semi"], "aliases": ["SK Hynix", "하이닉스"] },
+    { "id": "samsung-electronics", "name": "삼성전자", "ticker": "005930", "exchange": "KRX", "themes": ["semi"], "aliases": ["Samsung Electronics"] },
+    { "id": "amd", "name": "AMD", "ticker": "AMD", "exchange": "NASDAQ", "themes": ["semi"], "aliases": ["Advanced Micro Devices"] },
+    { "id": "broadcom", "name": "Broadcom", "ticker": "AVGO", "exchange": "NASDAQ", "themes": ["semi"], "aliases": ["브로드컴"] },
+    { "id": "micron", "name": "Micron", "ticker": "MU", "exchange": "NASDAQ", "themes": ["semi"], "aliases": ["마이크론"] },
+    { "id": "asml", "name": "ASML", "ticker": "ASML", "exchange": "NASDAQ", "themes": ["semi"], "aliases": [] },
+    { "id": "microsoft", "name": "Microsoft", "ticker": "MSFT", "exchange": "NASDAQ", "themes": ["sw"], "aliases": ["마이크로소프트"] },
+    { "id": "alphabet", "name": "Alphabet", "ticker": "GOOGL", "exchange": "NASDAQ", "themes": ["sw"], "aliases": ["Google", "구글"] },
+    { "id": "amazon", "name": "Amazon", "ticker": "AMZN", "exchange": "NASDAQ", "themes": ["sw"], "aliases": ["AWS", "아마존"] },
+    { "id": "meta", "name": "Meta", "ticker": "META", "exchange": "NASDAQ", "themes": ["sw"], "aliases": ["메타"] },
+    { "id": "oracle", "name": "Oracle", "ticker": "ORCL", "exchange": "NYSE", "themes": ["sw"], "aliases": ["오라클"] },
+    { "id": "palantir", "name": "Palantir", "ticker": "PLTR", "exchange": "NASDAQ", "themes": ["sw"], "aliases": ["팔란티어"] }
+  ]
+}
