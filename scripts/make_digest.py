@@ -325,6 +325,18 @@ def build_archive_index(existing, digest, archive_path, max_entries=60):
     return {"digests": entries[:max_entries]}
 
 
+def prune_archive_files(archive_dir, archive_index):
+    """Remove archive payloads no longer referenced by the bounded index."""
+    keep = {
+        Path(entry["path"]).name
+        for entry in archive_index.get("digests", [])
+        if entry.get("path")
+    }
+    for path in archive_dir.glob("*.json"):
+        if path.name != "index.json" and path.name not in keep:
+            path.unlink()
+
+
 def call_gemini(api_key, model, prompt, use_url_context=False):
     url = (
         "https://generativelanguage.googleapis.com/v1beta/models/"
@@ -487,6 +499,7 @@ def main():
         json.dumps(archive_index, ensure_ascii=False, indent=1) + "\n",
         encoding="utf-8",
     )
+    prune_archive_files(ARCHIVE_DIR, archive_index)
     print(f"wrote digest ({sum(len(t.get('stories', [])) for t in themes)} stories) -> {archive.name}")
     return 0
 

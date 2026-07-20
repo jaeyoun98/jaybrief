@@ -1,5 +1,7 @@
 import unittest
 from datetime import datetime, timezone
+from pathlib import Path
+from tempfile import TemporaryDirectory
 from unittest.mock import patch
 
 from scripts.make_digest import (
@@ -8,6 +10,7 @@ from scripts.make_digest import (
     build_archive_index,
     call_gemini,
     matching_company_ids,
+    prune_archive_files,
     recent_items,
     select_direct_urls,
     upcoming_events,
@@ -138,6 +141,20 @@ class DigestOutputTest(unittest.TestCase):
             [entry["edition"] for entry in result["digests"]],
             ["noon", "morning"],
         )
+
+    def test_prunes_archive_files_not_referenced_by_index(self):
+        with TemporaryDirectory() as directory:
+            archive_dir = Path(directory)
+            (archive_dir / "index.json").write_text("{}")
+            (archive_dir / "keep.json").write_text("{}")
+            (archive_dir / "stale.json").write_text("{}")
+            prune_archive_files(
+                archive_dir,
+                {"digests": [{"path": "data/digests/keep.json"}]},
+            )
+            self.assertTrue((archive_dir / "index.json").exists())
+            self.assertTrue((archive_dir / "keep.json").exists())
+            self.assertFalse((archive_dir / "stale.json").exists())
 
     def test_removes_unknown_ids_and_story_without_evidence(self):
         base_story = {
