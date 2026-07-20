@@ -7,7 +7,6 @@ stays green before the secret is configured.
 
 import json
 import os
-import re
 import sys
 import time
 from datetime import datetime, timedelta, timezone
@@ -25,6 +24,47 @@ MAX_LOOKBACK_HOURS = 30  # hard cap even if the previous digest is older
 OVERLAP_MINUTES = 30     # re-cover a little of the previous window so nothing falls in a gap
 MAX_PER_THEME = 120
 RETRIES = 3
+
+DIGEST_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "themes": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "theme": {"type": "string", "enum": ["semi", "sw"]},
+                    "overview": {"type": "string"},
+                    "stories": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "headline": {"type": "string"},
+                                "body": {"type": "string"},
+                                "article_ids": {
+                                    "type": "array",
+                                    "minItems": 1,
+                                    "items": {"type": "string"},
+                                },
+                                "importance": {
+                                    "type": "integer",
+                                    "minimum": 1,
+                                    "maximum": 3,
+                                },
+                            },
+                            "required": ["headline", "body", "article_ids", "importance"],
+                        },
+                    },
+                },
+                "required": ["theme", "overview", "stories"],
+            },
+        },
+    },
+    "required": ["themes"],
+}
 
 EDITION_SLOTS = [  # (kst_hour_lower_bound, slot name); scheduled runs: 07:30/12:30/18:30/21:00
     (20, "night"),
@@ -73,12 +113,13 @@ def recent_lines(items, theme, cutoff):
 def call_gemini(api_key, model, prompt):
     url = (
         "https://generativelanguage.googleapis.com/v1beta/models/"
-        f"{model}:generateContent?key={api_key}"
+        f"{model}:generateContent"
     )
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
-            "response_mime_type": "application/json",
+            "responseMimeType": "application/json",
+            "responseSchema": DIGEST_SCHEMA,
             "temperature": 0.3,
             "maxOutputTokens": 8192,
         },
@@ -86,7 +127,12 @@ def call_gemini(api_key, model, prompt):
     last_error = None
     for attempt in range(1, RETRIES + 1):
         try:
-            resp = requests.post(url, json=body, timeout=120)
+            resp = requests.post(
+                url,
+                headers={"x-goog-api-key": api_key},
+                json=body,
+                timeout=120,
+            )
         except requests.RequestException as exc:
             last_error = exc
             resp = None
@@ -94,10 +140,23 @@ def call_gemini(api_key, model, prompt):
             resp.raise_for_status()
             data = resp.json()
             try:
-                return data["candidates"][0]["content"]["parts"][0]["text"]
+                candidate = data["candidates"][0]
+                finish_reason = candidate.get("finishReason")
+                if finish_reason != "STOP":
+                    raise RuntimeError(
+                        f"Gemini stopped with finishReason={finish_reason!r}"
+                    )
+                text = "".join(
+                    part.get("text", "")
+                    for part in candidate["content"]["parts"]
+                )
+                if not text:
+                    raise RuntimeError("Gemini response contained no text")
+                return text
             except (KeyError, IndexError, TypeError):
-                # empty candidates (safety block) or content without parts
-                raise RuntimeError(f"unexpected Gemini response: {json.dumps(data)[:500]}")
+                raise RuntimeError(
+                    f"unexpected Gemini response: {json.dumps(data)[:500]}"
+                )
         if attempt < RETRIES:
             wait = 30 * attempt
             reason = f"HTTP {resp.status_code}" if resp is not None else repr(last_error)
@@ -146,10 +205,8 @@ def main():
     print(f"summarizing {len(semi_lines)} semi + {len(sw_lines)} sw items with {model}")
 
     raw = call_gemini(api_key, model, prompt).strip()
-    if raw.startswith("```"):  # JSON mode occasionally still fences the output
-        raw = re.sub(r"^```[a-z]*\s*|\s*```$", "", raw)
     parsed = json.loads(raw)
-    themes = parsed if isinstance(parsed, list) else parsed["themes"]
+    themes = parsed["themes"]
 
     valid_ids = {item["id"] for item in items}
     for theme in themes:
