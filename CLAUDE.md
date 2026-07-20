@@ -1,6 +1,6 @@
 # JayBrief
 
-Personal stock-investing news PWA: themed feed (semiconductors / software tech) + LLM daily digest in Korean.
+Personal stock-investing news PWA: themed feed (semiconductors / software tech) + LLM decision-support briefings in Korean.
 
 ## Conventions
 
@@ -18,16 +18,16 @@ localStorage keys are name-independent (`jb.*`) on purpose.
 ## Architecture
 
 ```
-.github/workflows/feed.yml    (every 20 min) -> scripts/fetch_feeds.py -> data/feed.json
-.github/workflows/digest.yml  (07:30/12:30/18:30/21:00 KST) -> scripts/make_digest.py -> data/digest.json (+ data/digests/ archive)
-GitHub Pages serves repo root; PWA fetches data/*.json with cache:'no-cache'
+.github/workflows/pages.yml -> refresh feed / optional digest -> rolling runtime-data branch
+main shell + runtime-data/data -> GitHub Pages artifact -> deployed PWA
 ```
 
 - `fetch_feeds.py`: reads `sources.json`, fetches RSS/Atom, classifies items into themes, dedups by normalized title, and keeps a rolling 72 h window. Direct sources take priority; Google News is capped at 60 items per source and 240 overall within the 800-item total cap.
 - `make_digest.py`: combines newly observed items (`first_seen_at`), the public watchlist, upcoming events, and up to 8 non-paywalled direct article URLs. Gemini returns schema-constrained decision-support fields; semantic validation happens before the current/archived digest is written. Needs `GEMINI_API_KEY`; model override: `GEMINI_MODEL` (default `gemini-3.1-flash-lite`).
 - The feed and event calendar work without Gemini. API, truncation, JSON, or semantic validation failures preserve the last good digest because no output file is written before validation succeeds.
-- Data JSONs are committed by github-actions[bot]; both workflows share one concurrency group to avoid push races.
-- `companies.json` is the public watchlist; `events.json` is a manually verified calendar. Portfolio quantities and cost basis never leave localStorage.
+- Generated JSON is not tracked on `main`. The `runtime-data` branch is replaced with a one-commit root snapshot using `--force-with-lease`, then combined with the `main` shell in a Pages artifact. One workflow concurrency group serializes refresh and deployment.
+- `companies.json` is the public watchlist; `events.json` is a manually verified calendar. If private portfolio fields are added, quantities and cost basis must remain in localStorage and must not be committed or sent to Gemini.
+- For local development, run `fetch_feeds.py` to populate the ignored `data/` directory before starting the static server.
 
 ## Data contracts (keep scripts and app.js in sync)
 
@@ -71,7 +71,7 @@ GitHub Pages serves repo root; PWA fetches data/*.json with cache:'no-cache'
 }
 ```
 
-`data/digests/index.json` lists the 60 newest archive entries. Each digest snapshots its cited article links so archives remain useful after items expire from the rolling feed.
+`data/digests/index.json` lists the 60 newest archive entries. Unreferenced archive files are pruned, and each digest snapshots its cited article links so archives remain useful after items expire from the rolling feed.
 
 `sources.json`: per source either fixed `themes: [...]` (no classification) or `classify: true` + `fallback_themes` (`[]` = drop items that match no keyword rule). Google News query sources use a `google_news: {q, hl, gl, ceid}` object instead of `feed`; the fetcher builds the URL and strips the trailing " - publisher" from titles.
 
@@ -79,5 +79,5 @@ GitHub Pages serves repo root; PWA fetches data/*.json with cache:'no-cache'
 
 ## Source curation
 
-Source list curated 2026-07-20 (all feeds verified alive; see nous wiki `personal-app-dev`/session log for the vetting).
+Source list curated 2026-07-20 (all feeds verified alive at curation time).
 When adding a source: verify the feed returns XML with fresh `pubDate`s first; prefer specialist low-noise outlets; general outlets get `classify: true`.

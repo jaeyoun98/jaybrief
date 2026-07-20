@@ -1,24 +1,23 @@
 # JayBrief
 
-Personal stock-investing news PWA — themed feed (semiconductors / software tech) plus an LLM-written daily briefing in Korean.
+Personal stock-investing news PWA — themed feed (semiconductors / software tech) plus four LLM-written decision-support briefings per day in Korean.
 
-- Deploy: GitHub Pages, auto-served from `main`.
-- No server: GitHub Actions collects data into JSON files; the app is a pure client.
+- Deploy: GitHub Actions assembles and publishes a GitHub Pages artifact.
+- No application server: the deployed app is a pure client that reads generated JSON.
 - Sister project: [jayfit](https://github.com/jaeyoun98/jayfit) (same PWA + Pages pattern).
 
 ## How it works
 
 ```
-feed.yml (every 20 minutes)
-  scripts/fetch_feeds.py : sources.json -> fetch RSS -> theme classify
-                           -> dedup -> 72h rolling window -> data/feed.json
-digest.yml (07:30 / 12:30 / 18:30 / 21:00 KST)
-  scripts/make_digest.py : new items + watchlist/events + direct URLs
-                           -> Gemini structured output
-                           -> current digest + indexed archive
+pages.yml
+  scheduled refresh -> fetch feeds -> optional Gemini digest
+                    -> replace the one-commit runtime-data snapshot
+                    -> combine main shell + runtime data
+                    -> deploy a GitHub Pages artifact
 ```
 
-The PWA (vanilla HTML/CSS/JS) reads committed JSON with `cache: 'no-cache'` and renders three tabs: 피드 (article list), 브리핑 (LLM digest), and 주요 이벤트 (watchlist calendar and agenda).
+The PWA (vanilla HTML/CSS/JS) reads generated JSON with `cache: 'no-cache'` and renders three tabs: 피드 (article list), 브리핑 (LLM digest), and 주요 이벤트 (watchlist calendar and agenda).
+Application history stays on `main`; generated JSON lives on the force-with-lease protected `runtime-data` branch as one rolling root commit, so recurring feed and digest updates do not inflate `main` history.
 
 ## Setup
 
@@ -32,9 +31,12 @@ Without the secret, the feed and event calendar still work; only digest generati
 
 ```
 pip install -r requirements.txt
-python scripts/fetch_feeds.py          # refresh data/feed.json
+python scripts/fetch_feeds.py          # create/refresh ignored data/feed.json
 GEMINI_API_KEY=... python scripts/make_digest.py
 python -m http.server 8000             # then open http://localhost:8000
 ```
+
+The `data/` directory is runtime output and is intentionally ignored except for `.gitkeep`.
+Run the fetcher locally before developing views that require feed or digest data.
 
 Conventions and data contracts: see [CLAUDE.md](CLAUDE.md).

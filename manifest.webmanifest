@@ -1,7 +1,7 @@
 {
   "name": "JayBrief",
   "short_name": "JayBrief",
-  "description": "반도체·SW테크 투자 뉴스 피드와 일일 브리핑",
+  "description": "반도체·SW테크 투자 뉴스 피드와 투자 브리핑",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
