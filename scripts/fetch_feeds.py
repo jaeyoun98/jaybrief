@@ -25,6 +25,8 @@ UA = "Mozilla/5.0 (compatible; JayBrief/1.0)"
 TIMEOUT = 20
 WINDOW_HOURS = 72
 MAX_ITEMS = 800
+GN_PER_SOURCE_MAX = 60
+GN_POOL_MAX = 240
 SNIPPET_MAX = 280
 
 TAG_RE = re.compile(r"<[^>]+>")
@@ -129,6 +131,42 @@ def merge_items(existing, incoming, first_seen_at):
     return list(merged.values())
 
 
+def select_items(items, now_str, cutoff, max_items=MAX_ITEMS,
+                 gn_per_source_max=GN_PER_SOURCE_MAX, gn_pool_max=GN_POOL_MAX):
+    """Keep all recent direct items first, then fill a bounded Google News pool."""
+    recent = []
+    for item in items:
+        item = dict(item)
+        if item["published"] > now_str:
+            item["published"] = now_str
+        if item["published"] >= cutoff:
+            recent.append(item)
+
+    direct = sorted(
+        (item for item in recent if not is_google_news(item)),
+        key=lambda item: item["published"], reverse=True,
+    )[:max_items]
+    remaining = max(0, max_items - len(direct))
+    gn_budget = min(gn_pool_max, remaining)
+    per_source = {}
+    google_news = []
+    for item in sorted(
+        (item for item in recent if is_google_news(item)),
+        key=lambda item: item["published"], reverse=True,
+    ):
+        source_id = item["source_id"]
+        if per_source.get(source_id, 0) >= gn_per_source_max:
+            continue
+        google_news.append(item)
+        per_source[source_id] = per_source.get(source_id, 0) + 1
+        if len(google_news) >= gn_budget:
+            break
+
+    selected = direct + google_news
+    selected.sort(key=lambda item: item["published"], reverse=True)
+    return selected
+
+
 def collect(source, compiled_rules):
     resp = requests.get(feed_url(source), headers={"User-Agent": UA}, timeout=TIMEOUT)
     resp.raise_for_status()
@@ -202,15 +240,8 @@ def main():
         print("all sources failed, aborting", file=sys.stderr)
         return 1
 
-    # clamp bogus future pubDates (some outlets publish them) so they can't pin the top
-    for item in merged:
-        if item["published"] > run_now_str:
-            item["published"] = run_now_str
-
     cutoff = iso(run_now - timedelta(hours=WINDOW_HOURS))
-    items = [item for item in merged if item["published"] >= cutoff]
-    items.sort(key=lambda item: item["published"], reverse=True)
-    items = items[:MAX_ITEMS]
+    items = select_items(merged, run_now_str, cutoff)
 
     if items == stored_items:
         print(f"no change ({len(items)} items in window)")
