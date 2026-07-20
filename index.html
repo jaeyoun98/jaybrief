@@ -7,6 +7,7 @@
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f6f7f9">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111418">
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
@@ -23,8 +24,9 @@
   </header>
 
   <nav class="tabs" role="tablist">
-    <button class="tab active" data-view="feed" role="tab">피드</button>
-    <button class="tab" data-view="digest" role="tab">브리핑</button>
+    <button class="tab active" data-view="feed" role="tab" aria-selected="true">피드</button>
+    <button class="tab" data-view="digest" role="tab" aria-selected="false">브리핑</button>
+    <button class="tab" data-view="events" role="tab" aria-selected="false">주요 이벤트</button>
   </nav>
 
   <main>
@@ -45,6 +47,30 @@
         아직 생성된 브리핑이 없습니다.<br>
         GitHub repo에 <code>GEMINI_API_KEY</code> secret을 등록하면 매일 07:30 / 12:30 / 18:30 / 21:00에 생성됩니다.
       </p>
+    </section>
+
+    <section id="view-events" class="view hidden">
+      <div class="calendar-toolbar">
+        <button id="month-prev" class="calendar-nav" aria-label="이전 달">&lsaquo;</button>
+        <h2 id="calendar-month"></h2>
+        <button id="month-next" class="calendar-nav" aria-label="다음 달">&rsaquo;</button>
+      </div>
+      <div class="chips" id="event-chips">
+        <button class="chip active" data-event-filter="all">전체</button>
+        <button class="chip" data-event-filter="semi">반도체</button>
+        <button class="chip" data-event-filter="sw">SW테크</button>
+        <button class="chip" data-event-filter="macro">Macro</button>
+      </div>
+      <div class="calendar-weekdays" aria-hidden="true">
+        <span>일</span><span>월</span><span>화</span><span>수</span><span>목</span><span>금</span><span>토</span>
+      </div>
+      <div id="calendar-grid" class="calendar-grid"></div>
+      <div class="agenda-header">
+        <h2 id="agenda-title">이번 달 일정</h2>
+        <button id="agenda-reset" class="text-btn hidden">전체 보기</button>
+      </div>
+      <div id="event-agenda" class="event-agenda"></div>
+      <p id="events-empty" class="empty hidden">해당 기간에 등록된 이벤트가 없습니다.</p>
     </section>
   </main>
 
