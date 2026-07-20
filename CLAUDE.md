@@ -18,8 +18,8 @@ localStorage keys are name-independent (`jb.*`) on purpose.
 ## Architecture
 
 ```
-.github/workflows/feed.yml    (cron hourly)  -> scripts/fetch_feeds.py -> data/feed.json
-.github/workflows/digest.yml  (07:30/18:30 KST) -> scripts/make_digest.py -> data/digest.json (+ data/digests/ archive)
+.github/workflows/feed.yml    (every 20 min) -> scripts/fetch_feeds.py -> data/feed.json
+.github/workflows/digest.yml  (07:30/12:30/18:30/21:00 KST) -> scripts/make_digest.py -> data/digest.json (+ data/digests/ archive)
 GitHub Pages serves repo root; PWA fetches data/*.json with cache:'no-cache'
 ```
 
@@ -51,7 +51,7 @@ GitHub Pages serves repo root; PWA fetches data/*.json with cache:'no-cache'
 ```json
 {
   "generated_at": "ISO-8601 UTC", "date": "YYYY-MM-DD (KST)",
-  "edition": "am" | "pm", "model": "...",
+  "edition": "morning" | "noon" | "evening" | "night", "model": "...",
   "themes": [{
     "theme": "semi", "overview": "2-3 sentences (Korean)",
     "stories": [{ "headline": "...", "body": "...", "article_ids": ["..."], "importance": 1-3 }]
