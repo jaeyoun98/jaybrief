@@ -1,0 +1,115 @@
+name: pages
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "7,27,47 * * * *" # feed refresh; offset avoids top-of-hour congestion
+    - cron: "30 22 * * *"     # 07:30 KST morning digest
+    - cron: "30 3 * * *"      # 12:30 KST noon digest
+    - cron: "30 9 * * *"      # 18:30 KST evening digest
+    - cron: "0 12 * * *"      # 21:00 KST night digest
+  workflow_dispatch:
+    inputs:
+      digest:
+        description: Generate a digest after refreshing the feed
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-runtime
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out application
+        uses: actions/checkout@v4
+        with:
+          path: app
+      - name: Check out runtime data
+        uses: actions/checkout@v4
+        with:
+          ref: runtime-data
+          path: runtime
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: app/requirements.txt
+      - run: pip install -r requirements.txt
+        working-directory: app
+      - name: Restore runtime data
+        run: cp -a ../runtime/data/. data/
+        working-directory: app
+      - name: Refresh feed
+        run: python scripts/fetch_feeds.py
+        working-directory: app
+      - name: Generate digest
+        if: >-
+          (github.event_name == 'workflow_dispatch' && inputs.digest) ||
+          (github.event_name == 'schedule' && github.event.schedule != '7,27,47 * * * *')
+        run: python scripts/make_digest.py
+        working-directory: app
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.1-flash-lite' }}
+      - name: Replace rolling runtime snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf data
+          mkdir data
+          cp -a ../app/data/. data/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          old_commit=$(git rev-parse HEAD)
+          tree=$(git write-tree)
+          commit=$(printf 'Update runtime data\n' | git commit-tree "$tree")
+          git push --force-with-lease=refs/heads/runtime-data:"$old_commit" \
+            origin "$commit":refs/heads/runtime-data
+        working-directory: runtime
+
+  deploy:
+    if: >-
+      always() &&
+      (github.event_name == 'push' || needs.refresh.result == 'success')
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out application
+        uses: actions/checkout@v4
+        with:
+          path: app
+      - name: Check out runtime data
+        uses: actions/checkout@v4
+        with:
+          ref: runtime-data
+          path: runtime
+      - name: Assemble site
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir _site
+          cp app/.nojekyll app/index.html app/style.css app/app.js app/sw.js \
+            app/manifest.webmanifest app/companies.json app/events.json _site/
+          cp -a app/icons _site/icons
+          cp -a runtime/data _site/data
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
