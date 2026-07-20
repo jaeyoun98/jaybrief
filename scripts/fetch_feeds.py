@@ -105,8 +105,12 @@ def strip_gn_publisher(title):
     return title.rsplit(" - ", 1)[0].strip() if " - " in title else title
 
 
+def is_google_news(item):
+    return item["source_id"].startswith("gn-")
+
+
 def merge_items(existing, incoming, first_seen_at):
-    """Merge items by id and record when each story first entered the feed."""
+    """Merge items by id, upgrading a Google News copy to a direct-source copy."""
     merged = {}
     for item in existing:
         item = dict(item)
@@ -115,8 +119,12 @@ def merge_items(existing, incoming, first_seen_at):
 
     for item in incoming:
         item = dict(item)
-        if item["id"] not in merged:
+        current = merged.get(item["id"])
+        if current is None:
             item["first_seen_at"] = first_seen_at
+            merged[item["id"]] = item
+        elif is_google_news(current) and not is_google_news(item):
+            item["first_seen_at"] = current["first_seen_at"]
             merged[item["id"]] = item
     return list(merged.values())
 
