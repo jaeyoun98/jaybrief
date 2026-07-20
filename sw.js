@@ -1,7 +1,7 @@
 "use strict";
 
 // Bump VERSION whenever any shell file changes so installed clients update.
-const VERSION = "v1.2";
+const VERSION = "v1.4";
 const SHELL_CACHE = `shell-${VERSION}`;
 const SHELL = [
   "./",
@@ -37,7 +37,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
   if (url.origin !== location.origin) return;
 
-  if (url.pathname.includes("/data/")) {
+  if (url.pathname.includes("/data/") || url.pathname.endsWith("/events.json") || url.pathname.endsWith("/companies.json")) {
     // Data: network first with ETag revalidation (GitHub Pages caches 10 min),
     // cached copy only as offline fallback.
     event.respondWith(
