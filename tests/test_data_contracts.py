@@ -19,6 +19,14 @@ class EventDataContractTest(unittest.TestCase):
         self.assertEqual(len(company_ids), len(set(company_ids)))
         self.assertEqual(len(event_ids), len(set(event_ids)))
 
+    def test_sources_declare_valid_tiers(self):
+        sources = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))["sources"]
+        for source in sources:
+            with self.subTest(source=source["id"]):
+                self.assertIn(source["tier"], {1, 2, 3})
+                if "google_news" in source:
+                    self.assertEqual(source["tier"], 3)
+
     def test_events_reference_known_companies_and_valid_values(self):
         company_ids = {company["id"] for company in self.companies}
         for event in self.events:

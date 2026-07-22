@@ -31,10 +31,16 @@
 
   <main>
     <section id="view-feed" class="view">
-      <div class="chips" id="theme-chips">
-        <button class="chip active" data-theme="all">전체</button>
-        <button class="chip" data-theme="semi">반도체</button>
-        <button class="chip" data-theme="sw">SW테크</button>
+      <div class="chips-bar">
+        <div class="chips" id="theme-chips">
+          <button class="chip active" data-theme="all">전체</button>
+          <button class="chip" data-theme="semi">반도체</button>
+          <button class="chip" data-theme="sw">SW테크</button>
+        </div>
+        <div class="chips" id="rank-chips">
+          <button class="chip" data-rank="top">주요</button>
+          <button class="chip" data-rank="all">전체</button>
+        </div>
       </div>
       <ul id="feed-list" class="feed-list"></ul>
       <p id="feed-empty" class="empty hidden">표시할 기사가 없습니다.</p>

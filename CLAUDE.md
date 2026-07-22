@@ -22,7 +22,7 @@ localStorage keys are name-independent (`jb.*`) on purpose.
 main shell + runtime-data/data -> GitHub Pages artifact -> deployed PWA
 ```
 
-- `fetch_feeds.py`: reads `sources.json`, fetches RSS/Atom, classifies items into themes, dedups by normalized title, and keeps a rolling 72 h window. Direct sources take priority; Google News is capped at 60 items per source and 240 overall within the 800-item total cap.
+- `fetch_feeds.py`: reads `sources.json`, fetches RSS/Atom, classifies items into themes, dedups by normalized title, and keeps a rolling 72 h window. Direct sources take priority; Google News is capped at 60 items per source and 240 overall within the 800-item total cap. It also clusters near-duplicate titles (shingle Jaccard + union-find) and scores each cluster from source tiers, distinct outlet count, and watchlist mentions — deterministically from the item set alone (no timestamps in scores), so re-running on unchanged input is a byte-identical no-op. ko/en copies of one story never cluster together (no cross-language matching), and Google News items without an outlet name all count as one "Google News" source.
 - `make_digest.py`: combines newly observed items (`first_seen_at`), the public watchlist, upcoming events, and up to 8 non-paywalled direct article URLs. Gemini returns schema-constrained decision-support fields; semantic validation happens before the current/archived digest is written. Needs `GEMINI_API_KEY`; model override: `GEMINI_MODEL` (default `gemini-3.1-flash-lite`).
 - The feed and event calendar work without Gemini. API, truncation, JSON, or semantic validation failures preserve the last good digest because no output file is written before validation succeeds.
 - Generated JSON is not tracked on `main`. The `runtime-data` branch is replaced with a one-commit root snapshot using `--force-with-lease`, then combined with the `main` shell in a Pages artifact. One workflow concurrency group serializes refresh and deployment.
@@ -44,10 +44,15 @@ main shell + runtime-data/data -> GitHub Pages artifact -> deployed PWA
     "themes": ["semi"],           // "semi" | "sw", multi allowed
     "published": "ISO-8601 UTC", "first_seen_at": "ISO-8601 UTC",
     "lang": "ko" | "en",
-    "snippet": "plain text <= 280 chars, may be empty"
+    "snippet": "plain text <= 280 chars, may be empty",
+    "cluster_id": "item id of the cluster representative (shared by near-duplicate stories; == id for singletons)",
+    "company_ids": ["nvidia"],    // watchlist matches, companies.json order
+    "score": 4.0                  // cluster importance, same value on every member
   }]
 }
 ```
+
+Cluster score = sum over distinct outlet names of the best tier weight (tier 1 = 3.0, tier 2 = 2.0, tier 3/Google News = 1.0) + 1.0 once if any member mentions a watchlist company. The app's 주요 view shows clusters with score >= 3.0 and hides its toggle when items carry no scores (stale cached feed).
 
 `data/digest.json`:
 
@@ -74,7 +79,7 @@ main shell + runtime-data/data -> GitHub Pages artifact -> deployed PWA
 
 `data/digests/index.json` lists the 60 newest archive entries. Unreferenced archive files are pruned, and each digest snapshots its cited article links so archives remain useful after items expire from the rolling feed.
 
-`sources.json`: per source either fixed `themes: [...]` (no classification) or `classify: true` + `fallback_themes` (`[]` = drop items that match no keyword rule). Google News query sources use a `google_news: {q, hl, gl, ceid}` object instead of `feed`; the fetcher builds the URL and strips the trailing " - publisher" from titles.
+`sources.json`: per source either fixed `themes: [...]` (no classification) or `classify: true` + `fallback_themes` (`[]` = drop items that match no keyword rule). Every source declares `tier` (1 = specialist direct, 2 = general direct, 3 = Google News query) — the scoring weight input. Google News query sources use a `google_news: {q, hl, gl, ceid}` object instead of `feed`; the fetcher builds the URL and strips the trailing " - publisher" from titles.
 
 `events.json`: manually verified events with `type` (`earnings` | `conference` | `macro`), ISO `start_at`, optional `end_at`, `all_day`, `status`, `company_ids`, themes, importance, official `source_url`, and a short note. Root-level config/data files use the same network-first offline fallback as generated `data/*.json`.
 

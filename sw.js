@@ -1,7 +1,7 @@
 "use strict";
 
 // Bump VERSION whenever any shell file changes so installed clients update.
-const VERSION = "v1.6";
+const VERSION = "v1.8";
 const SHELL_CACHE = `shell-${VERSION}`;
 const SHELL = [
   "./",

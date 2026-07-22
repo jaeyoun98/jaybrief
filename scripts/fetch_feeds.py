@@ -3,6 +3,14 @@
 Run from anywhere; paths are resolved relative to the repo root.
 Writes the output only when the normalized item payload actually changed, so the
 calling workflow can use `git diff` to decide whether to commit.
+
+Each item is also enriched with `cluster_id` (near-duplicate story grouping via
+title-shingle Jaccard), `company_ids` (watchlist matches from companies.json),
+and `score` (tier-weighted distinct-outlet count plus watchlist bonus). All
+three are recomputed every run as a pure function of the selected item set and
+config, so identical inputs produce identical output. Titles in different
+languages never share shingles, so ko/en copies of one story stay separate
+clusters (known limitation).
 """
 
 import calendar
@@ -19,6 +27,7 @@ import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_PATH = ROOT / "sources.json"
+COMPANIES_PATH = ROOT / "companies.json"
 OUT_PATH = ROOT / "data" / "feed.json"
 
 UA = "Mozilla/5.0 (compatible; JayBrief/1.0)"
@@ -29,9 +38,27 @@ GN_PER_SOURCE_MAX = 60
 GN_POOL_MAX = 240
 SNIPPET_MAX = 280
 
+# Keep weights dyadic (x.0/x.5): float sums stay exact and order-independent.
+TIER_WEIGHTS = {1: 3.0, 2: 2.0, 3: 1.0}
+DEFAULT_TIER = 3  # stored items can outlive their source's removal from sources.json
+WATCHLIST_BONUS = 1.0
+# 0.45 calibrated on live data (2026-07-22): Korean outlets paraphrase titles
+# heavily — same-story pairs cluster around J 0.37-0.55 while observed
+# different-story pairs sit at <= 0.36.
+JACCARD_THRESHOLD = 0.45
+# Tiny signatures need near-exact overlap ("CES 2026" vs "CES 2026 preview").
+MIN_SIG_SHINGLES = 4
+SMALL_SIG_JACCARD = 0.85
+# Shingles shared by more items than this are useless join keys — but the cap
+# must exceed any plausible single-story copy count, or mega-stories fragment.
+PRUNE_DF = 100
+# Negative lookaheads for hangul substring terms that shadow unrelated words.
+HANGUL_TERM_EXCLUSIONS = {"메타": "버스|데이터|인지|그린"}
+
 TAG_RE = re.compile(r"<[^>]+>")
 WS_RE = re.compile(r"\s+")
 NORM_RE = re.compile(r"[^0-9a-z가-힣]+")
+ASCII_TOKEN_RE = re.compile(r"[0-9a-z]+")
 
 
 def now_utc():
@@ -167,6 +194,170 @@ def select_items(items, now_str, cutoff, max_items=MAX_ITEMS,
     return selected
 
 
+def title_shingles(title):
+    """Latin/digit tokens as whole shingles, hangul(-mixed) runs as char-bigrams."""
+    grams = set()
+    for token in NORM_RE.split(title.lower()):
+        if not token:
+            continue
+        if ASCII_TOKEN_RE.fullmatch(token) or len(token) == 1:
+            grams.add(token)
+        else:
+            for i in range(len(token) - 1):
+                grams.add(token[i:i + 2])
+    return grams
+
+
+def item_tier(item, tiers):
+    return tiers.get(item["source_id"], DEFAULT_TIER)
+
+
+def representative(members, tiers):
+    """Item-intrinsic pick so the result never depends on input order."""
+    def key(member):
+        return (
+            item_tier(member, tiers),
+            is_google_news(member),
+            member.get("first_seen_at") or member["published"],
+            member["id"],
+        )
+    return min(members, key=key)
+
+
+def cluster_items(items, tiers):
+    """Group near-duplicate titles; returns {item_id: representative item_id}.
+
+    The candidate-pair set is determined by inverted-index content and the
+    final partition is the connected components of the merge graph, so the
+    mapping is permutation-invariant for a given item set.
+    """
+    sigs = [title_shingles(item["title"]) for item in items]
+
+    index = {}
+    for pos, sig in enumerate(sigs):
+        for gram in sig:
+            index.setdefault(gram, []).append(pos)
+
+    parent = list(range(len(items)))
+
+    def find(pos):
+        while parent[pos] != pos:
+            parent[pos] = parent[parent[pos]]
+            pos = parent[pos]
+        return pos
+
+    checked = set()
+    for positions in index.values():
+        if len(positions) > PRUNE_DF:
+            continue
+        for a in range(len(positions)):
+            for b in range(a + 1, len(positions)):
+                pair = (positions[a], positions[b])
+                if pair in checked:
+                    continue
+                checked.add(pair)
+                si, sj = sigs[pair[0]], sigs[pair[1]]
+                threshold = (
+                    SMALL_SIG_JACCARD
+                    if min(len(si), len(sj)) < MIN_SIG_SHINGLES
+                    else JACCARD_THRESHOLD
+                )
+                union = len(si) + len(sj) - len(si & sj)
+                if union and len(si & sj) / union >= threshold:
+                    root_a, root_b = find(pair[0]), find(pair[1])
+                    if root_a != root_b:
+                        parent[root_b] = root_a
+
+    groups = {}
+    for pos in range(len(items)):
+        groups.setdefault(find(pos), []).append(pos)
+
+    mapping = {}
+    for positions in groups.values():
+        members = [items[pos] for pos in positions]
+        rep_id = representative(members, tiers)["id"]
+        for member in members:
+            mapping[member["id"]] = rep_id
+    return mapping
+
+
+def compile_company_terms(companies):
+    """Match semantics mirror make_digest.term_matches: ASCII terms bounded by
+    non-alphanumerics, non-ASCII terms as substrings. Tickers are matched
+    case-sensitively (prose "mu"/"meta" must not hit MU/META)."""
+    compiled = []
+    for company in companies:
+        terms = [(company["name"], False), (company["ticker"], True)]
+        terms += [(alias, False) for alias in company.get("aliases", [])]
+        patterns = []
+        for term, case_sensitive in terms:
+            if not term:
+                continue
+            if term.isascii():
+                pattern = rf"(?<![A-Za-z0-9]){re.escape(term)}(?![A-Za-z0-9])"
+            else:
+                exclusion = HANGUL_TERM_EXCLUSIONS.get(term)
+                pattern = re.escape(term) + (rf"(?!{exclusion})" if exclusion else "")
+            patterns.append(re.compile(pattern, 0 if case_sensitive else re.IGNORECASE))
+        compiled.append((company["id"], patterns))
+    return compiled
+
+
+def match_company_ids(text, compiled_companies):
+    return [
+        company_id
+        for company_id, patterns in compiled_companies
+        if any(pattern.search(text) for pattern in patterns)
+    ]
+
+
+def score_cluster(members, tiers):
+    """Tier-weighted count of distinct outlet names plus a single watchlist bonus.
+
+    One outlet counted once at its best tier, so a direct copy outranks the
+    same outlet's Google News copy and GN duplicates don't inflate the score.
+    """
+    weights = {}
+    for member in members:
+        name = member["source"].casefold().strip()
+        weight = TIER_WEIGHTS[item_tier(member, tiers)]
+        weights[name] = max(weights.get(name, 0.0), weight)
+    score = sum(weights[name] for name in sorted(weights))
+    if any(member["company_ids"] for member in members):
+        score += WATCHLIST_BONUS
+    return score
+
+
+def enrich_items(items, tiers, companies):
+    """Annotate items with company_ids, cluster_id, and score.
+
+    Pure function of (items, tiers, companies) and always reassigns all three
+    fields: select_items copies and merge upgrades can carry stale annotations
+    from a previous run, and determinism keeps the no-change fast path alive.
+    """
+    compiled = compile_company_terms(companies)
+    enriched = []
+    for item in items:
+        item = dict(item)
+        item["company_ids"] = match_company_ids(
+            f"{item['title']} {item['snippet']}", compiled
+        )
+        enriched.append(item)
+
+    mapping = cluster_items(enriched, tiers)
+    groups = {}
+    for item in enriched:
+        item["cluster_id"] = mapping[item["id"]]
+        groups.setdefault(item["cluster_id"], []).append(item)
+    scores = {
+        cluster_id: score_cluster(members, tiers)
+        for cluster_id, members in groups.items()
+    }
+    for item in enriched:
+        item["score"] = scores[item["cluster_id"]]
+    return enriched
+
+
 def collect(source, compiled_rules):
     resp = requests.get(feed_url(source), headers={"User-Agent": UA}, timeout=TIMEOUT)
     resp.raise_for_status()
@@ -213,6 +404,10 @@ def collect(source, compiled_rules):
 
 def main():
     config = json.loads(SOURCES_PATH.read_text(encoding="utf-8"))
+    # No fallback on purpose: a silent empty watchlist would flip every score
+    # and oscillate the runtime-data snapshot between runs.
+    companies = json.loads(COMPANIES_PATH.read_text(encoding="utf-8"))["companies"]
+    tiers = {source["id"]: source["tier"] for source in config["sources"]}
     compiled_rules = compile_rules(config["keyword_rules"])
     run_now = now_utc()
     run_now_str = iso(run_now)
@@ -241,7 +436,7 @@ def main():
         return 1
 
     cutoff = iso(run_now - timedelta(hours=WINDOW_HOURS))
-    items = select_items(merged, run_now_str, cutoff)
+    items = enrich_items(select_items(merged, run_now_str, cutoff), tiers, companies)
 
     if items == stored_items:
         print(f"no change ({len(items)} items in window)")

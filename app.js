@@ -4,7 +4,9 @@ const APP_NAME = "JayBrief"; // display name — see CLAUDE.md "Rename policy"
 const READ_KEY = "jb.read.v1";
 const FILTER_KEY = "jb.filter.v1";
 const EVENT_FILTER_KEY = "jb.event-filter.v1";
+const RANK_KEY = "jb.rank.v1";
 const STALE_MS = 10 * 60 * 1000;
+const TOP_SCORE_MIN = 3.0; // matches pipeline scoring: tier-1 exclusive or watchlist mention
 
 const THEME_LABELS = { semi: "반도체", sw: "SW테크" };
 const IMPACT_LABELS = {
@@ -23,6 +25,11 @@ function loadReadSet() {
   }
 }
 
+function loadRank() {
+  const value = localStorage.getItem(RANK_KEY);
+  return value === "all" || value === "top" ? value : "top";
+}
+
 const state = {
   feed: null,
   digest: null,
@@ -32,6 +39,7 @@ const state = {
   events: [],
   filter: localStorage.getItem(FILTER_KEY) || "all",
   eventFilter: localStorage.getItem(EVENT_FILTER_KEY) || "all",
+  rank: loadRank(),
   read: loadReadSet(),
   lastLoad: 0,
   eventMonth: new Date(new Date().getFullYear(), new Date().getMonth(), 1),
@@ -129,40 +137,126 @@ function el(tag, cls, text) {
 
 // ---------- feed view ----------
 
+function clusterFeed(items) {
+  const groups = new Map();
+  for (const item of items) {
+    const key = item.cluster_id || item.id; // tolerate cached pre-cluster feeds
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(item);
+  }
+  const clusters = [];
+  for (const [key, members] of groups) {
+    const rep = members.find((m) => m.id === key) || members[0];
+    const sources = new Set(members.map((m) => m.source.trim().toLowerCase()));
+    clusters.push({
+      rep,
+      members,
+      themes: Object.keys(THEME_LABELS).filter(
+        (theme) => members.some((m) => m.themes.includes(theme))
+      ),
+      companyIds: [...new Set(members.flatMap((m) => m.company_ids || []))],
+      score: typeof rep.score === "number" ? rep.score : 0,
+      sourceCount: sources.size,
+      latest: members.reduce(
+        (max, m) => (m.published > max ? m.published : max), rep.published
+      ),
+    });
+  }
+  return clusters;
+}
+
+function renderFeedCard(cluster) {
+  const { rep, members } = cluster;
+  const allRead = members.every((m) => state.read.has(m.id));
+  const li = el("li", "feed-item" + (allRead ? " read" : ""));
+  const a = el("a");
+  const href = safeUrl(rep.url);
+  if (href) a.href = href; // only http(s); no href = inert anchor
+  a.target = "_blank";
+  a.rel = "noopener";
+  a.addEventListener("click", () => {
+    for (const m of members) state.read.add(m.id);
+    saveRead();
+    li.classList.add("read");
+  });
+  a.appendChild(el("p", "feed-title", rep.title));
+  const meta = el("div", "feed-meta");
+  for (const theme of cluster.themes) {
+    meta.appendChild(el("span", `badge ${theme}`, THEME_LABELS[theme] || theme));
+  }
+  meta.appendChild(el("span", "", rep.source));
+  meta.appendChild(el("span", "", "·"));
+  meta.appendChild(el("span", "", relTime(cluster.latest)));
+  a.appendChild(meta);
+  li.appendChild(a);
+
+  if (cluster.sourceCount > 1) {
+    // Other members expand as pills OUTSIDE the card anchor (nested anchors break).
+    const sourcesBox = el("div", "feed-sources hidden");
+    for (const m of members) {
+      if (m.id === rep.id) continue;
+      const pill = el("a", "", m.source);
+      const pillHref = safeUrl(m.url);
+      if (pillHref) pill.href = pillHref;
+      pill.target = "_blank";
+      pill.rel = "noopener";
+      pill.title = m.title;
+      pill.addEventListener("click", () => {
+        state.read.add(m.id);
+        saveRead();
+      });
+      sourcesBox.appendChild(pill);
+    }
+    const toggle = el("span", "src-count", `출처 ${cluster.sourceCount}곳`);
+    toggle.setAttribute("role", "button");
+    toggle.tabIndex = 0;
+    const flip = (event) => {
+      event.preventDefault(); // the toggle sits inside the card anchor
+      event.stopPropagation();
+      sourcesBox.classList.toggle("hidden");
+    };
+    toggle.addEventListener("click", flip);
+    toggle.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") flip(event);
+    });
+    meta.appendChild(toggle);
+    li.appendChild(sourcesBox);
+  }
+
+  for (const id of cluster.companyIds) {
+    const company = state.companies.find((c) => c.id === id);
+    if (company) meta.appendChild(el("span", "company-chip", company.name));
+  }
+  return li;
+}
+
 function renderFeed() {
   const list = $("#feed-list");
   list.textContent = "";
   const items = state.feed ? state.feed.items : [];
-  const visible = items.filter(
-    (i) => state.filter === "all" || i.themes.includes(state.filter)
+  // Cached pre-cluster feed.json has no scores; 주요 would be silently empty.
+  const hasScores = items.some((i) => typeof i.score === "number");
+  $("#rank-chips").classList.toggle("hidden", !hasScores);
+  const rank = hasScores ? state.rank : "all";
+
+  const visible = clusterFeed(items).filter(
+    (c) => state.filter === "all" || c.themes.includes(state.filter)
   );
-  $("#feed-empty").classList.toggle("hidden", visible.length > 0);
+  const clusters = rank === "top"
+    ? visible.filter((c) => c.score >= TOP_SCORE_MIN)
+    : visible;
+  clusters.sort((a, b) =>
+    (rank === "top" && b.score - a.score) || b.latest.localeCompare(a.latest)
+  );
+
+  const empty = $("#feed-empty");
+  empty.classList.toggle("hidden", clusters.length > 0);
+  empty.textContent = clusters.length === 0 && visible.length > 0
+    ? "주요 소식이 없습니다. 전체 보기로 전환해 보세요."
+    : "표시할 기사가 없습니다.";
 
   const frag = document.createDocumentFragment();
-  for (const item of visible) {
-    const li = el("li", "feed-item" + (state.read.has(item.id) ? " read" : ""));
-    const a = el("a");
-    const href = safeUrl(item.url);
-    if (href) a.href = href; // only http(s); no href = inert anchor
-    a.target = "_blank";
-    a.rel = "noopener";
-    a.addEventListener("click", () => {
-      state.read.add(item.id);
-      saveRead();
-      li.classList.add("read");
-    });
-    a.appendChild(el("p", "feed-title", item.title));
-    const meta = el("div", "feed-meta");
-    for (const theme of item.themes) {
-      meta.appendChild(el("span", `badge ${theme}`, THEME_LABELS[theme] || theme));
-    }
-    meta.appendChild(el("span", "", item.source));
-    meta.appendChild(el("span", "", "·"));
-    meta.appendChild(el("span", "", relTime(item.published)));
-    a.appendChild(meta);
-    li.appendChild(a);
-    frag.appendChild(li);
-  }
+  for (const cluster of clusters) frag.appendChild(renderFeedCard(cluster));
   list.appendChild(frag);
 }
 
@@ -479,10 +573,24 @@ function initChips() {
   });
 }
 
+function initRankChips() {
+  const chips = document.querySelectorAll("#rank-chips .chip");
+  chips.forEach((chip) => {
+    chip.classList.toggle("active", chip.dataset.rank === state.rank);
+    chip.addEventListener("click", () => {
+      state.rank = chip.dataset.rank;
+      localStorage.setItem(RANK_KEY, state.rank);
+      chips.forEach((c) => c.classList.toggle("active", c === chip));
+      renderFeed();
+    });
+  });
+}
+
 document.title = APP_NAME;
 $("#app-title").textContent = APP_NAME;
 initTabs();
 initChips();
+initRankChips();
 initEventControls();
 initDigestControls();
 $("#refresh-btn").addEventListener("click", load);
