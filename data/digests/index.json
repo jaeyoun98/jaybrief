@@ -1,0 +1,94 @@
+{
+ "digests": [
+  {
+   "path": "data/digests/2026-07-24-night.json",
+   "generated_at": "2026-07-24T13:49:40Z",
+   "date": "2026-07-24",
+   "edition": "night"
+  },
+  {
+   "path": "data/digests/2026-07-24-evening.json",
+   "generated_at": "2026-07-24T06:09:51Z",
+   "date": "2026-07-24",
+   "edition": "evening"
+  },
+  {
+   "path": "data/digests/2026-07-24-morning.json",
+   "generated_at": "2026-07-23T23:30:38Z",
+   "date": "2026-07-24",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-07-23-night.json",
+   "generated_at": "2026-07-23T14:05:39Z",
+   "date": "2026-07-23",
+   "edition": "night"
+  },
+  {
+   "path": "data/digests/2026-07-23-evening.json",
+   "generated_at": "2026-07-23T06:16:22Z",
+   "date": "2026-07-23",
+   "edition": "evening"
+  },
+  {
+   "path": "data/digests/2026-07-23-morning.json",
+   "generated_at": "2026-07-22T23:32:26Z",
+   "date": "2026-07-23",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-07-22-night.json",
+   "generated_at": "2026-07-22T14:00:32Z",
+   "date": "2026-07-22",
+   "edition": "night"
+  },
+  {
+   "path": "data/digests/2026-07-22-evening.json",
+   "generated_at": "2026-07-22T06:10:49Z",
+   "date": "2026-07-22",
+   "edition": "evening"
+  },
+  {
+   "path": "data/digests/2026-07-22-morning.json",
+   "generated_at": "2026-07-21T23:32:28Z",
+   "date": "2026-07-22",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-07-21-night.json",
+   "generated_at": "2026-07-21T13:56:06Z",
+   "date": "2026-07-21",
+   "edition": "night"
+  },
+  {
+   "path": "data/digests/2026-07-21-evening.json",
+   "generated_at": "2026-07-21T06:11:58Z",
+   "date": "2026-07-21",
+   "edition": "evening"
+  },
+  {
+   "path": "data/digests/2026-07-21-morning.json",
+   "generated_at": "2026-07-20T23:33:57Z",
+   "date": "2026-07-21",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-07-20-night.json",
+   "generated_at": "2026-07-20T14:10:16Z",
+   "date": "2026-07-20",
+   "edition": "night"
+  },
+  {
+   "path": "data/digests/2026-07-20-noon.json",
+   "generated_at": "2026-07-20T04:14:30Z",
+   "date": "2026-07-20",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-07-20-morning.json",
+   "generated_at": "2026-07-19T23:24:54Z",
+   "date": "2026-07-20",
+   "edition": "morning"
+  }
+ ]
+}

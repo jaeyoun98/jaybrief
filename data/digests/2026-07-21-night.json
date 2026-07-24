@@ -1,0 +1,201 @@
+{
+ "generated_at": "2026-07-21T13:56:06Z",
+ "date": "2026-07-21",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 수요 급증에 따른 글로벌 파운드리 및 반도체 후공정 기술 고도화와 주요 기업의 전략적 투자 움직임이 지속되고 있습니다.",
+   "stories": [
+    {
+     "headline": "AMD, 마이크로소프트에 AI 시스템 '핼리오스' 공급",
+     "facts": [
+      "AMD가 올해 하반기부터 마이크로소프트(MS)에 AI 시스템 '핼리오스'를 공급함",
+      "MS는 클라우드 플랫폼 '애저'에 핼리오스를 도입해 AI 모델 및 추론 워크로드 처리 예정"
+     ],
+     "interpretation": "AMD의 데이터센터 GPU 시장 점유율 확대 전략이 구체화되고 있으며, MS의 애저 클라우드 내 AMD 하드웨어 비중 증가로 인한 매출 다변화가 기대됨.",
+     "affected_company_ids": [
+      "amd",
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "AMD의 차기 실적 발표에서 핼리오스 공급에 따른 데이터센터 부문 매출 기여도 확인 필요.",
+     "upcoming_event_ids": [
+      "amd-q2-2026",
+      "microsoft-fy26-q4"
+     ],
+     "article_ids": [
+      "5188dc276552a0d2"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, 평택캠퍼스에 하이브리드 본딩 양산 라인 구축",
+     "facts": [
+      "삼성전자가 평택캠퍼스에 D2W 하이브리드 본딩 50대 규모 양산 라인 구축 결정",
+      "베시(BESI)를 최우선 협력사로 선정하여 연말부터 장비 반입 예정"
+     ],
+     "interpretation": "차세대 HBM 및 로직 반도체 생산을 위한 후공정 기술 내재화 및 경쟁력 강화 조치로, 고성능 AI 반도체 시장 대응력을 높이는 전략임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "하이브리드 본딩 도입 이후 HBM 수율 개선 및 차세대 제품 양산 시점 확인.",
+     "upcoming_event_ids": [
+      "samsung-electronics-q2-2026"
+     ],
+     "article_ids": [
+      "3ff9f2ff1dbef84b"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "TSMC, AI 수요 대응 위해 애리조나 공장 건설 가속화",
+     "facts": [
+      "TSMC가 AI 메가트렌드에 대응하기 위해 애리조나 공장 건설 속도를 높이고 있음",
+      "강력한 고객 수요가 추가 투자의 배경으로 지목됨"
+     ],
+     "interpretation": "AI 칩 수요가 공급을 상회하는 상황에서 TSMC의 생산 능력 확충은 글로벌 AI 반도체 공급망의 핵심 변수이며, 중장기적 매출 성장 동력으로 작용할 전망.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "애리조나 공장의 가동률 및 주요 고객사 물량 배정 현황.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6008ab8da5e8e488"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "NVIDIA, Nebius 지분 9.3% 보유 공시",
+     "facts": [
+      "NVIDIA가 Nebius의 지분 9.3%를 보유하고 있음을 공시함",
+      "지난 3월 NVIDIA는 Nebius에 20억 달러 규모의 투자를 단행한 바 있음"
+     ],
+     "interpretation": "AI 클라우드 인프라 기업에 대한 전략적 지분 투자를 통해 AI 생태계 내 영향력을 강화하고, 자사 GPU 활용도를 높이려는 포석임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "NVIDIA의 추가적인 AI 인프라 관련 지분 투자 및 파트너십 확대 여부.",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "2e6a91b3e9dbec8e",
+      "c8865066d9b17dbd"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 모델의 성능 경쟁이 심화되는 가운데, 기업들의 비용 최적화 기술과 국방·산업 등 특화 분야로의 AI 도입 전략이 활발히 논의되고 있습니다.",
+   "stories": [
+    {
+     "headline": "포티투마루, 국방 AX 전략 및 'K-팔란티어' 모델 제시",
+     "facts": [
+      "포티투마루가 글로벌 디지털 포럼에서 한국 국방 AX 전략 발표",
+      "팔란티어의 방법론을 벤치마킹하여 도메인 지식과 개발 역량을 결합한 3단계 전략 제안"
+     ],
+     "interpretation": "국방 분야의 AI 전환(AX) 수요가 증가함에 따라, 팔란티어와 같은 데이터 통합 및 분석 플랫폼 모델이 국내 방산 시장에서도 핵심 경쟁력으로 부상하고 있음.",
+     "affected_company_ids": [
+      "palantir"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "국내 방산 기업들의 실제 AI 도입 프로젝트 수주 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a427539435638cda"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자, 갤럭시Z8 언팩 앞두고 런던 마케팅 강화",
+     "facts": [
+      "삼성전자가 차세대 폴더블 스마트폰 '갤럭시Z8' 공개를 앞두고 런던에서 대규모 언팩 준비 중",
+      "공개 행사장인 올드 빌링스게이트에 대형 사인 설치 등 홍보 활동 전개"
+     ],
+     "interpretation": "하반기 모바일 시장 점유율 방어 및 폴더블 폼팩터 리더십 유지를 위한 공격적인 마케팅으로, 신제품 흥행 여부가 모바일 부문 실적에 직결됨.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "언팩 이후 신제품에 대한 시장 반응 및 초기 판매량 데이터.",
+     "upcoming_event_ids": [
+      "samsung-electronics-q2-2026"
+     ],
+     "article_ids": [
+      "b3aca523f27aef97"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "2e6a91b3e9dbec8e",
+   "title": "NVIDIA reports 9.3% beneficial ownership of Nebius through shares and warrant",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE54UV81YS1FMjlyYmhSbE1panNZYnI2ZVA2ZVdMN2tsQi1ldEFtYkNiZWw0YWVGMHEtamhFUGJkbkkxREd5aGtWRk9sNE1qX2tUUW5YWGFNUmlWS01zemhTYjJxeWk0bmdLZnZ2ZGFuN1ItUnF6WTFj?oc=5",
+   "source": "Blockspace Media"
+  },
+  {
+   "id": "5188dc276552a0d2",
+   "title": "AMD, 하반기 마이크로소프트에 AI 시스템 '핼리오스' 공급",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59797",
+   "source": "디일렉"
+  },
+  {
+   "id": "3ff9f2ff1dbef84b",
+   "title": "삼성, 평택에 하이브리드 본딩 50대 규모 양산 라인 만든다",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59804",
+   "source": "디일렉"
+  },
+  {
+   "id": "c8865066d9b17dbd",
+   "title": "Nebius stock surges as Nvidia discloses 9.3% stake in neocloud",
+   "url": "https://www.cnbc.com/2026/07/21/nebius-stock-nvidia-stake-neocloud.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "6008ab8da5e8e488",
+   "title": "TSMC is accelerating Arizona factory build-out to capitalize on AI 'megatrend,' CFO says",
+   "url": "https://www.cnbc.com/2026/07/20/tsmc-arizona-fab-capacity-ai-chip-demand.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "b3aca523f27aef97",
+   "title": "보랏빛 채워진 런던…갤럭시Z8 언팩 초읽기",
+   "url": "https://www.etnews.com/20260721000340",
+   "source": "전자신문"
+  },
+  {
+   "id": "a427539435638cda",
+   "title": "[게시판] 포티투마루, 디지털 포럼서 K-팔란티어 전략 공유 등 단신",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213010",
+   "source": "AI타임스"
+  }
+ ]
+}

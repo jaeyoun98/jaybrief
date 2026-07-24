@@ -1,0 +1,442 @@
+{
+ "generated_at": "2026-07-20T04:14:30Z",
+ "date": "2026-07-20",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 AI 수요에 따른 신입 채용 급증과 같은 호재에도 불구하고, 엔비디아의 독점 체제에 대한 중국의 오픈소스 도전과 메모리 반도체 약세에 따른 시장 변동성 확대가 공존하는 상황입니다.",
+   "stories": [
+    {
+     "headline": "반도체 업계, AI 호황에 힘입어 상반기 신입 채용 공고 47% 급증",
+     "facts": [
+      "2026년 상반기 반도체 업종 신입 채용 공고가 전년 대비 47% 증가함",
+      "삼성전자와 SK하이닉스 등 주요 기업의 인재 확보 경쟁이 치열함"
+     ],
+     "interpretation": "반도체 산업의 구조적 성장세가 지속됨에 따라 기업들이 미래 경쟁력 확보를 위해 인적 자원 투자를 대폭 확대하고 있음을 시사함.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "하반기 채용 규모 유지 여부 및 주요 기업의 실적 발표를 통한 투자 기조 확인이 필요함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3d9e8e9249f9a795",
+      "324d62580d1d9529",
+      "3b5362518331ad54",
+      "abb83da48a89767c",
+      "d1569147bb25f4c7",
+      "78439bf9d523d364",
+      "1c76f57c3cc2cc63",
+      "504001e127e0b2cf",
+      "e320516e4044a4e9",
+      "c747011d0bd562f0",
+      "d88f7089e2eedee7",
+      "3791ccc141d64993"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "중국 알리바바, 엔비디아 'CUDA' 독점에 오픈소스로 도전장",
+     "facts": [
+      "알리바바의 칩 설계 자회사 티헤드(T-Head)가 자체 AI 칩 기반 오픈소스 생태계 구축 발표",
+      "미국의 반도체 수출 규제 심화에 따른 중국의 AI 소프트웨어 주권 확보 전략"
+     ],
+     "interpretation": "엔비디아의 소프트웨어 해자(Moat)인 CUDA에 대한 중국의 기술적 추격이 본격화되고 있으며, 이는 장기적으로 엔비디아의 시장 지배력에 대한 잠재적 위협 요인이 될 수 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "알리바바의 오픈소스 생태계가 실제 개발자들에게 얼마나 채택되는지 여부가 핵심임.",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "12b86d37f595d344",
+      "92c3c41e915b4ee0"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "TSMC, AI 수요 대응 위해 미국 투자 가속화 및 자본 지출 확대",
+     "facts": [
+      "TSMC는 2026년 자본 지출 전망을 600억~640억 달러로 상향",
+      "미국 애리조나 공장에 대한 대규모 추가 투자 계획 발표"
+     ],
+     "interpretation": "AI 반도체에 대한 구조적 수요가 향후 수년간 지속될 것으로 판단하며, 지정학적 리스크 대응과 고객사 수요 충족을 위해 공격적인 설비 투자를 단행하고 있음.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "guidance",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 내 건설 인력 부족 등 운영상 도전 과제가 실제 생산 일정에 미칠 영향 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "91adedadd9b787f4",
+      "fc9af65a7fefe1c2",
+      "28d3df2ce9ce2d11",
+      "e007c78a004d22c1",
+      "af485ee90b876dbe",
+      "051d5ae046671806",
+      "7af1f70116e35c67",
+      "ef5f51a8a4ca3d0e",
+      "2df08dda6026a2b8",
+      "58784acc04294ea5",
+      "36e35785ab39cfc2",
+      "b51c216ad29f1fcf"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 및 AI 섹터는 기업들의 AI 인프라 구축 협력과 더불어, 엔비디아의 비전 AI 기술 확장 및 중국 AI 모델의 성능 입증으로 인한 시장 경쟁 심화가 주요 이슈입니다.",
+   "stories": [
+    {
+     "headline": "삼성SDS, 퓨리오사AI NPU 기반 서비스형 NPU(NPUaaS) 출시",
+     "facts": [
+      "삼성SDS가 삼성 클라우드 플랫폼(SCP)에 퓨리오사AI의 2세대 NPU '레니게이드' 탑재",
+      "AI 추론에 특화된 국산 NPU를 활용해 전력 효율성 및 비용 경쟁력 확보 시도"
+     ],
+     "interpretation": "클라우드 서비스 제공업체들이 엔비디아 GPU 의존도를 낮추고 비용 효율적인 AI 추론 환경을 구축하기 위해 국산 NPU 도입을 가속화하고 있음.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "실제 클라우드 고객사들의 도입률과 성능 만족도 여부가 향후 서비스 확대의 관건임.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0111562b0b00ef7f",
+      "fe63cae355ae28b3",
+      "056571ec70b68a23",
+      "e3512d29f6b0e4d9",
+      "efafbfa482d7d0ce",
+      "4037d7b88c52b8d8"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "엔비디아, '메트로폴리스' 기능 강화로 비전 AI 에이전트 시장 공략",
+     "facts": [
+      "엔비디아 메트로폴리스에 비전 AI 에이전트 개발을 지원하는 80개 이상 신규 스킬 추가",
+      "산업 현장의 영상 이해 및 판단 자동화 작업 속도 6배 개선"
+     ],
+     "interpretation": "단순 연산용 GPU를 넘어 산업 현장의 물리적 AI(Physical AI) 생태계를 선점함으로써 하드웨어와 소프트웨어의 결합력을 강화하고 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "제조 및 물류 현장에서의 실제 적용 사례 확대 여부 확인 필요.",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "9fbeee9f3b94cda4"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "HD현대-네이버클라우드, 조선업 특화 AI 생태계 구축 협력",
+     "facts": [
+      "HD현대와 네이버클라우드가 조선업 디지털 전환을 위한 AI 클라우드 기술 협력 MOU 체결",
+      "스마트 조선소 구축 및 현장형 AX(AI 전환) 가속화 목표"
+     ],
+     "interpretation": "전통 제조 산업이 AI 기술을 도입하여 생산성을 극대화하려는 움직임이 구체화되고 있으며, 이는 클라우드 및 AI 솔루션 기업들에게 새로운 B2B 시장 기회를 제공함.",
+     "affected_company_ids": [
+      "microsoft",
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "구체적인 기술 적용 성과 및 타 산업으로의 확장 가능성 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "438294383d82e984",
+      "c8c7352fb2358965",
+      "1542f6b39d4b77a7",
+      "5194d5fc35479c6c",
+      "1355529d7c907efc",
+      "232414749f76d3cd",
+      "f3250d1d5e18d3be",
+      "ba70b49711146fef",
+      "52bbe39b90a4a093"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "12b86d37f595d344",
+   "title": "알리바바, ‘쿠다 독점’에 오픈소스로 도전장… 현실 장벽 여전히 높아",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=212933",
+   "source": "AI타임스"
+  },
+  {
+   "id": "0111562b0b00ef7f",
+   "title": "삼성SDS, 국산 NPU 탑재 ‘NPUaaS’ 본격 출시",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=212928",
+   "source": "AI타임스"
+  },
+  {
+   "id": "3d9e8e9249f9a795",
+   "title": "상반기 반도체 신입 채용 47% 급증… AI 호황에 채용시장도 ‘훈풍’",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5veE1yTGVqSmZ1QTBvTklIMUZHR0xCd1dMUWNkNHlka2ZCZkZXb1JUdDAyNkRkSkRQZnFORzNtbURNRUtWXzQ4ZVJ1QXJTbmJDbUI4QVJ3Q3JWUmNKamEwR194UU90aU1Ganc?oc=5",
+   "source": "천지일보"
+  },
+  {
+   "id": "324d62580d1d9529",
+   "title": "반도체 채용, 신입 문도 활짝…상반기 공고 47% 급증",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9EdzFwQmNGaTNQZHozYm8yaFpwcUhOMlVYVkRCOXRLaE5uN2RmcV9LNExSc0lmSE5kWGVGR3hFMGlCMmN2RGx5a2Y3ZXdia3c?oc=5",
+   "source": "v.daum.net"
+  },
+  {
+   "id": "91adedadd9b787f4",
+   "title": "Taiwan-US 'co-make' white paper debuts amid investment boom",
+   "url": "https://www.digitimes.com/news/a20260719PD200/taiwan-investment-tsmc-manufacturing-technology.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "3b5362518331ad54",
+   "title": "반도체 호황에 ‘신입’ 뽑는다… 상반기 신입 공고 47% 증가",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0wdEw1ZTNJbktFZHFCZnYtUElZMEpOaEFvdUY4aTZJTUdxa1VydS1adnV5VkVsS0daU3g3LUdsbkJ6eGlyelVhczB5Snk1alVveE03THo0X3JwYjNJS1MxZkFpcXRRQQ?oc=5",
+   "source": "한국대학신문"
+  },
+  {
+   "id": "af485ee90b876dbe",
+   "title": "TSMC expansion strengthens Arizona's talent pull as advanced manufacturing shifts west",
+   "url": "https://www.digitimes.com/news/a20260720PD202/tsmc-arizona-talent-manufacturing-expansion.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "fc9af65a7fefe1c2",
+   "title": "Exclusive Interview: Inside VSMC's Singapore fab, where silicon interposers and power chips underpin AI growth",
+   "url": "https://www.digitimes.com/news/a20260720PD205/tsmc-fab-silicon-chips-2026.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "28d3df2ce9ce2d11",
+   "title": "TSMC CFO \"다년간의 구조적 수요…계속 투자할 것\"",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByQW5JNldKX2dESnBGVm1LY3Q2ajBlZm41ZmNwbGx6VGVJNFQxZkxJVEFUcjJSUWhUdWFSS0F1em5fY1ZxcU9wdzYyTjFEakRCbUJFT2Nqa1d3OGNxNW82TNIBYEFVX3lxTFByQW5JNldKX2dESnBGVm1LY3Q2ajBlZm41ZmNwbGx6VGVJNFQxZkxJVEFUcjJSUWhUdWFSS0F1em5fY1ZxcU9wdzYyTjFEakRCbUJFT2Nqa1d3OGNxNW82TA?oc=5",
+   "source": "연합뉴스"
+  },
+  {
+   "id": "e007c78a004d22c1",
+   "title": "TSMC, 美 애리조나 148조 추가 투자… 건설 인력 부족 등 도전 과제 남아",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBGN2lBWFVxZnREejdlT0MyTk01SU9WVndLNXhuLUVMY0pYT3Z4RkNBQlRiRmRNRzhzOFhrVFJ5dk5QMWZMaFFfQjktaVU5bkt2VUJodUV5NHUtSnhxOGdjVmJoTkhxdXotbGFpZXNR?oc=5",
+   "source": "아시아투데이"
+  },
+  {
+   "id": "7af1f70116e35c67",
+   "title": "TSMC: The Buildout Is Still Accelerating (NYSE:TSM)",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMXFiUjc2aGk2djlBTFhkWFo1M013RjBSbzA5MUNCS1dRcm5faUxYN2lKQmJ2b2NWbno1OEh6M1lzTVpDMkhMVVVEN1R1SGFmbGdYRDJOeDl1M2s1NjNUWHRoUlIyYnR4RXlrU3dlMkNwd3N5aDdmVG1JZXRCTDRNaFF6NHJZUC1mQXhYcXo3azIzLTVVNmh3VTFzd0xPYTA?oc=5",
+   "source": "Seeking Alpha"
+  },
+  {
+   "id": "051d5ae046671806",
+   "title": "TSMC’s US$265 bil US spending driven by demand and rivals, CFO says",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5zQW1iUUVreU9HanFvSE94VWRqTVFCWjZpZnU1VU1NZl9QVGlGRXZNaEJrZFM5OG01Y054dEtZdFphWGQ5U25fNjBHQXpCeVhE?oc=5",
+   "source": "The Edge Malaysia"
+  },
+  {
+   "id": "abb83da48a89767c",
+   "title": "'삼성전자·SK하이닉스 효과' 상반기, 반도체 신입 공고 47% 'UP'",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BS3BGNnBjejgxNjFXMFExc3VENHdabFhaUEYtNHlZOV84OEdNQ1JfdThuSC1fTFg2LXhERnZibHVkMTlWcFFtVUo2N041Y0pvdUEycngtU1hUTWttcUw0VURRbVhXcTlvVnlSN2loaXk?oc=5",
+   "source": "신아일보"
+  },
+  {
+   "id": "92c3c41e915b4ee0",
+   "title": "Alibaba Challenges NVIDIA With Free AI Software",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNX3pneFA2cjZpdW43MU10N2xlU1ctX0JaVlRCUHJjVUw4OHh1bWR4dHpFc2hNMFdLMUo1enhJNFhQMFRIUnlzN21uSDNySkFKSEdXVTlLRGpGT04yOFVpLVZqRGtxbnRuZ1V5eHFKa1ZHS0dha0NjaWpzWkpwVFMwdTJhclRSZ3Rv?oc=5",
+   "source": "조선일보"
+  },
+  {
+   "id": "9fbeee9f3b94cda4",
+   "title": "엔비디아, '메트로폴리스' 기능 추가…\"영상 이해·판단하는 AI 구축\"",
+   "url": "https://zdnet.co.kr/view/?no=20260720111057",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "78439bf9d523d364",
+   "title": "호황에 반도체 채용 확대…상반기 신입 공고 47% 증가",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jQ0dFWlZ0OGdndkJVVE1ndmVLZ0lwcUt6QjJLS0Z5aHI0LWRNUDJVQ254TTdndWFKYlZ6VjhsVjg4Q2JRa0plZS1DSlZJMFIxb0lEMWR3?oc=5",
+   "source": "중앙일보"
+  },
+  {
+   "id": "d1569147bb25f4c7",
+   "title": "반도체 초호황에 신입 채용 47% 급증…'삼전닉스' 인재 확보 속도",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE82SndVZFp6T3lrOExQc1J1cjJ5Z0F1MmZJUmdwelJmcEM4NUIyekZTa2FmZVctWDdLTlFqRDBOd2pRRXc1dmxRSjhDTEFrSDZsT2xUYmx4eW5yMEFoZXlSUE5TaVlfVFRh?oc=5",
+   "source": "ebn.co.kr"
+  },
+  {
+   "id": "1c76f57c3cc2cc63",
+   "title": "\"반도체 산업 채용 문 열렸다\", 올해 상반기 신입 공고 47% 증가",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE93V2V2aTY0QVpkSmJJbGgzcXFDOXBfV3ljUUlhVV9YRlVDc1Z2WnpnUFQ3SVdobGgyQkVtYkJnWmlZQ1FVb3JUSDVBOWJuaGVFaHFDVXo3allQV0N3bHZ1cXdIUTBmYmJndmplaTl3?oc=5",
+   "source": "elec4"
+  },
+  {
+   "id": "504001e127e0b2cf",
+   "title": "반도체 채용시장 활짝, 신입 구직문 넓어졌다",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mb3BoU19wbVpfRjlxX0xmRE1CSl9UZHBQTW1WaE04N01ZOGVoM1FWSFpxUDd0d0dkOWp5am9tR0dPcHFnTVVFVEdDdWpNWndBLTI3LWdYVUxhLUgtb3FkVnNyR1UtN1ZQ?oc=5",
+   "source": "2news.co.kr"
+  },
+  {
+   "id": "ef5f51a8a4ca3d0e",
+   "title": "[단독 인터뷰] TSMC, 美 투자 2650억달러 승부수…“시장 한 조각도 안 뺏긴다”│Global Money Club",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lOC1TSk4yc05FbVNkVlJJOXVyUTh1R1NrQ3pTMkVEdTZvdF9vUm1KTVh4NjNnUjMxOU5vRVhtMlZCc0QyZWFSRk45OFpVVFlvOEtuUFFyWWJkcE0?oc=5",
+   "source": "중앙일보"
+  },
+  {
+   "id": "2df08dda6026a2b8",
+   "title": "TSMC \"AI 메가트렌드 수년간 이어진다\"…美애리조나공장 투자 가속",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9fNURhdFZ3VUU1YnBCcXdvOEstMFZnUHZ3OEM1WlZnQkUyMHlmWG1mRzl0Mzd2eVNpcGlCSUFXenZVUzE4d1NDd25NZ3pCR1J5aVJWamZoRFYtRjQ3S05sN0FWanhvUVE?oc=5",
+   "source": "뉴스1"
+  },
+  {
+   "id": "58784acc04294ea5",
+   "title": "TSMC Bets Another US$100 Billion On Arizona As AI Chip Demand Surges",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOGRNWlFzX2ducEdEOFltZ3kyTjh3aUtFb0NRMjczRmo0WkFqWjdDZTAzeEltUkI5aGVIOFYwWUZ3NndsWVdDTXd2MEhlcXl4T3Znei1STE9EajJCSkVSYnZhQXlxY08yVUJabm9HbVRzYWpvMVVwLXM3eWVnR1g4NG9qXzl0Z3pHd3JXd1JrX3ZGM3hYam1CMC1wZXBUcTlLSjJ1ek1NZHRxX1ViUWFpOFh3?oc=5",
+   "source": "BusinessToday Malaysia"
+  },
+  {
+   "id": "3791ccc141d64993",
+   "title": "잡코리아 “반도체 업종 신입 채용 공고 47% 증가”",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QRHRWYU5pbHctWDEyM2VoVHFZMW8zUE12Yl9WbVhlMGswaktYdmxaR0RIbV9wMExMdlpoWjRvaFRaS1RNd01qYUpIU2FyenRIcVZnVTh2ejRHQdIBX0FVX3lxTE15YXhSWW5TLXlDcDlDd3hnTG0yeUNZOU5BRlhpQTM0V1RfVXZwMDNsTmRDUHJDN2o5M01oeGd5azBwWkJIXy1aUHM4MVdvYy1VWVBtTU9GazhTRVJPZE5Z?oc=5",
+   "source": "경향신문"
+  },
+  {
+   "id": "36e35785ab39cfc2",
+   "title": "TSMC CFO: higher U.S. investment driven by strong customer demand and U.S. government support",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU2R1WHZrWWpGUDZFb214a2l3d1JVZWkwdWtEZTJ1MDRxOHVDMmYyVmxodFM1VFRic3dnOTktYXIzR2NQTzNEWGJzTUg3LXB6WlowWVp6dkNnS3YzeWpNeWQzODB0Z2dUaFp3TnphX0RjVENQQU45akQwWGZZQkxrODU3RDlWRUo1VThjZTQ1MS1rc05wYlJ4d0R2Zw?oc=5",
+   "source": "CNBC"
+  },
+  {
+   "id": "e320516e4044a4e9",
+   "title": "반도체 신입 채용 47% 급증…삼성·SK하이닉스 채용문 넓혔다",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54VmxHVUw3MENLQW1DR3VGTTh5dHhnODk5Z3VIYmFURHpuczB5STlTY1lWWWdIZVN4ekJ5M1hQaEJ1cTgzQ2w0NVV4dlF1UVZpSHJud3dnQ203QlRFX3E3UFFzREdqTmd0VUo0ZzF3TQ?oc=5",
+   "source": "조세일보"
+  },
+  {
+   "id": "c747011d0bd562f0",
+   "title": "반도체 호황에 신입 채용도 ‘활짝’…상반기 공고 47% 급증",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0xQ1FsbEhhbDBBMXAzZjRfYlVZdUVCaXkwYlFqLXh5ZjRZTlhNb2ZkVFpxS0x5WlB2NkM5c1E4dEhVcFVKWDYxSHM3QnPSAUxBVV95cUxNMUNRbGxIYWwwQTFwM2Y0X2JVWXVFQml5MGJRai14eWY0WU5YTW9mZFRacUtMeVpQdjZDOXNROHRIVXBVSlg2MUhzN0Jz?oc=5",
+   "source": "mbn.co.kr"
+  },
+  {
+   "id": "d88f7089e2eedee7",
+   "title": "\"신입사원 뽑아요\"…반도체 초호황에 취업문 '활짝'",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9uTDBIOXZYSFhsVldVWWxrOWxmQ04tdEZSalNmTEI0WTRyY2RjdkFLLVM2SEdDcHU4ZmhnN19XRmdvbV9ucklVNWxRZF95ZGc?oc=5",
+   "source": "v.daum.net"
+  },
+  {
+   "id": "b51c216ad29f1fcf",
+   "title": "Key facts: TSMC to Invest Up to $265B in Arizona; Reviews Export Controls",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNR3kwMnlTNHNLTEh3QWx0bEs4T2s3dEZVamJHcTJfTlg3dGFnTjBZbWRXS2NrLVJwZU56S0pYWmVKMjlCdG1rWkx4SEhoSm8wOGdtVmpkVVpDU3Vma05FYjRNNGo0b184RUdNb2x5M2ZHN3VfM2lhM2t5b3JITVhpbWp2QTM0d0lQQjJGZkRVU0x0aEpnNm1xM3prd2RRZHFyR2lyZ0tRdUdzS29oR2E0Rl8yNlNwVkVOcHNzUVhNTXozcWtEMUY2X0xJRXc?oc=5",
+   "source": "TradingView"
+  },
+  {
+   "id": "438294383d82e984",
+   "title": "네이버클라우드·HD한국조선해양, 조선업 특화 클라우드 구축",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUUzhWR2hyUno4Vm14YmRJX3RBUFo1OUY4RjZlcklqU3Z2SUhNcW9ybmlibV93aHdVVUM1aFhQNExUbG1nZGYtVjc2Z2lRSklzLTNOLVpfRnJrU0o5Y2o4SU9uUGFXM3dabDRadQ?oc=5",
+   "source": "데이터넷"
+  },
+  {
+   "id": "fe63cae355ae28b3",
+   "title": "삼성SDS, 국산 NPU 클라우드 서비스 출시… AI 추론 시장 겨냥한 NPUaaS 본격화",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfWmh6UUpsRTBueF9CeEtSckt1eXVOajM0ejVnUGlfSjgxejdMTUJfUkdRc2QxWVR4OVY3Q3F6aFFXcUlVWnEwZXJOVHZsQTdWNmptRUNneGI2S2lIRUdZdjNicw?oc=5",
+   "source": "더테크"
+  },
+  {
+   "id": "c8c7352fb2358965",
+   "title": "네이버클라우드·HD현대, 조선업 특화 클라우드 구축·생태계 확산 ‘맞손’",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RRU4zVjZ0N0ZOeFJacWQ0WnA0b1NjcXdiclRBbzEzdmhoRndHdHpVSEhDM3dQUVQwaExnenNfZEpZbS1wX0J6THhxanZmTzVJOHhqXzVVSGM0Q3owZVdLSEhSYk5FTTlqaDZLdA?oc=5",
+   "source": "IT비즈뉴스"
+  },
+  {
+   "id": "1542f6b39d4b77a7",
+   "title": "HD한국조선해양-네이버클라우드, 조선업 AI 생태계 구축 '맞손'",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5iLUl4dkRDVGlsNGl3cnhtRzY2NDFnbWoyX05jdHd1Um1TdVBkSWIwelBhTi1RWGN6SlVmUzR2S3dWZDk4RVNhbEwwR1FjNV9Jc2JGRGVhWjFZcm9IUEk0a083LVQ3V19fUVdr0gFrQVVfeXFMTmItSXh2RENUaWw0aXdyeG1HNjY0MWdtajJfTmN0d3VSbVN1UGRJYjB6UGFOLVFYY3pKVWZTNHZLd1ZkOThFU2FsTDBHUWM1X0lzYkZEZWFaMVlyb0hQSTRrTzctVDdXX19RV2s?oc=5",
+   "source": "현대경제신문"
+  },
+  {
+   "id": "5194d5fc35479c6c",
+   "title": "HD현대-네이버클라우드, AI 생태계 구축 협약",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBqcXliYUx5MkFMaWFtaG5yWjRNZHNfNWVOalM1MGtXYm5oWTRLUm1EbUNNWGJiVkNfQXhPajFBejlYd055Mll0cWtpUnNwTFBt?oc=5",
+   "source": "문화일보"
+  },
+  {
+   "id": "056571ec70b68a23",
+   "title": "삼성SDS, 퓨리오사 AI NPU 기반 클라우드 출시",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15SFUzZ3puSGM5bjFhZ2Utdi1FNmlDemluYzZfbjNWbVhKQ2xFYkYxRUdZWVI4V0hRUE1lV2RxSWRiV2ZEc1JZRjdQNTA5ZFlvUFdQalhn?oc=5",
+   "source": "헤럴드경제"
+  },
+  {
+   "id": "52bbe39b90a4a093",
+   "title": "HD현대, 네이버와 조선업 AI 생태계 구축…스마트 조선소 속도",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVGd0bEZNb29fUnhmYkRkVEIxMEtSWGltYW9mczZCZzhjczFZNlJPWXRqclFrb0k0ZnhXeENqSDJfS0JyajJMVzQzTVBTTVZITFlLS0FoaG9Ib1BFZG1oZ2tfNERYbmE1QVFCdWVJMFYwT0FNY05sbnJ0M1JCOVNLR29RUUthUC1CQVkyVFdBbS1sV2xFXy11Z1RKY1Z5VjIzTHZsVVZHNVdReWoxUmd4Q052ZlZ0WXZTeU8tVUdPak1VWS1yNjBfT3A5eE1uVTlKNHlyTWJkNUVaZWpBZkZRQUFDSGlYZ3otMFowSA?oc=5",
+   "source": "데일리안"
+  },
+  {
+   "id": "f3250d1d5e18d3be",
+   "title": "HD현대, 네이버클라우드와 조선업 특화 AI 생태계 구축 MOU 체결",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9od2hxenFjbnlmNmpfY0tvY1NqTG4wY3hsMTFFMDF6QlA2VExGNzFEWkZtcFo5RUY4R3NPVmFHMThEYXRyM01VcFFuT3RsbUpCUmZhTEItd1J6SmEtaVJvVHU1ZzdvQzd1cHc?oc=5",
+   "source": "컨슈머타임스"
+  },
+  {
+   "id": "ba70b49711146fef",
+   "title": "HD한국조선해양-네이버클라우드, 조선업 'AI 생태계' 구축 협력",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3WWswTUc2UmFVdzNDN3ZUbS03TGltd3p0empoa1lEamJZQUtqMU9ERnpiNE1YQ2ZnUlFBTkJHSkIwT0ZuRG80OEg4RnZmelNVdUgySXNxQ3E0bE5sOUxheGo5SlM3QngtN2R6Yw?oc=5",
+   "source": "미래경제"
+  },
+  {
+   "id": "1355529d7c907efc",
+   "title": "HD현대, '피지컬 AI' 입는다...네이버클라우드와 조선 AI 생태계 구축",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zNm9QV2NpWU40WHRJT2JQaDNma3diYmU0cDZvbGl6dlBSNHlYTVZ6SDdiVkRILVNlNXo1NXhHeF9za1NaV2k2SThrMF80SFlyR1Q2b3RiUmViMTNyUDBrdm1zd1lvSUNa?oc=5",
+   "source": "ebn.co.kr"
+  },
+  {
+   "id": "4037d7b88c52b8d8",
+   "title": "삼성SDS, 퓨리오사 '레니게이드' 기반 NPUaaS 출시…클라우드 AI 기술 생태계 선도",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zdEpVUXppYVdBNFNwS1NaWDhlWTVoZmxETnl6Tjc4Q21FdjdmSVJBSnY1YUxBMVNTVlJveWtsamtMaklsY3NtOXMwV3RoVVdpMzIzMjc2ZmxOSTFxblQ2SjVsbTJNZWd5YTNBdQ?oc=5",
+   "source": "굿모닝경제"
+  },
+  {
+   "id": "e3512d29f6b0e4d9",
+   "title": "삼성SDS, 퓨리오사AI NPU ‘RNGD’ 클라우드 상용 서비스 시작",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lVmZxdzgxdmNWMGQxelZxOWFFYnZzdWpzSjZYWTA1U1czR2hiR2lUU05wV294bm15dEJaeFY3d0FJRnFiQkdYQkhNZVkyYU0yYlA3OTA0T2xCVzVNM293TmFnV3R0MlRBZExvY2N1dHJyTkNo0gF0QVVfeXFMTmVWZnF3ODF2Y1YwZDF6VnE5YUVidnN1anNKNlhZMDVTVzNHaGJHaVRTTnBXb3hubXl0Qlp4Vjd3QUlGcWJCR1hCSE1lWTJhTTJiUDc5MDRPbEJXNU0zb3dOYWdXdHQyVEFkTG9jY3V0cnJOQ2g?oc=5",
+   "source": "IT조선"
+  },
+  {
+   "id": "232414749f76d3cd",
+   "title": "HD현대, 조선업 특화 AI 생태계 만든다…네이버클라우드와 제휴",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBESVhRdXpiUjhMVkItdTVuOWRhZkZxQ3pZN293N0Rkb2V1VU4tLXkwak0tRjVfbzhRam0tb185eTVMeXRhMUZuM3JKYlBOQllrcmZFZWJxWXJFaTMwX3RoMHhxc9IBbEFVX3lxTE9fTGNncUFhbmp5MFRiU2ZacFBfMWlSQ1hNcUJubHBVTzk3c2xzbE5PRm85S09YQWV6V1FHNzc3WnJmNHBscWhKbUhoNkg5ZUhZOGd3dmhObS1XaWNUY3FoT0ZDYnNoOHY5czduYg?oc=5",
+   "source": "소셜밸류"
+  },
+  {
+   "id": "efafbfa482d7d0ce",
+   "title": "삼성SDS, 퓨리오사AI NPU 클라우드 서비스 출시",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53dG9UT29wYjB3djBCWE9qU2Y0SmF6RDNicTNvb2htRF8zb1gtQXB0cVN6Nk9mT3diUEgyd3k4eXVKMmZScGxxc1dPU3ZBWVRvLVF2bmdnUUzSAVhBVV95cUxOd3RvVE9vcGIwd3YwQlhPalNmNEphekQzYnEzb29obURfM29YLUFwdHFTejZPZk93YlBIMnd5OHl1SjJmUnBscXNXT1N2QVlUby1Rdm5nZ1FM?oc=5",
+   "source": "SBS Biz"
+  }
+ ]
+}

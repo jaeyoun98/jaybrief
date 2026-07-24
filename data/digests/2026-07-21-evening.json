@@ -1,0 +1,167 @@
+{
+ "generated_at": "2026-07-21T06:11:58Z",
+ "date": "2026-07-21",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 투자 지속에 따른 반도체 장비 시장의 장기 성장 전망과 함께, 주요 기업들의 로봇 사업 조직 재편 및 CXL 컨트롤러 전략 수정 등 효율화 움직임이 관찰됨.",
+   "stories": [
+    {
+     "headline": "삼성전자, 로봇 사업 조직 통합 및 RX사업추진실 신설",
+     "facts": [
+      "삼성전자가 대표이사 직속 'RX(Robotics eXperience)사업추진실'을 신설함.",
+      "미래로봇사업추진단, 삼성리서치 로봇센터 등 분산된 조직을 통합함.",
+      "구미 데이터팩토리를 휴머노이드 생산 시설과 연계할 계획임."
+     ],
+     "interpretation": "로봇 사업을 미래 핵심 성장 동력으로 격상하고, 분산된 R&D 및 제조 역량을 결집해 AI 기반 자율 로봇 시장 경쟁력을 강화하려는 전략적 의지로 판단됨.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "RX사업추진실의 구체적인 로봇 제품 로드맵 및 레인보우로보틱스와의 시너지 가시화 여부.",
+     "upcoming_event_ids": [
+      "samsung-electronics-q2-2026"
+     ],
+     "article_ids": [
+      "054f1ec7cd27896a",
+      "7d022adf5f9c374c",
+      "0137f9a45f0a5f4e"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성·SK하이닉스·마이크론, CXL 컨트롤러 내재화 전략 수정",
+     "facts": [
+      "삼성전자, SK하이닉스, 마이크론이 자체 CXL 컨트롤러 칩 상용화 계획을 축소하거나 보류함.",
+      "컨트롤러 개발 업무를 전문 업체로 전환하는 추세임."
+     ],
+     "interpretation": "CXL 기술의 복잡성과 비용 효율성을 고려할 때, 자체 개발보다는 전문 업체와의 협력을 통해 리스크를 줄이고 핵심 메모리 역량에 집중하려는 효율화 기조로 해석됨.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix",
+      "micron"
+     ],
+     "event_type": "supply_chain",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "CXL 컨트롤러 전문 업체들에 대한 기술 협력 및 공급망 변화 추이.",
+     "upcoming_event_ids": [
+      "sk-hynix-q2-2026",
+      "samsung-electronics-q2-2026"
+     ],
+     "article_ids": [
+      "c4dce58eaef604fd"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업들의 AI 클라우드 인프라 경쟁이 심화되는 가운데, 하드웨어 의존도 다변화와 클라우드 서비스 확장이 주요 이슈로 부상함.",
+   "stories": [
+    {
+     "headline": "MS, 애저 클라우드에 AMD '헬리오스' 도입으로 엔비디아 의존도 완화",
+     "facts": [
+      "마이크로소프트(MS)가 AMD의 차세대 랙 스케일 AI 시스템 '헬리오스(Helios)'를 애저(Azure)에 도입함.",
+      "AMD는 2026년 하반기부터 MS 등에 헬리오스를 공급할 예정임."
+     ],
+     "interpretation": "MS가 AI 인프라 공급망을 다변화하여 특정 벤더(엔비디아)에 대한 의존도를 낮추고 비용 효율성을 확보하려는 전략적 행보임.",
+     "affected_company_ids": [
+      "microsoft",
+      "amd",
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "AMD의 헬리오스 시스템 도입 이후 애저 클라우드의 AI 서비스 성능 및 비용 절감 효과.",
+     "upcoming_event_ids": [
+      "amd-advancing-ai-2026",
+      "microsoft-fy26-q4",
+      "amd-q2-2026"
+     ],
+     "article_ids": [
+      "26b73924107abd2e",
+      "3f529d7797cf1cc9"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "메타, AWS 핵심 임원 영입하며 AI 클라우드 사업 가속화",
+     "facts": [
+      "메타가 AWS에서 컴퓨팅 및 머신러닝 서비스를 총괄하던 핵심 임원을 영입함.",
+      "메타는 외부 기업에 AI 연산 자원을 제공하는 클라우드 사업 진출을 검토 중임."
+     ],
+     "interpretation": "메타가 자체 데이터센터 인프라 역량을 바탕으로 클라우드 서비스 시장에 진입하여 새로운 수익 모델을 구축하려는 의도로 보임.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "메타의 클라우드 사업 진출 공식화 및 관련 인프라 투자 규모 확대 여부.",
+     "upcoming_event_ids": [
+      "meta-q2-2026"
+     ],
+     "article_ids": [
+      "2e213aa04c549e65"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "054f1ec7cd27896a",
+   "title": "삼성전자, 노태문 대표 직속 'RX사업추진실' 신설",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59787",
+   "source": "디일렉"
+  },
+  {
+   "id": "c4dce58eaef604fd",
+   "title": "Samsung, SK Hynix and Micron pull back on in-house CXL controller plans",
+   "url": "https://www.digitimes.com/news/a20260721VL209/cxl-controller-ic-sk-hynix-samsung-micron.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "7d022adf5f9c374c",
+   "title": "삼성전자, 대표이사 직속 'RX사업추진실' 신설...미래 성장동력 로봇사업 추진 본격화",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340016",
+   "source": "KIPOST"
+  },
+  {
+   "id": "26b73924107abd2e",
+   "title": "MS, 애저 클라우드에 AMD '헬리오스' AI 가속기 도입...엔비디아 의존도 낮춘다",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=212969",
+   "source": "AI타임스"
+  },
+  {
+   "id": "3f529d7797cf1cc9",
+   "title": "Microsoft expands Azure partnership with AMD ahead of Helios AI system launch",
+   "url": "https://www.digitimes.com/news/a20260721VL200/amd-microsoft-azure-partnership-infrastructure.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "2e213aa04c549e65",
+   "title": "[AI 고속도로] 메타, AWS 핵심 임원 영입…AI 클라우드 사업 속도",
+   "url": "https://zdnet.co.kr/view/?no=20260721113550",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "0137f9a45f0a5f4e",
+   "title": "[뉴스줌인] 분산된 로봇 역량 결집…삼성전자, 로봇 기반 AI 자율공장 전환 가속",
+   "url": "https://www.etnews.com/20260721000172",
+   "source": "전자신문"
+  }
+ ]
+}
