@@ -1,0 +1,310 @@
+{
+ "generated_at": "2026-07-20T14:10:16Z",
+ "date": "2026-07-20",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 중국 AI 기술 추격에 따른 시장 우려와 엔비디아 독점 구도에 균열을 내려는 경쟁사들의 행보가 맞물리며 변동성이 확대되고 있습니다. TSMC의 대규모 투자와 AI 인프라 수요는 견조하나, 지정학적 리스크와 기술 격차 축소 이슈가 투자 심리를 압박하고 있습니다.",
+   "stories": [
+    {
+     "headline": "AMD, 첫 랙형 AI 시스템 '헬리오스' 출시 및 마이크로소프트 고객 확보",
+     "facts": [
+      "AMD가 엔비디아에 대항하는 첫 랙형 AI 시스템 'Helios'를 출시함",
+      "마이크로소프트가 Helios의 신규 고객으로 합류함",
+      "기존 고객사로 메타, 오픈AI, 오라클이 있음"
+     ],
+     "interpretation": "엔비디아의 데이터센터 하드웨어 독점 체제에 대한 강력한 도전으로, 마이크로소프트 등 빅테크의 공급망 다변화 의지가 확인됨. 이는 엔비디아의 시장 지배력에 대한 장기적 경쟁 압력으로 작용할 전망임.",
+     "affected_company_ids": [
+      "nvidia",
+      "amd",
+      "microsoft",
+      "meta",
+      "oracle"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "AMD의 Helios 시스템이 실제 대규모 데이터센터 환경에서 엔비디아 제품 대비 비용 효율성과 성능을 입증할 수 있는지 여부.",
+     "upcoming_event_ids": [
+      "amd-advancing-ai-2026"
+     ],
+     "article_ids": [
+      "b24b107635247a31",
+      "1204e1e21c68887d",
+      "bcb04b857ffd52ec",
+      "8c6a8fae713c6414"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "TSMC, 애리조나 공장 확장 위해 1,000억 달러 추가 투자",
+     "facts": [
+      "TSMC가 애리조나 칩 공장 확장을 위해 1,000억 달러를 추가로 투입하기로 결정함",
+      "AI 칩 수요 지속에 대응하기 위한 전략적 투자임"
+     ],
+     "interpretation": "AI 반도체 수요가 단기적 거품이 아닌 수년간 지속될 구조적 성장임을 시사하며, 파운드리 공급망의 핵심으로서 TSMC의 지위를 강화하는 조치임.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "대규모 자본 지출이 향후 TSMC의 영업이익률과 감가상각비 부담에 미치는 영향.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5f83dda3737ee383",
+      "7e4d0c48ae57f290",
+      "dba86a3cef6b5ae6",
+      "c274732884eb0992"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "중국 AI 기술 추격 가속화에 따른 시장 불안",
+     "facts": [
+      "중국 AI 모델 'Kimi K3' 등장으로 미국과의 기술 격차가 2개월 수준으로 좁혀졌다는 분석 제기",
+      "기술 격차 축소 소식에 반도체 지수가 하락세를 보임"
+     ],
+     "interpretation": "미·중 AI 기술 격차 축소는 미국 반도체 기업들의 프리미엄을 훼손할 수 있는 리스크 요인으로, 시장의 과도한 기대감이 조정받는 계기가 됨.",
+     "affected_company_ids": [
+      "nvidia",
+      "sk-hynix",
+      "samsung-electronics"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "미국 정부의 대중국 반도체 수출 통제 강화 및 추가적인 기술 제재 조치 여부.",
+     "upcoming_event_ids": [
+      "fomc-2026-07"
+     ],
+     "article_ids": [
+      "04370d235845f99c",
+      "86099f3481be8367",
+      "36a65baa283629f8",
+      "12ddf1ef33d824c7"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 테크 섹터는 생성형 AI 모델의 고도화와 기업들의 인프라 투자 경쟁이 치열하게 전개되고 있습니다. 특히 메타와 앤트로픽 간의 협력 논의와 네이버의 AI 팩토리 투자 등 실질적인 수익 모델 구축을 위한 움직임이 가시화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "메타, 앤트로픽 컴퓨팅 파워 임대 논의 중",
+     "facts": [
+      "메타가 앤트로픽으로부터 100억 달러 규모의 컴퓨팅 파워를 임대하는 방안을 논의 중임",
+      "앤트로픽의 모델 운영을 위한 인프라 협력 차원임"
+     ],
+     "interpretation": "빅테크 기업들이 AI 모델 경쟁력 확보를 위해 인프라를 공유하거나 임대하는 전략적 제휴가 늘고 있으며, 이는 AI 생태계 내 자본 효율성을 높이는 방향으로 작용할 것임.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "해당 거래가 성사될 경우 메타의 AI 인프라 비용 절감 효과 및 앤트로픽의 모델 점유율 변화.",
+     "upcoming_event_ids": [
+      "meta-q2-2026"
+     ],
+     "article_ids": [
+      "a4ee47d7e9d72e3c",
+      "13ee5054c6fdb317",
+      "0ed3755878db961f",
+      "2b2ead6473829bf0",
+      "b151f051c30b2966"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "네이버, AI 팩토리 구축 위한 브룩필드 투자 유치 논의",
+     "facts": [
+      "네이버 경영진이 캐나다 브룩필드 본사를 방문해 AI 팩토리 투자 유치를 논의함",
+      "글로벌 시장을 겨냥한 국가별 맞춤형 독립 AI 인프라 구축이 목표임"
+     ],
+     "interpretation": "네이버가 자체 AI 인프라 확장을 위해 글로벌 자산운용사와 협력함으로써, 국내를 넘어 글로벌 AI 솔루션 기업으로 도약하려는 의지를 보임.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "브룩필드와의 실제 투자 계약 체결 규모 및 네이버의 AI 팩토리 글로벌 확장 속도.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f4ba0565eb381ec2",
+      "624e6ee710c4344f",
+      "69b72f8d8fa88501",
+      "48a24d11a3e1eb20",
+      "b85f31958ecb05f1",
+      "18e561a2b28cffab",
+      "4cf90fd40e42f7e7",
+      "201b4cab511eaf03"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "b24b107635247a31",
+   "title": "AMD Stock Gains After The Nvidia-Rival Lands Major Microsoft AI Win With Helios Azure Deployment",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOemZzOElVZXExWldOVjdLZVdjeDVjUVh3YnhEWk1pblVCUks2aUVoY2NwWEdoZ25YczdRMWZWQXg4QnAxemF6S1RXT0pUSTJrVVlIdWpfWGtQTTFtTjhieXIzeEdtRzdJLTFGOG9jaGwxZVF2ZkxEaVRVdy1pZWFpMTBzRHRMajc4TGdJVkM3OTJYYXlzTW9VTnBJNFZnSWdnX2Z5SGJpS2VzR3F5WS1QbUZSRmtWdFlWOW5FOEFwNkNCYmdGY1RocDFn?oc=5",
+   "source": "Stocktwits"
+  },
+  {
+   "id": "1204e1e21c68887d",
+   "title": "AMD launches Helios, its first rack AI system to rival Nvidia, adding Microsoft as newest buyer",
+   "url": "https://www.cnbc.com/2026/07/20/amd-helios-microsoft-ai-nvidia.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "5f83dda3737ee383",
+   "title": "TSMC Commits Additional $100 Billion to Accelerate Arizona Chip Factory Expansion",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYUpndkJHbTc2eC1uWHNjRXI3akRyQWNoYVY2VEozTDNvLVBVUmp0Z1ZfdUw5Wkd1d1phUHJES0h6d1RGSzFIb2N5VGJmYm5aOURPaDAtd2Zqa2JWMlMxNFJPN2lDYVlDeUQwYVlBSkJVZEY2OXp1QXdzdy15NjF1REREak5IaUJxMUdZUWxfY2FiQXl1dzQzNGtwRS01VEhUOGZuYlA1R2djamxzRDVUMDUxbGF1LXl2M2hXUElB?oc=5",
+   "source": "TIKR.com"
+  },
+  {
+   "id": "7e4d0c48ae57f290",
+   "title": "Taiwan Semiconductor Manufacturing Company Limited (TSM) Jumped as Market Favored AI Capex Winners",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY2hPYUxic3hHd21TbVhDRDdNZjdmSUNsak45MWVOVU5ZU3dyd1g2NVJ6eEF3ZjE5Y0N6NzhvcEtBOHczNVhCRjM2Mm1SUm5IMm5lUFN6VXdBNzFlYmt0d1hkV0dRUlVQM0M5S2Z1enV2SVdMNzlHUV80bTFtdnRISUN4TVFLNURIYkZyVGlQU0dROHREY2pzVTI1RnRWbno0NmdEWWJ6QUlnMXJGQ3Bzel8zWmloQQ?oc=5",
+   "source": "Yahoo Finance"
+  },
+  {
+   "id": "bcb04b857ffd52ec",
+   "title": "[미국 특징주] AMD, 엔비디아에 정면 도전…MS도 '헬리오스' 도입",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBwTkhEZmwyZjBHSFFXWnBPT1lYNU9SQks3b1RkaG5PQ2NZX19qeDJzdGR2Z3Fzbk00SVBtb3hTZHpFUlVUYWZVVEp2Q3UwX29KSWVOYWxCVy05YkZ3?oc=5",
+   "source": "뉴스핌"
+  },
+  {
+   "id": "8c6a8fae713c6414",
+   "title": "AMD, 첫 랙형 AI 시스템 ‘헬리오스’ 출시…엔비디아에 도전",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBJUlduSDFpNDZFSDJpbmdMX2Z6dDA4SXFEcTJERko2Uk10ek1WbHM1a040TlhUMGxXa0dEdjdfbEZLcmt1SmYzSG41QmlBdmd6N2ppdWk1MXdjTzh1bTVmc09HR0U?oc=5",
+   "source": "MTN 머니투데이방송"
+  },
+  {
+   "id": "dba86a3cef6b5ae6",
+   "title": "TSMC adds $100 billion to Arizona investment amid AI chip demand",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE84SU9EX3Izd3hsMVZmcFJjWV9PbW55a0lhb3FmOUF4aG84RDVPZkYyYjExR0p3VkVDVTZ0aTRWVEdqVHRySDhsVGdJZy1GMk1YV0hDbDZjMlM3UFl2cWw1SXZIazhadkpySjl2Z1hrdm1ib0pvOWxMMkZ5eHI?oc=5",
+   "source": "qz.com"
+  },
+  {
+   "id": "04370d235845f99c",
+   "title": "[카드뉴스] 중국 AI, 미국 턱밑 추격",
+   "url": "https://zdnet.co.kr/view/?no=20260720102216",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "12ddf1ef33d824c7",
+   "title": "중국발 'AI 쇼크'·반도체 고점론에 코스피 4.4%↓",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BdTY3TXJjbEFUaWUzM1FYQ2FPUHRjRE5MZkpMekNidXEzQXNvZnZzUXk3VXJNR1l6MGJGWUpjTmNWWXdBVEFVdlFaZ2lpZ28?oc=5",
+   "source": "v.daum.net"
+  },
+  {
+   "id": "86099f3481be8367",
+   "title": "‘키미 K3’ 충격파, 韓 증시 강타 …삼성전자·SK하이닉스 급락에 코스피 ‘검은 월요일’",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9XNWpKWUZVRHNwYTA2ZnA2b2t4OElaRldOSjhlRDFYMk0tQU9hOVdhVzBMUmpQRnB3TEZ0bklIbGV3ZEVEXzRNcnJGRnpjU0VuTGlUcFRDTEdNTU5oTXY4YnRzQ1g5SmVlWWpqU1czTdIBb0FVX3lxTE9XNWpKWUZVRHNwYTA2ZnA2b2t4OElaRldOSjhlRDFYMk0tQU9hOVdhVzBMUmpQRnB3TEZ0bklIbGV3ZEVEXzRNcnJGRnpjU0VuTGlUcFRDTEdNTU5oTXY4YnRzQ1g5SmVlWWpqU1czTQ?oc=5",
+   "source": "서울일보"
+  },
+  {
+   "id": "36a65baa283629f8",
+   "title": "중국 새 AI 공개 \"미국 다 따라잡았다\"‥글로벌 반도체 '휘청'",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAwNTdNMGdnMWEwRUxSXzVXLXNlOTNDeXVHc1JhbzE2MmZtN0J2M210UHg5TlNBUkU0Z2lLbmtySTVCaXh6SG5KQ1hxajkwTFUxbjJNWmEzS21CU05hX0Z1eXg1NDhrY1lHSF84WkEtZWJ4YUFHbHNQVA?oc=5",
+   "source": "MBC 뉴스"
+  },
+  {
+   "id": "c274732884eb0992",
+   "title": "TSMC “AI 반도체 수요 수년간 지속된다”",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVVFkUEZjaC0zcEJOYnRNZzU0QWZlTXdVa3dIUXRId09VWlhxa2w2MkxjSzFIQ3RiMHEtZVFVaEJkUnR3bDNoR3pubEwydjVuZWxNOThfd2I4cUtIV0d5dDdlYVN1dE9HUHJwMDlBa3JVWGllME5UemFYSE9IRXEwTg?oc=5",
+   "source": "edaily.co.kr"
+  },
+  {
+   "id": "f4ba0565eb381ec2",
+   "title": "이해진 등 네이버 경영진, 북미 방문…젠슨 황과 '투자 유치' 회동 전망",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lYUVDM1FnQ0NBck5SQWpuR192WUtfaWNmWGtibXNXS2V4azRFRjlHZENFOUxiN3h5QjhhTU5RYlJYaU9qNU9rejRaZ01MVzIxV1hZTkZlUlJOTk9mVzV0a1VKOU00NFZleTQ3N3FyelZOMEhM?oc=5",
+   "source": "파이낸셜포스트"
+  },
+  {
+   "id": "a4ee47d7e9d72e3c",
+   "title": "Meta Weighs $10 Billion Anthropic Compute Deal",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVTZ3eVBRUFNuWWNYX1Rtc1RlNkhXTDhJbkUwVTFwM1VkSEM5TWZ1SGRDeEk5THBERlg5MVZYckpHTmxtZlpCSVhIQmc4c1ZNaVR2ai1fa19CUVB6MzhCaldkX1BhMllPUk1OT1puTzFOdlVRV3Ytb0YtWW1RYkV3b0loWC02ZXh2UENPYThsYjg3MlE4ZDlWdFhzakJxdVV5Q3BoMUh6WDI?oc=5",
+   "source": "TradingView"
+  },
+  {
+   "id": "13ee5054c6fdb317",
+   "title": "Anthropic-Meta AI Deal in the Cards? ETFs in Focus",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOFV0b1JndlBuQU43YVJKTTQ3b3NhSUxOYnA0cnZrTzdCV1BRdDAzaUZUY1Z0SGwzQ0RPNC11c3ZDaVNkdWE2Qm9hVWwxOW91M2hYU0hLTExOcHh2RXl5TzNGb29hQnA2NFJWWVdIU0FoSDk4enBEOHc4dXRudUhDeFhWNEs1WW51WUF2OE9iVTdPS29OSW1HaUVlUkEtSWpncHduN3NsYnk?oc=5",
+   "source": "TradingView"
+  },
+  {
+   "id": "624e6ee710c4344f",
+   "title": "네이버, 브룩필드 캐나다 본사 찾는다…AI 팩토리 구축 '조 단위' 투자 논의",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5nREtSRGZTV2Rva1MtYlRFcE9zQXpYZVNPbEx4Q1RHZUJUS29CVWV4MEJUdlRDTGpvZ3hMbkFDM0xHbmZITDBVZDNnTmExSG5nR29HQ24zRzlHbDVtOEROQWNocmlGSERQ?oc=5",
+   "source": "ebn.co.kr"
+  },
+  {
+   "id": "69b72f8d8fa88501",
+   "title": "네이버, 브룩필드와 AI 팩토리 자금 담판…창업자·CFO 총출동",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NLXUzXzhiRlQwZm55MFVLeTJWS2k3aC1NTFNKbVJQMTJzVHgxbUZmX2pMMGVNWlAyZDl5OEY4bHB4c1prWEhoUkNmZTEtbkVHZ3JnSkU3RmJ4b3daWF8zT1FKaTZBemc?oc=5",
+   "source": "자본시장뉴스"
+  },
+  {
+   "id": "b151f051c30b2966",
+   "title": "Meta's $10B AI deal with Anthropic could boost earnings and unlock new revenue streams.",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNU1I3cE4xcDdkNkhxTnIzRWIxVGY1YU5Va1pGZ3lBUF83TXBzZTlPdDBqOTZVWnQyT1lneWVULVhEa1hqMXlrS2dmR25tSldSc24waHBDcFM4ZWxkVi1NX2FTaHplU3RvZzF2LUx3Tm8yNEFHSi13bGw2dk1NVEVMMFc1X3V6eVFVNnNqczAwaTU?oc=5",
+   "source": "Pluang"
+  },
+  {
+   "id": "0ed3755878db961f",
+   "title": "Anthropic is in talks to lease $10B of compute from Meta to keep Claude running",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNDNPVkxaRU5jY2lxOG5WVWlGdWJBckVVcTFERmk2ZjgzamtwQ1pqeDNQWENZSVp3NVN3Z1Bzcng1T2ZiSV9RMWZhLWtwOUVSbnhhOUh4V0V5RzFYSWJmQ3FXX2k2NDQtQnNYQUYycVZQMVIyTDBRZ1c3TWZtS2J1SkhrWE9neDRMS0RCTDZ6TUdLT0FHeVdQVFFnVHh6S083R2FhdjJLUlE0U00?oc=5",
+   "source": "Tech Funding News"
+  },
+  {
+   "id": "48a24d11a3e1eb20",
+   "title": "네이버 경영진, 브룩필드 본사 방문…AI 팩토리 투자 협의",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xN1FiSlJ2UHIybHZ1X2x4c2JRMEtFRHZlSkhMNGdqaDM3WTY3Q0tLc3JDcG9HMXZCdG92bEUzX2prdmdwZ1RzcklOd0lrdndBREx4a1A0bVdqbmp1THRmbzVBa2x3TFY0OG5XddIBbEFVX3lxTE4xN1FiSlJ2UHIybHZ1X2x4c2JRMEtFRHZlSkhMNGdqaDM3WTY3Q0tLc3JDcG9HMXZCdG92bEUzX2prdmdwZ1RzcklOd0lrdndBREx4a1A0bVdqbmp1THRmbzVBa2x3TFY0OG5XdQ?oc=5",
+   "source": "직썰"
+  },
+  {
+   "id": "b85f31958ecb05f1",
+   "title": "[오늘의 PICK!] 네이버, ‘국가별 맞춤형 독립 AI 공장’ 신시장 개척 나선다",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8tUGN5VnliX0w4Zkt6OWhKUmI1eXdlQ0pxbFF3WVRUbktpNGhwWEwyM2NsVm5nNmtkMmppOHBVeml6X29KOVRCVHJ2VkJhTEVtMGhwQkN6MlBfSTVyVDdsaXBxcElWVnFMQXd1ZklB?oc=5",
+   "source": "코리아포스트 한글판"
+  },
+  {
+   "id": "18e561a2b28cffab",
+   "title": "네이버, AI팩토리 투자 유치 속도…이해진·최수연 캐나다行",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9VbVB5c1dyQWZPQUNZZ1FNZHEwWkprQ3B0YlRTVjV5RjI5aXFQT3Z5aWEtZ052ZFJ1dGktY3BHT2djOHRmbjVZWWZXS0lfNEZadXhCTVA0OS1YRmhP?oc=5",
+   "source": "뉴스핌"
+  },
+  {
+   "id": "2b2ead6473829bf0",
+   "title": "Meta may lease computing power from Anthropic. $10 billion is at stake",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcnpmcGFpUXJTQmJCdlhITlB6dDZydWg3NmhVNkRzbnQ5NW05OG5yMThhN1A0bGJXTlpPRlEzNjhreTl1dVl4RFNxYkxma0hPX1BFZVd5VmlvWV90QmpjQkJLcHRFSENocUo5VmE2aW9oeC05WEVfbHVFX201MHp2V0MzcUR4bGJQRXY0MUVPMEIyWkZ4Ql9V?oc=5",
+   "source": "Brandsit"
+  },
+  {
+   "id": "4cf90fd40e42f7e7",
+   "title": "이해진 의장, 브룩필드行...AI팩토리 투자 논의 주목",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJUUpvM2IwTlZ1dGtQNDZqbGdJTDc0bzhSYVUxdlZmTkowTUt3dlNrUWE4aGM4SDdYZTluNkU4U19JQ1hzWjM3VVJqdWxnams?oc=5",
+   "source": "v.daum.net"
+  },
+  {
+   "id": "201b4cab511eaf03",
+   "title": "이해진, 캐나다· 미국 방문…투자 유치에 젠슨황 회동할듯(종합)",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82cU9aVUtiZ1hDQkZkVlF2ODk4a0E0c1hXVXcxREtBa0d5NmkyYTAzU2hwRFFleGlDcnpqZldKZkoxZEpYZXJKemN0NXdaN2VxM2Z5Y2p0emRTb09ha3NZTtIBYEFVX3lxTE82cU9aVUtiZ1hDQkZkVlF2ODk4a0E0c1hXVXcxREtBa0d5NmkyYTAzU2hwRFFleGlDcnpqZldKZkoxZEpYZXJKemN0NXdaN2VxM2Z5Y2p0emRTb09ha3NZTg?oc=5",
+   "source": "연합뉴스"
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "generated_at": "2026-07-28T23:32:21Z",
+ "date": "2026-07-29",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "SK하이닉스의 역대급 실적 발표에도 불구하고 시장 기대치 미달에 따른 주가 조정과 AI 인프라 확장을 위한 기업들의 대규모 투자 및 보안 이슈가 부각됨.",
+   "stories": [
+    {
+     "headline": "SK하이닉스, 2분기 사상 최대 실적 달성했으나 시장 기대치 하회",
+     "facts": [
+      "2분기 매출 79조 3187억 원, 영업이익 60조 5426억 원 기록",
+      "전년 동기 대비 매출 257%, 영업이익 557% 급증",
+      "SK하이닉스 미국 ADR이 공모가 대비 17% 하락한 123달러 기록"
+     ],
+     "interpretation": "AI 메모리 수요와 가격 상승으로 기록적인 성과를 냈으나, 이미 높아진 시장의 눈높이를 충족하지 못해 단기적인 주가 조정이 발생함. 중장기적으로는 LTA 체결을 통한 수요 가시성 확보가 긍정적임.",
+     "affected_company_ids": [
+      "sk-hynix",
+      "nvidia"
+     ],
+     "event_type": "earnings",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "SK하이닉스 실적 발표 이후 컨퍼런스 콜에서 제시될 하반기 HBM 가이던스 확인 필요.",
+     "upcoming_event_ids": [
+      "sk-hynix-q2-2026"
+     ],
+     "article_ids": [
+      "34b6d5e4fa6d62c3",
+      "04293b5c6dce5ec0",
+      "e4f856716bc6b7e0",
+      "905d506c2989c45b",
+      "1bebb1681e032007"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "네이버, 엔비디아와 협력해 14조 원 규모 AI 팩토리 구축",
+     "facts": [
+      "네이버가 엔비디아, 캐나다 브룩필드와 총 14조 8000억 원 규모의 AI 인프라 확보",
+      "제3자 유상증자를 통해 자금 조달 및 인프라 공급 속도전 돌입"
+     ],
+     "interpretation": "자체 AI 인프라 구축을 위해 외부 자본과 기술 파트너십을 적극 활용하는 전략으로, 엔비디아의 AI 생태계 영향력이 지속적으로 확대되고 있음을 시사함.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "해당 AI 팩토리 구축이 네이버의 실제 AI 서비스 수익화로 이어지는지 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6d5f284804b2eb42"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 데이터센터 투자가 가속화되는 가운데, AI 개발 속도 조절론과 보안 이슈가 주요 화두로 떠오름.",
+   "stories": [
+    {
+     "headline": "메타, 블랙록과 20조 원 규모 AI 데이터센터 합작법인 설립",
+     "facts": [
+      "메타와 블랙록이 140억 달러(약 20조 원) 규모의 AI 데이터센터 구축 합작법인 설립",
+      "블랙록 펀드가 지분 80%, 메타가 20% 보유"
+     ],
+     "interpretation": "빅테크 기업들이 AI 인프라 확보를 위해 금융 자본과 결합하여 대규모 자본 지출(CapEx)을 지속하고 있음을 보여줌. 데이터센터 인프라 수요가 여전히 강력함을 시사함.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "메타의 차기 실적 발표에서 데이터센터 투자 규모 및 AI 수익화 전략 확인 필요.",
+     "upcoming_event_ids": [
+      "meta-q2-2026"
+     ],
+     "article_ids": [
+      "bebd9f3f5faf60f1"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "주요 AI 기업 직원들, 정부에 AI 개발 속도 조절 촉구",
+     "facts": [
+      "오픈AI, 앤트로픽, 알파벳, 구글, 메타 등 12개 기업 직원 1000여 명이 서한 서명",
+      "AI 기술의 지나치게 빠른 발전을 막기 위한 정부 차원의 지원 요청"
+     ],
+     "interpretation": "AI 기술의 급격한 발전이 가져올 잠재적 위험에 대한 내부적 우려가 커지고 있음. 향후 AI 관련 규제 강화 가능성이 높아질 수 있는 리스크 요인임.",
+     "affected_company_ids": [
+      "alphabet",
+      "meta"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "미국 정부의 AI 규제 관련 입법 움직임 및 기업들의 대응 방식.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ab2353718541bc6b"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "34b6d5e4fa6d62c3",
+   "title": "SK하이닉스, 2분기 영업이익 60.5조…전년비 557.2%↑",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=60200",
+   "source": "디일렉"
+  },
+  {
+   "id": "04293b5c6dce5ec0",
+   "title": "SK하이닉스, 2Q 영업이익 60조5426억원 '역대 최대'…영업이익률 76%",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1RUtQMzNYNTNxOHdhWFhIanZTZ2JHME1Tc3E5WFlWbDJKUWtNZFozZGZRMmQtMzVLRm9BVDM1NzV1eXhuQkI5eldpNkFMU1A4ZjZjbUdNeXNua1hpQWR0aEk3VXZnYW8?oc=5",
+   "source": "팍스경제TV"
+  },
+  {
+   "id": "e4f856716bc6b7e0",
+   "title": "SK Hynix second-quarter profit surges to a new high — but misses estimates",
+   "url": "https://www.cnbc.com/2026/07/29/sk-hynix-earnings-profit-revenue-hbm-memory.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "905d506c2989c45b",
+   "title": "SK하이닉스, 2분기 영업익 60조원 '역대 최대'…HBM4 양산 확대",
+   "url": "https://www.etnews.com/20260729000010",
+   "source": "전자신문"
+  },
+  {
+   "id": "1bebb1681e032007",
+   "title": "[1보] SK하이닉스, 2분기 영업익 60.5조원…전년比 557% 증가",
+   "url": "https://zdnet.co.kr/view/?no=20260729074934",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "6d5f284804b2eb42",
+   "title": "네이버의 14조 AI팩토리, 공급도 자금도 시간도 샀다",
+   "url": "https://byline.network/2026/07/28_129873/",
+   "source": "바이라인네트워크"
+  },
+  {
+   "id": "bebd9f3f5faf60f1",
+   "title": "메타, '블랙록 80% 지분' 합작사 세워 20조원 AI데이터센터 구축",
+   "url": "https://www.etnews.com/20260729000009",
+   "source": "전자신문"
+  },
+  {
+   "id": "ab2353718541bc6b",
+   "title": "오픈AI·앤트로픽·구글 직원들, 美 정부에 서한 “AI 개발 속도 조절 필요”",
+   "url": "https://www.etnews.com/20260729000006",
+   "source": "전자신문"
+  }
+ ]
+}

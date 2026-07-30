@@ -1,0 +1,232 @@
+{
+ "generated_at": "2026-07-27T06:49:36Z",
+ "date": "2026-07-27",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아를 중심으로 한 AI 인프라 생태계 확장과 국내 기업들의 전략적 협업이 가속화되고 있습니다. 특히 네이버의 엔비디아 지분 투자 및 AI 팩토리 협력, LG전자의 엔비디아 인증 획득 등 실질적인 공급망 강화 사례가 두드러집니다.",
+   "stories": [
+    {
+     "headline": "네이버, 엔비디아 대상 1.48조 규모 제3자 배정 유상증자 결정",
+     "facts": [
+      "네이버가 엔비디아를 대상으로 약 1조 4800억원 규모의 제3자 배정 유상증자를 결정함",
+      "엔비디아는 네이버 지분 4.5%를 확보하며 3대 주주로 올라설 예정",
+      "지난 6월 발표된 기가와트(GW)급 글로벌 AI 팩토리 구축 협약의 후속 조치"
+     ],
+     "interpretation": "엔비디아는 네이버와의 지분 결합을 통해 한국 시장 내 AI 인프라 영향력을 공고히 하고, 네이버는 안정적인 GPU 공급망을 확보하여 AI 팩토리 사업의 실행력을 높이는 전략적 시너지 효과가 기대됨",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "네이버의 AI 팩토리 구축 진척도와 엔비디아와의 구체적인 기술 협력 로드맵 확인 필요",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8e467a36d42350ad",
+      "b4a32715b6acb6df",
+      "6663e83bd70353f4",
+      "64d81f1475b5e91c",
+      "9865ab0538581eb0",
+      "22c9fff42695ca28",
+      "6cc0256340dda2f4"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "LG전자, 국내 최초 엔비디아 인증 획득…AI 데이터센터 냉각 시장 진출",
+     "facts": [
+      "LG전자가 엔비디아로부터 600kW급 냉각수 분배 장치(CDU) 최종 품질 인증을 획득함",
+      "국내 기업 중 엔비디아 CDU 인증을 받은 것은 LG전자가 처음임"
+     ],
+     "interpretation": "AI 데이터센터의 발열 관리 수요가 급증하는 가운데, 엔비디아 인증은 글로벌 AI 인프라 시장에서 LG전자의 기술력을 입증하는 중요한 레퍼런스가 될 것임",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "글로벌 AI 데이터센터 프로젝트에 대한 LG전자 CDU의 실제 수주 물량 확대 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c511dbcdee522fac"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "중국 CXMT D램 공급 확대에도 글로벌 메모리 가격 안정화 효과 미미",
+     "facts": [
+      "중국 CXMT의 D램이 시장에 공급되고 있으나 삼성전자, SK하이닉스, 마이크론 제품과 가격 차이가 거의 없음",
+      "일부 제품은 오히려 기존 글로벌 3사 제품보다 비싸게 판매되는 사례 확인"
+     ],
+     "interpretation": "중국산 메모리가 저가 공세를 통해 시장 가격을 하향 평준화할 것이라는 시장의 기대와 달리, 현재까지는 글로벌 메모리 시장의 가격 결정력에 미치는 영향이 제한적임",
+     "affected_company_ids": [
+      "sk-hynix",
+      "samsung-electronics",
+      "micron"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "CXMT의 공정 고도화 및 생산 수율 개선에 따른 향후 가격 경쟁력 변화 추이",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4138e8e5d647d3f7"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 모델의 경량화 기술이 실질적인 서비스 효율성 개선으로 이어지고 있으며, 글로벌 빅테크와 국내 기업 간의 신소재 개발 연합 등 AI 응용 분야가 다변화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "노타, 업스테이지 '솔라 오픈2' 모델 경량화 성공…GPU 효율 극대화",
+     "facts": [
+      "노타가 업스테이지의 '솔라 오픈2' 모델을 기존 GPU 8장 필요에서 2장으로 구동 가능하게 경량화함",
+      "해당 모델을 허깅페이스에 공개함"
+     ],
+     "interpretation": "AI 모델의 경량화 기술은 기업들의 인프라 비용 부담을 획기적으로 낮춰 AI 도입 장벽을 제거하고, 고성능 AI 서비스의 확산을 가속화하는 핵심 동력이 될 것임",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "경량화된 모델의 실제 기업 현장 적용 사례 및 성능 유지 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "19a9e801de0331ad",
+      "9e511b3da24be020"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "LG CNS, 엔비디아·메타 참여 'AI 머티리얼즈 파운드리' 창립 멤버 합류",
+     "facts": [
+      "LG CNS가 영국 커스프AI 주도의 글로벌 AI 신소재 개발 협력체 창립 멤버로 선정됨",
+      "엔비디아, 메타, AMD 등 글로벌 빅테크 기업들이 참여 중"
+     ],
+     "interpretation": "AI와 소재 과학의 결합은 제조 공정 혁신을 이끌 핵심 분야로, LG CNS는 글로벌 연합 참여를 통해 국내 산업용 신소재 AX 사업의 주도권을 확보하려는 전략임",
+     "affected_company_ids": [
+      "nvidia",
+      "meta",
+      "amd"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "LG CNS와 커스프AI 협력을 통한 국내 기업 대상 AX 솔루션의 구체적인 성과",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "423bfa0f3fb2cf42",
+      "cbd9a5e0a40cfad5",
+      "a1640932404ec5da",
+      "bcb695e6b86ce87b"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "4138e8e5d647d3f7",
+   "title": "\"중국산 메모리 나와도 안 저렴해\"…CXMT D램, 가격 안정화 효과 '미미'",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213212",
+   "source": "AI타임스"
+  },
+  {
+   "id": "8e467a36d42350ad",
+   "title": "‘AI 인프라’ 사업 겨냥한 네이버, 엔비디아 주주로 맞는다",
+   "url": "https://byline.network/2026/07/27_39182773/",
+   "source": "바이라인네트워크"
+  },
+  {
+   "id": "b4a32715b6acb6df",
+   "title": "돈 넣고 칩 팔고 지분까지…엔비디아의 'AI 금융술'",
+   "url": "https://www.hankyung.com/article/202607278085i",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "423bfa0f3fb2cf42",
+   "title": "LG CNS, 글로벌 AI연합 멤버됐다...신소재 분야 AX사업",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=60079",
+   "source": "디일렉"
+  },
+  {
+   "id": "cbd9a5e0a40cfad5",
+   "title": "LG CNS, 글로벌 AI 신소재 연합 창립멤버 선정···신소재 분야 AX 사업 가속화",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340179",
+   "source": "KIPOST"
+  },
+  {
+   "id": "9e511b3da24be020",
+   "title": "노타, 독자 AI 파운데이션 모델 ‘솔라 오픈2’ 전용 경량화 모델 공개",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340183",
+   "source": "KIPOST"
+  },
+  {
+   "id": "c511dbcdee522fac",
+   "title": "LG전자 액체냉각 솔루션, 국내 최초 엔비디아 인증 획득...글로벌 AI 데이터센터 시장 공략 가속",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340178",
+   "source": "KIPOST"
+  },
+  {
+   "id": "a1640932404ec5da",
+   "title": "LG CNS, 엔비디아·메타 참여한 '글로벌 AI 신소재 개발 연합' 합류",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213199",
+   "source": "AI타임스"
+  },
+  {
+   "id": "19a9e801de0331ad",
+   "title": "노타, 업스테이지 '솔라 오픈2' GPU 8장→2장으로 줄였다",
+   "url": "https://zdnet.co.kr/view/?no=20260727104320",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "6663e83bd70353f4",
+   "title": "엔비디아, 네이버에 1.5조 투자…'3대 주주' 오른다",
+   "url": "https://www.hankyung.com/article/202607277664i",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "64d81f1475b5e91c",
+   "title": "[속보] 네이버, 엔비디아 대상 1.48조 규모 3자배정 유상증자 결정",
+   "url": "https://www.hankyung.com/article/2026072769367",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "9865ab0538581eb0",
+   "title": "네이버, 엔비디아에 1조4800억원 규모 3자배정 유상증자",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=60054",
+   "source": "디일렉"
+  },
+  {
+   "id": "bcb695e6b86ce87b",
+   "title": "LG CNS, 엔비디아 참여 글로벌 AI 신소재 연합 합류…AX 사업 가속화",
+   "url": "https://www.etnews.com/20260727000062",
+   "source": "전자신문"
+  },
+  {
+   "id": "22c9fff42695ca28",
+   "title": "[속보] 네이버, 엔비디아에 1.48조 규모 3자배정 유상증자 결정",
+   "url": "https://www.hankyung.com/article/2026072769367",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "6cc0256340dda2f4",
+   "title": "[속보] 네이버, 엔비디아에 1.48조원 규모 3자배정 유상증자",
+   "url": "https://www.hankyung.com/article/2026072769367",
+   "source": "한국경제 IT"
+  }
+ ]
+}

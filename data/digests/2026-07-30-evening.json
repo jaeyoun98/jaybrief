@@ -1,0 +1,266 @@
+{
+ "generated_at": "2026-07-30T06:07:38Z",
+ "date": "2026-07-30",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 수요 폭증에 따른 메모리 반도체 슈퍼사이클과 파운드리 경쟁력 강화, 그리고 주요 하이퍼스케일러의 AI 인프라 투자 지속 여부가 핵심 이슈입니다.",
+   "stories": [
+    {
+     "headline": "삼성전자, 2분기 영업이익 89.5조원 달성…DS부문이 99.7% 견인",
+     "facts": [
+      "삼성전자 2분기 매출 171조 4995억원, 영업이익 89조 4924억원 기록",
+      "DS부문 영업이익률 70% 중반대 추정, 전체 영업이익의 99.7% 차지",
+      "메모리 공급 부족 현상이 2028년까지 지속될 것으로 전망"
+     ],
+     "interpretation": "메모리 반도체 가격 급등과 HBM 등 고부가 제품 판매 호조가 실적을 견인했습니다. 메모리 부족 장기화 전망은 향후 수년간의 수익성 방어에 긍정적이나, DX부문의 적자 전환은 세트 수요 부진을 시사합니다.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "HBM4 시장 점유율 확대 및 파운드리 부문의 2nm 수주 성과 확인이 필요합니다.",
+     "upcoming_event_ids": [
+      "samsung-electronics-q2-2026"
+     ],
+     "article_ids": [
+      "ee8e73c4c2430935",
+      "a143e549bfcd9dd8",
+      "1d5f84adad22567e",
+      "ebf6c8688e2bc0a1",
+      "5181271bb0acb0e3",
+      "ee6c863dc493a139"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "Lam Research 및 Advantest, AI 기반 반도체 장비 수요 급증으로 전망 상향",
+     "facts": [
+      "Lam Research, AI 수요에 따른 WFE(웨이퍼 팹 장비) 전망치 상향",
+      "Advantest, AI 칩 테스트 장비 수요 증가로 연간 실적 전망치 상향"
+     ],
+     "interpretation": "메모리 및 로직 반도체 제조사의 설비 투자(CAPEX)가 AI 중심으로 집중되면서 후방 산업인 장비 업체들의 수주 잔고와 수익성이 동반 상승하고 있습니다.",
+     "affected_company_ids": [],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요 파운드리 및 메모리 업체의 추가 설비 투자 발표 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "66ccad554e21355a",
+      "d6d85f3c5a784543",
+      "fa9fef9a7707d8e2"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "하이퍼스케일러의 AI 인프라 투자 지속성과 그에 따른 수익성 확보 여부가 시장의 주요 관심사입니다.",
+   "stories": [
+    {
+     "headline": "마이크로소프트, AI 인프라 투자 확대에도 애저 성장세로 시장 우려 불식",
+     "facts": [
+      "마이크로소프트 FY 4분기 실적 발표 후 주가 8% 이상 급등",
+      "애저(Azure) 연간 매출 1000억 달러 돌파",
+      "AI 인프라 투자 확대 기조 유지 및 긍정적 현금 흐름 전망"
+     ],
+     "interpretation": "AI 인프라에 대한 대규모 투자가 실제 클라우드 매출 성장으로 이어지고 있음을 증명하며 'AI 투자 과잉론'을 잠재웠습니다. 하드웨어 최적화와 금융 지출 조정이 수익성 방어의 핵심입니다.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "다음 분기 클라우드 매출 성장률 유지 여부 및 CAPEX 효율성.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2c4d97465b5da500",
+      "4ecbfde0ab397ee1",
+      "c35a2c88a14813eb",
+      "f54007502ab6b597",
+      "ac4ffbcc34078514",
+      "acfb755f17e57bcb",
+      "fbe768660f669302"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "메타, AI 투자 가속화로 현금흐름 악화…시장 우려 심화",
+     "facts": [
+      "메타 2분기 매출은 시장 컨센서스 상회했으나 순이익 및 EPS 부진",
+      "올해 AI 인프라 투자 비용(CAPEX) 상향 조정",
+      "잉여현금흐름(FCF) 급감으로 주가 시간외 11% 급락"
+     ],
+     "interpretation": "매출 성장에도 불구하고 AI 인프라 구축을 위한 CAPEX 부담이 수익성을 압박하고 있습니다. 투자자들은 AI 투자가 언제 실질적인 수익 창출로 이어질지에 대해 강한 의구심을 표하고 있습니다.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "earnings",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "AI 인프라 투자의 ROI(투자수익률) 가시화 시점.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ad87fbdaee58b1e7",
+      "6e81f4563e1659ee",
+      "5ac14914ca8511eb",
+      "10121a6a643f6507",
+      "44d47f1b3703f941",
+      "5c636503a72ef11f",
+      "4fdfc8af05eccd24"
+     ],
+     "importance": 3
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "ee8e73c4c2430935",
+   "title": "삼성전자 2026년 2분기 실적발표 컨퍼런스콜 전문",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=60316",
+   "source": "디일렉"
+  },
+  {
+   "id": "66ccad554e21355a",
+   "title": "Lam Research raises WFE outlook as AI drives NAND, DRAM, advanced packaging demand",
+   "url": "https://www.digitimes.com/news/a20260730VL221/lam-research-fab-equipment-demand-dram-nand-outlook.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "d6d85f3c5a784543",
+   "title": "Advantest lifts fiscal 2026 forecast as AI chip test demand surges",
+   "url": "https://www.digitimes.com/news/a20260730PD220/advantest-demand-2026-forecast-outlook.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "a143e549bfcd9dd8",
+   "title": "삼성전자 \"메모리 부족 2028년까지 지속…장기계약 70%까지 확대\"",
+   "url": "https://zdnet.co.kr/view/?no=20260730115923",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "2c4d97465b5da500",
+   "title": "MS '애저' 연간 매출, 1000억달러 돌파...실적 발표 후 주가 8% 상승",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=60283",
+   "source": "디일렉"
+  },
+  {
+   "id": "ad87fbdaee58b1e7",
+   "title": "메타, 올 CAPEX 하단 50억달러 상향....2분기 매출 성장, 순익 감소",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=60276",
+   "source": "디일렉"
+  },
+  {
+   "id": "1d5f84adad22567e",
+   "title": "삼성전자 2분기 영업익 89조원 '역대 최다'... 99.7%가 반도체",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213325",
+   "source": "AI타임스"
+  },
+  {
+   "id": "6e81f4563e1659ee",
+   "title": "Meta earnings series 2/2: Zuckerberg defends higher AI expenditure, outlines the path to returns",
+   "url": "https://www.digitimes.com/news/a20260730VL209/meta-infrastructure-capacity-advertising-business.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "4ecbfde0ab397ee1",
+   "title": "Microsoft raises AI infrastructure spending outlook as Azure growth tops expectations",
+   "url": "https://www.digitimes.com/news/a20260730VL201/microsoft-growth-azure-revenue-outlook.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "5ac14914ca8511eb",
+   "title": "Meta earnings series 1/2: Revenue beats expectations, but AI spending crushes cash flow",
+   "url": "https://www.digitimes.com/news/a20260730VL207/meta-cash-flow-earnings-revenue-ai-infrastructure.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "fa9fef9a7707d8e2",
+   "title": "Lam Research raises outlook as AI-driven semiconductor demand fuels record revenue and margin expansion",
+   "url": "https://www.digitimes.com/news/a20260730VL204/lam-research-revenue-demand-outlook-equipment.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "ee6c863dc493a139",
+   "title": "Samsung memory sales up 471% in 2Q26; foundry targets double-digit second-half growth",
+   "url": "https://www.digitimes.com/news/a20260730VL208/samsung-hbm-demand-revenue-sales-growth.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "10121a6a643f6507",
+   "title": "Meta forecasts higher AI spending as legal costs weigh on profit despite strong revenue growth",
+   "url": "https://www.digitimes.com/news/a20260730VL200/meta-ai-revenue-profit-legal-growth.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "5181271bb0acb0e3",
+   "title": "삼성전자, 2분기 영업익 89.4조…DX는 8000억 적자",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=60281",
+   "source": "디일렉"
+  },
+  {
+   "id": "44d47f1b3703f941",
+   "title": "메타, 올 CAPEX 최소 50억달러 더 늘린다....2분기 매출 성장, 순익 감소",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=60276",
+   "source": "디일렉"
+  },
+  {
+   "id": "ebf6c8688e2bc0a1",
+   "title": "'영업익 89.5조' 삼성 메모리 날았지만...MX 결국 첫 적자",
+   "url": "https://www.etnews.com/20260730000030",
+   "source": "전자신문"
+  },
+  {
+   "id": "c35a2c88a14813eb",
+   "title": "마이크로소프트, 지난 분기 매출 900억달러 ‘AI로 고수익’",
+   "url": "https://byline.network/2026/07/30-593/",
+   "source": "바이라인네트워크"
+  },
+  {
+   "id": "f54007502ab6b597",
+   "title": "MS, 클라우드 실적 대박...애저 매출 1000억달러 돌파로 'AI 과잉 투자' 우려 불식",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213326",
+   "source": "AI타임스"
+  },
+  {
+   "id": "4fdfc8af05eccd24",
+   "title": "메타, 2분기 '역대 최대 매출'에도 주가 11% 급락…AI 투자 폭증에 현금흐름 '바닥'",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213324",
+   "source": "AI타임스"
+  },
+  {
+   "id": "ac4ffbcc34078514",
+   "title": "Microsoft jumps 8% as it boosts capital spending plans, citing demand",
+   "url": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "acfb755f17e57bcb",
+   "title": "Microsoft's AI spending guide is music to our ears, quieting the bears — for now",
+   "url": "https://www.cnbc.com/2026/07/29/microsofts-ai-spending-guide-is-music-to-our-ears-quieting-the-bears-for-now.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "5c636503a72ef11f",
+   "title": "Zuckerberg lays out Meta's AI capacity dilemma: What to sell vs. what to keep",
+   "url": "https://www.cnbc.com/2026/07/29/zuckerberg-metas-ai-capacity-dilemma-what-to-sell-vs-what-to-keep.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "fbe768660f669302",
+   "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
+   "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+   "source": "TechCrunch"
+  }
+ ]
+}

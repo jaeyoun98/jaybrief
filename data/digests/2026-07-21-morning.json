@@ -1,0 +1,249 @@
+{
+ "generated_at": "2026-07-20T23:33:57Z",
+ "date": "2026-07-21",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 중동 리스크에 따른 시장 전반의 변동성 속에서도 AI 수요를 기반으로 한 저가 매수세와 빅테크 실적 발표를 앞둔 관망세가 공존하고 있습니다. 특히 엔비디아의 독주 체제에 대응하기 위한 AMD의 행보와 구글 등 빅테크의 자체 칩 개발 가속화가 주요 변수로 작용 중입니다.",
+   "stories": [
+    {
+     "headline": "MS, 엔비디아 의존도 낮추기 위해 AMD AI 랙 '헬리오스' 도입",
+     "facts": [
+      "마이크로소프트가 AMD의 최신 AI 랙 시스템 '헬리오스'를 자사 클라우드 플랫폼에 도입함",
+      "엔비디아의 독주를 견제하고 AI 인프라 공급망을 다변화하려는 전략적 움직임으로 해석됨"
+     ],
+     "interpretation": "엔비디아의 GPU 독점 구조에 대한 빅테크들의 공급망 다변화 압력이 가시화되고 있습니다. 이는 향후 데이터센터 GPU 시장에서 AMD의 점유율 확대 가능성을 시사하며, 엔비디아의 지배력에 대한 시장의 재평가 요인이 될 수 있습니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "amd",
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "AMD의 헬리오스 시스템 도입 이후 실제 클라우드 고객사들의 채택률과 엔비디아의 점유율 변화 추이",
+     "upcoming_event_ids": [
+      "amd-advancing-ai-2026",
+      "amd-q2-2026"
+     ],
+     "article_ids": [
+      "9c4306aadde20d49",
+      "9e10b3ab9cf5759f",
+      "b754bf1b035ffd3b",
+      "fd5ff1fccf93a583",
+      "bcbc008661b094e4",
+      "0ce5196ef97a863d"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "구글, 제미나이 최적화 위한 차세대 AI 칩 '프로즌 v2' 개발",
+     "facts": [
+      "구글이 자사 AI 모델 '제미나이' 효율화를 위해 2028년 배치를 목표로 '프로즌 v2' 칩을 개발 중",
+      "기존 TPU와는 별도로 개발되는 맞춤형 칩으로, 자체 AI 인프라 내재화 강화 목적"
+     ],
+     "interpretation": "빅테크 기업들이 범용 GPU 의존도를 줄이고 모델 특화형 칩을 직접 설계하는 추세가 강화되고 있습니다. 이는 장기적으로 엔비디아의 하드웨어 매출 성장에 잠재적 위협이 될 수 있습니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "구글의 자체 칩 개발 로드맵과 실제 데이터센터 적용 시점의 기술적 성능 검증",
+     "upcoming_event_ids": [
+      "alphabet-q2-2026"
+     ],
+     "article_ids": [
+      "1df5e98e2488302c",
+      "411e7b63e138e94e"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "TSMC, 미국 애리조나 공장 투자 확대 및 패키징 시설 증설",
+     "facts": [
+      "TSMC가 AI 호황에 대응하여 애리조나 생산공장 및 패키징 시설 증설을 결정함",
+      "미국 내 생산 거점 강화를 통해 지정학적 리스크 완화 및 고객사 수요 대응력 제고"
+     ],
+     "interpretation": "AI 반도체 수요가 견조함을 방증하며, 글로벌 공급망 재편 과정에서 TSMC의 파운드리 지배력을 더욱 공고히 하는 전략입니다. 다만 미국 내 높은 생산 비용은 장기적 수익성 측면에서 고려해야 할 요소입니다.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 공장의 가동률과 생산 수율 안정화 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4b862277799f0f89",
+      "26b5b4ead0956ebe",
+      "a0679c82a35ceb24"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "SW 테크 섹터는 생성형 AI 모델의 고도화와 함께 보안, 데이터 활용, 그리고 AI 에이전트 도입이 핵심 화두입니다. 오픈AI와 앤트로픽 등 주요 AI 기업들의 생태계 확장 경쟁이 치열하며, 빅테크들의 AI 인프라 투자 효율화 노력이 지속되고 있습니다.",
+   "stories": [
+    {
+     "headline": "오픈AI, GPT-5.6 및 코딩 모델 출시로 장외 시장 투자 심리 회복",
+     "facts": [
+      "오픈AI가 GPT-5.6 및 코딩 AI 모델을 출시하며 시장의 기대감을 재확인함",
+      "장외 시장에서 기업가치가 3개월 만에 20% 상승하는 등 투자 심리가 개선됨"
+     ],
+     "interpretation": "AI 모델 성능 향상이 실제 기업 가치 상승으로 직결되고 있습니다. 다만, 경쟁사들의 추격과 수익화 모델에 대한 시장의 검증 요구는 여전히 높은 상황입니다.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "오픈AI의 신규 모델 출시 이후 실제 B2B 매출 전환율과 수익성 개선 지표",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9ed5db2007e68842",
+      "000cd2652d0d0d09",
+      "e2daa35bc1d3d538",
+      "d07a50c20bae9715"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "메타, 앤트로픽과 100억 달러 규모 AI 인프라 협력 검토",
+     "facts": [
+      "메타가 앤트로픽과 100억 달러 규모의 AI 인프라 구축 협력을 모색 중이라는 보도가 나옴",
+      "메타의 클라우드 및 AI 생태계 확장을 위한 전략적 제휴 가능성"
+     ],
+     "interpretation": "빅테크 간의 AI 동맹이 가속화되고 있습니다. 메타는 자체 모델뿐만 아니라 외부 모델과의 협력을 통해 AI 플랫폼으로서의 영향력을 확대하려는 것으로 보입니다.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "메타와 앤트로픽 간의 공식 계약 체결 여부 및 구체적인 협력 범위",
+     "upcoming_event_ids": [
+      "meta-q2-2026"
+     ],
+     "article_ids": [
+      "1b01a5b2767e7134",
+      "139d8aaa95062ead"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "1df5e98e2488302c",
+   "title": "구글, 제미나이 맞춤형 AI칩 개발…2028년 서버 배치 목표",
+   "url": "https://www.etnews.com/20260721000006",
+   "source": "전자신문"
+  },
+  {
+   "id": "9c4306aadde20d49",
+   "title": "MS 애저, AMD AI 랙 '헬리오스' 도입…엔비디아 독주 제동 거나",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5POGNKSC1pckxQaWN2UHFZU2dia2FfOVJ2WHJPc1pUeUVGNFdWc2ZwVzFtTjJuYWVYMmpGMllmWks3ZkFoZ2lVOEg3V1Q1S1RxRl9jalk5SGhYZ3BQQ1ZPRVJYNWk5aklqZGc?oc=5",
+   "source": "파이낸스스코프"
+  },
+  {
+   "id": "4b862277799f0f89",
+   "title": "TSMC, AI 호황에 美 투자 확대…애리조나에 생산공장·패키징 시설 증설",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fUnFSUXVpaFh2cTBpeVdtc1hCSF84VDlrbEVscFZJNDdFNE9xaXpzSHEwSkFtTkZOb1JjZG56MEUtNVV1Tk9jMjRnTV8wWDl3eXd1MjJZSGZTekdTMDVXczlieUZXaHNaSzJ1LWF3?oc=5",
+   "source": "알파경제"
+  },
+  {
+   "id": "9e10b3ab9cf5759f",
+   "title": "엔비디아 독주 견제…MS, 블랙웰 말고 AMD '헬리오스'",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE54dVZoRGFFdGdLZGpldkJmMjNzc0NINVBVMnppN3hwSE8zZmJPcWwxQm8yUHRQV25XdWx3T1NkWV8taEQ3VG9wbXlWQ3pYbm5CbTVZ?oc=5",
+   "source": "SBS Biz"
+  },
+  {
+   "id": "411e7b63e138e94e",
+   "title": "Google is working on a new AI chip designed to make Gemini more efficient",
+   "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "a0679c82a35ceb24",
+   "title": "\"시장 안 내준다\"…TSMC가 대만 4배 비싼 미국을 택한 이유 [글로벌 모닝 브리핑]",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aT2tzV3ItdG1fWlU4aVh6aXBJdTluMU1oelVrbFRsWU5CekNkRXNWOEszRUktZWRKVXl3Y2VsMnppcnpxYk9xbGI0TG5OTXlPRUFz?oc=5",
+   "source": "네이트"
+  },
+  {
+   "id": "26b5b4ead0956ebe",
+   "title": "TSMC will invest another $100 million in Arizona. How significant will it be for the state?",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOE5Fc09PbkJVckNBcnlHa0ZhampyY3BIeGpCRjJnSDFFc3RucGQza0VuTDBOT0VGeTJsSklMdHNlcVhpaEMybHBWTkJNcE9TdmcwNHNWSFNsUUstWWRIaG0zUTVrLUpiaFlGdUVId0FSSHlHOWhMM1FjeWFTVVcxLTBsMU1jdDdQLWpkamNlbnRsdEdlMXVtRTBYWjFNQzVSMFY3bk4wUzlGVW42TDRpczFHdUwySVJmZFE4Rlc4TGRHR1FJQWxhUw?oc=5",
+   "source": "KJZZ"
+  },
+  {
+   "id": "b754bf1b035ffd3b",
+   "title": "Microsoft Taps AMD For At Scale AI CPU And GPU Clusters",
+   "url": "https://www.nextplatform.com/cloud/2026/07/20/microsoft-taps-amd-for-at-scale-ai-cpu-and-gpu-clusters/5275161",
+   "source": "The Next Platform"
+  },
+  {
+   "id": "9ed5db2007e68842",
+   "title": "오픈AI, 장외시장서 투자심리 회복…기업가치 3개월 만에 20% 상승",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9tcF9vQ0pfMndsYXUxN3hZaUpMSFRUdnRnVlNlbHNnMVJienBmMV9yNFFCTjFoUFlhU1hjaTN1c0N0MlQ4R09qNTBESVRrSFk?oc=5",
+   "source": "v.daum.net"
+  },
+  {
+   "id": "000cd2652d0d0d09",
+   "title": "앤트로픽에 밀렸던 오픈AI 반격…GPT-5.6·코딩AI로 투자심리 회복",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9KcVoyNmhlZXJ5aFFuNzRCRGl6OThUNWZDdjRiWHZ2YkVFS3o4WFZsMVNXSG51VDNfeFRsc0wwbzRrTlZ5V1NBQzdxRkJXbEFsNlBTamsxbUE1LTdfQ0tYalNYdXdOYlNKNi1HSmlWV3ZvMkHSAXdBVV95cUxORHRfZ0UzdTQxMzFOaVBRU0t4cHIzNy1fc3hoMF9PbFFSRHZJU2pVVkpiZmgwSllnd2ZLUE5ndFNOMjBES3pXZzBCeWpEVG5mUzdtUzZxdDkxUlhxMXlRT2kycVVrMjh2VjFNdmQyLTBQbUpXb0s1MA?oc=5",
+   "source": "핀포인트뉴스"
+  },
+  {
+   "id": "e2daa35bc1d3d538",
+   "title": "오픈AI, 장외 기업가치 20% 상승…투자자 관심 회복",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5UcFRVY19vUWVsZ05wMk9GMHoycU5RbmhZUEJzQldwaHpJRnZiS1hWVGxRU2NfSU90NGlGbEdsb3JnU2JLS3E1cHBvRFFfczV1LUFEbjRKUVlwQnY0UGN5VXNhRWN2UQ?oc=5",
+   "source": "싱글리스트"
+  },
+  {
+   "id": "fd5ff1fccf93a583",
+   "title": "AMD, 첫 랙형 AI 시스템 '헬리오스' 연내 출시…신규 고객으로 마이크로소프트 합류",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94elhhS21HQkExdEFON0xkYm9QaVI5VDdmRXN0MV9IMDdUUEFJdTV2RGNValFxVm8xdHNWMzN1OW9VNWJpd0ZwRklMVXFndURXTWdnT1RRa3lVd1k0Q2VwcUk3QmJpMXlXQzJ6RngxMU5TSmM?oc=5",
+   "source": "디지털투데이"
+  },
+  {
+   "id": "bcbc008661b094e4",
+   "title": "[美특징주]AMD·마이크로소프트, 클라우드 플랫폼 내 최신 시스템 탑재…주가 강세",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOU2lLZUNKT00ydWQtSmZjQXNWNVlpRlFBV0x3UmJ2cXBEUTRVdk9wcU1pbzk0bGxuREhjLUdEOEU4aXU3S000ajJkb1kyWjZlT0F0SXJwSTBpVVNjNm5VRVRqN3ZRX2Q1eDMwZkNyZDJwcnFHSEFpSmk5SUZWUThfMA?oc=5",
+   "source": "edaily.co.kr"
+  },
+  {
+   "id": "d07a50c20bae9715",
+   "title": "Demand for OpenAI shares recovers in the secondary market after the launch of GPT-5.6 and Codex models",
+   "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1sOGtSLXRRMFQ1YUlTVjA0aU5ReUNSWkJPdFQ0NUplV0VieTZsd2xCNGRRcWFiQ1BqeDNnRkVibw?oc=5",
+   "source": "jawlah.co"
+  },
+  {
+   "id": "1b01a5b2767e7134",
+   "title": "Meta Explores a $10 Billion AI Infrastructure Deal with Anthropic",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLUhzMm5Yc05YRDBmMHMtcThoemg4N3llcmU0RUM3dnAtSTFrVnk3ZUtLQTIwMDB0eGVVQ1dUb0JSN2FoTEdQWENjcmc2empaVnRzWWlGdGRrN2ZZV0gyY29faEdTOUhLNk0xNHZVNXJvd1E0eFJMZW81U21tRnNxNEUwUlp0MlJwY0N3QV9GU2U4TVBNd3RLMUpoaDIwZTc1aUNIYUJ0TlJTN3NLdkZZaU1wUVJCME9TMUVFdjdfZ1ZfQ2c?oc=5",
+   "source": "The National CIO Review"
+  },
+  {
+   "id": "139d8aaa95062ead",
+   "title": "Meta’s cloud push could get a boost from Anthropic",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdDFESFk1M3NvS3Z5bVE2RWcwVmNXeTFwSTlQQ2o3ZVVwaXM5TmFRQjVnQnpmYWtHRHdoTTBrdXFpOHgtVW9ETTYzYTVxMWJQRWQ2VEdfQVFmUzg3NmRNeFhGYmJfVEVkSkotMENSRWNKT2QwNnlraTJ5Z2tGM0ZFb0E0UTBEUQ?oc=5",
+   "source": "Fierce Network"
+  },
+  {
+   "id": "0ce5196ef97a863d",
+   "title": "Nvidia's grip on AI chips weakens as Microsoft turns to AMD and Anthropic may follow",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS3R5ajdVUGxQWFFRUzNzRVFtRFJaSVJtQnNkcG15RVQwRWhQOHk3QjlyVkpMaEo2N21EbzB5ZjVOcWZKZHdEMUNzU3U1S0pGUTF4NkM3aFVsbXFYTE15akF0Zy01UTJhZGV0WUQ5MGNUVkVKYU0yVVpkd2paRjZKMHprVXc5UXhsVVR5bUppbEU1bjhKcVJ5ZFhSSFR5YVQweWhwWEdfd0JZeWhX?oc=5",
+   "source": "the-decoder.com"
+  }
+ ]
+}

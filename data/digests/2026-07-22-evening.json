@@ -1,0 +1,213 @@
+{
+ "generated_at": "2026-07-22T06:10:49Z",
+ "date": "2026-07-22",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아의 차세대 AI 플랫폼 공급 본격화와 함께 국내 주요 반도체 기업들과의 협력 강화 움직임이 포착되었습니다. 한편, TSMC는 미국 내 투자 압박으로 인한 수익성 우려가 제기되었으며, LG디스플레이는 상반기 흑자 전환에도 불구하고 부품 원가 상승으로 인한 하반기 불확실성을 마주하고 있습니다.",
+   "stories": [
+    {
+     "headline": "엔비디아, 차세대 AI 플랫폼 '베라 루빈' 공급 개시",
+     "facts": [
+      "엔비디아가 차세대 AI 플랫폼 '베라 루빈(Vera Rubin)' 시스템의 공급을 시작함",
+      "구글 클라우드, 마이크로소프트, 오라클 클라우드 등 주요 AI 기업에 NVL72 랙 전달 완료"
+     ],
+     "interpretation": "엔비디아의 차세대 플랫폼 공급은 AI 데이터센터 인프라 확장의 핵심 동력으로, 주요 클라우드 사업자들의 AI 워크로드 실행 가속화와 엔비디아의 시장 지배력 유지를 의미함.",
+     "affected_company_ids": [
+      "nvidia",
+      "microsoft",
+      "alphabet",
+      "oracle"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "주요 클라우드 기업들의 차세대 플랫폼 도입에 따른 실적 기여도 확인",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "15b685032f00a8fb"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성·SK·네이버 경영진, 젠슨 황 엔비디아 CEO와 회동 예정",
+     "facts": [
+      "이재용 삼성전자 회장, 최태원 SK그룹 회장, 이해진 네이버 의장이 젠슨 황 엔비디아 CEO와 미국 실리콘밸리에서 라운드테이블 미팅을 가질 예정",
+      "오는 24일 회동이 유력하며 AI 및 반도체 동맹 강화가 주요 의제"
+     ],
+     "interpretation": "엔비디아와의 파트너십은 HBM 등 고성능 메모리 공급 및 AI 생태계 협력에 결정적이며, 이번 회동은 국내 기업들의 AI 반도체 공급망 내 입지를 공고히 하는 계기가 될 것임.",
+     "affected_company_ids": [
+      "nvidia",
+      "sk-hynix",
+      "samsung-electronics"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "회동 이후 구체적인 HBM 공급 계약이나 기술 협력 발표 여부",
+     "upcoming_event_ids": [
+      "sk-hynix-q2-2026",
+      "samsung-electronics-q2-2026"
+     ],
+     "article_ids": [
+      "8e30dc387d1bbcd7",
+      "8b71e130e6d7c667"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "TSMC, 미국 내 생산 확대 압박으로 수익성 압박 가중",
+     "facts": [
+      "트럼프 행정부의 미국 내 AI 칩 생산 압박으로 TSMC의 수익성 우려 제기",
+      "2025년 이후 미국 제조 시설에 2,000억 달러 규모의 투자 발표"
+     ],
+     "interpretation": "미국 내 생산 비중 확대는 지정학적 리스크를 완화할 수 있으나, 높은 제조 원가로 인해 TSMC의 장기적인 마진율에 하방 압력으로 작용할 가능성이 큼.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "미국 내 생산 시설 가동률 및 비용 효율화 전략",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0b352ffede2f4c81"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "마이크로소프트가 미스트랄 AI와의 파트너십을 통해 소버린 AI 시장 공략을 본격화하며 오픈AI 의존도 낮추기에 나섰습니다. 구글 또한 사이버 보안 특화 모델을 출시하며 AI 모델 경쟁이 서비스별 전문화로 고도화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "마이크로소프트, 미스트랄 AI와 파트너십 확대",
+     "facts": [
+      "마이크로소프트가 프랑스 미스트랄 AI의 유럽 내 AI 인프라 구축에 수십억 달러 투자",
+      "유럽 고객들에게 미국 빅테크 의존도를 낮춘 '소버린 AI' 환경 제공"
+     ],
+     "interpretation": "오픈AI와 앤트로픽에 집중된 AI 모델 생태계를 다변화하고, 규제 산업 및 유럽 시장의 데이터 주권 요구에 대응하여 클라우드 점유율을 방어하려는 전략임.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "유럽 내 규제 당국의 승인 여부 및 실제 기업 고객 채택률",
+     "upcoming_event_ids": [
+      "microsoft-fy26-q4"
+     ],
+     "article_ids": [
+      "e7e8fb17b3ecb57f",
+      "7be7e50ad399b9fb",
+      "cf452923a5ba3e95",
+      "7a62afc717d7b34c"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "구글, 사이버 보안 특화 모델 '제미나이 3.5 플래시 사이버' 출시",
+     "facts": [
+      "구글이 소프트웨어 취약점 탐지 및 패치에 최적화된 사이버 보안 전용 AI 모델 공개",
+      "앤트로픽의 '미소스' 모델에 대한 비용 효율적인 대안으로 포지셔닝"
+     ],
+     "interpretation": "범용 AI 모델을 넘어 특정 산업군(보안)에 최적화된 모델을 출시함으로써, 기업 고객의 비용 절감 니즈를 공략하고 AI 서비스 시장에서의 경쟁력을 강화하려는 의도임.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "보안 시장 내 구글 모델의 점유율 확대 여부",
+     "upcoming_event_ids": [
+      "alphabet-q2-2026"
+     ],
+     "article_ids": [
+      "e2a025d79e66cc7e",
+      "d33adf23764020d1",
+      "6a1ccad145db7671"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "e7e8fb17b3ecb57f",
+   "title": "마이크로소프, 미스트랄과 기업 및 규제 산업이 직접 통제할 수 있는 프런티어 AI 제공 위해 전략적 파트너십 확대",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340059",
+   "source": "KIPOST"
+  },
+  {
+   "id": "7be7e50ad399b9fb",
+   "title": "MS, 미스트랄 투자로 ‘소버린 AI’ 지원… 오픈AI·앤트로픽 의존도 낮춘다",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213035",
+   "source": "AI타임스"
+  },
+  {
+   "id": "8e30dc387d1bbcd7",
+   "title": "삼성·SK·네이버, 미국서 젠슨 황 만난다…AI·반도체 동맹 강화",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213041",
+   "source": "AI타임스"
+  },
+  {
+   "id": "0b352ffede2f4c81",
+   "title": "Trump's push for American-made AI chips hits TSMC's margins",
+   "url": "https://www.cnbc.com/2026/07/22/trump-pressure-ai-chips-us-tsmc-margins.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "8b71e130e6d7c667",
+   "title": "Nvidia's Huang to meet Samsung, SK and Naver chiefs in Silicon Valley, reports say",
+   "url": "https://www.digitimes.com/news/a20260722VL219/nvidia-jensen-huang-samsung-sk-group-naver.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "cf452923a5ba3e95",
+   "title": "Microsoft's multibillion-dollar Mistral deal gives regulated industries European alternative to US-controlled AI",
+   "url": "https://www.digitimes.com/news/a20260722VL201/microsoft-azure-mistral-ai-partnership-europe-infrastructure.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "7a62afc717d7b34c",
+   "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340037",
+   "source": "KIPOST"
+  },
+  {
+   "id": "15b685032f00a8fb",
+   "title": "엔비디아, '베라 루빈' AI 시스템 공급 개시…출시 지연 루머 일축",
+   "url": "https://www.etnews.com/20260722000012",
+   "source": "전자신문"
+  },
+  {
+   "id": "e2a025d79e66cc7e",
+   "title": "구글도 사이버 보안 전용 모델 첫 출시...\"미소스의 가성비 대안\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213023",
+   "source": "AI타임스"
+  },
+  {
+   "id": "d33adf23764020d1",
+   "title": "구글은 ‘제미나이 3.6 플래시’ 등 최신 AI 모델 출시",
+   "url": "https://byline.network/2026/07/22-591/",
+   "source": "바이라인네트워크"
+  },
+  {
+   "id": "6a1ccad145db7671",
+   "title": "구글, '제미나이 3.6 플래시' 공개...코딩 대신 'AI 에이전트'에 올인",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213022",
+   "source": "AI타임스"
+  }
+ ]
+}

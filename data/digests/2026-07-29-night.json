@@ -1,0 +1,166 @@
+{
+ "generated_at": "2026-07-29T14:13:46Z",
+ "date": "2026-07-29",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "글로벌 반도체 섹터는 AI 붐을 주도하던 주요 기업들의 주가 급락과 함께, 공급망 안정성 및 정부의 산업 육성 정책이 교차하며 변동성이 확대되고 있습니다.",
+   "stories": [
+    {
+     "headline": "AI 반도체 주도주 중심 글로벌 증시 급락",
+     "facts": [
+      "NVIDIA, SK하이닉스, 삼성전자가 최근 반도체 주가 하락세를 주도함",
+      "반도체 섹터에서만 1조 달러 이상의 시가총액이 증발함"
+     ],
+     "interpretation": "AI 인프라 투자에 대한 시장의 기대치가 단기적으로 조정받고 있으며, 고평가 논란과 함께 수급 불안이 가중되는 국면입니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "sk-hynix",
+      "samsung-electronics"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "주요 기업들의 실적 발표를 통한 AI 수요의 실질적 지속 여부 확인이 필요합니다.",
+     "upcoming_event_ids": [
+      "sk-hynix-q2-2026",
+      "samsung-electronics-q2-2026",
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "ec96bfe5bae60451"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "정부, 호남권 반도체 국가산단 후보지 지정",
+     "facts": [
+      "국토교통부가 광주군공항 부지 일원 250만평을 호남권 반도체 국가산단 후보지로 우선 지정함",
+      "삼성전자와 SK하이닉스의 수요를 기반으로 산단 지정이 추진됨"
+     ],
+     "interpretation": "정부의 반도체 클러스터 육성 의지가 지속되고 있으나, 실제 기업들의 설비 투자 시점과 규모는 시장 상황에 따라 유동적일 수 있습니다.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "향후 구체적인 입주 계획 및 정부의 인프라 지원 속도를 모니터링해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0d7c850f84853243"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "TSMC 일본 구마모토 공장 정상 가동",
+     "facts": [
+      "구마모토 지진 이후 TSMC의 JASM 공장 유틸리티 시스템이 정상화됨",
+      "현재 장비 검교정 작업이 진행 중이며 건설 공정이 재개됨"
+     ],
+     "interpretation": "지진으로 인한 생산 차질 우려가 해소되었으며, 예정된 생산 일정에 미치는 영향은 제한적일 것으로 판단됩니다.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "장비 가동 이후 실제 웨이퍼 출하량의 정상화 여부를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1c7aad9271660ec8"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 및 AI 서비스 분야에서는 규제 당국의 감시 강화와 데이터 관리 책임 문제가 부각되고 있습니다.",
+   "stories": [
+    {
+     "headline": "Microsoft Copilot 구독료 인상 관련 경쟁 당국 조사",
+     "facts": [
+      "Microsoft가 Copilot 구독료 인상과 관련하여 경쟁 당국의 조사를 받고 있음",
+      "고객들에게 AI 기능 포함 요금제 회피 방법을 명확히 고지했는지 여부가 쟁점"
+     ],
+     "interpretation": "AI 서비스 수익화 과정에서 가격 정책의 투명성이 규제 리스크로 작용하고 있으며, 이는 향후 구독 모델 확장에 제약이 될 수 있습니다.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "규제 당국의 조사 결과에 따른 가격 정책 수정 여부를 지켜봐야 합니다.",
+     "upcoming_event_ids": [
+      "microsoft-fy26-q4"
+     ],
+     "article_ids": [
+      "e280769add269df0"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "Palantir, NHS 환자 데이터 공개 관련 경고",
+     "facts": [
+      "Palantir가 NHS England의 환자 데이터 공개 과정에서 부정확한 정보 제공으로 지적받음",
+      "공급업체의 데이터 접근에 대한 대중의 신뢰 하락 우려 제기"
+     ],
+     "interpretation": "공공 부문 AI 프로젝트에서 데이터 보안 및 투명성 관리는 기업의 평판과 사업 지속성에 직결되는 핵심 요소입니다.",
+     "affected_company_ids": [
+      "palantir"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "NHS와의 계약 지속 여부 및 향후 데이터 관리 프로세스 개선안을 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3019c07f69bd5be8"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "1c7aad9271660ec8",
+   "title": "TSMC: JASM utilities back to normal, equipment calibration underway; construction resumes",
+   "url": "https://www.digitimes.com/news/a20260729VL223/tsmc-jasm-equipment-earthquake-fab.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "0d7c850f84853243",
+   "title": "정부, 호남권 반도체 국가산단 후보지 ‘광주군공항 부지 250만평’ 우선 지정",
+   "url": "https://zdnet.co.kr/view/?no=20260729183321",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "ec96bfe5bae60451",
+   "title": "Chip stocks shed more than $1 trillion as selloff hits companies powering AI boom",
+   "url": "https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "e280769add269df0",
+   "title": "Microsoft faces competition probe over Copilot subscription price hike",
+   "url": "https://www.theregister.com/software/2026/07/29/microsoft-faces-competition-probe-over-copilot-subscription-price-hike/5280474",
+   "source": "The Register"
+  },
+  {
+   "id": "3019c07f69bd5be8",
+   "title": "NHS England rapped over inaccurate Palantir patient data disclosure",
+   "url": "https://www.theregister.com/public-sector/2026/07/29/nhs-england-rapped-over-inaccurate-palantir-patient-data-disclosure/5280233",
+   "source": "The Register"
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "generated_at": "2026-07-27T23:37:26Z",
+ "date": "2026-07-28",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아의 AI 인프라 투자 구조에 대한 시장의 우려와 함께, AI 보안 및 효율성 강화를 위한 기술적 행보가 지속되고 있습니다.",
+   "stories": [
+    {
+     "headline": "엔비디아-오픈AI, 2,500억 달러 규모 AI 인프라 자금 조달 논의",
+     "facts": [
+      "오픈AI가 오하이오주 데이터 센터 캠퍼스 구축을 위해 엔비디아의 신용을 기반으로 2,500억 달러 규모의 부채 조달을 논의 중임",
+      "짐 크레이머 등 일부 시장 전문가들은 이러한 순환 금융 구조가 닷컴 버블 당시의 자금 조달 방식을 연상시킨다고 경고함"
+     ],
+     "interpretation": "엔비디아의 신용을 활용한 대규모 자금 조달은 AI 인프라 확장을 가속화할 수 있으나, AI 생태계 내 자금 흐름의 건전성에 대한 시장의 의구심을 증폭시켜 주가 변동성을 키울 수 있음",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "오픈AI의 실제 자금 조달 성공 여부와 이에 따른 엔비디아의 재무적 리스크 노출 정도를 확인해야 함",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "20bd17b3a28d0c88",
+      "5430b9f2f0db1527",
+      "6a3b5f661778d231"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아, AI 보안 연합 출범 및 모델 배포 효율화 기술 공개",
+     "facts": [
+      "엔비디아가 네이버, SKT 등 40여 개 기업과 '오픈 시큐어 AI 얼라이언스'를 출범함",
+      "대규모 언어 모델 기동 시간을 8분에서 1분 44초로 단축하는 '모델익스프레스' 기술을 공개함"
+     ],
+     "interpretation": "AI 보안 생태계 주도권 확보와 모델 운용 효율성 개선을 통해 엔비디아의 AI 플랫폼 지배력을 강화하려는 전략으로 판단됨",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "오픈 시큐어 AI 얼라이언스의 실질적인 기술 표준화 성과와 모델익스프레스 도입 고객사 확대 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0270025fc891fdcb",
+      "6e5f5dc39b1e635f"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "마이크로소프트의 보안 AI 플랫폼 출시와 AI 거버넌스에 대한 글로벌 논의가 활발해지고 있습니다.",
+   "stories": [
+    {
+     "headline": "마이크로소프트, AI 기반 보안 플랫폼 '프로젝트 퍼셉션' 공개",
+     "facts": [
+      "마이크로소프트가 AI 에이전트 기반의 보안 플랫폼 '프로젝트 퍼셉션'을 공개함",
+      "레드팀, 블루팀, 그린팀 등 전문 에이전트가 협력하여 AI 공격 경로를 탐지하고 대응함"
+     ],
+     "interpretation": "보안 시장에서의 AI 주도권을 강화하고, 기업 고객의 AI 도입 시 발생하는 보안 우려를 해결하여 자사 클라우드 및 AI 서비스의 경쟁력을 높이려는 전략임",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "경쟁사 대비 보안 성능 우위 입증 및 실제 엔터프라이즈 시장 점유율 확대 여부",
+     "upcoming_event_ids": [
+      "microsoft-fy26-q4"
+     ],
+     "article_ids": [
+      "ac53601d731fa299",
+      "ef74895440e25302",
+      "603f4fbd10b6d34a"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "0270025fc891fdcb",
+   "title": "엔비디아, 글로벌 개방형 AI 보안 연합 출범...네이버·SKT 등 40곳 참여",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213231",
+   "source": "AI타임스"
+  },
+  {
+   "id": "20bd17b3a28d0c88",
+   "title": "Jim Cramer warns AI's circular financing frenzy echoes the dot-com bubble",
+   "url": "https://www.cnbc.com/2026/07/27/jim-cramer-warns-ai-circular-financing-echoes-dot-com-bubble.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "5430b9f2f0db1527",
+   "title": "Nvidia and OpenAI in talks for up to $250 billion backstop to fund AI infrastructure plans",
+   "url": "https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "6a3b5f661778d231",
+   "title": "Nvidia and OpenAI in talks for up to $250 billion dollar backstop to fund AI infrastructure plans",
+   "url": "https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "6e5f5dc39b1e635f",
+   "title": "엔비디아 '모델익스프레스' 공개…AI 모델 기동 8분에서 1분 44초로",
+   "url": "https://zdnet.co.kr/view/?no=20260727213637",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "ac53601d731fa299",
+   "title": "마이크로소프트, AI로 AI 공격 대비 '퍼셉션' 공개…“오픈AI·앤트로픽 앞서”",
+   "url": "https://www.etnews.com/20260728000003",
+   "source": "전자신문"
+  },
+  {
+   "id": "ef74895440e25302",
+   "title": "Microsoft unveils AI security tools it says outperform competing platforms",
+   "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "603f4fbd10b6d34a",
+   "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+   "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+   "source": "TechCrunch"
+  }
+ ]
+}

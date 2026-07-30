@@ -1,0 +1,212 @@
+{
+ "generated_at": "2026-07-24T23:36:37Z",
+ "date": "2026-07-25",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "글로벌 빅테크의 AI 인프라 투자 지속과 이에 따른 반도체 공급망의 장기 계약 기대감이 공존하는 가운데, AI 모델 규제 및 재무적 건전성에 대한 시장의 경계감이 높아지고 있음.",
+   "stories": [
+    {
+     "headline": "삼성전자·SK하이닉스, 美 빅테크와 초대형 장기 공급 계약 임박",
+     "facts": [
+      "김용범 대통령실 정책실장이 한국 기업과 글로벌 빅테크 간 대규모 장기 공급 계약 및 전략적 투자 발표를 예고함.",
+      "이재명 대통령의 미국 샌프란시스코 방문을 계기로 관련 내용이 발표될 가능성이 높음."
+     ],
+     "interpretation": "HBM 등 AI 메모리 수요가 빅테크의 인프라 투자와 맞물려 장기적인 매출 가시성을 확보하고 있음을 시사함. 이는 메모리 제조사의 실적 안정성을 높이는 요인임.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "실제 계약 규모와 파트너사의 구체적인 명단 확인 필요.",
+     "upcoming_event_ids": [
+      "sk-hynix-q2-2026",
+      "samsung-electronics-q2-2026"
+     ],
+     "article_ids": [
+      "4c71e078ab9143c0"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "빅테크 AI 인프라 투자 급증에 따른 재무 건전성 우려 확산",
+     "facts": [
+      "Alphabet, Microsoft, Amazon, Meta, Oracle 등 5대 빅테크의 '숨은 AI 부채'가 약 2,442조원에 달한다는 분석이 제기됨.",
+      "Moody's는 과도한 AI 지출이 기업의 신용 품질을 위협할 수 있다고 경고함.",
+      "채권 시장에서는 AI 자본지출(Capex) 증가로 인해 빅테크의 신용 스프레드가 확대되는 추세임."
+     ],
+     "interpretation": "AI 인프라 투자가 수익으로 전환되는 속도보다 부채 조달 속도가 빠를 경우, 향후 빅테크의 투자 여력이 제한될 수 있는 리스크 요인임.",
+     "affected_company_ids": [
+      "alphabet",
+      "microsoft",
+      "amazon",
+      "meta",
+      "oracle"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "주요 빅테크의 분기 실적 발표에서 Capex 가이던스 변화 확인.",
+     "upcoming_event_ids": [
+      "meta-q2-2026",
+      "microsoft-fy26-q4"
+     ],
+     "article_ids": [
+      "132095d7c1270776",
+      "e4b1a2054bc99f08",
+      "7d29d85babd50587",
+      "96ce54727dfed25d"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "AI 기업들, 오픈 웨이트 모델 규제 반대 목소리",
+     "facts": [
+      "NVIDIA, Microsoft, Meta 등 주요 AI 기업들이 미국 정부의 오픈 웨이트 모델에 대한 광범위한 규제 도입을 반대하는 서한을 전달함.",
+      "중국 AI 모델의 추격이 거세지는 상황에서 과도한 규제가 미국 기술 경쟁력을 저해할 수 있다는 논리임.",
+      "OpenAI와 Anthropic은 해당 서한에 서명하지 않음."
+     ],
+     "interpretation": "AI 생태계 내에서 오픈 소스 진영과 폐쇄형 모델 진영 간의 전략적 이해관계가 갈리고 있음. 규제 방향에 따라 하드웨어 수요 및 소프트웨어 생태계의 판도가 달라질 수 있음.",
+     "affected_company_ids": [
+      "nvidia",
+      "microsoft",
+      "meta"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 정부의 대중국 AI 규제 및 오픈 모델 관련 정책 발표.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "959db83484f2f0b5",
+      "b445454fb85ba4e7"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 모델의 효율성 경쟁이 심화되는 가운데, 빅테크의 AI 서비스 도입 확대와 이에 따른 규제 및 비용 효율화 이슈가 핵심 테마로 부상함.",
+   "stories": [
+    {
+     "headline": "Anthropic, 고성능·저비용 모델 'Opus 5' 출시",
+     "facts": [
+      "Anthropic이 기존 모델 대비 토큰 효율성을 높이고 비용을 절감한 'Opus 5'를 출시함.",
+      "기업들이 AI 도입 비용에 민감해짐에 따라 성능과 비용 효율성을 동시에 강조하는 전략을 취함."
+     ],
+     "interpretation": "AI 모델 시장이 초기 성능 경쟁에서 비용 효율성 경쟁으로 이동하고 있음. 이는 기업들의 AI 서비스 채택을 가속화할 수 있으나, 모델 공급사 간의 가격 경쟁 압박으로 작용할 수 있음.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "경쟁사(OpenAI 등)의 가격 정책 대응 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "699f53386d9b6406",
+      "4e8a1b7fae94db8b",
+      "3312313ae9383803"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "구글, 프랑스 AI 오버뷰 도입에 따른 언론사 반발",
+     "facts": [
+      "구글이 프랑스 검색 결과에 AI 오버뷰 기능을 도입함.",
+      "현지 언론사들은 해당 기능이 검색 트래픽을 감소시킬 것이라며 반발하고 있음."
+     ],
+     "interpretation": "AI 검색 서비스가 기존 웹 트래픽 생태계를 위협함에 따라 저작권 및 수익 배분 관련 법적·사회적 갈등이 지속될 전망임. 이는 구글의 AI 서비스 확장에 잠재적 규제 리스크임.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "유럽 내 추가적인 규제 움직임 및 구글의 대응책.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "db645f09a92c14de"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "959db83484f2f0b5",
+   "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
+   "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "b445454fb85ba4e7",
+   "title": "Nvidia, Microsoft, Meta warn against 'premature restrictions' of open-weight models",
+   "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "4c71e078ab9143c0",
+   "title": "김용범 “4700조보다 더 클 수 있다”…삼전닉스, 美 빅테크와 초대형 계약 예고",
+   "url": "https://www.etnews.com/20260724000332",
+   "source": "전자신문"
+  },
+  {
+   "id": "132095d7c1270776",
+   "title": "미국 5대 빅테크 '숨은 AI 부채' 2442조원…니케이 분석",
+   "url": "https://zdnet.co.kr/view/?no=20260724215525",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "699f53386d9b6406",
+   "title": "Anthropic's Opus 5 is about token efficiency, not a capability leap",
+   "url": "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "e4b1a2054bc99f08",
+   "title": "Bond market anxiety is growing over AI capex budgets",
+   "url": "https://www.cnbc.com/2026/07/24/bond-market-anxiety-ai-capex-spending.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "96ce54727dfed25d",
+   "title": "1 hyperscaler megacap down, 3 to go. Alphabet raises the stakes on AI spending",
+   "url": "https://www.cnbc.com/2026/07/24/1-hyperscaler-megacap-down-3-to-go-alphabet-raises-the-stakes-on-ai-spending.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "7d29d85babd50587",
+   "title": "Moody's says 'unprecedented' AI spending threatens credit quality of Amazon, Meta, Alphabet and others",
+   "url": "https://www.cnbc.com/2026/07/24/moodys-ai-spending-credit-quality-amazon-meta-alphabet.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "4e8a1b7fae94db8b",
+   "title": "Anthropic's new AI model rivals Fable 5 and is cheaper as businesses fret about costs",
+   "url": "https://www.cnbc.com/2026/07/24/anthropic-claude-opus-5-ai-fable-5-cost.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "3312313ae9383803",
+   "title": "Anthropic launches Opus 5",
+   "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "db645f09a92c14de",
+   "title": "구글, 프랑스에 'AI 오버뷰' 도입…언론사 \"트래픽 줄어든다\"",
+   "url": "https://zdnet.co.kr/view/?no=20260724215411",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

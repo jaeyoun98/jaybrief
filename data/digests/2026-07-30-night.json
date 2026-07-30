@@ -1,0 +1,132 @@
+{
+ "generated_at": "2026-07-30T14:07:11Z",
+ "date": "2026-07-30",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 메모리 수요에 따른 실적 성장에도 불구하고 시장의 높은 기대치를 충족하지 못한 반도체 기업들의 주가 변동성과 책임 경영을 위한 경영진의 지분 매입이 주요 이슈임.",
+   "stories": [
+    {
+     "headline": "SK하이닉스, 역대 최대 실적에도 AI 기대치 미달로 주가 하락",
+     "facts": [
+      "SK하이닉스 2분기 매출 79.3조원, 영업이익 60.5조원 기록",
+      "기록적인 실적에도 불구하고 시장의 높은 AI 관련 기대치를 충족하지 못해 주가 하락"
+     ],
+     "interpretation": "AI 메모리 시장의 성장은 지속되고 있으나, 시장이 요구하는 성장 속도가 매우 가파르며 실적이 이를 상회하지 못할 경우 단기적인 주가 조정이 발생할 수 있음을 시사함.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "earnings",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "AI 메모리 수요의 지속 가능성 및 차기 분기 가이던스 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "97523e5986473b56",
+      "9500b0ca98422148"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "최태원 SK그룹 회장, SK하이닉스 주식 48억원 규모 첫 장내매수",
+     "facts": [
+      "최태원 회장이 SK하이닉스 보통주 3620주(약 48억원 규모)를 장내매수함",
+      "최 회장의 SK하이닉스 주식 직접 매입은 이번이 처음임"
+     ],
+     "interpretation": "최근 주가 급락에 따른 책임 경영 의지를 표명하고, 반도체 기업 가치가 저평가되었다는 경영진의 판단을 시장에 전달하여 투자 심리 안정을 도모하려는 의도로 해석됨.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "경영진의 추가 지분 매입 여부 및 주가 회복세",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "49e1ecfc24abed55",
+      "9919b794b2c897d2",
+      "f7f3568abbf058a6"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업들의 실적 발표에 따른 주가 차별화와 AI 관련 보안 및 규제 이슈가 시장의 주요 관심사임.",
+   "stories": [
+    {
+     "headline": "Microsoft와 Meta, AI 실적에 따른 주가 차별화",
+     "facts": [
+      "Microsoft는 Azure 및 Copilot의 강력한 성장으로 주가 14% 상승",
+      "Meta는 매출 가이던스 미달 및 잉여현금흐름 감소로 주가 9% 하락"
+     ],
+     "interpretation": "AI 기술을 수익화하는 역량과 실질적인 재무 성과에 따라 빅테크 기업 간의 주가 흐름이 갈리고 있으며, 시장은 AI 투자 대비 수익성(ROI)을 더욱 엄격하게 평가하고 있음.",
+     "affected_company_ids": [
+      "microsoft",
+      "meta"
+     ],
+     "event_type": "earnings",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "향후 분기별 AI 관련 매출 성장률 및 수익성 지표",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "377ae348f6bb8bb5",
+      "fa83fc78d8e4bfc9"
+     ],
+     "importance": 3
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "49e1ecfc24abed55",
+   "title": "최태원 SK그룹 회장, SK하이닉스 주식 48억 규모 장내매수",
+   "url": "https://www.etnews.com/20260730000456",
+   "source": "전자신문"
+  },
+  {
+   "id": "97523e5986473b56",
+   "title": "SK Hynix shares tank as exponential earnings growth fails to satisfy AI-charged expectations",
+   "url": "https://www.cnbc.com/2026/07/29/sk-hynix-earnings-profit-revenue-hbm-memory.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "9919b794b2c897d2",
+   "title": "최태원 SK그룹 회장, 주식 48억 규모 장내매수",
+   "url": "https://www.etnews.com/20260730000456",
+   "source": "전자신문"
+  },
+  {
+   "id": "f7f3568abbf058a6",
+   "title": "최태원 회장, SK하이닉스 지분 3620주 매수…기업가치 제고 의지",
+   "url": "https://zdnet.co.kr/view/?no=20260730185958",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "9500b0ca98422148",
+   "title": "SK hynix Announces 2Q26 Financial Results",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340227",
+   "source": "KIPOST"
+  },
+  {
+   "id": "377ae348f6bb8bb5",
+   "title": "Meta tanks 9%, continuing record losing streak, while Microsoft jumps 14% as AI trade splits",
+   "url": "https://www.cnbc.com/2026/07/30/microsoft-msft-meta-stock-today-earnings.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "fa83fc78d8e4bfc9",
+   "title": "Meta tanks nearly 9%, Microsoft jumps 9% as the AI trade splits Big Tech",
+   "url": "https://www.cnbc.com/2026/07/30/microsoft-msft-meta-stock-today-earnings.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

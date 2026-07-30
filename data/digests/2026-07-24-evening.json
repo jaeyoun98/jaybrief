@@ -1,0 +1,267 @@
+{
+ "generated_at": "2026-07-24T06:09:51Z",
+ "date": "2026-07-24",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AMD의 'Advancing AI 2026' 행사를 기점으로 데이터센터 AI 인프라 및 에이전틱 AI 생태계 확장이 가속화되고 있으며, NVIDIA와 KAIST의 공동 연구소 설립 등 국내외 AI 기술 협력이 활발함.",
+   "stories": [
+    {
+     "headline": "AMD, 'Advancing AI 2026'서 랙스케일 AI 솔루션 '헬리오스' 및 차세대 EPYC 프로세서 공개",
+     "facts": [
+      "AMD가 랙스케일 AI 인프라 플랫폼 '헬리오스(Helios)'를 공개함",
+      "6세대 EPYC 프로세서(Venice)를 기반으로 데이터센터 AI 워크로드 최적화",
+      "오픈AI, 앤트로픽, 메타, 마이크로소프트 등이 도입 예정"
+     ],
+     "interpretation": "데이터센터 내 AI 워크로드가 학습에서 추론 및 에이전틱 AI로 이동함에 따라, AMD가 하드웨어와 소프트웨어 생태계를 통합하여 NVIDIA의 CUDA 독점 체제에 본격적인 도전장을 내민 것으로 해석됨.",
+     "affected_company_ids": [
+      "amd",
+      "microsoft",
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "AMD의 랙스케일 솔루션이 실제 하이퍼스케일 데이터센터에서 NVIDIA 점유율을 얼마나 잠식할지 여부",
+     "upcoming_event_ids": [
+      "amd-q2-2026"
+     ],
+     "article_ids": [
+      "976a4dd3f4aaab44",
+      "52f09cd58f990976",
+      "46e9ae902998837d",
+      "0627fafe0583d1a6",
+      "93baace13eb30cf6",
+      "679f43a02892195e",
+      "d12afee7ae057b62",
+      "635eedc9c08ce570",
+      "8c31cfccebd48cf6",
+      "c7684e2281e4fe89",
+      "78f0e128a8d97766",
+      "2a1c4ed969963533"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아-KAIST, 차세대 에이전틱 AI 공동 연구소 설립",
+     "facts": [
+      "엔비디아와 KAIST가 서울 김재철AI대학원에 공동 연구소 설립",
+      "에이전틱 AI 모델 및 시스템 공동 개발",
+      "엔비디아는 컴퓨팅 자원 및 연구비 지원, 인턴십 기회 제공"
+     ],
+     "interpretation": "엔비디아가 한국의 우수 연구 인력과 협력하여 에이전틱 AI 분야의 기술 주도권을 강화하고, 자사 풀스택 AI 솔루션의 국내 생태계 침투력을 높이려는 전략으로 판단됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "공동 연구를 통해 도출된 기술이 엔비디아의 차세대 AI 모델 및 하드웨어에 실제 적용되는지 여부",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "9b0fbdbb26bfcbd2",
+      "672fea3b57483e78",
+      "56d5bbdb0c7148f6"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "SK하이닉스, 온디바이스 AI용 '3D 적층 D램' 개발 가속화",
+     "facts": [
+      "SK하이닉스가 로직 반도체 위에 메모리를 쌓는 3D 적층 D램 개발 착수",
+      "미국 고객사와 협력하여 관련 기술 공동 설계 인재 채용 시작"
+     ],
+     "interpretation": "피지컬 AI 및 온디바이스 AI 시장 성장에 대응하여 기존 HBM 외에 메모리 대역폭과 전력 효율을 극대화할 수 있는 차세대 메모리 기술 선점에 나선 것으로 분석됨.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "3D 적층 D램의 시제품 개발 시점 및 주요 고객사와의 양산 협력 구체화 여부",
+     "upcoming_event_ids": [
+      "sk-hynix-q2-2026"
+     ],
+     "article_ids": [
+      "0bdb17f0c774cbcf"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "EU의 빅테크 규제 강화와 AI 모델의 보안 및 통제권 이슈가 부각되는 가운데, 마이크로소프트 등 주요 기업은 자체 AI 모델 전략을 강화하며 오픈AI 의존도를 낮추는 움직임을 보임.",
+   "stories": [
+    {
+     "headline": "EU, 구글에 1.5조원 과징금 부과 및 플랫폼 독점 제재",
+     "facts": [
+      "EU 집행위원회가 구글에 디지털시장법(DMA) 위반으로 8억 9천만 유로(약 1.5조원) 과징금 부과",
+      "검색 결과에서 자사 서비스(쇼핑, 호텔 등)를 우대하는 독점 남용 행위 적발"
+     ],
+     "interpretation": "EU의 강력한 빅테크 규제 기조가 지속됨에 따라 구글의 유럽 내 사업 모델 수정이 불가피하며, 이는 향후 수익성 및 플랫폼 운영 전략에 부정적 영향을 미칠 가능성이 큼.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "구글의 과징금 불복 소송 여부 및 EU의 추가적인 빅테크 규제 조치 발표",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "46310e14c7871112",
+      "0192d439c0edc28a"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "마이크로소프트, 자체 AI 모델 'MAI' 시리즈 출시로 오픈AI 의존도 축소",
+     "facts": [
+      "MS가 이미지 생성 모델 'MAI-이미지-2.5-프로' 등 자체 AI 모델 출시",
+      "빙, 파워포인트 등 주요 서비스에서 오픈AI 모델을 자체 모델로 대체"
+     ],
+     "interpretation": "MS가 AI 서비스의 핵심 인프라를 자체 내재화함으로써 비용 효율성을 높이고, AI 모델 공급망에 대한 통제권을 강화하려는 전략적 전환으로 해석됨.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "자체 모델의 성능이 기존 오픈AI 모델 대비 사용자 경험 및 서비스 품질을 얼마나 유지할지 여부",
+     "upcoming_event_ids": [
+      "microsoft-fy26-q4"
+     ],
+     "article_ids": [
+      "83e763eef18c8b92"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "976a4dd3f4aaab44",
+   "title": "AMD advances telecom AI with AT&T and Microsoft",
+   "url": "https://www.digitimes.com/news/a20260724PD228/amd-telecom-ai-at_t-microsoft-2026.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "52f09cd58f990976",
+   "title": "AMD launches ROCm.ai to accelerate agentic AI development, reporting up to 3.3x inference gains",
+   "url": "https://www.digitimes.com/news/a20260724PD227/amd-development-hardware-software-optimization.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "46e9ae902998837d",
+   "title": "AMD says AI shift to inference and agents will reshape data centers",
+   "url": "https://www.digitimes.com/news/a20260724PD222/amd-data-training-software-market.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "9b0fbdbb26bfcbd2",
+   "title": "엔비디아, 카이스트와 국내 AI 혁신 가속화 위한 공동 AI 연구소 설립",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340129",
+   "source": "KIPOST"
+  },
+  {
+   "id": "672fea3b57483e78",
+   "title": "엔비디아, KAIST와 서울에 '공동 AI 연구소' 설립 추진",
+   "url": "https://www.etnews.com/20260724000159",
+   "source": "전자신문"
+  },
+  {
+   "id": "93baace13eb30cf6",
+   "title": "AMD Advancing AI 2026: Gorgon Halo brings 300-billion-parameter models to local AI with Cisco governance",
+   "url": "https://www.digitimes.com/news/a20260724PD225/amd-cisco-ai-agent-governance-2026.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "679f43a02892195e",
+   "title": "MiTAC Computing Advances Agentic AI Infrastructure with 6th Gen AMD EPYC™ Server CPUs",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340123",
+   "source": "KIPOST"
+  },
+  {
+   "id": "d12afee7ae057b62",
+   "title": "AMD redraws server chip strategy as AI workloads evolve",
+   "url": "https://www.digitimes.com/news/a20260724PD221/amd-cpu-data-center-processor.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "0627fafe0583d1a6",
+   "title": "AMD, 첫 랙스케일 AI 솔루션 공개…앤트로픽·오픈AI 잡았다",
+   "url": "https://zdnet.co.kr/view/?no=20260724100843",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "78f0e128a8d97766",
+   "title": "AMD's latest 2nm-EPYC rollout signals broader role for CPUs in the AI data center",
+   "url": "https://www.digitimes.com/news/a20260724PD212/amd-cpu-data-center-chips-tsmc.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "0bdb17f0c774cbcf",
+   "title": "SK하이닉스, 또 쌓는다...온디바이스 AI용 '3D 적층 D램' 개발 시동",
+   "url": "https://zdnet.co.kr/view/?no=20260724094825",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "8c31cfccebd48cf6",
+   "title": "AMD unveils Helios rack-scale AI platform to target hyperscale buildouts",
+   "url": "https://www.digitimes.com/news/a20260724PD213/amd-training-infrastructure-performance-bandwidth.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "c7684e2281e4fe89",
+   "title": "AMD splits next-generation data center GPUs for specialized AI demand",
+   "url": "https://www.digitimes.com/news/a20260724PD215/amd-data-center-hbm4-demand-chips.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "56d5bbdb0c7148f6",
+   "title": "KAIST-엔비디아, AI공동연구소 설립…”컴퓨팅 자원 740억 규모 지원”",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213123",
+   "source": "AI타임스"
+  },
+  {
+   "id": "635eedc9c08ce570",
+   "title": "Techzone sees stronger 2026 demand as semiconductor waste processing tightens",
+   "url": "https://www.digitimes.com/news/a20260721PD219/demand-2026-production-taiwan-capacity.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "2a1c4ed969963533",
+   "title": "AMD goes all-in on ecosystem strategy to challenge Nvidia",
+   "url": "https://www.digitimes.com/news/a20260724VL200/amd-2026-hardware-infrastructure-launch.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "46310e14c7871112",
+   "title": "EU, 구글에 안드로이드 개방 명령 이어 1.5조 ‘벌금 폭탄’",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213137",
+   "source": "AI타임스"
+  },
+  {
+   "id": "83e763eef18c8b92",
+   "title": "MS, 'MAI-이미지-2.5-프로' 등 출시...\"오픈AI 모델 본격 대체\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213132",
+   "source": "AI타임스"
+  },
+  {
+   "id": "0192d439c0edc28a",
+   "title": "EU, 구글에 1조5000억원 과징금…美 “무역 안정성 해쳐” 반발",
+   "url": "https://www.etnews.com/20260724000141",
+   "source": "전자신문"
+  }
+ ]
+}

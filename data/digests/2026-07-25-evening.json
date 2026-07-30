@@ -1,0 +1,196 @@
+{
+ "generated_at": "2026-07-25T10:51:53Z",
+ "date": "2026-07-25",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "한국 반도체 기업들이 미국 샌프란시스코 AI 서밋을 계기로 글로벌 빅테크와 대규모 공급 및 파운드리 협력을 체결하며 AI 공급망 핵심 파트너로 부상하고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자·SK하이닉스, 글로벌 빅테크와 1391조원 규모 AI 협력 추진",
+     "facts": [
+      "이재명 대통령의 미국 방문을 계기로 삼성전자, SK하이닉스 등 국내 기업과 글로벌 빅테크 간 총 9500억 달러(약 1391조원) 규모의 협력 추진",
+      "삼성전자는 브로드컴과 향후 5년간 2000억 달러 규모의 메모리 공급 및 파운드리 협력 MOU 체결",
+      "SK그룹은 엔비디아 등과 7500억 달러 규모의 첨단 메모리 장기 공급 계약 진행"
+     ],
+     "interpretation": "한국 반도체 기업들이 AI 인프라의 핵심인 HBM과 파운드리 분야에서 글로벌 빅테크의 전략적 파트너로 확고히 자리매김하며 장기적인 수주 가시성을 확보했습니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "sk-hynix",
+      "samsung-electronics",
+      "broadcom"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "실제 계약 이행에 따른 분기별 매출 반영 및 파운드리 수율 개선 여부 확인",
+     "upcoming_event_ids": [
+      "sk-hynix-q2-2026",
+      "samsung-electronics-q2-2026",
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "2e0efdab8cc25ea2",
+      "63dda0cfa62ad940",
+      "9284ac56e64b5ff1",
+      "0c595b4751981cc6",
+      "ee2eade8eb00a384",
+      "f0a151a67c081446"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "유니테스트, SK하이닉스에 226억 규모 HBM4 테스터 공급",
+     "facts": [
+      "유니테스트가 SK하이닉스와 HBM4 웨이퍼 테스터 공급 계약 체결",
+      "계약 금액은 223억 8000만원으로 전년 매출의 약 20.58% 규모"
+     ],
+     "interpretation": "차세대 HBM4 시장을 대비한 SK하이닉스의 검사 장비 투자 본격화로, 관련 장비 공급사의 실적 성장이 예상됩니다.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "HBM4 양산 시점에 맞춘 추가 장비 발주 규모",
+     "upcoming_event_ids": [
+      "sk-hynix-q2-2026"
+     ],
+     "article_ids": [
+      "e448fe3019a00ed0"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "글로벌 빅테크를 향한 EU의 규제 강화와 이에 맞선 미국 정부의 대응, 그리고 AI 엔터프라이즈 시장을 선점하기 위한 기업 간 파트너십이 활발합니다.",
+   "stories": [
+    {
+     "headline": "EU, 구글에 10억 달러 과징금 부과…트럼프 행정부 보복 관세 경고",
+     "facts": [
+      "EU가 자사 서비스 우대 혐의로 구글에 10억 달러 과징금 부과",
+      "트럼프 대통령이 EU의 미국 빅테크 규제에 반발하며 무역 조사 및 보복 관세 부과 경고"
+     ],
+     "interpretation": "미-EU 간 기술 규제 갈등이 무역 분쟁으로 확산될 조짐을 보이며, 빅테크 기업들의 유럽 내 사업 비용 증가 및 불확실성이 커지고 있습니다.",
+     "affected_company_ids": [
+      "alphabet",
+      "amazon",
+      "meta"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 정부의 실제 보복 관세 조치 여부 및 EU의 추가 규제 움직임",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6ceaec647c3d5157",
+      "f504b36274fe94ff"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성SDS, 앤트로픽과 전략적 파트너십 체결",
+     "facts": [
+      "삼성SDS가 앤트로픽과 엔터프라이즈 AI 시장 확대를 위한 파트너십 체결",
+      "클로드(Claude) 기반 기업용 AI 전환 및 응용형 AI 엔지니어 양성 협력"
+     ],
+     "interpretation": "삼성SDS가 글로벌 AI 모델 기업과의 협력을 통해 기업용 AI 시장에서 기술 경쟁력을 확보하고 서비스 포트폴리오를 다각화하고 있습니다.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "파트너십을 통한 실제 엔터프라이즈 고객 확보 성과",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "101f7df4094d0c21",
+      "2da1e3df59e6ad9b",
+      "8b30704ea152d0d4"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "2e0efdab8cc25ea2",
+   "title": "李 대통령 “요즘 韓 주가 조정 중” 말하자…젠슨 황 “곧 다시 오를 것”",
+   "url": "https://www.etnews.com/20260725000032",
+   "source": "전자신문"
+  },
+  {
+   "id": "e448fe3019a00ed0",
+   "title": "유니테스트, SK하이닉스에 HBM4 테스터 추가 공급…226억 규모",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59952",
+   "source": "디일렉"
+  },
+  {
+   "id": "63dda0cfa62ad940",
+   "title": "젠슨 황, 한국 정부·기업과 회동…”25년 협력, AI 혁신으로 확장”",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213174",
+   "source": "AI타임스"
+  },
+  {
+   "id": "9284ac56e64b5ff1",
+   "title": "삼성·SK, 글로벌 AI 공급망 핵심축으로…빅테크와 1389조원 협력 시동",
+   "url": "https://zdnet.co.kr/view/?no=20260725143159",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "0c595b4751981cc6",
+   "title": "삼성·SK 등 美빅테크와 1391조 협력 발표...삼성, 브로드컴 칩 생산",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=60036",
+   "source": "디일렉"
+  },
+  {
+   "id": "ee2eade8eb00a384",
+   "title": "반도체·AIDC 협력...샌프란서 삼성·SK·현대차·네이버 대규모 협력 발표",
+   "url": "https://zdnet.co.kr/view/?no=20260725141127",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "f0a151a67c081446",
+   "title": "[속보] 靑 \"삼성전자, 브로드컴과 290조원 규모 메모리·파운드리 협력\"",
+   "url": "https://zdnet.co.kr/view/?no=20260725131714",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "6ceaec647c3d5157",
+   "title": "Google slapped with $1 billion fine under landmark EU digital law",
+   "url": "https://www.cnbc.com/2026/07/23/google-1-billion-eu-fine-dma.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "f504b36274fe94ff",
+   "title": "트럼프, 구글 제재한 EU에 맞불…무역 조사·보복 관세 착수",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213175",
+   "source": "AI타임스"
+  },
+  {
+   "id": "101f7df4094d0c21",
+   "title": "삼성SDS, 앤트로픽과 파트너십 체결...\"국내 엔터프라이즈 시장 공략\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213172",
+   "source": "AI타임스"
+  },
+  {
+   "id": "2da1e3df59e6ad9b",
+   "title": "삼성SDS, 오픈AI 이어 앤트로픽 맞손…\"AI 풀스택 사업 강화\"",
+   "url": "https://zdnet.co.kr/view/?no=20260725143028",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "8b30704ea152d0d4",
+   "title": "삼성SDS·앤트로픽, 전략적 파트너십…'클로드' 기반 엔터프라이즈 AI 사업 확대",
+   "url": "https://www.etnews.com/20260725000018",
+   "source": "전자신문"
+  }
+ ]
+}

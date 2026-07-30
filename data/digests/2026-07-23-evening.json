@@ -1,0 +1,236 @@
+{
+ "generated_at": "2026-07-23T06:16:22Z",
+ "date": "2026-07-23",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 투자 확대와 데이터센터 수요 급증이 반도체 섹터의 핵심 동력으로 작용하고 있으며, 주요 기업들의 전략적 파트너십과 실적 개선이 두드러짐.",
+   "stories": [
+    {
+     "headline": "AMD, 앤트로픽과 전략적 파트너십 및 최대 50억달러 투자",
+     "facts": [
+      "AMD가 앤트로픽에 최대 50억달러 투자 및 차세대 AI 서버 공급 계약 체결",
+      "최대 2GW 규모의 AI 데이터센터용 GPU 클러스터 구축 추진",
+      "AMD 인스팅트 MI450 시리즈 GPU 기반의 'AMD 헬리오스' 인프라 활용"
+     ],
+     "interpretation": "엔비디아가 독점하던 AI 학습용 칩 시장에서 AMD가 대형 고객사를 확보하며 경쟁 구도를 강화함. 이는 데이터센터향 GPU 수요가 지속적으로 증가하고 있음을 시사함.",
+     "affected_company_ids": [
+      "nvidia",
+      "amd"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "AMD의 차세대 AI 칩 공급이 실제 데이터센터 구축으로 이어지는 속도와 엔비디아의 점유율 방어 전략을 확인해야 함.",
+     "upcoming_event_ids": [
+      "amd-q2-2026",
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "f8f196bcd5698e15",
+      "4c0017a22c730f9a",
+      "859e2513d5999ecb"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "구글 클라우드 82% 성장 및 AI 인프라 투자 확대",
+     "facts": [
+      "알파벳 2분기 클라우드 매출 전년 동기 대비 82% 급증",
+      "올해 자본지출(CAPEX) 전망치를 최대 2050억달러로 상향",
+      "제미나이 API 토큰 소비 및 자체 TPU 사용 증가가 성장 견인"
+     ],
+     "interpretation": "AI 추론 연산 급증으로 인해 클라우드 사업이 폭발적으로 성장 중이며, 이를 뒷받침하기 위한 인프라 투자가 가속화되고 있음. 이는 반도체 및 데이터센터 관련 기업에 지속적인 수혜가 예상됨.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "막대한 CAPEX 투자가 향후 수익성 개선으로 이어지는지 여부와 클라우드 성장률 유지 가능성을 모니터링해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e77aca7b738d8235",
+      "53e7d923dea18acd",
+      "b22502f5af292f17",
+      "33d879530d0dbb54"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, 갤럭시 신제품에 스냅드래곤 탑재 확대 및 폴더블 라인업 강화",
+     "facts": [
+      "삼성전자, 갤럭시 Z 폴드8·플립8 등 신규 폴더블 3종 공개",
+      "신제품에 퀄컴 스냅드래곤 8 엘리트 5세대 등 플랫폼 탑재",
+      "삼성전기, 글로벌 대기업과 3000억원 규모 AI 서버용 MLCC 공급 계약"
+     ],
+     "interpretation": "모바일 기기의 AI 기능 강화와 함께 퀄컴과의 협력이 심화되고 있음. 또한 AI 서버용 고부가 MLCC 공급 계약은 삼성전기의 포트폴리오가 AI 인프라 중심으로 확장되고 있음을 보여줌.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "신규 폴더블 제품의 판매량과 AI 기능에 대한 시장 반응을 확인해야 함.",
+     "upcoming_event_ids": [
+      "samsung-electronics-q2-2026"
+     ],
+     "article_ids": [
+      "2b564e4fd4e17c30",
+      "39c72115bea53bed",
+      "d12edd5536bd3b96",
+      "2b287655865ae487",
+      "01ded9a6823d2fc3",
+      "1cb8eb644eb1143a"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "기업용 AI 에이전트 플랫폼 시장이 본격화되고 있으며, 운영 효율성과 실용성을 강조한 서비스 출시가 이어지고 있음.",
+   "stories": [
+    {
+     "headline": "오픈AI, 기업용 AI 운영 플랫폼 '프레즌스' 공개",
+     "facts": [
+      "오픈AI가 기업 맞춤형 AI 운영 체계 '프레즌스' 발표",
+      "정책 관리, 권한 제어, 성능 평가 등 통합 기능 제공",
+      "기업용 AI 에이전트 상용화 지원 목적"
+     ],
+     "interpretation": "단순 모델 제공을 넘어 기업 환경에 최적화된 운영 플랫폼을 제공함으로써 B2B AI 시장에서의 지배력을 강화하려는 전략임.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "기업들의 실제 도입 사례와 기존 엔터프라이즈 소프트웨어 기업들과의 경쟁 구도를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "14e3b052ffe4bee2"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "아마존, AGI 조직 인력 감축 및 실용 AI 서비스 집중",
+     "facts": [
+      "아마존, AGI 연구 조직 일부 인력 감축 단행",
+      "장기적 연구보다 고객 수요 기반 실용 AI 서비스에 자원 집중",
+      "AI 투자 기조는 유지"
+     ],
+     "interpretation": "AI 시장의 경쟁이 심화됨에 따라 막연한 연구보다는 즉각적인 수익 창출이 가능한 실용적 AI 서비스로 전략적 우선순위를 조정하는 것으로 풀이됨.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "실용 AI 서비스 부문에서 아마존이 구체적인 성과를 낼 수 있을지 지켜봐야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "592e8289e2693342"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "e77aca7b738d8235",
+   "title": "구글 클라우드 82% 성장 배경은 \"AI 추론 연산 급증\"",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59944",
+   "source": "디일렉"
+  },
+  {
+   "id": "2b564e4fd4e17c30",
+   "title": "퀄컴, 삼성전자에 스냅드래곤 공급 확대",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59929",
+   "source": "디일렉"
+  },
+  {
+   "id": "f8f196bcd5698e15",
+   "title": "AMD, 앤트로픽에 최대 7.4조 투자... 2GW 규모 차세대 AI 칩 공급한다",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213078",
+   "source": "AI타임스"
+  },
+  {
+   "id": "39c72115bea53bed",
+   "title": "삼성전기, 3000억 규모 AI 서버용 MLCC 공급 계약",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59930",
+   "source": "디일렉"
+  },
+  {
+   "id": "4c0017a22c730f9a",
+   "title": "AMD, 앤스로픽과 ‘초대형 동맹’...2GW GPU 구축·50억달러 지 투자 추진",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340100",
+   "source": "KIPOST"
+  },
+  {
+   "id": "d12edd5536bd3b96",
+   "title": "삼성전기, 글로벌 대기업과 3,000억 원 규모 AI 서버용 MLCC 공급계약 체결",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340098",
+   "source": "KIPOST"
+  },
+  {
+   "id": "2b287655865ae487",
+   "title": "삼성전자, 인텔리전트 아이웨어 공개",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340092",
+   "source": "KIPOST"
+  },
+  {
+   "id": "01ded9a6823d2fc3",
+   "title": "갤럭시 폴드8 울트라부터 스마트글래스까지…언팩 총정리",
+   "url": "https://byline.network/2026/07/23-612/",
+   "source": "바이라인네트워크"
+  },
+  {
+   "id": "b22502f5af292f17",
+   "title": "구글 AI투자 2050억달러로 확대…AIDC 투자 위축설 일축",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59922",
+   "source": "디일렉"
+  },
+  {
+   "id": "33d879530d0dbb54",
+   "title": "Alphabet 2Q26: Cloud backlog hits $514B as AI demand outpaces capacity",
+   "url": "https://www.digitimes.com/news/a20260723VL200/alphabet-demand-infrastructure-2026-revenue.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "859e2513d5999ecb",
+   "title": "AMD lands Anthropic as its third marquee AI customer, chipping at Nvidia's grip on training silicon",
+   "url": "https://www.digitimes.com/news/a20260723VL204/anthropic-amd-nvidia-training-silicon.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "14e3b052ffe4bee2",
+   "title": "오픈AI, FDE 전담 구축 방식의 '프레즌스' 발표...\"기업 맞춤형 AI 운영 체계\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213093",
+   "source": "AI타임스"
+  },
+  {
+   "id": "53e7d923dea18acd",
+   "title": "구글, AI 인프라 투자 '폭주'…올해 지출 전망 최대 301조원 상향",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213087",
+   "source": "AI타임스"
+  },
+  {
+   "id": "1cb8eb644eb1143a",
+   "title": "삼성전기, AI 서버용 MLCC 3000억원 수주",
+   "url": "https://zdnet.co.kr/view/?no=20260723090909",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "592e8289e2693342",
+   "title": "아마존, AGI 조직 인력 감축...\"실용 AI 서비스에 자원 집중\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213086",
+   "source": "AI타임스"
+  }
+ ]
+}

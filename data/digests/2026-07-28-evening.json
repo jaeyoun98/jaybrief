@@ -1,0 +1,201 @@
+{
+ "generated_at": "2026-07-28T06:08:51Z",
+ "date": "2026-07-28",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 투자 확대와 전력망 수요가 지속되는 가운데, 메모리 반도체 시장의 공급 타이트 현상과 중국의 반도체 자립 시도가 시장 변동성을 키우고 있습니다.",
+   "stories": [
+    {
+     "headline": "엔비디아, 일리야 수츠케버의 SSI에 7조 원 규모 투자 및 파트너십 체결",
+     "facts": [
+      "엔비디아가 오픈AI 공동 창립자 일리야 수츠케버의 스타트업 SSI에 50억 달러(약 7조 원)를 투자함",
+      "SSI는 엔비디아의 차세대 AI 칩 플랫폼 '베라 루빈(Vera Rubin)'을 확보하고 컴퓨팅 자원을 10배 확대할 계획임"
+     ],
+     "interpretation": "엔비디아는 핵심 AI 인재와 스타트업 생태계를 선점하여 자사 하드웨어 플랫폼의 지배력을 강화하고, 장기적인 AI 연산 수요를 창출하려는 전략임",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "SSI의 차세대 AI 모델 개발 성과와 엔비디아 하드웨어 도입 속도 확인",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "7376310446eff485",
+      "6172d444bcc92edb",
+      "891c93186f73d39c"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "중국 CXMT의 DRAM 생산 확대 소식에 따른 국내 반도체주 급락",
+     "facts": [
+      "중국 최대 DRAM 업체 CXMT가 생산 능력을 가속화하고 있다는 소식에 코스피가 8% 급락하며 서킷브레이커가 발동됨",
+      "AI 수요로 인한 메모리 시장 타이트 현상과 중국의 자립 시도가 충돌하며 시장 투자 심리가 크게 위축됨"
+     ],
+     "interpretation": "중국 메모리 업체의 기술 추격과 공급 확대는 국내 반도체 기업의 장기적인 시장 점유율 및 가격 결정력에 하방 압력으로 작용할 우려가 있음",
+     "affected_company_ids": [
+      "sk-hynix",
+      "samsung-electronics"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "중국 메모리 업체의 실제 수율 및 글로벌 시장 점유율 변화 추이",
+     "upcoming_event_ids": [
+      "sk-hynix-q2-2026",
+      "samsung-electronics-q2-2026"
+     ],
+     "article_ids": [
+      "069da7ee67f0ae27",
+      "ad0076f31ad66c3c"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스, LPDDR6 생산 레이스 합류 및 Anthropic 공급 논의",
+     "facts": [
+      "SK하이닉스가 2026년 하반기 LPDDR6 양산 및 출하를 계획 중이며, 샤오미가 첫 고객사가 될 전망임",
+      "SK그룹 최태원 회장은 Anthropic이 자체 AI 칩 생산을 위해 SK하이닉스에 공급을 요청했다고 밝힘"
+     ],
+     "interpretation": "SK하이닉스는 HBM 외에도 모바일 및 AI 칩용 메모리 포트폴리오를 다각화하며 AI 실리콘 공급망 내 핵심 지위를 공고히 하려는 전략임",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "LPDDR6 양산 수율 및 Anthropic과의 구체적인 공급 계약 규모",
+     "upcoming_event_ids": [
+      "sk-hynix-q2-2026"
+     ],
+     "article_ids": [
+      "028570cdd133b65f",
+      "7a20c10df70dd479",
+      "291ae0592736ac45"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업들의 AI 모델 경쟁이 사이버 보안 및 에이전트 분야로 확장되고 있으며, 기업들의 AI 도입 비용 부담이 가시화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "마이크로소프트, 보안 특화 AI 모델 'MAI-사이버-1-플래시' 공개",
+     "facts": [
+      "MS가 사이버 보안에 특화된 자체 AI 모델과 다중 에이전트 보안 플랫폼을 공개함",
+      "보안 벤치마크에서 앤트로픽, 구글, 오픈AI 모델을 능가하는 성능을 기록하면서도 비용은 절반 수준이라고 밝힘"
+     ],
+     "interpretation": "AI 기반 보안 시장의 주도권을 확보하기 위해 모델 성능과 비용 효율성을 동시에 강조하며 기업 고객을 공략하려는 의도임",
+     "affected_company_ids": [
+      "microsoft",
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "실제 기업 환경에서의 보안 성능 검증 및 시장 점유율 변화",
+     "upcoming_event_ids": [
+      "microsoft-fy26-q4"
+     ],
+     "article_ids": [
+      "93920730f1f1cb19"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "기업 AI 도입 비용 부담 가중: 토큰 비용을 넘어선 TCO 관리 이슈",
+     "facts": [
+      "기업의 AI 도입 비용이 토큰 사용료를 넘어 데이터 통합, 인프라 운영비, SaaS 구독료 등 전반으로 확대됨",
+      "RAG 구축 및 사내 시스템 연동 비용이 기업의 AI 예산 예측을 어렵게 만드는 요인으로 지목됨"
+     ],
+     "interpretation": "AI 도입이 초기 단계에서 실질적인 운영 단계로 넘어가면서, 기업들은 단순 모델 성능보다 전체 소유 비용(TCO) 최적화와 데이터 통합 효율성에 집중할 것으로 보임",
+     "affected_company_ids": [],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "기업들의 AI 관련 지출 효율화 움직임 및 관련 솔루션 시장의 성장",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f7fa3b0aa5daa693"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "7376310446eff485",
+   "title": "엔비디아, 수츠케버의 SSI에 7조 투자...\"컴퓨팅 10배 확대\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213249",
+   "source": "AI타임스"
+  },
+  {
+   "id": "6172d444bcc92edb",
+   "title": "Nvidia invests in Ilya Sutskever's SSI, providing access to Vera Rubin compute platform",
+   "url": "https://www.digitimes.com/news/a20260728VL207/nvidia-rubin-investment-partnership-openai.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "069da7ee67f0ae27",
+   "title": "CXMT's record IPO and Apple talks collide with US curbs as DRAM tightens",
+   "url": "https://www.digitimes.com/news/a20260728VL204/cxmt-dram-market-apple-ipo.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "028570cdd133b65f",
+   "title": "SK Hynix enters LPDDR6 production race with Xiaomi first in line",
+   "url": "https://www.digitimes.com/news/a20260728PD226/sk-hynix-lpddr-production-xiaomi-smartphone-2026.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "7a20c10df70dd479",
+   "title": "Anthropic seeks SK Hynix supply for AI chips, SK chair says",
+   "url": "https://www.digitimes.com/news/a20260728PD201/anthropic-sk-hynix-chips-chairman-ceo.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "891c93186f73d39c",
+   "title": "[AI는 지금] 오픈AI 떠난 '두뇌'에 베팅…엔비디아, 차세대 AI 주역 선점",
+   "url": "https://zdnet.co.kr/view/?no=20260728103720",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "ad0076f31ad66c3c",
+   "title": "코스피 8% 급락 6200선…올해 8번째 서킷브레이커 발동",
+   "url": "https://zdnet.co.kr/view/?no=20260728103406",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "291ae0592736ac45",
+   "title": "From models to chips: Anthropic chip ambitions pull Korea deeper into the AI silicon race",
+   "url": "https://www.digitimes.com/news/a20260727VL217/sk-hynix-anthropic-silicon-hardware-chips-design.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "93920730f1f1cb19",
+   "title": "MS, 보안 특화 'MAI-사이버-1-플래시' 공개...\"앤트로픽·오픈AI 능가\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213245",
+   "source": "AI타임스"
+  },
+  {
+   "id": "f7fa3b0aa5daa693",
+   "title": "[AI TCO 함정①] 토큰 비용이 전부 아냐…기업 예산 갉아먹는 '데이터 통합'",
+   "url": "https://zdnet.co.kr/view/?no=20260728103506",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

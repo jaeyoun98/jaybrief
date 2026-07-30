@@ -1,0 +1,207 @@
+{
+ "generated_at": "2026-07-21T23:32:28Z",
+ "date": "2026-07-22",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 가속기 및 데이터센터 인프라 경쟁이 심화되는 가운데, NVIDIA의 차세대 CPU 전략과 TSMC의 가격 인상 가능성, 그리고 차세대 메모리 기술 개발이 주요 이슈로 부상함.",
+   "stories": [
+    {
+     "headline": "NVIDIA, 차세대 데이터센터 CPU 'Vera' 공개하며 AMD·Intel 정조준",
+     "facts": [
+      "NVIDIA가 데이터센터용 차세대 CPU 'Vera'에 대한 세부 정보를 공개함.",
+      "해당 칩은 AI 워크로드 최적화를 목표로 하며, 잠재 고객들이 성능을 평가할 수 있도록 설계됨."
+     ],
+     "interpretation": "NVIDIA가 GPU 중심의 생태계에서 CPU 영역까지 수직 계열화를 강화하며 AMD와 Intel의 데이터센터 시장 점유율을 직접적으로 위협하려는 전략적 행보로 해석됨.",
+     "affected_company_ids": [
+      "nvidia",
+      "amd"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "AMD의 Advancing AI 2026 행사에서 발표될 대응 전략 및 제품 로드맵 확인 필요.",
+     "upcoming_event_ids": [
+      "amd-advancing-ai-2026"
+     ],
+     "article_ids": [
+      "24e6c16948c7b82b"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "TSMC, 반도체 파운드리 가격 최대 10% 인상 검토",
+     "facts": [
+      "TSMC가 반도체 생산 가격을 최대 10% 인상할 계획이라는 보도가 나옴."
+     ],
+     "interpretation": "글로벌 AI 수요 급증에 따른 공급자 우위 시장 환경을 활용하여 수익성을 극대화하려는 의도로 보이며, 이는 주요 고객사인 빅테크 기업들의 원가 부담 상승으로 이어질 수 있음.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "실제 가격 인상 폭과 고객사들의 수용 여부 및 공급 계약 갱신 시점 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0d19aabf62146569"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, imec 등과 차세대 Monolithic 3D-DRAM 기술 연구",
+     "facts": [
+      "삼성전자가 imec, KU Leuven, Lam Research와 함께 산화물 반도체 채널 기반의 3D-DRAM 아키텍처 최적화 연구 논문을 발표함."
+     ],
+     "interpretation": "고집적·고성능 메모리 수요에 대응하기 위한 차세대 공정 기술 확보 노력의 일환으로, 향후 AI 반도체 경쟁력 강화의 기술적 토대가 될 것으로 판단됨.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "해당 기술의 실제 양산 적용 시점 및 공정 효율성 입증 여부.",
+     "upcoming_event_ids": [
+      "samsung-electronics-q2-2026"
+     ],
+     "article_ids": [
+      "ba57dcf7d46005b9"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "Alphabet의 Gemini 모델 라인업 확장과 AI 인프라 투자 효율성 논란이 지속되는 가운데, 주요 기업들의 AI 거버넌스 및 전략적 변화가 관찰됨.",
+   "stories": [
+    {
+     "headline": "Alphabet, Gemini 모델 라인업 확장 및 효율화 전략 발표",
+     "facts": [
+      "Google이 Gemini 3.6 Flash 및 3.5 Flash-Lite 등 새로운 모델을 공개함.",
+      "Gemini 3.5 Pro 모델은 여전히 테스트 중이며 출시되지 않음."
+     ],
+     "interpretation": "비용 효율적인 모델을 통해 AI 시장 점유율을 방어하고 제품 격차를 줄이려는 전략이나, 최상위 모델인 Pro 버전의 지연은 AI 기술 경쟁에서의 속도 조절 혹은 기술적 난관을 시사할 수 있음.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "Alphabet Q2 실적 발표에서 AI 인프라 투자 대비 수익화 지표 확인.",
+     "upcoming_event_ids": [
+      "alphabet-q2-2026"
+     ],
+     "article_ids": [
+      "13f1f5438acac448",
+      "6653d4a48a4a2450",
+      "7affd3ecba61d93a"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "OpenAI, IPO 앞두고 금융 베테랑 이사 영입",
+     "facts": [
+      "OpenAI가 누뱅크 CEO 다비드 벨레스와 BNY 멜론 CEO 로빈 빈스를 독립 이사로 영입함.",
+      "이사회 규모가 8명에서 10명으로 확대됨."
+     ],
+     "interpretation": "기업공개(IPO)를 앞두고 재무적 투명성과 기업 지배구조를 강화하여 시장 신뢰도를 높이려는 포석으로 해석됨.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "OpenAI의 구체적인 IPO 일정 및 상장 관련 추가 공시.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3f2799e5c7326232",
+      "b4e33cc12a84d214"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "Oracle, 데이터센터 전력 공급 관련 대규모 비용 부담 직면",
+     "facts": [
+      "Oracle이 위스콘신 데이터센터 캠퍼스 전력 공급 보증과 관련하여 연간 1억 달러 규모의 비용 부담 가능성이 제기됨."
+     ],
+     "interpretation": "AI 데이터센터 확장을 위한 전력 인프라 확보 비용이 기업 수익성에 직접적인 압박 요인으로 작용하고 있음을 보여줌.",
+     "affected_company_ids": [
+      "oracle"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "데이터센터 전력 인프라 관련 규제 당국과의 협상 결과 및 비용 전가 가능성.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4a2b4d14acada971"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "0d19aabf62146569",
+   "title": "\"TSMC, 반도체 가격 최대 10% 올린다\"…아이폰 비싸질까",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6cllCdElNUUFCMGFJbUpWdXFzMzk0bVFaWEFjbWZtM2pmVnZ3ZUkxRmdnU3BZZ3FKZ3hDQk5yNXhaRTlsV1pFUTcybmUtdnlJVTNtOHBB?oc=5",
+   "source": "지디넷코리아"
+  },
+  {
+   "id": "ba57dcf7d46005b9",
+   "title": "Monolithic 3D-DRAM with Oxide-Semiconductor Architecture (imec, KU Leuven, Samsung, Lam)",
+   "url": "https://semiengineering.com/monolithic-3d-dram-with-oxide-semiconductor-architecture-imec-ku-leuven-samsung-lam/",
+   "source": "Semiconductor Engineering"
+  },
+  {
+   "id": "24e6c16948c7b82b",
+   "title": "Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel",
+   "url": "https://www.cnbc.com/2026/07/21/nvidia-vera-cpu-ai-amd-intel.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "3f2799e5c7326232",
+   "title": "오픈AI, IPO 앞두고 상장금융사 CEO 2명 이사로 영입",
+   "url": "https://www.etnews.com/20260722000005",
+   "source": "전자신문"
+  },
+  {
+   "id": "b4e33cc12a84d214",
+   "title": "OpenAI appoints two new members to board of directors",
+   "url": "https://www.cnbc.com/2026/07/21/openai-appoints-two-new-members-to-board-of-directors.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "4a2b4d14acada971",
+   "title": "Oracle faces $100M annual bill to back Wisconsin datacenter power promises",
+   "url": "https://www.theregister.com/ai-and-ml/2026/07/21/oracle-faces-100m-annual-bill-to-back-wisconsin-datacenter-power-promises/5275728",
+   "source": "The Register"
+  },
+  {
+   "id": "13f1f5438acac448",
+   "title": "Google releases three new Gemini models — but no 3.5 Pro",
+   "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "6653d4a48a4a2450",
+   "title": "Google announces Gemini 3.6 Flash and cybersecurity AI, teases 3.5 Pro and Gemini 4",
+   "url": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "7affd3ecba61d93a",
+   "title": "Google expands Gemini lineup with cheaper models and new Mythos rival",
+   "url": "https://www.cnbc.com/2026/07/21/google-gemini-flash-ai-mythos-rival.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

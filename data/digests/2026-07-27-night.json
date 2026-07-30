@@ -1,0 +1,142 @@
+{
+ "generated_at": "2026-07-27T14:39:43Z",
+ "date": "2026-07-27",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 산업 내 AI 보안 협력체 출범과 글로벌 리더들의 네트워킹 강화가 주요 이슈로 부각되었습니다.",
+   "stories": [
+    {
+     "headline": "엔비디아, SKT·네이버와 '오픈 시큐어 AI 얼라이언스' 출범",
+     "facts": [
+      "엔비디아가 SK텔레콤, 네이버 등과 함께 '오픈 시큐어 AI 얼라이언스(OSAA)'를 결성함",
+      "폐쇄형 AI 시스템의 보안 한계를 극복하기 위해 개방형 모델과 도구를 공동 개발할 계획임"
+     ],
+     "interpretation": "AI 생태계 내 보안 표준을 주도함으로써 엔비디아의 플랫폼 영향력을 강화하고, 파트너사들과의 기술적 결속력을 높이는 전략으로 판단됨",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "얼라이언스를 통한 구체적인 보안 기술 표준화 성과 및 추가 참여 기업 확대 여부",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "3559d43c0e308d8b",
+      "b807060353a19e85"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "이재용 삼성전자 회장·최태원 SK그룹 회장, 구글 캠프 참석",
+     "facts": [
+      "이재용 삼성전자 회장과 최태원 SK그룹 회장이 이탈리아에서 열리는 '구글 캠프'에 참석할 예정임",
+      "구글 캠프는 래리 페이지와 세르게이 브린이 주최하는 글로벌 CEO 네트워킹 행사임"
+     ],
+     "interpretation": "글로벌 빅테크 리더들과의 직접적인 교류를 통해 AI 및 반도체 분야의 협력 기회를 모색하고 전략적 파트너십을 강화하려는 행보로 해석됨",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "alphabet"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "행사 이후 삼성전자와 구글 간의 구체적인 AI 반도체 및 서비스 협력 발표 여부",
+     "upcoming_event_ids": [
+      "samsung-electronics-q2-2026"
+     ],
+     "article_ids": [
+      "91a4d7b81ba8d7d5"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크의 AI 투자 효율성 논란과 샘 올트먼의 정책적 행보가 시장의 주목을 받고 있습니다.",
+   "stories": [
+    {
+     "headline": "빅테크 AI 투자 수익성 논란 지속, 월가는 장기 가치 주목",
+     "facts": [
+      "빅테크 기업들의 막대한 자본지출(CapEx)이 단기 수익성을 훼손한다는 우려로 주식 매도세 발생",
+      "기업들은 AI 투자가 이미 실적 개선으로 이어지고 있으며 시장이 장기 가치를 과소평가하고 있다고 반박함"
+     ],
+     "interpretation": "AI 인프라 투자 규모가 정점에 달했다는 우려와 미래 수익성 확인 사이에서 시장의 변동성이 확대되고 있으며, 향후 실적 발표가 중요한 분기점이 될 것임",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "주요 빅테크 기업들의 분기 실적 발표에서 확인될 AI 투자 대비 매출 성장률",
+     "upcoming_event_ids": [
+      "meta-q2-2026",
+      "microsoft-fy26-q4"
+     ],
+     "article_ids": [
+      "c1148fdf50014233"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "샘 올트먼, 트럼프 행정부 및 상원의원들과 AI 정책 논의 예정",
+     "facts": [
+      "샘 올트먼이 차세대 AI 모델의 기능과 사이버 보안, 오픈 웨이트 모델에 대해 정책 당국과 논의할 예정임"
+     ],
+     "interpretation": "AI 규제 환경이 구체화되는 과정에서 업계 리더로서 주도권을 확보하고, 향후 AI 모델 배포 및 보안 정책에 대한 우호적인 환경을 조성하려는 시도로 분석됨",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "unclear",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "논의 결과에 따른 미국 내 AI 규제 방향성 및 오픈소스 모델 관련 정책 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f984dabab6ecc5a6"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "3559d43c0e308d8b",
+   "title": "엔비디아, SKT·네이버 등과 오픈소스 기반 AI 보안 얼라이언스 결성",
+   "url": "https://www.etnews.com/20260727000457",
+   "source": "전자신문"
+  },
+  {
+   "id": "b807060353a19e85",
+   "title": "SKT, 엔비디아 주도 '오픈 시큐어 AI 얼라이언스' 창립 멤버 참여",
+   "url": "https://www.etnews.com/20260727000443",
+   "source": "전자신문"
+  },
+  {
+   "id": "f984dabab6ecc5a6",
+   "title": "Sam Altman to meet with Trump administration, Senators this week. Here's what he plans to say",
+   "url": "https://www.cnbc.com/2026/07/27/altman-trump-china-open-weight-ai.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "c1148fdf50014233",
+   "title": "“당장 돈 안되는 AI에 투자?” 주식 팔자 행렬에…월가 “2년 뒤 평가 달라진다”",
+   "url": "https://www.etnews.com/20260727000467",
+   "source": "전자신문"
+  },
+  {
+   "id": "91a4d7b81ba8d7d5",
+   "title": "이재용·최태원, 伊 시칠리아 구글 캠프 참석",
+   "url": "https://www.etnews.com/20260727000451",
+   "source": "전자신문"
+  }
+ ]
+}

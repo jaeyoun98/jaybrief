@@ -1,0 +1,184 @@
+{
+ "generated_at": "2026-07-26T10:58:59Z",
+ "date": "2026-07-26",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "한국 정부의 '샌프란시스코 AI 선언'을 계기로 국내 주요 반도체 기업들과 글로벌 빅테크 간의 대규모 협력 체계가 구축되었습니다. 특히 HBM, 파운드리 등 AI 인프라 공급망에서 한국의 위상이 강화되는 가운데, 엔비디아와 KAIST의 피지컬 AI 연구 협력 등 기술적 파트너십도 구체화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "한-미 1390조원 규모 AI·반도체 협력 성사 및 공급망 강화",
+     "facts": [
+      "이재명 대통령의 미국 방문을 계기로 9500억달러(약 1390조원) 규모의 AI 협력 추진",
+      "삼성전자와 SK하이닉스가 글로벌 빅테크와 향후 5년간 장기 공급 계약 체결",
+      "엔비디아, 브로드컴, 오픈AI, 앤트로픽 등 주요 빅테크 수장들이 한국의 메모리 반도체 및 AI 인프라를 최우선 협력 대상으로 지목"
+     ],
+     "interpretation": "국내 반도체 기업들이 글로벌 AI 공급망의 핵심 파트너로 공식 인정받으며 장기적인 매출 안정성을 확보했습니다. 특히 HBM과 첨단 파운드리 분야에서 빅테크와의 결속력이 강화되어 실적 가시성이 높아질 것으로 전망됩니다.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix",
+      "nvidia",
+      "broadcom",
+      "microsoft",
+      "amazon"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "향후 5년간의 실제 공급 물량 및 계약 이행률 확인 필요.",
+     "upcoming_event_ids": [
+      "sk-hynix-q2-2026",
+      "samsung-electronics-q2-2026",
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "0456c2a24cc34842",
+      "e24bededa4d26ec7",
+      "064036c1d7d878e5",
+      "37f120aaff1be8b4",
+      "92395df126f8385b"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "KAIST-엔비디아, '인간물리지능 테크놀로지센터' 설립",
+     "facts": [
+      "KAIST와 엔비디아가 '인간물리지능 테크놀로지센터(NVAITC)' 설립 협약 체결",
+      "인체 동작 파운데이션 모델 개발 및 차세대 피지컬 AI 원천기술 공동 연구 추진"
+     ],
+     "interpretation": "엔비디아가 피지컬 AI 분야에서 한국의 연구 역량을 활용하기 시작했습니다. 이는 향후 로보틱스 및 자율주행 등 AI 응용처 확대 시 엔비디아 생태계 내 한국 기술의 영향력이 커질 수 있음을 시사합니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "하반기 예정된 협약 행사 및 구체적인 연구 성과 도출 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "bcd68f99ab23e756",
+      "aca33aa558a72f85",
+      "cd37ffb7fda537c6"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 및 AI 서비스 분야에서는 보안 기술의 고도화와 기업용 AI 솔루션 도입이 가속화되고 있습니다. 특히 마이크로소프트와 오라클 등 글로벌 기업들이 보안 및 국방 분야에서 대규모 계약을 체결하며 기술적 우위를 입증하고 있습니다.",
+   "stories": [
+    {
+     "headline": "마이크로소프트, AI 보안 에이전트 'MDASH' 공개",
+     "facts": [
+      "마이크로소프트가 AI 기반 에이전틱 보안 시스템 'MDASH' 발표",
+      "실제 공격 가능성을 검증하여 오탐률을 90% 수준으로 낮추는 기술 구조 적용"
+     ],
+     "interpretation": "기존 AI 보안 도구의 고질적 문제인 '가짜 경고'를 해결함으로써 기업들의 AI 보안 솔루션 도입 장벽을 낮출 것으로 보입니다. 보안 시장 내 마이크로소프트의 경쟁력이 강화될 것으로 예상됩니다.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "실제 기업 현장에서의 오탐률 감소 효과 및 보안 시장 점유율 변화.",
+     "upcoming_event_ids": [
+      "microsoft-fy26-q4"
+     ],
+     "article_ids": [
+      "b6be77d98e2c1857"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "오라클, 미 국방부와 70억 달러 규모 소프트웨어 계약 체결",
+     "facts": [
+      "오라클이 미국 국방부와 10년 기한의 소프트웨어 공급 계약 체결",
+      "계약 규모는 최대 70억 달러에 달함"
+     ],
+     "interpretation": "오라클의 온프레미스 소프트웨어 경쟁력이 국방 분야에서 입증되었습니다. 대규모 장기 계약을 통해 안정적인 매출 기반을 확보했으며, 향후 정부 및 공공 부문 클라우드/SW 수주 경쟁에서 유리한 고지를 점했습니다.",
+     "affected_company_ids": [
+      "oracle"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "유사한 공공 부문 대형 프로젝트 추가 수주 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2bf829e771244514"
+     ],
+     "importance": 3
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "bcd68f99ab23e756",
+   "title": "KAIST-엔비디아, \"인체동작 파운데이션 모델 개발\"",
+   "url": "https://zdnet.co.kr/view/?no=20260726190346",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "aca33aa558a72f85",
+   "title": "KAIST·엔비디아, 피지컬 AI 테크놀로지센터 설립",
+   "url": "https://www.etnews.com/20260726000128",
+   "source": "전자신문"
+  },
+  {
+   "id": "0456c2a24cc34842",
+   "title": "[사설] 'SF AI 선언' 실행이 중요하다",
+   "url": "https://www.etnews.com/20260726000098",
+   "source": "전자신문"
+  },
+  {
+   "id": "e24bededa4d26ec7",
+   "title": "[샌프란 AI선언] 삼성SDS·앤트로픽 손잡고 네이버·엔비디아 협력",
+   "url": "https://www.etnews.com/20260726000110",
+   "source": "전자신문"
+  },
+  {
+   "id": "cd37ffb7fda537c6",
+   "title": "KAIST-엔비디아, 피지컬 AI 테크놀로지센터 설립…파운데이션 모델 공동 연구",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213187",
+   "source": "AI타임스"
+  },
+  {
+   "id": "064036c1d7d878e5",
+   "title": "'깐부·앙숙' 모두 불러모은 李…K-반도체 앞에 빅테크 총출동",
+   "url": "https://www.etnews.com/20260726000116",
+   "source": "전자신문"
+  },
+  {
+   "id": "37f120aaff1be8b4",
+   "title": "李, '샌프란 AI 선언'… 韓美, 'AI·반도체 초격차' 굳히기",
+   "url": "https://www.etnews.com/20260726000111",
+   "source": "전자신문"
+  },
+  {
+   "id": "92395df126f8385b",
+   "title": "한·미 1390조원 'AI 빅딜'…삼성SDS-앤트로픽 손잡고 네이버-엔비디아 협력",
+   "url": "https://www.etnews.com/20260726000110",
+   "source": "전자신문"
+  },
+  {
+   "id": "b6be77d98e2c1857",
+   "title": "\"개발자 시간 낭비 끝\"… MS, 진짜 위협만 90% 솎아내는 'AI 보안' 선봬",
+   "url": "https://zdnet.co.kr/view/?no=20260724153126",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "2bf829e771244514",
+   "title": "Oracle signs 10-year software contract with Pentagon worth up to $7 billion",
+   "url": "https://www.cnbc.com/2026/07/23/oracle-wins-10-year-pentagon-software-contract-worth-up-to-7-billion.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

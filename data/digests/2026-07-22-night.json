@@ -1,0 +1,170 @@
+{
+ "generated_at": "2026-07-22T14:00:32Z",
+ "date": "2026-07-22",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 확장을 위한 엔비디아의 플랫폼 고도화와 국내 주요 반도체 기업들의 첨단 패키징 및 신규 제품군 투자 움직임이 가속화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "엔비디아, AI 플랫폼 '베라 루빈' 고객사 출하 및 MoE 모델 성능 3배 향상",
+     "facts": [
+      "엔비디아가 AI 플랫폼 '베라 루빈'을 구글, 마이크로소프트, 오라클 등에 공급 중",
+      "신규 플랫폼 'GB300 NVL72'가 MoE 모델 사전학습에서 이전 세대 대비 3배 향상된 성능 기록"
+     ],
+     "interpretation": "엔비디아의 차세대 AI 인프라가 주요 빅테크 고객사에 본격 도입되며 AI 가속기 시장 지배력을 강화하고 있습니다. 특히 MoE 아키텍처 최적화는 최신 AI 모델 트렌드에 부합하는 핵심 경쟁력입니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "microsoft",
+      "alphabet",
+      "oracle"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "엔비디아의 차기 실적 발표에서 베라 루빈 관련 매출 비중 확인 필요.",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "e718ee55dd20233a",
+      "1684e6dc4002fcf4"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스, 청주 첨단 패키징 공장 투자 조기 집행",
+     "facts": [
+      "SK하이닉스가 청주 P&T7 첨단 패키징 공장 건설을 위한 7조 931억원 규모의 시설투자를 의결",
+      "클린룸 개방 일정 단축 등 투자 집행 시기를 앞당김"
+     ],
+     "interpretation": "HBM 등 고성능 메모리 수요 급증에 대응하기 위해 후공정(패키징) 역량을 선제적으로 확보하려는 전략입니다. 이는 향후 메모리 공급망 내 경쟁 우위를 강화하는 요인입니다.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "SK하이닉스 Q2 실적 발표에서 HBM 수익성 및 패키징 투자 가속화에 대한 구체적 언급 확인.",
+     "upcoming_event_ids": [
+      "sk-hynix-q2-2026"
+     ],
+     "article_ids": [
+      "2d2ae099f9a8b0c8"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "삼성전자의 갤럭시 생태계 확장과 AMD의 AI 인프라 투자 등 빅테크 기업들의 AI 하드웨어 및 서비스 경쟁이 치열해지고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자, '갤럭시 언팩 2026'서 차세대 폴더블 및 AI 웨어러블 공개",
+     "facts": [
+      "갤럭시 Z 폴드8 시리즈 및 워치 울트라2, 스마트글래스 등 신제품 발표",
+      "스마트폰과 웨어러블을 연동한 '에이전틱 AI' 생태계 구축 전략 제시"
+     ],
+     "interpretation": "하드웨어 경쟁력을 바탕으로 AI 서비스와의 결합을 시도하며 애플 등 경쟁사와의 차별화를 꾀하고 있습니다. 특히 스마트글래스 시장 진입은 메타와의 직접적인 경쟁을 예고합니다.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "신규 폴더블 및 AI 글래스의 초기 시장 반응 및 판매량 추이.",
+     "upcoming_event_ids": [
+      "samsung-electronics-q2-2026"
+     ],
+     "article_ids": [
+      "383bcb0fe696d3a3",
+      "fcaf5720d9ca500a",
+      "2ed6c2c0d22deccc",
+      "1676865c44f0ea55"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "AMD, 앤스로픽(Anthropic)에 50억 달러 규모 AI 컴퓨팅 파워 투자",
+     "facts": [
+      "AMD가 AI 스타트업 앤스로픽의 컴퓨팅 용량 확대를 위해 최대 50억 달러 투자 계약 체결"
+     ],
+     "interpretation": "AMD가 AI 인프라 생태계 내 영향력을 확대하기 위한 전략적 투자입니다. 자체 칩 성능을 검증하고 주요 AI 모델 기업과의 파트너십을 강화하려는 의도로 해석됩니다.",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "AMD의 향후 AI 칩 시장 점유율 변화 및 앤스로픽과의 협업 성과.",
+     "upcoming_event_ids": [
+      "amd-advancing-ai-2026",
+      "amd-q2-2026"
+     ],
+     "article_ids": [
+      "3904171e1854e74d"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "e718ee55dd20233a",
+   "title": "엔비디아, 블랙웰 10배 효율 '베라 루빈' 고객 출하",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59905",
+   "source": "디일렉"
+  },
+  {
+   "id": "2d2ae099f9a8b0c8",
+   "title": "SK하이닉스, 청주 P&T7 투자 앞당긴다…7조원 시설투자 재결의",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59907",
+   "source": "디일렉"
+  },
+  {
+   "id": "383bcb0fe696d3a3",
+   "title": "삼성전자, 폴더블 넘어 AI 안경까지…'갤럭시 생태계 확장'",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59887",
+   "source": "디일렉"
+  },
+  {
+   "id": "3904171e1854e74d",
+   "title": "AMD to invest up to $5 billion in Anthropic as part of computing power deal",
+   "url": "https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "fcaf5720d9ca500a",
+   "title": "[갤럭시언팩] 갤럭시 워치 울트라2·워치9 공개…건강관리 기능 방점",
+   "url": "https://www.etnews.com/20260722000278",
+   "source": "전자신문"
+  },
+  {
+   "id": "1684e6dc4002fcf4",
+   "title": "엔비디아, 'GB300 NVL72'로 MoE 모델 사전학습 성능 3배 향상",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213050",
+   "source": "AI타임스"
+  },
+  {
+   "id": "2ed6c2c0d22deccc",
+   "title": "Samsung details features of its smart glasses as it enters market dominated by Meta",
+   "url": "https://www.cnbc.com/2026/07/22/samsung-smart-glasses-features-specs-price-meta.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "1676865c44f0ea55",
+   "title": "삼성전자, 4:3 화면비 '갤럭시Z8폴드' 공개... “폴더블 이용자 맞춤 공략”",
+   "url": "https://www.etnews.com/20260722000341",
+   "source": "전자신문"
+  }
+ ]
+}

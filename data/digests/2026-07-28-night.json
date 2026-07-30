@@ -1,0 +1,181 @@
+{
+ "generated_at": "2026-07-28T14:11:49Z",
+ "date": "2026-07-28",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 산업은 AI 데이터센터 인프라 확장에 따른 액체냉각 기술 수요 증가와 지정학적 리스크 속에서도 공정 안정성을 유지하는 흐름을 보이고 있습니다.",
+   "stories": [
+    {
+     "headline": "LG전자, 엔비디아 인증 획득으로 AI 데이터센터 액체냉각 시장 진입",
+     "facts": [
+      "LG전자가 600kW급 냉각수 분배 장치(CDU)에 대해 엔비디아 최종 품질 인증을 획득함",
+      "국내 기업 중 최초로 엔비디아 인증을 획득하며 AI 데이터센터 냉각 솔루션 시장 공략 가속화"
+     ],
+     "interpretation": "AI 가속기 고도화로 인한 발열 제어 중요성이 커짐에 따라, 데이터센터 인프라 공급망에서 액체냉각 기술을 보유한 기업의 가치가 상승하고 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "엔비디아의 데이터센터 냉각 솔루션 파트너사 확대 여부 및 실제 수주 규모 확인",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "c511dbcdee522fac"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "TSMC 일본 구마모토 공장, 강진 피해 없음 확인",
+     "facts": [
+      "일본 규슈 구마모토현에서 발생한 규모 7.1 강진 이후 TSMC 공장 피해 보고 없음",
+      "TSMC는 즉시 비상 프로토콜을 가동하여 대응함"
+     ],
+     "interpretation": "주요 생산 거점의 자연재해 리스크가 단기적으로 해소됨에 따라 공급망 안정성 우려가 완화됨.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "추가 여진 발생 여부 및 TSMC의 가동률 정상 유지 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ec3f3dea2e235bd5",
+      "30750cbbef4d2248"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자, 갤럭시 Z 폴드8 시리즈 사전 판매 개시",
+     "facts": [
+      "삼성전자가 '갤럭시 Z 폴드8 울트라' 등 신규 폴더블폰 및 워치 시리즈 사전 판매를 28일부터 시작함",
+      "공식 출시일은 8월 7일로 예정됨"
+     ],
+     "interpretation": "하반기 모바일 부문 실적 견인을 위한 신제품 출시가 본격화되었으며, 프리미엄 라인업 확대를 통한 수익성 개선 여부가 관건임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "신제품 초기 판매량 및 시장 반응",
+     "upcoming_event_ids": [
+      "samsung-electronics-q2-2026"
+     ],
+     "article_ids": [
+      "4b1b25167e929937"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업들의 AI 인프라 투자 지속 여부에 대한 시장의 의구심이 커지는 가운데, 대규모 컴퓨팅 계약과 보안 시스템 강화가 주요 이슈로 부상했습니다.",
+   "stories": [
+    {
+     "headline": "빅테크 기업들의 AI 인프라 투자에 대한 시장의 회의론 확산",
+     "facts": [
+      "알파벳의 잉여현금흐름 악화 및 자본지출 전망 상향 이후 투자자들의 경계심 강화",
+      "마이크로소프트, 아마존, 메타 등 클라우드 경쟁사들의 실적 발표를 앞두고 투자 효율성에 대한 의구심 제기"
+     ],
+     "interpretation": "AI 수익화 속도가 자본지출 증가 속도를 따라가지 못할 경우, 빅테크 기업들의 주가 변동성이 확대될 수 있음.",
+     "affected_company_ids": [
+      "microsoft",
+      "alphabet",
+      "amazon",
+      "meta"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "주요 빅테크 기업들의 실적 발표에서 AI 관련 수익성 지표 확인",
+     "upcoming_event_ids": [
+      "meta-q2-2026",
+      "microsoft-fy26-q4"
+     ],
+     "article_ids": [
+      "4ddf4c67b4557889"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "Recursive Superintelligence, 아마존과 4억 달러 규모 컴퓨팅 계약 체결",
+     "facts": [
+      "Recursive Superintelligence가 아마존과 4억 달러 규모의 컴퓨팅 자원 사용 계약을 체결함",
+      "해당 금액은 동사가 조달한 자금의 대부분을 차지하는 규모임"
+     ],
+     "interpretation": "AI 스타트업들의 대규모 인프라 수요가 지속되고 있으며, 이는 클라우드 사업자(CSP)의 매출 기반이 됨을 시사함.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "유사한 규모의 AI 스타트업-클라우드 사업자 간 계약 체결 추이",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e9437084c68f5f8c",
+      "ce2e2bf16057b330"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "4b1b25167e929937",
+   "title": "삼성전자, '갤럭시 Z 폴드8 울트라·폴드8·플립8', '갤럭시 워치 울트라2·워치9' 사전 판매 시작",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340182",
+   "source": "KIPOST"
+  },
+  {
+   "id": "ec3f3dea2e235bd5",
+   "title": "日 정부 “TSMC 구마모토 공장, 현재까지 강진 피해 보고 없어”",
+   "url": "https://www.etnews.com/20260728000392",
+   "source": "전자신문"
+  },
+  {
+   "id": "30750cbbef4d2248",
+   "title": "Magnitude 7.1 quake strikes Japan's Kumamoto; TSMC activates emergency protocols at local fab",
+   "url": "https://www.digitimes.com/news/a20260728PD242/tsmc-jasm-earthquake-kumamoto-fab-japan.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "c511dbcdee522fac",
+   "title": "LG전자 액체냉각 솔루션, 국내 최초 엔비디아 인증 획득...글로벌 AI 데이터센터 시장 공략 가속",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340178",
+   "source": "KIPOST"
+  },
+  {
+   "id": "e9437084c68f5f8c",
+   "title": "Recursive Superintelligence signs $410 compute deal with Amazon",
+   "url": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "ce2e2bf16057b330",
+   "title": "Recursive Superintelligence signs $400 compute deal with Amazon",
+   "url": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "4ddf4c67b4557889",
+   "title": "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
+   "url": "https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

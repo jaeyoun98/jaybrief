@@ -1,0 +1,169 @@
+{
+ "generated_at": "2026-07-25T23:33:38Z",
+ "date": "2026-07-26",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 반도체 수요 급증에 따른 공급망 강화와 차세대 메모리 기술 협력, 그리고 주요 기업의 생산 정상화가 핵심 이슈입니다.",
+   "stories": [
+    {
+     "headline": "SK하이닉스-NVIDIA, 차세대 HBM 공동 개발을 위한 5천억 달러 규모 파트너십 체결",
+     "facts": [
+      "SK그룹과 NVIDIA가 AI 팩토리 구축 및 차세대 메모리 공급을 포함한 포괄적 파트너십 발표",
+      "양사는 차세대 HBM 공동 개발을 위한 장기 계약을 체결함"
+     ],
+     "interpretation": "NVIDIA의 AI 가속기 수요에 대응하기 위한 SK하이닉스의 HBM 공급 지배력 강화 전략으로, 향후 실적 성장의 핵심 동력이 될 전망입니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "sk-hynix"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "SK하이닉스의 차세대 HBM 양산 시점 및 NVIDIA향 공급 비중 확인",
+     "upcoming_event_ids": [
+      "sk-hynix-q2-2026",
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "2e6cbb70f09831f4"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "티이엠씨씨엔에스, SK하이닉스향 반도체 소재 공급 재개",
+     "facts": [
+      "티이엠씨씨엔에스가 박막 증착용 전구체(TiCl₄)의 SK하이닉스 공급을 재개함",
+      "지난해 화재로 중단되었던 생산이 보은공장 이전 후 10개월 만에 정상화됨"
+     ],
+     "interpretation": "SK하이닉스의 공급망 안정화에 긍정적이며, 반도체 소재 국산화 및 공급 다변화 흐름을 보여줍니다.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "공급 재개에 따른 SK하이닉스 공정 수율 및 소재 원가 절감 효과",
+     "upcoming_event_ids": [
+      "sk-hynix-q2-2026"
+     ],
+     "article_ids": [
+      "59f3a292a25a7a9f"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "클라우드 성장세 지속과 AI 서비스 전략 다변화, 그리고 빅테크 기업을 둘러싼 규제 및 법적 리스크가 부각되고 있습니다.",
+   "stories": [
+    {
+     "headline": "Google Cloud, 기존 고객의 AI 관련 지출 50% 증가",
+     "facts": [
+      "Google Cloud CEO 토마스 쿠리안이 기존 고객의 지출이 약 50% 증가했다고 밝힘",
+      "AI 수요가 클라우드 부문의 실적 성장을 견인하고 있음"
+     ],
+     "interpretation": "기업들의 AI 도입이 초기 단계를 넘어 실제 클라우드 인프라 지출 확대로 이어지고 있음을 시사하며, Alphabet의 클라우드 수익성 개선을 뒷받침합니다.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "경쟁사인 Microsoft 및 Amazon의 클라우드 성장률 비교",
+     "upcoming_event_ids": [
+      "microsoft-fy26-q4"
+     ],
+     "article_ids": [
+      "36f002060234a934"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "Amazon과 Microsoft, 클라우드 게임 전략 차별화",
+     "facts": [
+      "Amazon은 Luna 서비스를 Prime Video에 통합",
+      "Microsoft는 사용자가 보유한 게임의 광고 지원 스트리밍 테스트 계획"
+     ],
+     "interpretation": "클라우드 게임 시장에서 플랫폼 생태계 확장을 위해 각기 다른 수익 모델과 사용자 경험 전략을 채택하고 있습니다.",
+     "affected_company_ids": [
+      "microsoft",
+      "amazon"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "사용자 채택률 및 광고 수익 모델의 실효성",
+     "upcoming_event_ids": [
+      "microsoft-fy26-q4"
+     ],
+     "article_ids": [
+      "ad917c2ccdcda11f"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "Meta 등 빅테크 기업, 유럽 연구자들에게 데이터 제공 거부 혐의",
+     "facts": [
+      "연구자들이 TikTok, X, Meta가 법적으로 요구되는 데이터를 제공하지 않는다고 주장함"
+     ],
+     "interpretation": "유럽 내 규제 당국의 데이터 접근권 강화 요구와 빅테크 기업의 대응 간 갈등이 심화되고 있으며, 이는 향후 법적 리스크로 작용할 수 있습니다.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "유럽 규제 당국의 제재 조치 여부",
+     "upcoming_event_ids": [
+      "meta-q2-2026"
+     ],
+     "article_ids": [
+      "ff7bf39814063884"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "2e6cbb70f09831f4",
+   "title": "SK Hynix and Nvidia strike long-term deal to co-develop next-generation HBM",
+   "url": "https://www.digitimes.com/news/a20260725VL203/nvidia-sk-group-partnership-sk-telecom-training.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "59f3a292a25a7a9f",
+   "title": "티이엠씨씨엔에스, 하이닉스 반도체 소재 공급 재개…보은공장서 첫 출하",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=59977",
+   "source": "디일렉"
+  },
+  {
+   "id": "ad917c2ccdcda11f",
+   "title": "Amazon and Microsoft pivot cloud gaming strategies to target different players",
+   "url": "https://www.cnbc.com/2026/07/23/amazon-microsoft-cloud-gaming.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "36f002060234a934",
+   "title": "Google Cloud CEO Kurian says customers are spending 50% more as segment blows away expectations",
+   "url": "https://www.cnbc.com/2026/07/23/google-cloud-kurian-revenue-earnings.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "ff7bf39814063884",
+   "title": "Big Tech accused of stonewalling European social media researchers",
+   "url": "https://arstechnica.com/tech-policy/2026/07/big-tech-accused-of-stonewalling-european-social-media-researchers/",
+   "source": "Ars Technica"
+  }
+ ]
+}
